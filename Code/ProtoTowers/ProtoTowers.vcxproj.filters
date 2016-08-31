@@ -1,0 +1,834 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="ProtoTowers.cpp">
+      <Filter>ProtoTowers</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>ProtoTowers</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\3rdPersonCamera.cpp">
+      <Filter>ProtoTowers\Components\Private\Entity\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Player.cpp">
+      <Filter>ProtoTowers\Components\Private\Entity\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\PlayerController.cpp">
+      <Filter>ProtoTowers\Components\Private\Entity\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\AIEntity.cpp">
+      <Filter>ProtoTowers\Components\Private\Entity\Minion</Filter>
+    </ClCompile>
+    <ClCompile Include="LookAtPlayer.cpp">
+      <Filter>ProtoTowers\Components\Private\Entity\Minion</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\MiniMinion.cpp">
+      <Filter>ProtoTowers\Components\Private\Entity\Minion</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\BaseTower.cpp">
+      <Filter>ProtoTowers\Components\Private\Entity\Tower</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\MinionSpawner.cpp">
+      <Filter>ProtoTowers\Components\Private\Entity\Tower</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Resource.cpp">
+      <Filter>ProtoTowers\Components\Private\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Entity.cpp">
+      <Filter>ProtoTowers\Components\Private\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\BaseWeapon.cpp">
+      <Filter>ProtoTowers\Components\Private\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\BaseProjectile.cpp">
+      <Filter>ProtoTowers\Components\Private\Weapon\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\MainMenuScript.cpp">
+      <Filter>ProtoTowers\Components\Private\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\ResourceCrate.cpp">
+      <Filter>ProtoTowers\Components\Private\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\BaseTurret.cpp">
+      <Filter>ProtoTowers\Components\Private\Entity\Tower</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\TurretProjectile.cpp">
+      <Filter>ProtoTowers\Components\Private\Weapon\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\BossMinion.cpp">
+      <Filter>ProtoTowers\Components\Private\Entity\Minion</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\TankMinion.cpp">
+      <Filter>ProtoTowers\Components\Private\Entity\Minion</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\EndGame.cpp">
+      <Filter>ProtoTowers\Components\Private\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\MainBase.cpp">
+      <Filter>ProtoTowers\Components\Private\Entity\Tower</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\RangedMinion.cpp">
+      <Filter>ProtoTowers\Components\Private\Entity\Minion</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\TowerNode.cpp">
+      <Filter>ProtoTowers\Components\Private\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\TowerBuildMenu.cpp">
+      <Filter>ProtoTowers\Components\Private\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\ControlPoint.cpp">
+      <Filter>ProtoTowers\Components\Private\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\FreeCameraController.cpp">
+      <Filter>ProtoTowers\Components\Private\Entity\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\SpringArm.cpp">
+      <Filter>ProtoTowers\Components\Private\Entity\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\HealthPickup.cpp">
+      <Filter>ProtoTowers\Components\Private\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\ResourceCounter.cpp">
+      <Filter>ProtoTowers\Components\Private\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\HelpScreen.cpp">
+      <Filter>ProtoTowers\Components\Private\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\StunGernadeAbility.cpp">
+      <Filter>ProtoTowers\Components\Private\Entity\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\StatusEffect.cpp">
+      <Filter>ProtoTowers\Components\Private\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\FreezeTower.cpp">
+      <Filter>ProtoTowers\Components\Private\Entity\Tower</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\FreezeEffect.cpp">
+      <Filter>ProtoTowers\Components\Private\Entity\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\PlayerHead.cpp">
+      <Filter>ProtoTowers\Components\Private\Entity\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\TowerInfo.cpp">
+      <Filter>ProtoTowers\Components\Private\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\PauseMenu.cpp">
+      <Filter>ProtoTowers\Components\Private\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\FadeAway.cpp">
+      <Filter>ProtoTowers\Components\Private\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Barrier.cpp">
+      <Filter>ProtoTowers\Components\Private\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\PlasmaBlaster.cpp">
+      <Filter>ProtoTowers\Components\Private\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\MiniMap.cpp">
+      <Filter>ProtoTowers\Components\Private\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\StunEffect.cpp">
+      <Filter>ProtoTowers\Components\Private\Entity\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\FrostHUDEffect.cpp">
+      <Filter>ProtoTowers\Components\Private\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\PlayerHUD.cpp">
+      <Filter>ProtoTowers\Components\Private\UI Prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\TowerBuildMenuPrefab.cpp">
+      <Filter>ProtoTowers\Components\Private\UI Prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\PauseMenuPrefab.cpp">
+      <Filter>ProtoTowers\Components\Private\UI Prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\HelpScreenPrefab.cpp">
+      <Filter>ProtoTowers\Components\Private\UI Prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\FadeAwayEffectPrefab.cpp">
+      <Filter>ProtoTowers\Components\Private\UI Prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\FrostHUDEffectPrefab.cpp">
+      <Filter>ProtoTowers\Components\Private\UI Prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\MainMenuPrefab.cpp">
+      <Filter>ProtoTowers\Components\Private\UI Prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\WinHUDPrefab.cpp">
+      <Filter>ProtoTowers\Components\Private\UI Prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\LoseHUDPrefab.cpp">
+      <Filter>ProtoTowers\Components\Private\UI Prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\AbilityPanelScript.cpp">
+      <Filter>ProtoTowers\Components\Private\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\BossEvent.cpp">
+      <Filter>ProtoTowers\Components\Private\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\OptionsMenuPrefab.cpp">
+      <Filter>ProtoTowers\Components\Private\UI Prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\OptionsMenuScript.cpp">
+      <Filter>ProtoTowers\Components\Private\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\AlertMessagePrefab.cpp">
+      <Filter>ProtoTowers\Components\Private\UI Prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\ShieldAbility.cpp">
+      <Filter>ProtoTowers\Components\Private\Entity\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\PlayerShieldScript.cpp">
+      <Filter>ProtoTowers\Components\Private\Entity\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\AlertMessage.cpp">
+      <Filter>ProtoTowers\Components\Private\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\CreditsMenuPrefab.cpp">
+      <Filter>ProtoTowers\Components\Private\UI Prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\CreditsMenuScript.cpp">
+      <Filter>ProtoTowers\Components\Private\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\DebugProjectile.cpp">
+      <Filter>ProtoTowers\Components\Private\Weapon\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\ControlPointProgressBar.cpp">
+      <Filter>ProtoTowers\Components\Private\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\ControlPointProgressBarPrefab.cpp">
+      <Filter>ProtoTowers\Components\Private\UI Prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\TowerOptionsScript.cpp">
+      <Filter>ProtoTowers\Components\Private\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\DelayCredits.cpp">
+      <Filter>ProtoTowers\Components\Private\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\TowerOptionsPrefab.cpp">
+      <Filter>ProtoTowers\Components\Private\UI Prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\MortarProjectile.cpp">
+      <Filter>ProtoTowers\Components\Private\Weapon\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\BarrierButton.cpp">
+      <Filter>ProtoTowers\Components\Private\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\BossMinionMace.cpp">
+      <Filter>ProtoTowers\Components\Private\Entity\Minion</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\WeaponBuffAbility.cpp">
+      <Filter>ProtoTowers\Components\Private\Entity\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\WeaponBuffScript.cpp">
+      <Filter>ProtoTowers\Components\Private\Entity\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\MortarTower.cpp">
+      <Filter>ProtoTowers\Components\Private\Entity\Tower</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\BossInfo.cpp">
+      <Filter>ProtoTowers\Components\Private\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\MinionBuffAbility.cpp">
+      <Filter>ProtoTowers\Components\Private\Entity\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\MinionBuffEffect.cpp">
+      <Filter>ProtoTowers\Components\Private\Entity\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\MinionSpawnPoint.cpp">
+      <Filter>ProtoTowers\Components\Private\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\PoisonEffect.cpp">
+      <Filter>ProtoTowers\Components\Private\Entity\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\PoisonSprayArea.cpp">
+      <Filter>ProtoTowers\Components\Private\Weapon\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\PoisonTurret.cpp">
+      <Filter>ProtoTowers\Components\Private\Entity\Tower</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\PoisonSprayProjectile.cpp">
+      <Filter>ProtoTowers\Components\Private\Weapon\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\BackgroundMusic.cpp">
+      <Filter>ProtoTowers\Components\Private\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Ability.cpp">
+      <Filter>ProtoTowers\Components\Private\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\MinionBuffWave.cpp">
+      <Filter>ProtoTowers\Components\Private\Entity\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\ControllerDisconnectPrefab.cpp">
+      <Filter>ProtoTowers\Components\Private\UI Prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\ControllerDisconnectScript.cpp">
+      <Filter>ProtoTowers\Components\Private\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\CutScene.cpp">
+      <Filter>ProtoTowers\Components\Private\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\PoisonAOEProjectile.cpp">
+      <Filter>ProtoTowers\Components\Private\Weapon\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\SplashScreen.cpp">
+      <Filter>ProtoTowers\Core\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\MinionSpawnerShield.cpp">
+      <Filter>ProtoTowers\Components\Private\Entity\Tower</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\MinionWaveSpawn.cpp">
+      <Filter>ProtoTowers\Components\Private\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\FirstMinion.cpp">
+      <Filter>ProtoTowers\Components\Private\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\ToolTipManager.cpp">
+      <Filter>ProtoTowers\Components\Private\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\ToolTipPrefab.cpp">
+      <Filter>ProtoTowers\Components\Private\UI Prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\FirstTurret.cpp">
+      <Filter>ProtoTowers\Components\Private\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\BossShockwave.cpp">
+      <Filter>ProtoTowers\Components\Private\Entity\Minion</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\PopupAlert.cpp">
+      <Filter>ProtoTowers\Components\Private\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\SkipTutorial.cpp">
+      <Filter>ProtoTowers\Components\Private\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\RaiseBarrier.cpp">
+      <Filter>ProtoTowers\Components\Private\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\TutorialPrompt.cpp">
+      <Filter>ProtoTowers\Components\Private\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\AOEDamage.cpp">
+      <Filter>ProtoTowers\Components\Private\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\FirstTurretUpgrade.cpp">
+      <Filter>ProtoTowers\Components\Private\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\ResourceCrateSpawner.cpp">
+      <Filter>ProtoTowers\Components\Private\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\FreezeBlastWave.cpp">
+      <Filter>ProtoTowers\Components\Private\Weapon\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\AfterCutscenePrompt.cpp">
+      <Filter>ProtoTowers\Components\Private\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\PlayerRecall.cpp">
+      <Filter>ProtoTowers\Components\Private\Entity\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\BuffMinionSpawner.cpp">
+      <Filter>ProtoTowers\Components\Private\Entity\Tower</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\MortarClusterProjectile.cpp">
+      <Filter>ProtoTowers\Components\Private\Weapon\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\TowerUpgradeEffect.cpp">
+      <Filter>ProtoTowers\Components\Private\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\AbilityFlyIn.cpp">
+      <Filter>ProtoTowers\Components\Private\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\TowerDescription.cpp">
+      <Filter>ProtoTowers\Components\Private\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\AbilityFlyInPrefab.cpp">
+      <Filter>ProtoTowers\Components\Private\UI Prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Crosshair.cpp">
+      <Filter>ProtoTowers\Components\Private\UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>ProtoTowers</Filter>
+    </ClInclude>
+    <ClInclude Include="ProtoTowers.h">
+      <Filter>ProtoTowers</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>ProtoTowers\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>ProtoTowers\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\iDamagable.h">
+      <Filter>ProtoTowers\Core\Public\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\iInput.h">
+      <Filter>ProtoTowers\Core\Public\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="InfernoUI.h">
+      <Filter>ProtoTowers\Core\Public\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\BaseWeapon.h">
+      <Filter>ProtoTowers\Components\Public\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\BaseProjectile.h">
+      <Filter>ProtoTowers\Components\Public\Weapon\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Resource.h">
+      <Filter>ProtoTowers\Components\Public\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\MainMenuScript.h">
+      <Filter>ProtoTowers\Components\Public\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\3rdPersonCamera.h">
+      <Filter>ProtoTowers\Components\Public\Entity\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Player.h">
+      <Filter>ProtoTowers\Components\Public\Entity\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\PlayerController.h">
+      <Filter>ProtoTowers\Components\Public\Entity\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\BaseTower.h">
+      <Filter>ProtoTowers\Components\Public\Entity\Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\MinionSpawner.h">
+      <Filter>ProtoTowers\Components\Public\Entity\Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\AIEntity.h">
+      <Filter>ProtoTowers\Components\Public\Entity\Minion</Filter>
+    </ClInclude>
+    <ClInclude Include="LookAtPlayer.h">
+      <Filter>ProtoTowers\Components\Public\Entity\Minion</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\MiniMinion.h">
+      <Filter>ProtoTowers\Components\Public\Entity\Minion</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Entity.h">
+      <Filter>ProtoTowers\Components\Public\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\WWise_IDs.h">
+      <Filter>ProtoTowers\Core\Public\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\ResourceCrate.h">
+      <Filter>ProtoTowers\Components\Public\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\BaseTurret.h">
+      <Filter>ProtoTowers\Components\Public\Entity\Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\TurretProjectile.h">
+      <Filter>ProtoTowers\Components\Public\Weapon\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\BossMinion.h">
+      <Filter>ProtoTowers\Components\Public\Entity\Minion</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\TankMinion.h">
+      <Filter>ProtoTowers\Components\Public\Entity\Minion</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\EndGame.h">
+      <Filter>ProtoTowers\Components\Public\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\MainBase.h">
+      <Filter>ProtoTowers\Components\Public\Entity\Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\RangedMinion.h">
+      <Filter>ProtoTowers\Components\Public\Entity\Minion</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\TowerNode.h">
+      <Filter>ProtoTowers\Components\Public\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\iInteractable.h">
+      <Filter>ProtoTowers\Core\Public\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\TowerBuildMenu.h">
+      <Filter>ProtoTowers\Components\Public\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\ControlPoint.h">
+      <Filter>ProtoTowers\Components\Public\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\FreeCameraController.h">
+      <Filter>ProtoTowers\Components\Public\Entity\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\SpringArm.h">
+      <Filter>ProtoTowers\Components\Public\Entity\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\HealthPickup.h">
+      <Filter>ProtoTowers\Components\Public\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\ResourceCounter.h">
+      <Filter>ProtoTowers\Components\Public\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\HelpScreen.h">
+      <Filter>ProtoTowers\Components\Public\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Ability.h">
+      <Filter>ProtoTowers\Components\Public\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\StunGernadeAbility.h">
+      <Filter>ProtoTowers\Components\Public\Entity\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\StatusEffect.h">
+      <Filter>ProtoTowers\Components\Public\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\FreezeTower.h">
+      <Filter>ProtoTowers\Components\Public\Entity\Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\FreezeEffect.h">
+      <Filter>ProtoTowers\Components\Public\Entity\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\PlayerHead.h">
+      <Filter>ProtoTowers\Components\Public\Entity\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\TowerInfo.h">
+      <Filter>ProtoTowers\Components\Public\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\PauseMenu.h">
+      <Filter>ProtoTowers\Components\Public\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\FadeAway.h">
+      <Filter>ProtoTowers\Components\Public\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Barrier.h">
+      <Filter>ProtoTowers\Components\Public\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\PlasmaBlaster.h">
+      <Filter>ProtoTowers\Components\Public\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\MiniMap.h">
+      <Filter>ProtoTowers\Components\Public\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\StunEffect.h">
+      <Filter>ProtoTowers\Components\Public\Entity\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\FrostHUDEffect.h">
+      <Filter>ProtoTowers\Components\Public\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\PlayerHUD.h">
+      <Filter>ProtoTowers\Components\Public\UI Prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\TowerBuildMenuPrefab.h">
+      <Filter>ProtoTowers\Components\Public\UI Prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\PauseMenuPrefab.h">
+      <Filter>ProtoTowers\Components\Public\UI Prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\HelpScreenPrefab.h">
+      <Filter>ProtoTowers\Components\Public\UI Prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\FadeAwayEffectPrefab.h">
+      <Filter>ProtoTowers\Components\Public\UI Prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\FrostHUDEffectPrefab.h">
+      <Filter>ProtoTowers\Components\Public\UI Prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\MainMenuPrefab.h">
+      <Filter>ProtoTowers\Components\Public\UI Prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\WinHUDPrefab.h">
+      <Filter>ProtoTowers\Components\Public\UI Prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\LoseHUDPrefab.h">
+      <Filter>ProtoTowers\Components\Public\UI Prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\AbilityPanelScript.h">
+      <Filter>ProtoTowers\Components\Public\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\BossEvent.h">
+      <Filter>ProtoTowers\Components\Public\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\OptionsMenuPrefab.h">
+      <Filter>ProtoTowers\Components\Public\UI Prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\OptionsMenuScript.h">
+      <Filter>ProtoTowers\Components\Public\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\AlertMessagePrefab.h">
+      <Filter>ProtoTowers\Components\Public\UI Prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\ShieldAbility.h">
+      <Filter>ProtoTowers\Components\Public\Entity\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\PlayerShieldScript.h">
+      <Filter>ProtoTowers\Components\Public\Entity\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\AlertMessage.h">
+      <Filter>ProtoTowers\Components\Public\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\CreditsMenuPrefab.h">
+      <Filter>ProtoTowers\Components\Public\UI Prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\CreditsMenuScript.h">
+      <Filter>ProtoTowers\Components\Public\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\DebugProjectile.h">
+      <Filter>ProtoTowers\Components\Public\Weapon\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\ControlPointProgressBar.h">
+      <Filter>ProtoTowers\Components\Public\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\ControlPointProgressBarPrefab.h">
+      <Filter>ProtoTowers\Components\Public\UI Prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\TowerOptionsScript.h">
+      <Filter>ProtoTowers\Components\Public\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\DelayCredits.h">
+      <Filter>ProtoTowers\Components\Public\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\TowerOptionsPrefab.h">
+      <Filter>ProtoTowers\Components\Public\UI Prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\MortarProjectile.h">
+      <Filter>ProtoTowers\Components\Public\Weapon\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\BarrierButton.h">
+      <Filter>ProtoTowers\Components\Public\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\BossMinionMace.h">
+      <Filter>ProtoTowers\Components\Public\Entity\Minion</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\WeaponBuffAbility.h">
+      <Filter>ProtoTowers\Components\Public\Entity\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\WeaponBuffScript.h">
+      <Filter>ProtoTowers\Components\Public\Entity\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\MortarTower.h">
+      <Filter>ProtoTowers\Components\Public\Entity\Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\BossInfo.h">
+      <Filter>ProtoTowers\Components\Public\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\MinionBuffAbility.h">
+      <Filter>ProtoTowers\Components\Public\Entity\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\MinionBuffEffect.h">
+      <Filter>ProtoTowers\Components\Public\Entity\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\MinionSpawnPoint.h">
+      <Filter>ProtoTowers\Components\Public\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\PoisonEffect.h">
+      <Filter>ProtoTowers\Components\Public\Entity\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\PoisonSprayArea.h">
+      <Filter>ProtoTowers\Components\Public\Weapon\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\PoisonTurret.h">
+      <Filter>ProtoTowers\Components\Public\Entity\Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\PoisonSprayProjectile.h">
+      <Filter>ProtoTowers\Components\Public\Weapon\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\BackgroundMusic.h">
+      <Filter>ProtoTowers\Components\Public\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\MinionBuffWave.h">
+      <Filter>ProtoTowers\Components\Public\Entity\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\ControllerDisconnectPrefab.h">
+      <Filter>ProtoTowers\Components\Public\UI Prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\ControllerDisconnectScript.h">
+      <Filter>ProtoTowers\Components\Public\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\CutScene.h">
+      <Filter>ProtoTowers\Components\Public\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\PoisonAOEProjectile.h">
+      <Filter>ProtoTowers\Components\Public\Weapon\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\SplashScreen.h">
+      <Filter>ProtoTowers\Core\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\MinionSpawnerShield.h">
+      <Filter>ProtoTowers\Components\Public\Entity\Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\MinionWaveSpawn.h">
+      <Filter>ProtoTowers\Components\Public\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\FirstMinion.h">
+      <Filter>ProtoTowers\Components\Public\Tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\ToolTipManager.h">
+      <Filter>ProtoTowers\Components\Public\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\ToolTipPrefab.h">
+      <Filter>ProtoTowers\Components\Public\UI Prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\FirstTurret.h">
+      <Filter>ProtoTowers\Components\Public\Tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\BossShockwave.h">
+      <Filter>ProtoTowers\Components\Public\Entity\Minion</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\PopupAlert.h">
+      <Filter>ProtoTowers\Components\Public\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\SkipTutorial.h">
+      <Filter>ProtoTowers\Components\Public\Tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\RaiseBarrier.h">
+      <Filter>ProtoTowers\Components\Public\Tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\TutorialPrompt.h">
+      <Filter>ProtoTowers\Components\Public\Tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\AOEDamage.h">
+      <Filter>ProtoTowers\Components\Public\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\FirstTurretUpgrade.h">
+      <Filter>ProtoTowers\Components\Public\Tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\ResourceCrateSpawner.h">
+      <Filter>ProtoTowers\Components\Public\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\FreezeBlastWave.h">
+      <Filter>ProtoTowers\Components\Public\Weapon\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\AfterCutscenePrompt.h">
+      <Filter>ProtoTowers\Components\Public\Tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\PlayerRecall.h">
+      <Filter>ProtoTowers\Components\Public\Entity\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\BuffMinionSpawner.h">
+      <Filter>ProtoTowers\Components\Public\Entity\Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\MortarClusterProjectile.h">
+      <Filter>ProtoTowers\Components\Public\Weapon\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\TowerUpgradeEffect.h">
+      <Filter>ProtoTowers\Components\Public\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\AbilityFlyIn.h">
+      <Filter>ProtoTowers\Components\Public\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\TowerDescription.h">
+      <Filter>ProtoTowers\Components\Public\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\AbilityFlyInPrefab.h">
+      <Filter>ProtoTowers\Components\Public\UI Prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Crosshair.h">
+      <Filter>ProtoTowers\Components\Public\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\Icons\ProtoTowers.ico">
+      <Filter>ProtoTowers\Resources</Filter>
+    </Image>
+    <Image Include="Resources\Icons\small.ico">
+      <Filter>ProtoTowers\Resources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ProtoTowers">
+      <UniqueIdentifier>{c4728ee3-ffb6-45b6-a456-f7475f50ba35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProtoTowers\Core">
+      <UniqueIdentifier>{e95c1e76-4eb3-442d-9197-4c2ae88cdc1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProtoTowers\Components">
+      <UniqueIdentifier>{a4084050-ddf1-41a8-b82d-7c10cb896f4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProtoTowers\Core\Public">
+      <UniqueIdentifier>{63e96c00-1c96-44b8-85fb-8f30c301bc1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProtoTowers\Core\Private">
+      <UniqueIdentifier>{6f026364-61cc-46ef-9193-eee975bfe25b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProtoTowers\Core\Public\Interfaces">
+      <UniqueIdentifier>{a20a73f7-27a7-40be-9358-152f0ae19505}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProtoTowers\Core\Public\Utilities">
+      <UniqueIdentifier>{69a32e57-9ff3-4655-9689-9e987f6ac330}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProtoTowers\Components\Public">
+      <UniqueIdentifier>{ded9e891-2bf1-481f-9568-8574d3313f35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProtoTowers\Components\Private">
+      <UniqueIdentifier>{8e511686-54ca-4244-a04c-076c7be92ee3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProtoTowers\Components\Private\Entity">
+      <UniqueIdentifier>{89f6e900-64f0-4287-90fc-5fe9824f454b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProtoTowers\Components\Private\Environment">
+      <UniqueIdentifier>{4639a3c2-9c5d-4714-964e-8ac48d77e6c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProtoTowers\Components\Private\Entity\Minion">
+      <UniqueIdentifier>{eff2bc30-8f94-4ebb-9066-6e23216476f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProtoTowers\Components\Private\Entity\Player">
+      <UniqueIdentifier>{6911c8f5-2ba2-4723-8b76-4bd7fa1d1814}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProtoTowers\Components\Private\Entity\Tower">
+      <UniqueIdentifier>{6f17fb60-7845-4668-9734-e490f1301bf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProtoTowers\Components\Public\Entity">
+      <UniqueIdentifier>{edec8dd5-d52c-4ba1-bf43-c30588331c2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProtoTowers\Components\Public\Weapon">
+      <UniqueIdentifier>{41e08ebc-df5e-452c-9d23-ede4683294dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProtoTowers\Components\Public\Environment">
+      <UniqueIdentifier>{60e519b5-d428-4c32-aa0a-e650757758e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProtoTowers\Components\Public\Weapon\Projectiles">
+      <UniqueIdentifier>{fdf14f2f-4c25-4e17-82d6-f31ee9e82503}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProtoTowers\Components\Public\Entity\Minion">
+      <UniqueIdentifier>{9dde4b77-a89f-4003-bba3-605d1cc9b684}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProtoTowers\Components\Public\Entity\Player">
+      <UniqueIdentifier>{608f8b2f-9481-4c6c-a29f-0c00a08da8c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProtoTowers\Components\Public\Entity\Tower">
+      <UniqueIdentifier>{50f7f04c-d253-4825-af43-1ef24d5671d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProtoTowers\Resources">
+      <UniqueIdentifier>{0009aaa3-7be0-493e-a3c3-2630aef8dcb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProtoTowers\Components\Private\Entity\Effects">
+      <UniqueIdentifier>{4558aa13-4520-4e35-886b-99cc11317cd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProtoTowers\Components\Public\Entity\Effects">
+      <UniqueIdentifier>{80669e58-b69f-43d7-9339-a06a0ad032e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProtoTowers\Components\Private\Weapon">
+      <UniqueIdentifier>{f45d7b5d-160d-4207-9875-c714c3cea16a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProtoTowers\Components\Private\Weapon\Projectiles">
+      <UniqueIdentifier>{73d5f00b-68cc-42cd-a5b5-822e9351766f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProtoTowers\Components\Private\UI Prefabs">
+      <UniqueIdentifier>{90c9859e-f828-4ce3-8784-5ce7999722b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProtoTowers\Components\Public\UI Prefabs">
+      <UniqueIdentifier>{24bcf27b-1a5c-45ef-8a02-287ba88d7d3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProtoTowers\Components\Private\UI">
+      <UniqueIdentifier>{1dbb5bf7-8b98-48e1-b52d-63b4c24a1666}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProtoTowers\Components\Public\UI">
+      <UniqueIdentifier>{499bf4d0-6da3-496e-8abe-ec020a16a078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProtoTowers\Components\Private\Tutorial">
+      <UniqueIdentifier>{29e4e81c-dc75-41a1-92e9-bf23656308f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProtoTowers\Components\Public\Tutorial">
+      <UniqueIdentifier>{2a98c8d7-cc00-418e-abe2-37581242ed74}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources\ProtoTowers.rc">
+      <Filter>ProtoTowers\Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>ProtoTowers\Resources</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

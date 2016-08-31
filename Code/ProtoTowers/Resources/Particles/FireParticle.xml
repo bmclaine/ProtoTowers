@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<particles_root>
+    <particle_info numParticles="30" lifeTime="1.0" spawnRate="0.02"  red1="1.0" green1="0.5"  blue1="0.0" alpha1="1.0" red2="0.5" green2="0.5" blue2="0.0" alpha2="0.0" startSize="10.0" endSize="5.0" StartRotation="0" EndRotation2="0" energy="20.0" particleFileName="resources/Particles/FireSharps.png"></particle_info>
+</particles_root>

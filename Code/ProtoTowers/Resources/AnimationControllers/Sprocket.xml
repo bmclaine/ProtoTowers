@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<AnimationController>
+  <AnimControllerData ControllerName="Sprocket" AnimationSet="Sprocket"></AnimControllerData>
+  <Transition FromAnim="Any" DataType="0" EventName="Idle"          Value="1" Operator="2" ToAnimCount="1" ToAnim0="Sprocket_Idle01"></Transition>
+  <Transition FromAnim="Any" DataType="0" EventName="Running"       Value="1" Operator="2" ToAnimCount="1" ToAnim0="Sprocket_Run"></Transition>
+  <Transition FromAnim="Any" DataType="0" EventName="StrafingLeft"  Value="1" Operator="2" ToAnimCount="1" ToAnim0="Sprocket_Strafe_Left"></Transition>
+  <Transition FromAnim="Any" DataType="0" EventName="StrafingRight" Value="1" Operator="2" ToAnimCount="1" ToAnim0="Sprocket_Strafe_Right"></Transition>
+  <Transition FromAnim="Any" DataType="0" EventName="Firing"        Value="1" Operator="2" ToAnimCount="1" ToAnim0="Sprocket_Fire"></Transition>
+  <Transition FromAnim="Any" DataType="0" EventName="Dying"         Value="1" Operator="2" ToAnimCount="1" ToAnim0="Sprocket_Death"></Transition>
+  <Transition FromAnim="Any" DataType="0" EventName="Dashing"       Value="1" Operator="2" ToAnimCount="1" ToAnim0="Sprocket_Dash"></Transition>
+  <Transition FromAnim="Any" DataType="0" EventName="ButtonPush"    Value="1" Operator="2" ToAnimCount="1" ToAnim0="Sprocket_ButtonPush"></Transition>
+  <Transition FromAnim="Any" DataType="0" EventName="ThrowAbility"  Value="1" Operator="2" ToAnimCount="1" ToAnim0="Sprocket_ThrowAbility"></Transition>
+</AnimationController>
+
+<!-- ControllerName     - Name of this controller -->
+<!-- AnimationSet       - Name of animation set used by this controller -->
+
+<!-- FromAnim           - starting animation name -->
+
+<!-- DataType           - Data type to be compared -->
+<!--                    - (Bool = 0, Int = 1, Float = 2) -->
+
+<!-- EventName          - The name of this comparison -->
+
+<!-- Value              - Value to compare against -->
+
+<!-- Operator           - The operator being used to compare values -->
+<!--                    - (LessThan = 0, LessThanOrEqual = 1, Equal = 2, GreaterThanOrEqual = 3, GreaterThan = 4, NotEqual = 5) -->
+
+<!-- ToAnimCount        - The count of to animation trasition choices. This number will only be greater than one when similar animations can be used for the same effect. -->
+<!-- ToAnim             - Ending animation name(s) -->

@@ -1,0 +1,54 @@
+GameObject
+Allocation Amount<1>
+GameObject<
+	<GUID>130682316</GUID/>
+	<Type>GameObject</Type/>
+	<Name>PoisonAOEProjectile</Name/>
+	<PrefabName>PoisonAOEProjectile</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>863894693</Component0/>
+	<Component1>735829028</Component1/>
+	<Component2>2144701062</Component2/>
+	<Component3>1643081433</Component3/>
+GameObject/>
+Transform<
+	<GUID>863894693</GUID/>
+	<Type>Transform</Type/>
+	<Position>6.63594,-6.038163,-23.65469</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>0.4,0.4,0.4</Scale/>
+	<ChildCount>0</ChildCount/>
+	<gameObject>130682316</gameObject/>
+Transform/>
+PoisonAOEProjectile<
+	<GUID>735829028</GUID/>
+	<Type>Generic</Type/>
+	<PlayerMultiplier>0</PlayerMultiplier/>
+	<TowerMultiplier>0</TowerMultiplier/>
+	<MinionMultiplier>0</MinionMultiplier/>
+	<IncomingDamage>0</IncomingDamage/>
+	<Speed>5</Speed/>
+	<Range>0</Range/>
+	<gameObject>130682316</gameObject/>
+PoisonAOEProjectile/>
+SphereCollider<
+	<GUID>2144701062</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,0,0</Center/>
+	<Radius>1</Radius/>
+	<IsTrigger>1</IsTrigger/>
+	<gameObject>130682316</gameObject/>
+SphereCollider/>
+MeshRenderer<
+	<GUID>1643081433</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Sphere</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>0.1189656,0.75,0,1</Color/>
+	<Material0>DefaultMaterial</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>130682316</gameObject/>
+MeshRenderer/>
+<end>

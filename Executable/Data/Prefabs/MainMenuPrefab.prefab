@@ -1,0 +1,28 @@
+GameObject
+Allocation Amount<1>
+GameObject<
+	<GUID>1785981654</GUID/>
+	<Type>GameObject</Type/>
+	<Name>MainMenuPrefab</Name/>
+	<PrefabName>MainMenuPrefab</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1304746792</Component0/>
+	<Component1>2039035395</Component1/>
+GameObject/>
+Transform<
+	<GUID>1304746792</GUID/>
+	<Type>Transform</Type/>
+	<Position>-63.41667,1.141667,-0.1689568</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<gameObject>1785981654</gameObject/>
+Transform/>
+MainMenuPrefab<
+	<GUID>2039035395</GUID/>
+	<Type>Generic</Type/>
+	<gameObject>1785981654</gameObject/>
+MainMenuPrefab/>
+<end>

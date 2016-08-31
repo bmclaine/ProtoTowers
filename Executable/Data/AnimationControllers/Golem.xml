@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<AnimationController>
+  <AnimControllerData ControllerName="Golem" AnimationSet="Golem"></AnimControllerData>
+  <!--<Transition FromAnim="Golem_Idle" DataType="0" EventName="Run" Value="1" Operator="2" ToAnimCount="1" ToAnim0="Golem_Run"></Transition>
+  <Transition FromAnim="Golem_Idle" DataType="0" EventName="Run" Value="1" Operator="2" ToAnimCount="1" ToAnim0="Golem_Run"></Transition> -->
+  
+  <Transition FromAnim="Any" DataType="0" EventName="Idle"          Value="1" Operator="2" ToAnimCount="1" ToAnim0="Golem_Idle"></Transition>
+  <Transition FromAnim="Any" DataType="0" EventName="Running"       Value="1" Operator="2" ToAnimCount="1" ToAnim0="Golem_Run"></Transition>
+  <Transition FromAnim="Any" DataType="0" EventName="Attacking"     Value="1" Operator="2" ToAnimCount="1" ToAnim0="Golem_Punch"></Transition>
+  <Transition FromAnim="Any" DataType="0" EventName="Special"       Value="1" Operator="2" ToAnimCount="1" ToAnim0="Golem_Special"></Transition>
+  <Transition FromAnim="Any" DataType="0" EventName="Defending"     Value="1" Operator="2" ToAnimCount="1" ToAnim0="Golem_Defend"></Transition>
+  <Transition FromAnim="Any" DataType="0" EventName="TakingDamage"  Value="1" Operator="2" ToAnimCount="1" ToAnim0="Golem_Damage"></Transition>
+  <Transition FromAnim="Any" DataType="0" EventName="Death"         Value="1" Operator="2" ToAnimCount="1" ToAnim0="Golem_Death"></Transition>
+</AnimationController>
+
+<!-- ControllerName     - Name of this controller -->
+<!-- AnimationSet       - Name of animation set used by this controller -->
+
+<!-- FromAnim           - starting animation name -->
+
+<!-- DataType           - Data type to be compared -->
+<!--                    - (Bool = 0, Int = 1, Float = 2) -->
+
+<!-- EventName          - The name of this comparison -->
+
+<!-- Value              - Value to compare against -->
+
+<!-- Operator           - The operator being used to compare values -->
+<!--                    - (LessThan = 0, LessThanOrEqual = 1, Equal = 2, GreaterThanOrEqual = 3, GreaterThan = 4, NotEqual = 5) -->
+
+<!-- ToAnimCount        - The count of to animation trasition choices. This number will only be greater than one when similar animations can be used for the same effect. -->
+<!-- ToAnim             - Ending animation name(s) -->

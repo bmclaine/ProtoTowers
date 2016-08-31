@@ -1,0 +1,307 @@
+﻿Build started 8/30/2016 8:12:59 PM.
+     1>Project "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\ProtoTowers\ProtoTowers.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\InfernoEngine\Inc\Core\Public" /I"C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\InfernoEngine\Inc\Utilities\Public" /I"C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\InfernoEngine\Inc\Interface\Public" /I"C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\ProtoTowers" /I"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include" /I"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include" /I"C:\Program Files (x86)\Windows Kits\8.1\Include\um" /I"C:\Program Files (x86)\Windows Kits\8.1\Include\shared" /I"C:\Program Files (x86)\Windows Kits\8.1\Include\winrt" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D _WIN32_WINNT=0x0601 /D NDEBUG /D _WINDOWS /D SHIPPING /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"x64\Shipping\ProtoTowers.pch" /Fo"x64\Shipping\\" /Fd"x64\Shipping\vc120.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\InfernoEngine\Inc\Core\Public" /I"C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\InfernoEngine\Inc\Utilities\Public" /I"C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\InfernoEngine\Inc\Interface\Public" /I"C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\ProtoTowers" /I"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include" /I"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include" /I"C:\Program Files (x86)\Windows Kits\8.1\Include\um" /I"C:\Program Files (x86)\Windows Kits\8.1\Include\shared" /I"C:\Program Files (x86)\Windows Kits\8.1\Include\winrt" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D _WIN32_WINNT=0x0601 /D NDEBUG /D _WINDOWS /D SHIPPING /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Shipping\ProtoTowers.pch" /Fo"x64\Shipping\\" /Fd"x64\Shipping\vc120.pdb" /Gd /TP /errorReport:prompt Components\3rdPersonCamera.cpp Components\Ability.cpp Components\AbilityFlyIn.cpp Components\AbilityFlyInPrefab.cpp Components\AbilityPanelScript.cpp Components\AfterCutscenePrompt.cpp Components\AIEntity.cpp Components\AlertMessage.cpp Components\AlertMessagePrefab.cpp Components\AOEDamage.cpp Components\BackgroundMusic.cpp Components\Barrier.cpp Components\BarrierButton.cpp Components\BaseProjectile.cpp Components\BaseTower.cpp Components\BaseTurret.cpp Components\BaseWeapon.cpp Components\BossEvent.cpp Components\BossInfo.cpp Components\BossMinion.cpp Components\BossMinionMace.cpp Components\BossShockwave.cpp Components\BuffMinionSpawner.cpp Components\ControllerDisconnectPrefab.cpp Components\ControllerDisconnectScript.cpp Components\ControlPoint.cpp Components\ControlPointProgressBar.cpp Components\ControlPointProgressBarPrefab.cpp Components\CreditsMenuPrefab.cpp Components\CreditsMenuScript.cpp Components\Crosshair.cpp Components\CutScene.cpp Components\DebugProjectile.cpp Components\DelayCredits.cpp Components\EndGame.cpp Components\Entity.cpp Components\FadeAway.cpp Components\FadeAwayEffectPrefab.cpp Components\FirstMinion.cpp Components\FirstTurret.cpp Components\FirstTurretUpgrade.cpp Components\FreezeBlastWave.cpp Components\FreezeEffect.cpp Components\FreezeTower.cpp Components\FrostHUDEffect.cpp Components\FrostHUDEffectPrefab.cpp Components\HealthPickup.cpp Components\HelpScreen.cpp Components\HelpScreenPrefab.cpp Components\LoseHUDPrefab.cpp Components\MainBase.cpp Components\MainMenuPrefab.cpp Components\MainMenuScript.cpp Components\MiniMap.cpp Components\MiniMinion.cpp Components\MinionBuffAbility.cpp Components\MinionBuffEffect.cpp Components\MinionBuffWave.cpp Components\MinionSpawner.cpp Components\MinionSpawnerShield.cpp Components\MinionSpawnPoint.cpp Components\MinionWaveSpawn.cpp Components\MortarClusterProjectile.cpp Components\MortarProjectile.cpp Components\MortarTower.cpp Components\OptionsMenuPrefab.cpp Components\OptionsMenuScript.cpp Components\PauseMenu.cpp Components\PauseMenuPrefab.cpp Components\PlasmaBlaster.cpp Components\Player.cpp Components\PlayerHead.cpp Components\PlayerHUD.cpp Components\PlayerRecall.cpp Components\PlayerShieldScript.cpp Components\PoisonAOEProjectile.cpp Components\PoisonEffect.cpp Components\PoisonSprayArea.cpp Components\PoisonSprayProjectile.cpp Components\PoisonTurret.cpp Components\PopupAlert.cpp Components\RaiseBarrier.cpp Components\RangedMinion.cpp Components\Resource.cpp Components\ResourceCounter.cpp Components\ResourceCrate.cpp Components\ResourceCrateSpawner.cpp Components\ShieldAbility.cpp Components\SkipTutorial.cpp Components\SpringArm.cpp Components\StatusEffect.cpp Components\StunEffect.cpp Components\StunGernadeAbility.cpp Components\TankMinion.cpp Components\ToolTipManager.cpp Components\ToolTipPrefab.cpp Components\TowerBuildMenu.cpp Components\TowerBuildMenuPrefab.cpp Components\TowerDescription.cpp Components\TowerInfo.cpp Components\TowerNode.cpp Components\TowerOptionsPrefab.cpp Components\TowerOptionsScript.cpp Components\TowerUpgradeEffect.cpp Components\TurretProjectile.cpp Components\TutorialPrompt.cpp Components\WeaponBuffAbility.cpp Components\WeaponBuffScript.cpp Components\WinHUDPrefab.cpp Core\FreeCameraController.cpp Core\PlayerController.cpp Core\SplashScreen.cpp LookAtPlayer.cpp ProtoTowers.cpp
+         3rdPersonCamera.cpp
+         Ability.cpp
+         AbilityFlyIn.cpp
+         AbilityFlyInPrefab.cpp
+         AbilityPanelScript.cpp
+         AfterCutscenePrompt.cpp
+         AIEntity.cpp
+         AlertMessage.cpp
+         AlertMessagePrefab.cpp
+         AOEDamage.cpp
+         BackgroundMusic.cpp
+         Barrier.cpp
+         BarrierButton.cpp
+         BaseProjectile.cpp
+         BaseTower.cpp
+         BaseTurret.cpp
+         BaseWeapon.cpp
+         BossEvent.cpp
+         BossInfo.cpp
+         BossMinion.cpp
+         Compiling...
+         BossMinionMace.cpp
+         BossShockwave.cpp
+         BuffMinionSpawner.cpp
+         ControllerDisconnectPrefab.cpp
+         ControllerDisconnectScript.cpp
+         ControlPoint.cpp
+         ControlPointProgressBar.cpp
+         ControlPointProgressBarPrefab.cpp
+         CreditsMenuPrefab.cpp
+         CreditsMenuScript.cpp
+         Crosshair.cpp
+         CutScene.cpp
+         DebugProjectile.cpp
+         DelayCredits.cpp
+         EndGame.cpp
+         Entity.cpp
+         FadeAway.cpp
+         FadeAwayEffectPrefab.cpp
+         FirstMinion.cpp
+         FirstTurret.cpp
+         Compiling...
+         FirstTurretUpgrade.cpp
+         FreezeBlastWave.cpp
+         FreezeEffect.cpp
+         FreezeTower.cpp
+         FrostHUDEffect.cpp
+         FrostHUDEffectPrefab.cpp
+         HealthPickup.cpp
+         HelpScreen.cpp
+         HelpScreenPrefab.cpp
+         LoseHUDPrefab.cpp
+         MainBase.cpp
+         MainMenuPrefab.cpp
+         MainMenuScript.cpp
+         MiniMap.cpp
+         MiniMinion.cpp
+         MinionBuffAbility.cpp
+         MinionBuffEffect.cpp
+         MinionBuffWave.cpp
+         MinionSpawner.cpp
+         MinionSpawnerShield.cpp
+         Compiling...
+         MinionSpawnPoint.cpp
+         MinionWaveSpawn.cpp
+         MortarClusterProjectile.cpp
+         MortarProjectile.cpp
+         MortarTower.cpp
+         OptionsMenuPrefab.cpp
+         OptionsMenuScript.cpp
+         PauseMenu.cpp
+         PauseMenuPrefab.cpp
+         PlasmaBlaster.cpp
+         Player.cpp
+         PlayerHead.cpp
+         PlayerHUD.cpp
+         PlayerRecall.cpp
+         PlayerShieldScript.cpp
+         PoisonAOEProjectile.cpp
+         PoisonEffect.cpp
+         PoisonSprayArea.cpp
+         PoisonSprayProjectile.cpp
+         PoisonTurret.cpp
+         Compiling...
+         PopupAlert.cpp
+         RaiseBarrier.cpp
+         RangedMinion.cpp
+         Resource.cpp
+         ResourceCounter.cpp
+         ResourceCrate.cpp
+         ResourceCrateSpawner.cpp
+         ShieldAbility.cpp
+         SkipTutorial.cpp
+         SpringArm.cpp
+         StatusEffect.cpp
+         StunEffect.cpp
+         StunGernadeAbility.cpp
+         TankMinion.cpp
+         ToolTipManager.cpp
+         ToolTipPrefab.cpp
+         TowerBuildMenu.cpp
+         TowerBuildMenuPrefab.cpp
+         TowerDescription.cpp
+         TowerInfo.cpp
+         Compiling...
+         TowerNode.cpp
+         TowerOptionsPrefab.cpp
+         TowerOptionsScript.cpp
+         TowerUpgradeEffect.cpp
+         TurretProjectile.cpp
+         TutorialPrompt.cpp
+         WeaponBuffAbility.cpp
+         WeaponBuffScript.cpp
+         WinHUDPrefab.cpp
+         FreeCameraController.cpp
+         PlayerController.cpp
+         SplashScreen.cpp
+         LookAtPlayer.cpp
+         ProtoTowers.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"x64\Shipping\ProtoTowers.res" Resources\ProtoTowers.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\x64\Shipping\ProtoTowers.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win64" InfernoEngine.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\x64\Shipping\ProtoTowers.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\x64\Shipping\ProtoTowers.lib" /MACHINE:X64 x64\Shipping\ProtoTowers.res
+         x64\Shipping\3rdPersonCamera.obj
+         x64\Shipping\Ability.obj
+         x64\Shipping\AbilityFlyIn.obj
+         x64\Shipping\AbilityFlyInPrefab.obj
+         x64\Shipping\AbilityPanelScript.obj
+         x64\Shipping\AfterCutscenePrompt.obj
+         x64\Shipping\AIEntity.obj
+         x64\Shipping\AlertMessage.obj
+         x64\Shipping\AlertMessagePrefab.obj
+         x64\Shipping\AOEDamage.obj
+         x64\Shipping\BackgroundMusic.obj
+         x64\Shipping\Barrier.obj
+         x64\Shipping\BarrierButton.obj
+         x64\Shipping\BaseProjectile.obj
+         x64\Shipping\BaseTower.obj
+         x64\Shipping\BaseTurret.obj
+         x64\Shipping\BaseWeapon.obj
+         x64\Shipping\BossEvent.obj
+         x64\Shipping\BossInfo.obj
+         x64\Shipping\BossMinion.obj
+         x64\Shipping\BossMinionMace.obj
+         x64\Shipping\BossShockwave.obj
+         x64\Shipping\BuffMinionSpawner.obj
+         x64\Shipping\ControllerDisconnectPrefab.obj
+         x64\Shipping\ControllerDisconnectScript.obj
+         x64\Shipping\ControlPoint.obj
+         x64\Shipping\ControlPointProgressBar.obj
+         x64\Shipping\ControlPointProgressBarPrefab.obj
+         x64\Shipping\CreditsMenuPrefab.obj
+         x64\Shipping\CreditsMenuScript.obj
+         x64\Shipping\Crosshair.obj
+         x64\Shipping\CutScene.obj
+         x64\Shipping\DebugProjectile.obj
+         x64\Shipping\DelayCredits.obj
+         x64\Shipping\EndGame.obj
+         x64\Shipping\Entity.obj
+         x64\Shipping\FadeAway.obj
+         x64\Shipping\FadeAwayEffectPrefab.obj
+         x64\Shipping\FirstMinion.obj
+         x64\Shipping\FirstTurret.obj
+         x64\Shipping\FirstTurretUpgrade.obj
+         x64\Shipping\FreezeBlastWave.obj
+         x64\Shipping\FreezeEffect.obj
+         x64\Shipping\FreezeTower.obj
+         x64\Shipping\FrostHUDEffect.obj
+         x64\Shipping\FrostHUDEffectPrefab.obj
+         x64\Shipping\HealthPickup.obj
+         x64\Shipping\HelpScreen.obj
+         x64\Shipping\HelpScreenPrefab.obj
+         x64\Shipping\LoseHUDPrefab.obj
+         x64\Shipping\MainBase.obj
+         x64\Shipping\MainMenuPrefab.obj
+         x64\Shipping\MainMenuScript.obj
+         x64\Shipping\MiniMap.obj
+         x64\Shipping\MiniMinion.obj
+         x64\Shipping\MinionBuffAbility.obj
+         x64\Shipping\MinionBuffEffect.obj
+         x64\Shipping\MinionBuffWave.obj
+         x64\Shipping\MinionSpawner.obj
+         x64\Shipping\MinionSpawnerShield.obj
+         x64\Shipping\MinionSpawnPoint.obj
+         x64\Shipping\MinionWaveSpawn.obj
+         x64\Shipping\MortarClusterProjectile.obj
+         x64\Shipping\MortarProjectile.obj
+         x64\Shipping\MortarTower.obj
+         x64\Shipping\OptionsMenuPrefab.obj
+         x64\Shipping\OptionsMenuScript.obj
+         x64\Shipping\PauseMenu.obj
+         x64\Shipping\PauseMenuPrefab.obj
+         x64\Shipping\PlasmaBlaster.obj
+         x64\Shipping\Player.obj
+         x64\Shipping\PlayerHead.obj
+         x64\Shipping\PlayerHUD.obj
+         x64\Shipping\PlayerRecall.obj
+         x64\Shipping\PlayerShieldScript.obj
+         x64\Shipping\PoisonAOEProjectile.obj
+         x64\Shipping\PoisonEffect.obj
+         x64\Shipping\PoisonSprayArea.obj
+         x64\Shipping\PoisonSprayProjectile.obj
+         x64\Shipping\PoisonTurret.obj
+         x64\Shipping\PopupAlert.obj
+         x64\Shipping\RaiseBarrier.obj
+         x64\Shipping\RangedMinion.obj
+         x64\Shipping\Resource.obj
+         x64\Shipping\ResourceCounter.obj
+         x64\Shipping\ResourceCrate.obj
+         x64\Shipping\ResourceCrateSpawner.obj
+         x64\Shipping\ShieldAbility.obj
+         x64\Shipping\SkipTutorial.obj
+         x64\Shipping\SpringArm.obj
+         x64\Shipping\StatusEffect.obj
+         x64\Shipping\StunEffect.obj
+         x64\Shipping\StunGernadeAbility.obj
+         x64\Shipping\TankMinion.obj
+         x64\Shipping\ToolTipManager.obj
+         x64\Shipping\ToolTipPrefab.obj
+         x64\Shipping\TowerBuildMenu.obj
+         x64\Shipping\TowerBuildMenuPrefab.obj
+         x64\Shipping\TowerDescription.obj
+         x64\Shipping\TowerInfo.obj
+         x64\Shipping\TowerNode.obj
+         x64\Shipping\TowerOptionsPrefab.obj
+         x64\Shipping\TowerOptionsScript.obj
+         x64\Shipping\TowerUpgradeEffect.obj
+         x64\Shipping\TurretProjectile.obj
+         x64\Shipping\TutorialPrompt.obj
+         x64\Shipping\WeaponBuffAbility.obj
+         x64\Shipping\WeaponBuffScript.obj
+         x64\Shipping\WinHUDPrefab.obj
+         x64\Shipping\FreeCameraController.obj
+         x64\Shipping\PlayerController.obj
+         x64\Shipping\SplashScreen.obj
+         x64\Shipping\LookAtPlayer.obj
+         x64\Shipping\ProtoTowers.obj
+         x64\Shipping\stdafx.obj
+         "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\x64\Shipping\InfernoEngine.lib"
+         Generating code
+         Finished generating code
+         ProtoTowers.vcxproj -> C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\x64\Shipping\ProtoTowers.exe
+       PostBuildEvent:
+         if not exist "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\Builds" mkdir "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\Builds"
+         mkdir "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\Builds\08-30-2016_20-12-59"
+         mkdir "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\Builds\08-30-2016_20-12-59\Data\AnimationControllers"
+         mkdir "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\Builds\08-30-2016_20-12-59\Data\Animations"
+         mkdir "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\Builds\08-30-2016_20-12-59\Data\AnimationSets"
+         mkdir "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\Builds\08-30-2016_20-12-59\Data\Audio"
+         mkdir "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\Builds\08-30-2016_20-12-59\Data\Materials"
+         mkdir "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\Builds\08-30-2016_20-12-59\Data\Meshes"
+         mkdir "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\Builds\08-30-2016_20-12-59\Data\Prefabs"
+         mkdir "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\Builds\08-30-2016_20-12-59\Data\Scenes"
+         mkdir "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\Builds\08-30-2016_20-12-59\Data\Shaders"
+         mkdir "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\Builds\08-30-2016_20-12-59\Data\Textures"
+         xcopy /Q /Y "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\ProtoTowers\Resources\AnimationControllers" "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\Builds\08-30-2016_20-12-59\Data\AnimationControllers"
+         xcopy /Q /Y "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\ProtoTowers\Resources\Animations\*.bin" "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\Builds\08-30-2016_20-12-59\Data\Animations"
+         xcopy /Q /Y "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\ProtoTowers\Resources\AnimationSets" "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\Builds\08-30-2016_20-12-59\Data\AnimationSets"
+         xcopy /Q /Y "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\InfernoEngine\Inc\Core\Public\WWiseResources\SoundBanks" "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\Builds\08-30-2016_20-12-59\Data\Audio"
+         xcopy /Q /Y "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\ProtoTowers\Resources\Materials\*.matList" "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\Builds\08-30-2016_20-12-59\Data\Materials"
+         xcopy /Q /Y "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\ProtoTowers\Resources\Meshes\*.bin" "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\Builds\08-30-2016_20-12-59\Data\Meshes"
+         xcopy /Q /Y "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\ProtoTowers\Resources\Prefabs\*.prefab" "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\Builds\08-30-2016_20-12-59\Data\Prefabs"
+         xcopy /Q /Y "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\ProtoTowers\Resources\Scenes\*.scene" "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\Builds\08-30-2016_20-12-59\Data\Scenes"
+         xcopy /Q /Y "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\InfernoEngine\Inc\Core\Private\Shaders\Compiled" "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\Builds\08-30-2016_20-12-59\Data\Shaders"
+         xcopy /Q /Y "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\ProtoTowers\Resources\Textures\*.dds" "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\Builds\08-30-2016_20-12-59\Data\Textures"
+         xcopy /Q /Y "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\x64\Shipping\*.exe" "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\Builds\08-30-2016_20-12-59"
+         xcopy /Q /Y "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\x64\Shipping\*.dll" "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\Builds\08-30-2016_20-12-59"
+         xcopy /Q /Y "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\ProtoTowers\defaultconfig.txt" "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\Builds\08-30-2016_20-12-59"
+         
+         if not exist "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\DumpResources" mkdir "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\DumpResources"
+         mkdir "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\DumpResources\08-30-2016_20-12-59"
+         xcopy /Q /Y "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\x64\Shipping\*.obj" "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\DumpResources\08-30-2016_20-12-59"
+         xcopy /Q /Y "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\x64\Shipping\*.pdb" "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\DumpResources\08-30-2016_20-12-59"
+         xcopy /Q /Y "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\x64\Shipping\*.exe" "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\DumpResources\08-30-2016_20-12-59"
+         xcopy /Q /Y "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\ProtoTowers\x64\Shipping\*.obj" "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\DumpResources\08-30-2016_20-12-59"
+         xcopy /Q /Y "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\ProtoTowers\x64\Shipping\*.pdb" "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\DumpResources\08-30-2016_20-12-59"
+         :VCEnd
+         4 File(s) copied
+         38 File(s) copied
+         4 File(s) copied
+         4 File(s) copied
+         1 File(s) copied
+         81 File(s) copied
+         147 File(s) copied
+         8 File(s) copied
+         46 File(s) copied
+         203 File(s) copied
+         1 File(s) copied
+         3 File(s) copied
+         1 File(s) copied
+         File not found - *.obj
+         0 File(s) copied
+         2 File(s) copied
+         1 File(s) copied
+         115 File(s) copied
+         1 File(s) copied
+     1>Done Building Project "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\ProtoTowers\ProtoTowers.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:01.93

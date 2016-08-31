@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<AnimationSet>
+  <AnimSetData AnimCount="9">Sprocket</AnimSetData>
+  <AnimData Time00="0.250000" Time01="0.250000" Time02="0.250000" Time03="0.250000" Time04="0.250000" Time05="0.250000" Time06="0.250000" Time07="0.250000" Time08="0.250000" Looping="1">Sprocket_Idle01</AnimData>
+  <AnimData Time10="0.250000" Time11="0.250000" Time12="0.250000" Time13="0.250000" Time14="0.250000" Time15="0.250000" Time16="0.250000" Time17="0.250000" Time18="0.250000" Looping="1">Sprocket_Run</AnimData>
+  <AnimData Time20="0.250000" Time21="0.250000" Time22="0.250000" Time23="0.250000" Time24="0.250000" Time25="0.250000" Time26="0.250000" Time27="0.250000" Time28="0.250000" Looping="1">Sprocket_Strafe_Left</AnimData>
+  <AnimData Time30="0.250000" Time31="0.250000" Time32="0.250000" Time33="0.250000" Time34="0.250000" Time35="0.250000" Time36="0.250000" Time37="0.250000" Time38="0.250000" Looping="1">Sprocket_Strafe_Right</AnimData>
+  <AnimData Time40="0.250000" Time41="0.250000" Time42="0.250000" Time43="0.250000" Time44="0.250000" Time45="0.250000" Time46="0.250000" Time47="0.250000" Time48="0.250000" Looping="0">Sprocket_Fire</AnimData>
+  <AnimData Time50="0.250000" Time51="0.250000" Time52="0.250000" Time53="0.250000" Time54="0.250000" Time55="0.250000" Time56="0.250000" Time57="0.250000" Time58="0.250000" Looping="0">Sprocket_Death</AnimData>
+  <AnimData Time60="0.250000" Time61="0.250000" Time62="0.250000" Time63="0.250000" Time64="0.250000" Time65="0.250000" Time66="0.250000" Time67="0.250000" Time68="0.250000" Looping="1">Sprocket_Dash</AnimData>
+  <AnimData Time70="0.250000" Time71="0.250000" Time72="0.250000" Time73="0.250000" Time74="0.250000" Time75="0.250000" Time76="0.250000" Time77="0.250000" Time78="0.250000" Looping="0">Sprocket_ButtonPush</AnimData>
+  <AnimData Time80="0.250000" Time81="0.250000" Time82="0.250000" Time83="0.250000" Time84="0.250000" Time85="0.250000" Time86="0.250000" Time87="0.250000" Time88="0.250000" Looping="0">Sprocket_ThrowAbility</AnimData>
+</AnimationSet>

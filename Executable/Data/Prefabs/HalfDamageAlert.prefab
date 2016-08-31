@@ -1,0 +1,50 @@
+GameObject
+Allocation Amount<1>
+GameObject<
+	<GUID>1869676360</GUID/>
+	<Type>GameObject</Type/>
+	<Name>HalfDamageAlert</Name/>
+	<PrefabName>HalfDamageAlert</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1347942165</Component0/>
+	<Component1>1629461775</Component1/>
+	<Component2>933964055</Component2/>
+GameObject/>
+Transform<
+	<GUID>1347942165</GUID/>
+	<Type>Transform</Type/>
+	<Position>-1.6,0,-22.8</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<gameObject>1869676360</gameObject/>
+Transform/>
+SpriteRenderer<
+	<GUID>1629461775</GUID/>
+	<Type>Generic</Type/>
+	<Dimensions>1,0.25</Dimensions/>
+	<Pad>0,0</Pad/>
+	<Color>1,0.9724138,0</Color/>
+	<Color2>1,1,1</Color2/>
+	<Layer>0</Layer/>
+	<Fill>0</Fill/>
+	<Texture1>DamageAlert_50Percent.dds</Texture1/>
+	<Tiling1>1,1</Tiling1/>
+	<Texture2></Texture2/>
+	<Tiling2>1,1</Tiling2/>
+	<Billboarded>1</Billboarded/>
+	<Effect>5</Effect/>
+	<MaterialCount>0</MaterialCount/>
+	<gameObject>1869676360</gameObject/>
+SpriteRenderer/>
+PopupAlert<
+	<GUID>933964055</GUID/>
+	<Type>Generic</Type/>
+	<gameObject>1869676360</gameObject/>
+	<Direction>0,1,0</Direction/>
+	<Speed>1</Speed/>
+	<AliveTime>1.5</AliveTime/>
+PopupAlert/>
+<end>

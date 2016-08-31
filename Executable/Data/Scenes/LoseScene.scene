@@ -1,0 +1,106 @@
+GameObject<
+	<GUID>79883796</GUID/>
+	<Type>GameObject</Type/>
+	<Name>AudioListener</Name/>
+	<PrefabName>AudioListener</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<Component0>1829212570</Component0/>
+	<Component1>635459658</Component1/>
+GameObject/>
+Transform<
+	<GUID>1829212570</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,0,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<gameObject>79883796</gameObject/>
+Transform/>
+AudioListener<
+	<GUID>635459658</GUID/>
+	<Type>Generic</Type/>
+	<gameObject>79883796</gameObject/>
+AudioListener/>
+GameObject<
+	<GUID>299526362</GUID/>
+	<Type>GameObject</Type/>
+	<Name>DelayedCredits</Name/>
+	<PrefabName>DelayedCredits</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<Component0>819422959</Component0/>
+	<Component1>1180962899</Component1/>
+GameObject/>
+Transform<
+	<GUID>819422959</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,0,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<gameObject>299526362</gameObject/>
+Transform/>
+DelayedCredits<
+	<GUID>1180962899</GUID/>
+	<Type>Generic</Type/>
+	<gameObject>299526362</gameObject/>
+DelayedCredits/>
+GameObject<
+	<GUID>2032052330</GUID/>
+	<Type>GameObject</Type/>
+	<Name>LoseHUDPrefab</Name/>
+	<PrefabName>LoseHUDPrefab</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<Component0>1977416161</Component0/>
+	<Component1>835181511</Component1/>
+GameObject/>
+Transform<
+	<GUID>1977416161</GUID/>
+	<Type>Transform</Type/>
+	<Position>-63.41667,1.141667,-0.1689568</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<gameObject>2032052330</gameObject/>
+Transform/>
+LoseHUDPrefab<
+	<GUID>835181511</GUID/>
+	<Type>Generic</Type/>
+	<gameObject>2032052330</gameObject/>
+LoseHUDPrefab/>
+GameObject<
+	<GUID>2140198130</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Main Camera</Name/>
+	<PrefabName>Main Camera</PrefabName/>
+	<Tag>MainCamera</Tag/>
+	<Layer>0</Layer/>
+	<Component0>37324898</Component0/>
+	<Component1>1140363162</Component1/>
+GameObject/>
+Transform<
+	<GUID>37324898</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,117.68,0</Position/>
+	<Rotation>89.98022,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<gameObject>2140198130</gameObject/>
+Transform/>
+Camera<
+	<GUID>1140363162</GUID/>
+	<Type>Generic</Type/>
+	<AspectRatio>0</AspectRatio/>
+	<ZNear>0.3</ZNear/>
+	<ZFar>1000</ZFar/>
+	<FOV>60</FOV/>
+	<DistanceToPlayer>0</DistanceToPlayer/>
+	<ClearType>1</ClearType/>
+	<ClearColor>0,0,0,0</ClearColor/>
+	<SkyBoxImage>SpaceCubeMap.dds</SkyBoxImage/>
+	<IsMain>1</IsMain/>
+	<gameObject>2140198130</gameObject/>
+Camera/>
+<end>

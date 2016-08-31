@@ -1,0 +1,151 @@
+GameObject
+Allocation Amount<1>
+GameObject<
+	<GUID>1492531934</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Mini_Minion_Red</Name/>
+	<PrefabName>Mini_Minion_Red</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>2</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1379187193</Component0/>
+	<Component1>1173257073</Component1/>
+	<Component2>114662541</Component2/>
+	<Component3>1296883501</Component3/>
+	<Component4>197900789</Component4/>
+	<Component5>1609858755</Component5/>
+	<Component6>142396641</Component6/>
+GameObject/>
+Transform<
+	<GUID>1379187193</GUID/>
+	<Type>Transform</Type/>
+	<Position>25.89861,2.038344,-27.1856</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>2</ChildCount/>
+	<Child0>15742059</Child0/>
+	<Child1>948151994</Child1/>
+	<gameObject>1492531934</gameObject/>
+Transform/>
+CapsuleCollider<
+	<GUID>1173257073</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,1,0</Center/>
+	<Radius>0.5</Radius/>
+	<Height>1</Height/>
+	<IsTrigger>0</IsTrigger/>
+	<gameObject>1492531934</gameObject/>
+CapsuleCollider/>
+SphereCollider<
+	<GUID>114662541</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,1,0</Center/>
+	<Radius>5</Radius/>
+	<IsTrigger>1</IsTrigger/>
+	<gameObject>1492531934</gameObject/>
+SphereCollider/>
+Rigidbody<
+	<GUID>1296883501</GUID/>
+	<Type>Generic</Type/>
+	<UseGravity>0</UseGravity/>
+	<Sleep>0</Sleep/>
+	<Velocity>0,0,0</Velocity/>
+	<Mass>1</Mass/>
+	<gameObject>1492531934</gameObject/>
+Rigidbody/>
+NavAgent<
+	<GUID>197900789</GUID/>
+	<Type>Generic</Type/>
+	<Position>0,0,0</Position/>
+	<Speed>0</Speed/>
+	<Acceleration>0</Acceleration/>
+	<Radius>0.5</Radius/>
+	<Height>1</Height/>
+	<TurnRate>0</TurnRate/>
+	<PathFlag>0</PathFlag/>
+	<IgnorePath>0</IgnorePath/>
+	<MinionType>1</MinionType/>
+	<Lane>0</Lane/>
+	<gameObject>1492531934</gameObject/>
+NavAgent/>
+MiniMinion<
+	<GUID>1609858755</GUID/>
+	<Type>Generic</Type/>
+	<MaxHealth>150</MaxHealth/>
+	<Health>150</Health/>
+	<Team>2</Team/>
+	<gameObject>1492531934</gameObject/>
+MiniMinion/>
+BehaviorTree<
+	<GUID>142396641</GUID/>
+	<Type>Generic</Type/>
+	<gameObject>1492531934</gameObject/>
+BehaviorTree/>
+GameObject<
+	<GUID>131093087</GUID/>
+	<Type>GameObject</Type/>
+	<Name>MinionMesh</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>15742059</Component0/>
+	<Component1>455817631</Component1/>
+	<Component2>825804882</Component2/>
+GameObject/>
+Transform<
+	<GUID>15742059</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,0,0</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>0.0125,0.0125,0.0125</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1379187193</Parent/>
+	<gameObject>131093087</gameObject/>
+Transform/>
+Animator<
+	<GUID>455817631</GUID/>
+	<Type>Generic</Type/>
+	<Controller>Mushroom</Controller/>
+	<gameObject>131093087</gameObject/>
+Animator/>
+SkinnedMeshRenderer<
+	<GUID>825804882</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Mushroom</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1</Color/>
+	<Material0>Minion_Melee_Red</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>131093087</gameObject/>
+SkinnedMeshRenderer/>
+GameObject<
+	<GUID>247021571</GUID/>
+	<Type>GameObject</Type/>
+	<Name>MinionLight</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>948151994</Component0/>
+	<Component1>1125773961</Component1/>
+GameObject/>
+Transform<
+	<GUID>948151994</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,1,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1379187193</Parent/>
+	<gameObject>247021571</gameObject/>
+Transform/>
+Light<
+	<GUID>1125773961</GUID/>
+	<Type>Generic</Type/>
+	<Color>1,0,0</Color/>
+	<Intensity>0.8</Intensity/>
+	<Radius>2</Radius/>
+	<gameObject>247021571</gameObject/>
+Light/>
+<end>

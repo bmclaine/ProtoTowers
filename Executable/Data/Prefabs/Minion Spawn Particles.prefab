@@ -1,0 +1,49 @@
+GameObject
+Allocation Amount<1>
+Transform<
+	<GUID>612265178</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,0.04999995,-77.28</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<gameObject>1676865059</gameObject/>
+Transform/>
+ParticleSystem<
+	<GUID>1984916385</GUID/>
+	<Type>Generic</Type/>
+	<WorldPosition>0,0,0</WorldPosition/>
+	<Duration>0.8</Duration/>
+	<AliveTime>0</AliveTime/>
+	<LifeTime>0.7</LifeTime/>
+	<StartSpeed>0</StartSpeed/>
+	<GravityScale>-1</GravityScale/>
+	<StartColor>1,0.1544118,0.1544118,1</StartColor/>
+	<EndColor>1,1,1,1</EndColor/>
+	<StartSize>0.15</StartSize/>
+	<EndSize>0.15</EndSize/>
+	<MaxParticles>150</MaxParticles/>
+	<Emission>0</Emission/>
+	<ShapeDimensions>0.8,0.8,0.8</ShapeDimensions/>
+	<Flags>8</Flags/>
+	<EShape>2</EShape/>
+	<EStyle>1</EStyle/>
+	<EmissionRate>150</EmissionRate/>
+	<Accumulator>0</Accumulator/>
+	<Paused>0</Paused/>
+	<Looping>1</Looping/>
+	<Texture>0</Texture/>
+	<gameObject>1676865059</gameObject/>
+ParticleSystem/>
+GameObject<
+	<GUID>1676865059</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Minion Spawn Particles</Name/>
+	<PrefabName>Minion Spawn Particles</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>612265178</Component0/>
+	<Component1>1984916385</Component1/>
+GameObject/>
+<end>

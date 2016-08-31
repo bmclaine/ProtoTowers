@@ -1,0 +1,20 @@
+﻿Build started 8/30/2016 8:10:21 PM.
+     1>Project "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\MemoryManager\MemoryManager.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D MEMORYMANAGER_EXPORTS /D SHIPPING /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Shipping\\" /Fd"x64\Shipping\vc120.pdb" /Gd /TP /errorReport:prompt Heap.cpp HeapLog.cpp MemoryManager.cpp
+         Heap.cpp
+         HeapLog.cpp
+         MemoryManager.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\x64\Shipping\MemoryManager.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win64" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\x64\Shipping\MemoryManager.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\x64\Shipping\MemoryManager.lib" /MACHINE:X64 /DLL x64\Shipping\Heap.obj
+         x64\Shipping\HeapLog.obj
+         x64\Shipping\MemoryManager.obj
+            Creating library C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\x64\Shipping\MemoryManager.lib and object C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\x64\Shipping\MemoryManager.exp
+         Generating code
+         Finished generating code
+         MemoryManager.vcxproj -> C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\x64\Shipping\MemoryManager.dll
+     1>Done Building Project "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\MemoryManager\MemoryManager.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.19

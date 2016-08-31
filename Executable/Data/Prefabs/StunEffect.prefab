@@ -1,0 +1,188 @@
+GameObject
+Allocation Amount<1>
+GameObject<
+	<GUID>1829672083</GUID/>
+	<Type>GameObject</Type/>
+	<Name>StunEffect</Name/>
+	<PrefabName>StunEffect</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>448839795</Component0/>
+	<Component1>969846211</Component1/>
+GameObject/>
+Transform<
+	<GUID>448839795</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,0,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>4</ChildCount/>
+	<Child0>1328390350</Child0/>
+	<Child1>2012297789</Child1/>
+	<Child2>2043467075</Child2/>
+	<Child3>2063887241</Child3/>
+	<gameObject>1829672083</gameObject/>
+Transform/>
+StunEffect<
+	<GUID>969846211</GUID/>
+	<Type>Generic</Type/>
+	<gameObject>1829672083</gameObject/>
+StunEffect/>
+GameObject<
+	<GUID>1215229916</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Star Object</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1328390350</Component0/>
+	<Component1>850768457</Component1/>
+GameObject/>
+Transform<
+	<GUID>1328390350</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,1,1</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>448839795</Parent/>
+	<gameObject>1215229916</gameObject/>
+Transform/>
+SpriteRenderer<
+	<GUID>850768457</GUID/>
+	<Type>Generic</Type/>
+	<Dimensions>0.25,0.25</Dimensions/>
+	<Pad>0,0</Pad/>
+	<Color>1,1,1</Color/>
+	<Color2>1,1,1</Color2/>
+	<Layer>0</Layer/>
+	<Fill>0</Fill/>
+	<Texture1>StarSprite.dds</Texture1/>
+	<Tiling1>1,1</Tiling1/>
+	<Texture2></Texture2/>
+	<Tiling2>1,1</Tiling2/>
+	<Billboarded>1</Billboarded/>
+	<Effect>5</Effect/>
+	<MaterialCount>0</MaterialCount/>
+	<gameObject>1215229916</gameObject/>
+SpriteRenderer/>
+GameObject<
+	<GUID>378973233</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Star Object</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>2012297789</Component0/>
+	<Component1>1943673312</Component1/>
+GameObject/>
+Transform<
+	<GUID>2012297789</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,1,-1</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>448839795</Parent/>
+	<gameObject>378973233</gameObject/>
+Transform/>
+SpriteRenderer<
+	<GUID>1943673312</GUID/>
+	<Type>Generic</Type/>
+	<Dimensions>0.25,0.25</Dimensions/>
+	<Pad>0,0</Pad/>
+	<Color>1,1,1</Color/>
+	<Color2>1,1,1</Color2/>
+	<Layer>0</Layer/>
+	<Fill>0</Fill/>
+	<Texture1>StarSprite.dds</Texture1/>
+	<Tiling1>1,1</Tiling1/>
+	<Texture2></Texture2/>
+	<Tiling2>1,1</Tiling2/>
+	<Billboarded>1</Billboarded/>
+	<Effect>5</Effect/>
+	<MaterialCount>0</MaterialCount/>
+	<gameObject>378973233</gameObject/>
+SpriteRenderer/>
+GameObject<
+	<GUID>1539455995</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Star Object</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>2043467075</Component0/>
+	<Component1>199313296</Component1/>
+GameObject/>
+Transform<
+	<GUID>2043467075</GUID/>
+	<Type>Transform</Type/>
+	<Position>1,1,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>448839795</Parent/>
+	<gameObject>1539455995</gameObject/>
+Transform/>
+SpriteRenderer<
+	<GUID>199313296</GUID/>
+	<Type>Generic</Type/>
+	<Dimensions>0.25,0.25</Dimensions/>
+	<Pad>0,0</Pad/>
+	<Color>1,1,1</Color/>
+	<Color2>1,1,1</Color2/>
+	<Layer>0</Layer/>
+	<Fill>0</Fill/>
+	<Texture1>StarSprite.dds</Texture1/>
+	<Tiling1>1,1</Tiling1/>
+	<Texture2></Texture2/>
+	<Tiling2>1,1</Tiling2/>
+	<Billboarded>1</Billboarded/>
+	<Effect>5</Effect/>
+	<MaterialCount>0</MaterialCount/>
+	<gameObject>1539455995</gameObject/>
+SpriteRenderer/>
+GameObject<
+	<GUID>1216549710</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Star Object</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>2063887241</Component0/>
+	<Component1>1376554562</Component1/>
+GameObject/>
+Transform<
+	<GUID>2063887241</GUID/>
+	<Type>Transform</Type/>
+	<Position>-1,1,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>448839795</Parent/>
+	<gameObject>1216549710</gameObject/>
+Transform/>
+SpriteRenderer<
+	<GUID>1376554562</GUID/>
+	<Type>Generic</Type/>
+	<Dimensions>0.25,0.25</Dimensions/>
+	<Pad>0,0</Pad/>
+	<Color>1,1,1</Color/>
+	<Color2>1,1,1</Color2/>
+	<Layer>0</Layer/>
+	<Fill>0</Fill/>
+	<Texture1>StarSprite.dds</Texture1/>
+	<Tiling1>1,1</Tiling1/>
+	<Texture2></Texture2/>
+	<Tiling2>1,1</Tiling2/>
+	<Billboarded>1</Billboarded/>
+	<Effect>5</Effect/>
+	<MaterialCount>0</MaterialCount/>
+	<gameObject>1216549710</gameObject/>
+SpriteRenderer/>
+<end>

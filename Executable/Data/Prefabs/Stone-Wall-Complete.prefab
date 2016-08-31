@@ -1,0 +1,127 @@
+GameObject
+Allocation Amount<1>
+Transform<
+	<GUID>27410817</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,0,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>3</ChildCount/>
+	<Child0>1060854594</Child0/>
+	<Child1>373534322</Child1/>
+	<Child2>543932070</Child2/>
+	<gameObject>648179052</gameObject/>
+Transform/>
+GameObject<
+	<GUID>648179052</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Stone-Wall-Complete</Name/>
+	<PrefabName>Stone-Wall-Complete</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>5</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>27410817</Component0/>
+	<Component1>301264180</Component1/>
+GameObject/>
+BoxCollider<
+	<GUID>301264180</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,0,0</Center/>
+	<Size>4,1,1</Size/>
+	<IsTrigger>0</IsTrigger/>
+	<gameObject>648179052</gameObject/>
+BoxCollider/>
+GameObject<
+	<GUID>1176884447</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Wall_Stone_el1</Name/>
+	<PrefabName>Wall_Stone_el1</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>5</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>1060854594</Component0/>
+	<Component1>1288650259</Component1/>
+GameObject/>
+Transform<
+	<GUID>1060854594</GUID/>
+	<Type>Transform</Type/>
+	<Position>1.5,0,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>27410817</Parent/>
+	<gameObject>1176884447</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>1288650259</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Wall_Stone_el1</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>StoneWall</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>1176884447</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>359823709</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Wall_Stone_el1</Name/>
+	<PrefabName>Wall_Stone_el1</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>5</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>373534322</Component0/>
+	<Component1>1889719621</Component1/>
+GameObject/>
+Transform<
+	<GUID>373534322</GUID/>
+	<Type>Transform</Type/>
+	<Position>-1.5,0,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>27410817</Parent/>
+	<gameObject>359823709</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>1889719621</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Wall_Stone_el1</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>StoneWall</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>359823709</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>1048871481</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Wall_Stone_el2</Name/>
+	<PrefabName>Wall_Stone_el2</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>5</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>543932070</Component0/>
+	<Component1>159720349</Component1/>
+GameObject/>
+Transform<
+	<GUID>543932070</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,0.02,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>27410817</Parent/>
+	<gameObject>1048871481</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>159720349</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Wall_Stone_el2</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>StoneWall</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>1048871481</gameObject/>
+MeshRenderer/>
+<end>

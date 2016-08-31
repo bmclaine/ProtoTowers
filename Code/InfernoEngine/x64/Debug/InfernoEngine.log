@@ -1,0 +1,14 @@
+﻿Build started 8/30/2016 8:09:21 PM.
+     1>Project "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\InfernoEngine\InfernoEngine.vcxproj" on node 2 (Build target(s)).
+     1>Lib:
+         InfernoEngine.vcxproj -> C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\x64\Debug\InfernoEngine.lib
+       PostBuildEvent:
+         if not exist "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\InfernoEngine\Lib" mkdir "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\InfernoEngine\Lib"
+         xcopy /Q /Y "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\x64\Debug\*.lib" "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\InfernoEngine\Lib"
+         :VCEnd
+         2 File(s) copied
+     1>Done Building Project "C:\PerforceWork\Studios\1606 - Sakaruba Studios\Space Yeti\ProtoTowers\InfernoEngine\InfernoEngine.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.35

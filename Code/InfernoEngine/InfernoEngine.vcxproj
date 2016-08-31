@@ -1,0 +1,1399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release (With DEBUG)|Win32">
+      <Configuration>Release (With DEBUG)</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release (With DEBUG)|x64">
+      <Configuration>Release (With DEBUG)</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping|Win32">
+      <Configuration>Shipping</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping|x64">
+      <Configuration>Shipping</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Inc\Core\Private\AI\AIModule.cpp" />
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Action\ActionBehavior.cpp" />
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Action\ChargeAtTargetBehavior.cpp" />
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Action\DealDamageBehavior.cpp" />
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Action\DealDamageToNearbyEnemiesBehavior.cpp" />
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Action\FindClosestTargetBehavior.cpp" />
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Action\LookAtBehavior.cpp" />
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Action\MoveToBehavior.cpp" />
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Action\MoveToTargetBehavior.cpp" />
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Action\MoveToWaypointBehavior.cpp" />
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Action\RequestPathBehavior.cpp" />
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Action\ReturnStatusBehavior.cpp" />
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Action\SetDestinationBehavior.cpp" />
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Action\SpawnBossShockwaveBehavior.cpp" />
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Action\TurnToTarget.cpp" />
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Animate\AnimateBehavior.cpp" />
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Animate\AttackAnimationBehavior.cpp" />
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Animate\CastSpellAnimationBehavior.cpp" />
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Animate\IdleAnimationBehavior.cpp" />
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Animate\JumpAnimationBehavior.cpp" />
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Animate\RunAnimationBehavior.cpp" />
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Animate\SpecialAnimationBehavior.cpp" />
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\BaseBehavior.cpp" />
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Composite\CompositeBehavior.cpp" />
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Composite\ParallelBehavior.cpp" />
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Composite\SelectorBehavior.cpp" />
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Composite\SequenceBehavior.cpp" />
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Condition\ConditionBehavior.cpp" />
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Condition\HasTargetBehavior.cpp" />
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Condition\HasTravelledDistanceBehavior.cpp" />
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Condition\InRangeBehavior.cpp" />
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Condition\IsBossStuckBehavior.cpp" />
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Condition\IsLookingAt.cpp" />
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Condition\IsStationaryBehavior.cpp" />
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Condition\IsOvercrowdedBehavior.cpp" />
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Condition\IsStunnedBehavior.cpp" />
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Condition\ORBehavior.cpp" />
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Decorator\DecoratorBehavior.cpp" />
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Decorator\DoOnceBehavior.cpp" />
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Decorator\FailureToRunningBehavior.cpp" />
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Decorator\InvertBehavior.cpp" />
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Decorator\RepeatBehavior.cpp" />
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Decorator\RepeatForTime.cpp" />
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Decorator\TimerBehavior.cpp" />
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Decorator\WaitBehavior.cpp" />
+    <ClCompile Include="Inc\Core\Private\AI\NavMesh.cpp" />
+    <ClCompile Include="Inc\Core\Private\AI\NavNode.cpp" />
+    <ClCompile Include="Inc\Core\Private\AI\Triangle.cpp" />
+    <ClCompile Include="Inc\Core\Private\AnimInterpolator.cpp" />
+    <ClCompile Include="Inc\Core\Private\AssetManager.cpp" />
+    <ClCompile Include="Inc\Core\Private\Assets\Animation.cpp" />
+    <ClCompile Include="Inc\Core\Private\Assets\AnimationController.cpp" />
+    <ClCompile Include="Inc\Core\Private\Assets\AnimationSet.cpp" />
+    <ClCompile Include="Inc\Core\Private\Assets\Bone.cpp" />
+    <ClCompile Include="Inc\Core\Private\Assets\Material.cpp" />
+    <ClCompile Include="Inc\Core\Private\Assets\Mesh.cpp" />
+    <ClCompile Include="Inc\Core\Private\Assets\Texture.cpp" />
+    <ClCompile Include="Inc\Core\Private\Assets\Vertex.cpp" />
+    <ClCompile Include="Inc\Core\Private\AudioManager.cpp" />
+    <ClCompile Include="Inc\Core\Private\CameraManager.cpp" />
+    <ClCompile Include="Inc\Core\Private\Components\AIComponent.cpp" />
+    <ClCompile Include="Inc\Core\Private\Components\Animator.cpp" />
+    <ClCompile Include="Inc\Core\Private\Components\AudioListener.cpp" />
+    <ClCompile Include="Inc\Core\Private\Components\BehaviorTree.cpp" />
+    <ClCompile Include="Inc\Core\Private\Components\Camera.cpp" />
+    <ClCompile Include="Inc\Core\Private\Components\Controller.cpp" />
+    <ClCompile Include="Inc\Core\Private\Components\IComponent.cpp" />
+    <ClCompile Include="Inc\Core\Private\Components\Light.cpp" />
+    <ClCompile Include="Inc\Core\Private\Components\MeshRenderer.cpp" />
+    <ClCompile Include="Inc\Core\Private\Components\NavAgent.cpp" />
+    <ClCompile Include="Inc\Core\Private\Components\ParticleSystem.cpp" />
+    <ClCompile Include="Inc\Core\Private\Components\Renderer.cpp" />
+    <ClCompile Include="Inc\Core\Private\Components\SkinnedMeshRenderer.cpp" />
+    <ClCompile Include="Inc\Core\Private\Components\SpriteRenderer.cpp" />
+    <ClCompile Include="Inc\Core\Private\Components\Transform.cpp" />
+    <ClCompile Include="Inc\Core\Private\Components\Waypoint.cpp" />
+    <ClCompile Include="Inc\Core\Private\EventSystem.cpp" />
+    <ClCompile Include="Inc\Core\Private\Font\Font.cpp" />
+    <ClCompile Include="Inc\Core\Private\Font\FontManager.cpp" />
+    <ClCompile Include="Inc\Core\Private\GameObject.cpp" />
+    <ClCompile Include="Inc\Core\Private\Gizmos.cpp" />
+    <ClCompile Include="Inc\Core\Private\GraphicsManager.cpp" />
+    <ClCompile Include="Inc\Core\Private\InfernoEngine.cpp" />
+    <ClCompile Include="Inc\Core\Private\InfernoTime.cpp" />
+    <ClCompile Include="Inc\Core\Private\InputManager.cpp" />
+    <ClCompile Include="Inc\Core\Private\LightManager.cpp" />
+    <ClCompile Include="Inc\Core\Private\Object.cpp" />
+    <ClCompile Include="Inc\Core\Private\ParticleManager.cpp" />
+    <ClCompile Include="Inc\Core\Private\Physics\BoxCollider.cpp" />
+    <ClCompile Include="Inc\Core\Private\Physics\Collider.cpp" />
+    <ClCompile Include="Inc\Core\Private\Physics\CollisionLibrary.cpp" />
+    <ClCompile Include="Inc\Core\Private\Physics\Physics.cpp" />
+    <ClCompile Include="Inc\Core\Private\ObjectManager.cpp" />
+    <ClCompile Include="Inc\Core\Private\Physics\CapsuleCollider.cpp" />
+    <ClCompile Include="Inc\Core\Private\Physics\PhysicsComponent.cpp" />
+    <ClCompile Include="Inc\Core\Private\Physics\QuadTree.cpp" />
+    <ClCompile Include="Inc\Core\Private\Physics\Rigidbody.cpp" />
+    <ClCompile Include="Inc\Core\Private\Physics\SphereCollider.cpp" />
+    <ClCompile Include="Inc\Core\Private\Rendering\Buffers\DX11Buffer.cpp" />
+    <ClCompile Include="Inc\Core\Private\Rendering\Buffers\DX11ConstantBuffer.cpp" />
+    <ClCompile Include="Inc\Core\Private\Rendering\Buffers\DX11IndexBuffer.cpp" />
+    <ClCompile Include="Inc\Core\Private\Rendering\Buffers\DX11StructuredBuffer.cpp" />
+    <ClCompile Include="Inc\Core\Private\Rendering\Buffers\DX11VertexBuffer.cpp" />
+    <ClCompile Include="Inc\Core\Private\Rendering\DXEvent.cpp" />
+    <ClCompile Include="Inc\Core\Private\Rendering\Effect.cpp" />
+    <ClCompile Include="Inc\Core\Private\Rendering\Fixed Stages\DX11InputAssemblerStageState.cpp" />
+    <ClCompile Include="Inc\Core\Private\Rendering\Fixed Stages\DX11InputAssmblerStage.cpp" />
+    <ClCompile Include="Inc\Core\Private\Rendering\Fixed Stages\DX11OutputMergerStage.cpp" />
+    <ClCompile Include="Inc\Core\Private\Rendering\Fixed Stages\DX11OutputMergerStageState.cpp" />
+    <ClCompile Include="Inc\Core\Private\Rendering\Fixed Stages\DX11RasterizerStateStage.cpp" />
+    <ClCompile Include="Inc\Core\Private\Rendering\Fixed Stages\DX11RasterizerStateStageState.cpp" />
+    <ClCompile Include="Inc\Core\Private\Rendering\PipelineManager.cpp" />
+    <ClCompile Include="Inc\Core\Private\Rendering\Programmable\DX11ComputeShaderStage.cpp" />
+    <ClCompile Include="Inc\Core\Private\Rendering\Programmable\DX11GeometryShaderStage.cpp" />
+    <ClCompile Include="Inc\Core\Private\Rendering\Programmable\DX11PixelShaderStage.cpp" />
+    <ClCompile Include="Inc\Core\Private\Rendering\Programmable\DX11ShaderStageState.cpp" />
+    <ClCompile Include="Inc\Core\Private\Rendering\Programmable\DX11Stage.cpp" />
+    <ClCompile Include="Inc\Core\Private\Rendering\Programmable\DX11VertexShaderStage.cpp" />
+    <ClCompile Include="Inc\Core\Private\Rendering\RenderingResources.cpp" />
+    <ClCompile Include="Inc\Core\Private\Rendering\RenderTree.cpp" />
+    <ClCompile Include="Inc\Core\Private\Rendering\Shaders\DX11ComputeShader.cpp" />
+    <ClCompile Include="Inc\Core\Private\Rendering\Shaders\DX11GeometryShader.cpp" />
+    <ClCompile Include="Inc\Core\Private\Rendering\Shaders\DX11PixelShader.cpp" />
+    <ClCompile Include="Inc\Core\Private\Rendering\Shaders\DX11Shader.cpp" />
+    <ClCompile Include="Inc\Core\Private\Rendering\Shaders\DX11VertexShader.cpp" />
+    <ClCompile Include="Inc\Core\Private\Rendering\Shaders\ShaderReflection.cpp" />
+    <ClCompile Include="Inc\Core\Private\Rendering\States\DX11BlendState.cpp" />
+    <ClCompile Include="Inc\Core\Private\Rendering\States\DX11DepthStencilState.cpp" />
+    <ClCompile Include="Inc\Core\Private\Rendering\States\DX11DepthStencilView.cpp" />
+    <ClCompile Include="Inc\Core\Private\Rendering\States\DX11InputLayout.cpp" />
+    <ClCompile Include="Inc\Core\Private\Rendering\States\DX11RasterizerState.cpp" />
+    <ClCompile Include="Inc\Core\Private\Rendering\States\DX11RenderTargetView.cpp" />
+    <ClCompile Include="Inc\Core\Private\Rendering\States\DX11SampleState.cpp" />
+    <ClCompile Include="Inc\Core\Private\Rendering\States\DX11ShaderResourceView.cpp" />
+    <ClCompile Include="Inc\Core\Private\Rendering\States\DX11UnorderedAccessView.cpp" />
+    <ClCompile Include="Inc\Core\Private\SceneManager.cpp" />
+    <ClCompile Include="Inc\Core\Private\ThreadPool\PathfindingThread.cpp" />
+    <ClCompile Include="Inc\Core\Private\ThreadPool\ThreadPool.cpp" />
+    <ClCompile Include="inc\Core\Private\ThreadPool\WorkerThreadPool.cpp" />
+    <ClCompile Include="Inc\Core\Private\ThreadPool\WorkerTypes\WorkerThreadConfigSave.cpp" />
+    <ClCompile Include="Inc\Core\Private\ThreadPool\WorkerTypes\WorkerThreadFuctionPointers.cpp" />
+    <ClCompile Include="Inc\Core\Private\UIComponents\RectTransform.cpp" />
+    <ClCompile Include="Inc\Core\Private\UIComponents\UIButton.cpp" />
+    <ClCompile Include="Inc\Core\Private\UIComponents\UICanvas.cpp" />
+    <ClCompile Include="Inc\Core\Private\UIComponents\UICheckbox.cpp" />
+    <ClCompile Include="Inc\Core\Private\UIComponents\UIComponent.cpp" />
+    <ClCompile Include="Inc\Core\Private\UIComponents\UIDropdown.cpp" />
+    <ClCompile Include="Inc\Core\Private\UIComponents\UIEventSystem.cpp" />
+    <ClCompile Include="Inc\Core\Private\UIComponents\UIImage.cpp" />
+    <ClCompile Include="Inc\Core\Private\UIComponents\UIRenderer.cpp" />
+    <ClCompile Include="Inc\Core\Private\UIComponents\UISelectable.cpp" />
+    <ClCompile Include="Inc\Core\Private\UIComponents\UISlider.cpp" />
+    <ClCompile Include="Inc\Core\Private\UIComponents\UIText.cpp" />
+    <ClCompile Include="Inc\Core\Private\UIController.cpp" />
+    <ClCompile Include="Inc\Core\Private\UIElement.cpp" />
+    <ClCompile Include="Inc\Core\Private\UIManager.cpp" />
+    <ClCompile Include="Inc\Core\Private\Win32Window\Win32Window.cpp" />
+    <ClCompile Include="Inc\Core\Public\Components\CutSceneWaypoint.cpp" />
+    <ClCompile Include="Inc\Interface\Private\ComponentInterface.cpp" />
+    <ClCompile Include="Inc\Interface\Private\Engine.cpp" />
+    <ClCompile Include="Inc\Interface\Private\ModuleInterface.cpp" />
+    <ClCompile Include="Inc\Utilities\Private\AssertHelper.cpp" />
+    <ClCompile Include="Inc\Utilities\Private\DDSTextureLoader.cpp" />
+    <ClCompile Include="Inc\Utilities\Private\FBXLoader.cpp" />
+    <ClCompile Include="Inc\Utilities\Private\FileSystem.cpp" />
+    <ClCompile Include="Inc\Utilities\Private\GlobalIncludes.cpp" />
+    <ClCompile Include="Inc\Utilities\Private\InfernoTimer.cpp" />
+    <ClCompile Include="Inc\Utilities\Private\InputDelegateRegistry.cpp" />
+    <ClCompile Include="Inc\Utilities\Private\MaterialLoader.cpp" />
+    <ClCompile Include="Inc\Utilities\Private\MathLib.cpp" />
+    <ClCompile Include="Inc\Utilities\Private\ObjectRegistry.cpp" />
+    <ClCompile Include="Inc\Utilities\Private\PrefabLoader.cpp" />
+    <ClCompile Include="Inc\Utilities\Private\tinystr.cpp" />
+    <ClCompile Include="Inc\Utilities\Private\tinyxml.cpp" />
+    <ClCompile Include="Inc\Utilities\Private\tinyxmlerror.cpp" />
+    <ClCompile Include="Inc\Utilities\Private\tinyxmlparser.cpp" />
+    <ClCompile Include="Inc\Utilities\Private\WICTextureLoader.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Inc\Core\Private\Physics\LineVertexShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">Vertex</ShaderType>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\AlphaPrepassVertexShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">Vertex</ShaderType>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\AlphaTestPixelShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">Pixel</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">4.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">4.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">4.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">4.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">4.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">4.1</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\CircleEdgeParticleEmitterComputeShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">5.0</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\CircleParticleEmitterComputeShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">5.0</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\CoarseCullingComputeShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">4.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">4.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">5.0</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\ColorOnlyPixelShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\ConeOutterParticleEmitterComputeShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">5.0</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\ConeParticleEmitterComputeShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">5.0</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\DestroyAllParticlesComputeShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">5.0</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\HemisphereEdgeParticleEmitterComputeShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">5.0</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\HemisphereParticleEmitterComputeShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">5.0</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\InitDeadParticlesComputeShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">4.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">4.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">5.0</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\LightComputeShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">5.0</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\LightingPixelShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\OutlineFontComputeShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">5.0</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\ParticleCullingComputeShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">4.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">4.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">5.0</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\ParticleGeometryShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Geometry</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Geometry</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">Geometry</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">Geometry</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Geometry</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Geometry</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">Geometry</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">Geometry</ShaderType>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\ParticlePixelShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\ParticleSimulationComputeShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">4.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">4.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">5.0</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\ParticleTileRenderingComputeShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">4.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">4.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">5.0</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\ParticleVertexShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">Vertex</ShaderType>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\QuadBillboardedGeometryShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Geometry</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">Geometry</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Geometry</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">Geometry</ShaderType>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\QuadGeometryShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Geometry</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">4.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Geometry</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">4.0</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\QuadVertexShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">Vertex</ShaderType>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\UIFillTopPixelShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\UIRadialFillClockwisePixelShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\UIRadialFillPixelShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\ScreenQuadGeometryShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Geometry</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">Geometry</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">4.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">4.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Geometry</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">Geometry</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">4.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">4.0</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\SkinnedMeshVertexShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">Vertex</ShaderType>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\SkyboxPixelShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\SkyboxVertexShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">Vertex</ShaderType>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\SphereEdgeParticleEmitterComputeShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">5.0</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\SphereParticleEmitterComputeShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">Compute</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">5.0</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\StaticMeshVertexShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">Vertex</ShaderType>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\StreamOutputSkinnedGeometryShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Geometry</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">Geometry</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">4.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">4.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Geometry</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">Geometry</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">4.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">4.0</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\TiledParticlePixelShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\UIDualImageFillPixelShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\UIFillRightPixelShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\UIGeometryShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Geometry</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Geometry</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Geometry</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">Geometry</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">Geometry</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">Geometry</ShaderType>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\UIOcclusionPixelShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\UIPixelShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\UIVertexShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">Vertex</ShaderType>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\UnlitPixelShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="Inc\Shaders\UIFillPixelShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">Pixel</ShaderType>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Inc\Core\Public\AI\AIModule.h" />
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Action\ActionBehavior.h" />
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Action\ChargeAtTargetBehavior.h" />
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Action\DealDamageBehavior.h" />
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Action\DealDamageToNearbyEnemiesBehavior.h" />
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Action\FindClosestTargetBehavior.h" />
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Action\LookAtBehavior.h" />
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Action\MoveToBehavior.h" />
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Action\MoveToTargetBehavior.h" />
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Action\MoveToWaypointBehavior.h" />
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Action\RequestPathBehavior.h" />
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Action\ReturnStatusBehavior.h" />
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Action\SetDestinationBehavior.h" />
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Action\SpawnBossShockwaveBehavior.h" />
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Action\TurnToTarget.h" />
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Animate\AnimateBehavior.h" />
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Animate\AttackAnimationBehavior.h" />
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Animate\CastSpellAnimationBehavior.h" />
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Animate\JumpAnimationBehavior.h" />
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Animate\RunAnimationBehavior.h" />
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Animate\IdleAnimationBehavior.h" />
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Animate\SpecialAnimationBehavior.h" />
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\BaseBehavior.h" />
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\BehaviorTypes.h" />
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Composite\CompositeBehavior.h" />
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Composite\ParallelBehavior.h" />
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Composite\SelectorBehavior.h" />
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Composite\SequenceBehavior.h" />
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Condition\ConditionBehavior.h" />
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Condition\HasTargetBehavior.h" />
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Condition\HasTravelledDistanceBehavior.h" />
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Condition\InRangeBehavior.h" />
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Condition\IsBossStuckBehavior.h" />
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Condition\IsLookingAt.h" />
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Condition\IsStationaryBehavior.h" />
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Condition\IsOvercrowdedBehavior.h" />
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Condition\IsStunnedBehavior.h" />
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Condition\ORBehavior.h" />
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Decorator\DecoratorBehavior.h" />
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Decorator\DoOnceBehavior.h" />
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Decorator\FailureToRunningBehavior.h" />
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Decorator\InvertBehavior.h" />
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Decorator\RepeatBehavior.h" />
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Decorator\RepeatForTime.h" />
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Decorator\TimerBehavior.h" />
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Decorator\WaitBehavior.h" />
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\StatusTypes.h" />
+    <ClInclude Include="Inc\Core\Public\AI\NavMesh.h" />
+    <ClInclude Include="Inc\Core\Public\AI\NavNode.h" />
+    <ClInclude Include="Inc\Core\Public\AI\Triangle.h" />
+    <ClInclude Include="Inc\Core\Public\AllocationPool.h" />
+    <ClInclude Include="Inc\Core\Public\AnimInterpolator.h" />
+    <ClInclude Include="Inc\Core\Public\AssetManager.h" />
+    <ClInclude Include="Inc\Core\Public\Assets\Animation.h" />
+    <ClInclude Include="Inc\Core\Public\Assets\AnimationController.h" />
+    <ClInclude Include="Inc\Core\Public\Assets\AnimationSet.h" />
+    <ClInclude Include="Inc\Core\Public\Assets\Bone.h" />
+    <ClInclude Include="Inc\Core\Public\Assets\Material.h" />
+    <ClInclude Include="Inc\Core\Public\Assets\Mesh.h" />
+    <ClInclude Include="Inc\Core\Public\Assets\Texture.h" />
+    <ClInclude Include="Inc\Core\Public\Assets\Vertex.h" />
+    <ClInclude Include="Inc\Core\Public\AudioManager.h" />
+    <ClInclude Include="Inc\Core\Public\CameraManager.h" />
+    <ClInclude Include="Inc\Core\Public\Components\AIComponent.h" />
+    <ClInclude Include="Inc\Core\Public\Components\Animator.h" />
+    <ClInclude Include="Inc\Core\Public\Components\AudioListener.h" />
+    <ClInclude Include="Inc\Core\Public\Components\BehaviorTree.h" />
+    <ClInclude Include="Inc\Core\Public\Components\Camera.h" />
+    <ClInclude Include="Inc\Core\Public\Components\Controller.h" />
+    <ClInclude Include="Inc\Core\Public\Components\CutSceneWaypoint.h" />
+    <ClInclude Include="Inc\Core\Public\Components\EntityTargetingWeights.h" />
+    <ClInclude Include="Inc\Core\Public\Components\IComponent.h" />
+    <ClInclude Include="Inc\Core\Public\Components\Light.h" />
+    <ClInclude Include="Inc\Core\Public\Components\MeshRenderer.h" />
+    <ClInclude Include="Inc\Core\Public\Components\NavAgent.h" />
+    <ClInclude Include="Inc\Core\Public\Components\ParticleSystem.h" />
+    <ClInclude Include="Inc\Core\Public\Components\Renderer.h" />
+    <ClInclude Include="Inc\Core\Public\Components\SkinnedMeshRenderer.h" />
+    <ClInclude Include="Inc\Core\Public\Components\SpriteRenderer.h" />
+    <ClInclude Include="Inc\Core\Public\Components\Transform.h" />
+    <ClInclude Include="Inc\Core\Public\Components\Waypoint.h" />
+    <ClInclude Include="Inc\Core\Public\EventSystem.h" />
+    <ClInclude Include="Inc\Core\Public\Font\Font.h" />
+    <ClInclude Include="Inc\Core\Public\Font\FontManager.h" />
+    <ClInclude Include="Inc\Core\Public\GameObject.h" />
+    <ClInclude Include="Inc\Core\Public\Gizmos.h" />
+    <ClInclude Include="Inc\Core\Public\GraphicsManager.h" />
+    <ClInclude Include="Inc\Core\Public\InfernoEngine.h" />
+    <ClInclude Include="Inc\Core\Public\InfernoTime.h" />
+    <ClInclude Include="Inc\Core\Public\InputManager.h" />
+    <ClInclude Include="Inc\Core\Public\LightManager.h" />
+    <ClInclude Include="Inc\Core\Public\Object.h" />
+    <ClInclude Include="Inc\Core\Public\ParticleManager.h" />
+    <ClInclude Include="Inc\Core\Public\Physics\BoxCollider.h" />
+    <ClInclude Include="Inc\Core\Public\Physics\Collider.h" />
+    <ClInclude Include="Inc\Core\Public\Physics\Collision.h" />
+    <ClInclude Include="Inc\Core\Public\Physics\CollisionLibrary.h" />
+    <ClInclude Include="Inc\Core\Public\Physics\Physics.h" />
+    <ClInclude Include="Inc\Core\Public\ObjectManager.h" />
+    <ClInclude Include="Inc\Core\Public\Physics\CapsuleCollider.h" />
+    <ClInclude Include="Inc\Core\Public\Physics\PhysicsComponent.h" />
+    <ClInclude Include="Inc\Core\Public\Physics\QuadTree.h" />
+    <ClInclude Include="Inc\Core\Public\Physics\Rigidbody.h" />
+    <ClInclude Include="Inc\Core\Public\Physics\SphereCollider.h" />
+    <ClInclude Include="Inc\Core\Public\Rendering\Buffers\DX11Buffer.h" />
+    <ClInclude Include="Inc\Core\Public\Rendering\Buffers\DX11ConstantBuffer.h" />
+    <ClInclude Include="Inc\Core\Public\Rendering\Buffers\DX11IndexBuffer.h" />
+    <ClInclude Include="Inc\Core\Public\Rendering\Buffers\DX11StructuredBuffer.h" />
+    <ClInclude Include="Inc\Core\Public\Rendering\Buffers\DX11VertexBuffer.h" />
+    <ClInclude Include="Inc\Core\Public\Rendering\Common\StateMonitor.h" />
+    <ClInclude Include="Inc\Core\Public\Rendering\Common\StateMonitorArray.h" />
+    <ClInclude Include="Inc\Core\Public\Rendering\DXEvent.h" />
+    <ClInclude Include="Inc\Core\Public\Rendering\Effect.h" />
+    <ClInclude Include="Inc\Core\Public\Rendering\Fixed Stages\DX11InputAssemblerStage.h" />
+    <ClInclude Include="Inc\Core\Public\Rendering\Fixed Stages\DX11InputAssemblerStageState.h" />
+    <ClInclude Include="Inc\Core\Public\Rendering\Fixed Stages\DX11OutputMergerStage.h" />
+    <ClInclude Include="Inc\Core\Public\Rendering\Fixed Stages\DX11OutputMergerStageState.h" />
+    <ClInclude Include="Inc\Core\Public\Rendering\Fixed Stages\DX11RasterizerStateStage.h" />
+    <ClInclude Include="Inc\Core\Public\Rendering\Fixed Stages\DX11RasterizerStateStageState.h" />
+    <ClInclude Include="Inc\Core\Public\Rendering\PipelineManager.h" />
+    <ClInclude Include="Inc\Core\Public\Rendering\Programmable\DX11ComputeShaderStage.h" />
+    <ClInclude Include="Inc\Core\Public\Rendering\Programmable\DX11GeometryShaderStage.h" />
+    <ClInclude Include="Inc\Core\Public\Rendering\Programmable\DX11PixelShaderStage.h" />
+    <ClInclude Include="Inc\Core\Public\Rendering\Programmable\DX11ShaderStageState.h" />
+    <ClInclude Include="Inc\Core\Public\Rendering\Programmable\DX11Stage.h" />
+    <ClInclude Include="Inc\Core\Public\Rendering\Programmable\DX11VertexShaderStage.h" />
+    <ClInclude Include="Inc\Core\Public\Rendering\RenderingResources.h" />
+    <ClInclude Include="Inc\Core\Public\Rendering\RenderTree.h" />
+    <ClInclude Include="Inc\Core\Public\Rendering\Shaders\DX11ComputeShader.h" />
+    <ClInclude Include="Inc\Core\Public\Rendering\Shaders\DX11GeometryShader.h" />
+    <ClInclude Include="Inc\Core\Public\Rendering\Shaders\DX11PixelShader.h" />
+    <ClInclude Include="Inc\Core\Public\Rendering\Shaders\DX11Shader.h" />
+    <ClInclude Include="Inc\Core\Public\Rendering\Shaders\DX11VertexShader.h" />
+    <ClInclude Include="Inc\Core\Public\Rendering\Shaders\ShaderReflection.h" />
+    <ClInclude Include="Inc\Core\Public\Rendering\States\DX11BlendState.h" />
+    <ClInclude Include="Inc\Core\Public\Rendering\States\DX11DepthStencilState.h" />
+    <ClInclude Include="Inc\Core\Public\Rendering\States\DX11DepthStencilView.h" />
+    <ClInclude Include="Inc\Core\Public\Rendering\States\DX11InputLayout.h" />
+    <ClInclude Include="Inc\Core\Public\Rendering\States\DX11RasterizerState.h" />
+    <ClInclude Include="Inc\Core\Public\Rendering\States\DX11RenderTargetView.h" />
+    <ClInclude Include="Inc\Core\Public\Rendering\States\DX11SampleState.h" />
+    <ClInclude Include="Inc\Core\Public\Rendering\States\DX11ShaderResourceView.h" />
+    <ClInclude Include="Inc\Core\Public\Rendering\States\DX11UnorderedAccessView.h" />
+    <ClInclude Include="Inc\Core\Public\SceneManager.h" />
+    <ClInclude Include="Inc\Core\Public\ThreadPool\PathfindingThread.h" />
+    <ClInclude Include="Inc\Core\Public\ThreadPool\ThreadPool.h" />
+    <ClInclude Include="inc\Core\Public\ThreadPool\WorkerThreadPool.h" />
+    <ClInclude Include="Inc\Core\Public\ThreadPool\WorkerTypes\WorkerThread.h" />
+    <ClInclude Include="Inc\Core\Public\ThreadPool\WorkerTypes\WorkerThreadConfigSave.h" />
+    <ClInclude Include="Inc\Core\Public\ThreadPool\WorkerTypes\WorkerThreadFuctionPointers.h" />
+    <ClInclude Include="Inc\Core\Public\Time.h" />
+    <ClInclude Include="Inc\Core\Public\UIComponents\RectTransform.h" />
+    <ClInclude Include="Inc\Core\Public\UIComponents\UIButton.h" />
+    <ClInclude Include="Inc\Core\Public\UIComponents\UICanvas.h" />
+    <ClInclude Include="Inc\Core\Public\UIComponents\UICheckbox.h" />
+    <ClInclude Include="Inc\Core\Public\UIComponents\UIComponent.h" />
+    <ClInclude Include="Inc\Core\Public\UIComponents\UIDropdown.h" />
+    <ClInclude Include="Inc\Core\Public\UIComponents\UIEventSystem.h" />
+    <ClInclude Include="Inc\Core\Public\UIComponents\UIImage.h" />
+    <ClInclude Include="Inc\Core\Public\UIComponents\UIRenderer.h" />
+    <ClInclude Include="Inc\Core\Public\UIComponents\UISelectable.h" />
+    <ClInclude Include="Inc\Core\Public\UIComponents\UISlider.h" />
+    <ClInclude Include="Inc\Core\Public\UIComponents\UIText.h" />
+    <ClInclude Include="Inc\Core\Public\UIController.h" />
+    <ClInclude Include="Inc\Core\Public\UIElement.h" />
+    <ClInclude Include="Inc\Core\Public\UIManager.h" />
+    <ClInclude Include="Inc\Core\Public\Win32Window\IWndProc.h" />
+    <ClInclude Include="Inc\Core\Public\Win32Window\Win32Window.h" />
+    <ClInclude Include="Inc\Interface\Public\ComponentInterface.h" />
+    <ClInclude Include="Inc\Interface\Public\Engine.h" />
+    <ClInclude Include="Inc\Interface\Public\ModuleInterface.h" />
+    <ClInclude Include="Inc\Utilities\Public\AssertHelper.h" />
+    <ClInclude Include="Inc\Utilities\Public\Buttons.h" />
+    <ClInclude Include="Inc\Utilities\Public\Color.h" />
+    <ClInclude Include="Inc\Utilities\Public\DDSTextureLoader.h" />
+    <ClInclude Include="Inc\Utilities\Public\FBXLoader.h" />
+    <ClInclude Include="Inc\Utilities\Public\FileSystem.h" />
+    <ClInclude Include="Inc\Utilities\Public\Flags.h" />
+    <ClInclude Include="Inc\Utilities\Public\GlobalIncludes.h" />
+    <ClInclude Include="Inc\Utilities\Public\InfernoTimer.h" />
+    <ClInclude Include="Inc\Utilities\Public\InputDelegateRegistry.h" />
+    <ClInclude Include="Inc\Utilities\Public\InputEvents.h" />
+    <ClInclude Include="Inc\Utilities\Public\Keys.h" />
+    <ClInclude Include="Inc\Utilities\Public\List.h" />
+    <ClInclude Include="Inc\Utilities\Public\MaterialLoader.h" />
+    <ClInclude Include="Inc\Utilities\Public\MathLib.h" />
+    <ClInclude Include="Inc\Utilities\Public\ObjectData.h" />
+    <ClInclude Include="Inc\Utilities\Public\ObjectRegistry.h" />
+    <ClInclude Include="Inc\Utilities\Public\PrefabLoader.h" />
+    <ClInclude Include="Inc\Utilities\Public\Property.h" />
+    <ClInclude Include="Inc\Utilities\Public\Registry.h" />
+    <ClInclude Include="Inc\Utilities\Public\Scene.h" />
+    <ClInclude Include="Inc\Utilities\Public\ShaderInfo.h" />
+    <ClInclude Include="Inc\Utilities\Public\tinystr.h" />
+    <ClInclude Include="Inc\Utilities\Public\tinyxml.h" />
+    <ClInclude Include="Inc\Utilities\Public\UIEvents.h" />
+    <ClInclude Include="Inc\Utilities\Public\WICTextureLoader.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9435E1C6-398D-4FB1-9409-0CD2D17D74BA}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>InfernoEngine</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>$(FBX_PATH)\lib\vs2013\x86\debug;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(WWISE_PATH)\include;$(WWISE_PATH)\SoundEngine\Win32;$(FBX_PATH)\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LibraryPath>$(FBX_PATH)\lib\vs2013\x64\debug;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(FBX_PATH)\include;$(WWISE_PATH)\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LibraryPath>$(FBX_PATH)\lib\vs2013\x86\release;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(WWISE_PATH)\include;$(WWISE_PATH)\SoundEngine\Win32;$(FBX_PATH)\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">
+    <LibraryPath>$(FBX_PATH)\lib\vs2013\x86\release;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(WWISE_PATH)\include;$(WWISE_PATH)\SoundEngine\Win32;$(FBX_PATH)\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">
+    <LibraryPath>$(FBX_PATH)\lib\vs2013\x86\release;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(WWISE_PATH)\include;$(WWISE_PATH)\SoundEngine\Win32;$(FBX_PATH)\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LibraryPath>$(FBX_PATH)\lib\vs2013\x64\release;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(WWISE_PATH)\include;$(WWISE_PATH)\SoundEngine\Win32;$(FBX_PATH)\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">
+    <LibraryPath>$(FBX_PATH)\lib\vs2013\x64\release;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(WWISE_PATH)\include;$(WWISE_PATH)\SoundEngine\Win32;$(FBX_PATH)\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">
+    <LibraryPath>$(FBX_PATH)\lib\vs2013\x64\release;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(WWISE_PATH)\include;$(WWISE_PATH)\SoundEngine\Win32;$(FBX_PATH)\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WIN32_WINNT=0x0601;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(WWISE_PATH)\include;$(WWISE_PATH)\SoundEngine\Win32;$(FBX_PATH)\include;$(ProjectDir)\Inc\Core\Public;$(ProjectDir)\Inc\Utilities\Public</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Bscmake />
+    <PostBuildEvent />
+    <FxCompile>
+      <ShaderModel>4.0</ShaderModel>
+      <VariableName>%(Filename)</VariableName>
+      <ObjectFileOutput>$(SolutionDir)InfernoEngine\Inc\Core\Private\Shaders\Compiled\%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <Lib>
+      <AdditionalDependencies>libfbxsdk.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(WWISE_PATH)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+    <PostBuildEvent>
+      <Command>if not exist "$(SolutionDir)InfernoEngine\Lib" mkdir "$(SolutionDir)InfernoEngine\Lib"
+xcopy /Q /Y "$(TargetDir)*.lib" "$(SolutionDir)InfernoEngine\Lib"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WIN32_WINNT=0x0601;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(WWISE_PATH)\SoundEngine\Win32;$(WWISE_PATH)\include;$(FBX_PATH)\include;$(ProjectDir)\Inc\Core\Public;$(ProjectDir)\Inc\Utilities\Public</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Bscmake />
+    <PostBuildEvent />
+    <FxCompile>
+      <ShaderModel>4.0</ShaderModel>
+      <VariableName>%(Filename)</VariableName>
+      <HeaderFileOutput>
+      </HeaderFileOutput>
+      <ObjectFileOutput>$(SolutionDir)InfernoEngine\Inc\Core\Private\Shaders\Compiled\%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <Lib />
+    <Lib>
+      <AdditionalDependencies>libfbxsdk.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(WWISE_PATH)\$(Configuration)</AdditionalLibraryDirectories>
+    </Lib>
+    <PostBuildEvent>
+      <Command>if not exist "$(SolutionDir)InfernoEngine\Lib" mkdir "$(SolutionDir)InfernoEngine\Lib"
+xcopy /Q /Y "$(TargetDir)*.lib" "$(SolutionDir)InfernoEngine\Lib"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WIN32_WINNT=0x0601;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(WWISE_PATH)\include;$(WWISE_PATH)\SoundEngine\Win32;$(FBX_PATH)\include;$(ProjectDir)\Inc\Core\Public;$(ProjectDir)\Inc\Utilities\Public</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Bscmake />
+    <PostBuildEvent />
+    <FxCompile>
+      <ShaderModel>4.0</ShaderModel>
+      <VariableName>%(Filename)</VariableName>
+      <ObjectFileOutput>$(SolutionDir)InfernoEngine\Inc\Core\Private\Shaders\Compiled\%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <Lib>
+      <AdditionalDependencies>libfbxsdk.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(WWISE_PATH)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+    <PostBuildEvent>
+      <Command>if not exist "$(SolutionDir)InfernoEngine\Lib" mkdir "$(SolutionDir)InfernoEngine\Lib"
+xcopy /Q /Y "$(TargetDir)*.lib" "$(SolutionDir)InfernoEngine\Lib"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WIN32_WINNT=0x0601;DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(WWISE_PATH)\include;$(WWISE_PATH)\SoundEngine\Win32;$(FBX_PATH)\include;$(ProjectDir)\Inc\Core\Public;$(ProjectDir)\Inc\Utilities\Public</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Bscmake />
+    <PostBuildEvent />
+    <FxCompile>
+      <ShaderModel>4.0</ShaderModel>
+      <VariableName>%(Filename)</VariableName>
+      <ObjectFileOutput>$(SolutionDir)InfernoEngine\Inc\Core\Private\Shaders\Compiled\%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <Lib>
+      <AdditionalDependencies>libfbxsdk.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(WWISE_PATH)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+    <PostBuildEvent>
+      <Command>if not exist "$(SolutionDir)InfernoEngine\Lib" mkdir "$(SolutionDir)InfernoEngine\Lib"
+xcopy /Q /Y "$(TargetDir)*.lib" "$(SolutionDir)InfernoEngine\Lib"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WIN32_WINNT=0x0601;NDEBUG;_LIB;SHIPPING;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(WWISE_PATH)\include;$(WWISE_PATH)\SoundEngine\Win32;$(FBX_PATH)\include;$(ProjectDir)\Inc\Core\Public;$(ProjectDir)\Inc\Utilities\Public</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Bscmake />
+    <PostBuildEvent />
+    <FxCompile>
+      <ShaderModel>4.0</ShaderModel>
+      <VariableName>%(Filename)</VariableName>
+      <ObjectFileOutput>$(SolutionDir)InfernoEngine\Inc\Core\Private\Shaders\Compiled\%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <Lib>
+      <AdditionalDependencies>libfbxsdk.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(WWISE_PATH)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+    <PostBuildEvent>
+      <Command>if not exist "$(SolutionDir)InfernoEngine\Lib" mkdir "$(SolutionDir)InfernoEngine\Lib"
+xcopy /Q /Y "$(TargetDir)*.lib" "$(SolutionDir)InfernoEngine\Lib"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WIN32_WINNT=0x0601;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(WWISE_PATH)\include;$(WWISE_PATH)\SoundEngine\Win32;$(FBX_PATH)\include;$(ProjectDir)\Inc\Core\Public;$(ProjectDir)\Inc\Utilities\Public</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Bscmake />
+    <PostBuildEvent />
+    <FxCompile>
+      <ShaderModel>4.0</ShaderModel>
+      <VariableName>%(Filename)</VariableName>
+      <HeaderFileOutput>
+      </HeaderFileOutput>
+      <ObjectFileOutput>$(SolutionDir)InfernoEngine\Inc\Core\Private\Shaders\Compiled\%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <Lib />
+    <Lib>
+      <AdditionalDependencies>libfbxsdk.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(WWISE_PATH)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+    <PostBuildEvent>
+      <Command>if not exist "$(SolutionDir)InfernoEngine\Lib" mkdir "$(SolutionDir)InfernoEngine\Lib"
+xcopy /Q /Y "$(TargetDir)*.lib" "$(SolutionDir)InfernoEngine\Lib"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WIN32_WINNT=0x0601;DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(WWISE_PATH)\include;$(WWISE_PATH)\SoundEngine\Win32;$(FBX_PATH)\include;$(ProjectDir)\Inc\Core\Public;$(ProjectDir)\Inc\Utilities\Public</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Bscmake />
+    <PostBuildEvent />
+    <FxCompile>
+      <ShaderModel>4.0</ShaderModel>
+      <VariableName>%(Filename)</VariableName>
+      <HeaderFileOutput>
+      </HeaderFileOutput>
+      <ObjectFileOutput>$(SolutionDir)InfernoEngine\Inc\Core\Private\Shaders\Compiled\%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <Lib />
+    <Lib>
+      <AdditionalDependencies>libfbxsdk.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(WWISE_PATH)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+    <PostBuildEvent>
+      <Command>if not exist "$(SolutionDir)InfernoEngine\Lib" mkdir "$(SolutionDir)InfernoEngine\Lib"
+xcopy /Q /Y "$(TargetDir)*.lib" "$(SolutionDir)InfernoEngine\Lib"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WIN32_WINNT=0x0601;NDEBUG;_LIB;SHIPPING;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(WWISE_PATH)\include;$(WWISE_PATH)\SoundEngine\Win32;$(FBX_PATH)\include;$(ProjectDir)\Inc\Core\Public;$(ProjectDir)\Inc\Utilities\Public</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Bscmake />
+    <PostBuildEvent />
+    <FxCompile>
+      <ShaderModel>4.0</ShaderModel>
+      <VariableName>%(Filename)</VariableName>
+      <HeaderFileOutput>
+      </HeaderFileOutput>
+      <ObjectFileOutput>$(SolutionDir)InfernoEngine\Inc\Core\Private\Shaders\Compiled\%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <Lib />
+    <Lib>
+      <AdditionalDependencies>libfbxsdk.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(WWISE_PATH)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+    <PostBuildEvent>
+      <Command>if not exist "$(SolutionDir)InfernoEngine\Lib" mkdir "$(SolutionDir)InfernoEngine\Lib"
+xcopy /Q /Y "$(TargetDir)*.lib" "$(SolutionDir)InfernoEngine\Lib"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

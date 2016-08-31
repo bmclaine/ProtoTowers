@@ -1,0 +1,103 @@
+GameObject
+Allocation Amount<1>
+GameObject<
+	<GUID>1780776713</GUID/>
+	<Type>GameObject</Type/>
+	<Name>PoisonEffect</Name/>
+	<PrefabName>PoisonEffect</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>262672028</Component0/>
+	<Component1>1173935826</Component1/>
+	<Component2>56278404</Component2/>
+GameObject/>
+Transform<
+	<GUID>262672028</GUID/>
+	<Type>Transform</Type/>
+	<Position>-2.292232,3.777405,-12.51213</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>1</ChildCount/>
+	<Child0>1285864343</Child0/>
+	<gameObject>1780776713</gameObject/>
+Transform/>
+PoisonEffect<
+	<GUID>1173935826</GUID/>
+	<Type>Generic</Type/>
+	<gameObject>1780776713</gameObject/>
+PoisonEffect/>
+ParticleSystem<
+	<GUID>56278404</GUID/>
+	<Type>Generic</Type/>
+	<WorldPosition>0,0,0</WorldPosition/>
+	<Duration>1.15</Duration/>
+	<AliveTime>0</AliveTime/>
+	<LifeTime>2</LifeTime/>
+	<StartSpeed>1.25</StartSpeed/>
+	<GravityScale>0.01</GravityScale/>
+	<StartColor>0.1525355,0.4705882,0,1</StartColor/>
+	<EndColor>0.4296296,0.5367647,0.05130838,1</EndColor/>
+	<StartSize>0.25</StartSize/>
+	<EndSize>0.25</EndSize/>
+	<MaxParticles>100</MaxParticles/>
+	<Emission>15</Emission/>
+	<ShapeDimensions>0.25,1,1.5</ShapeDimensions/>
+	<Flags>8</Flags/>
+	<EShape>3</EShape/>
+	<EStyle>1</EStyle/>
+	<EmissionRate>15</EmissionRate/>
+	<Accumulator>0</Accumulator/>
+	<Paused>0</Paused/>
+	<Looping>1</Looping/>
+	<Texture>0</Texture/>
+	<gameObject>1780776713</gameObject/>
+ParticleSystem/>
+GameObject<
+	<GUID>1351821609</GUID/>
+	<Type>GameObject</Type/>
+	<Name>PoisonAura</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1285864343</Component0/>
+	<Component1>197601551</Component1/>
+GameObject/>
+Transform<
+	<GUID>1285864343</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,0.8,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>262672028</Parent/>
+	<gameObject>1351821609</gameObject/>
+Transform/>
+ParticleSystem<
+	<GUID>197601551</GUID/>
+	<Type>Generic</Type/>
+	<WorldPosition>0,0,0</WorldPosition/>
+	<Duration>0.999</Duration/>
+	<AliveTime>0</AliveTime/>
+	<LifeTime>0.333</LifeTime/>
+	<StartSpeed>0.2</StartSpeed/>
+	<GravityScale>0</GravityScale/>
+	<StartColor>0.4128385,0.5882353,0.134083,1</StartColor/>
+	<EndColor>0.4117647,0.5882353,0.1333333,0.497</EndColor/>
+	<StartSize>0.8</StartSize/>
+	<EndSize>1</EndSize/>
+	<MaxParticles>100</MaxParticles/>
+	<Emission>3</Emission/>
+	<ShapeDimensions>0.3,1,1</ShapeDimensions/>
+	<Flags>8</Flags/>
+	<EShape>0</EShape/>
+	<EStyle>0</EStyle/>
+	<EmissionRate>3</EmissionRate/>
+	<Accumulator>0</Accumulator/>
+	<Paused>0</Paused/>
+	<Looping>1</Looping/>
+	<Texture>1</Texture/>
+	<gameObject>1351821609</gameObject/>
+ParticleSystem/>
+<end>

@@ -1,0 +1,39 @@
+GameObject
+Allocation Amount<1>
+GameObject<
+	<GUID>1595516912</GUID/>
+	<Type>GameObject</Type/>
+	<Name>MinionBuffWave</Name/>
+	<PrefabName>MinionBuffWave</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1309166880</Component0/>
+	<Component1>893682978</Component1/>
+	<Component2>1982646335</Component2/>
+GameObject/>
+Transform<
+	<GUID>1309166880</GUID/>
+	<Type>Transform</Type/>
+	<Position>21.98853,11.05157,-2.789993</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<gameObject>1595516912</gameObject/>
+Transform/>
+MinionBuffWave<
+	<GUID>893682978</GUID/>
+	<Type>Generic</Type/>
+	<gameObject>1595516912</gameObject/>
+MinionBuffWave/>
+MeshRenderer<
+	<GUID>1982646335</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Band</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>MinionBuffWave</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>1595516912</gameObject/>
+MeshRenderer/>
+<end>

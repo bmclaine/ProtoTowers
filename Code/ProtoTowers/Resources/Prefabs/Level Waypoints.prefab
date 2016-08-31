@@ -1,0 +1,3550 @@
+GameObject
+Allocation Amount<1>
+Transform<
+	<GUID>515973633</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,0,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>8</ChildCount/>
+	<Child0>935392931</Child0/>
+	<Child1>1192211745</Child1/>
+	<Child2>126934106</Child2/>
+	<Child3>1915930727</Child3/>
+	<Child4>314425601</Child4/>
+	<Child5>928452455</Child5/>
+	<Child6>675531016</Child6/>
+	<Child7>1687184422</Child7/>
+	<gameObject>1172479998</gameObject/>
+Transform/>
+GameObject<
+	<GUID>1172479998</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Level Waypoints</Name/>
+	<PrefabName>Level Waypoints</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>515973633</Component0/>
+GameObject/>
+Transform<
+	<GUID>935392931</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,0,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>15</ChildCount/>
+	<Child0>878161450</Child0/>
+	<Child1>123374029</Child1/>
+	<Child2>1453375540</Child2/>
+	<Child3>351711134</Child3/>
+	<Child4>2098354056</Child4/>
+	<Child5>1495597913</Child5/>
+	<Child6>284326643</Child6/>
+	<Child7>2034926692</Child7/>
+	<Child8>1223586902</Child8/>
+	<Child9>774562834</Child9/>
+	<Child10>2017431773</Child10/>
+	<Child11>1695773843</Child11/>
+	<Child12>2066123515</Child12/>
+	<Child13>1412681760</Child13/>
+	<Child14>2008081151</Child14/>
+	<Parent>515973633</Parent/>
+	<gameObject>404000792</gameObject/>
+Transform/>
+GameObject<
+	<GUID>404000792</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Blue Waypoints Left</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>935392931</Component0/>
+GameObject/>
+GameObject<
+	<GUID>599210384</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>878161450</Component0/>
+	<Component1>1939700576</Component1/>
+GameObject/>
+Transform<
+	<GUID>878161450</GUID/>
+	<Type>Transform</Type/>
+	<Position>-20.93,0,-73.41</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>935392931</Parent/>
+	<gameObject>599210384</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1939700576</GUID/>
+	<Type>Generic</Type/>
+	<Next>601084536</Next/>
+	<gameObject>599210384</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>1434186034</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (1)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>123374029</Component0/>
+	<Component1>601084536</Component1/>
+GameObject/>
+Transform<
+	<GUID>123374029</GUID/>
+	<Type>Transform</Type/>
+	<Position>-26.73,0,-64.08</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>935392931</Parent/>
+	<gameObject>1434186034</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>601084536</GUID/>
+	<Type>Generic</Type/>
+	<Next>679458132</Next/>
+	<gameObject>1434186034</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>1850460215</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (2)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1453375540</Component0/>
+	<Component1>679458132</Component1/>
+GameObject/>
+Transform<
+	<GUID>1453375540</GUID/>
+	<Type>Transform</Type/>
+	<Position>-33.18,0,-52.64</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>935392931</Parent/>
+	<gameObject>1850460215</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>679458132</GUID/>
+	<Type>Generic</Type/>
+	<Next>1675684426</Next/>
+	<gameObject>1850460215</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>1759882292</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (3)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>351711134</Component0/>
+	<Component1>1675684426</Component1/>
+GameObject/>
+Transform<
+	<GUID>351711134</GUID/>
+	<Type>Transform</Type/>
+	<Position>-38.38,0,-37.76</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>935392931</Parent/>
+	<gameObject>1759882292</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1675684426</GUID/>
+	<Type>Generic</Type/>
+	<Next>631769010</Next/>
+	<gameObject>1759882292</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>1409285475</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (4)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>2098354056</Component0/>
+	<Component1>631769010</Component1/>
+GameObject/>
+Transform<
+	<GUID>2098354056</GUID/>
+	<Type>Transform</Type/>
+	<Position>-39.2,0,-26.45</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>935392931</Parent/>
+	<gameObject>1409285475</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>631769010</GUID/>
+	<Type>Generic</Type/>
+	<Next>500058378</Next/>
+	<gameObject>1409285475</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>633352215</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (5)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1495597913</Component0/>
+	<Component1>500058378</Component1/>
+GameObject/>
+Transform<
+	<GUID>1495597913</GUID/>
+	<Type>Transform</Type/>
+	<Position>-39.58,0,-18.36</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>935392931</Parent/>
+	<gameObject>633352215</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>500058378</GUID/>
+	<Type>Generic</Type/>
+	<Next>1360073284</Next/>
+	<gameObject>633352215</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>1037960887</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (6)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>284326643</Component0/>
+	<Component1>1360073284</Component1/>
+GameObject/>
+Transform<
+	<GUID>284326643</GUID/>
+	<Type>Transform</Type/>
+	<Position>-45.04,0,-3.05</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>935392931</Parent/>
+	<gameObject>1037960887</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1360073284</GUID/>
+	<Type>Generic</Type/>
+	<Next>797002610</Next/>
+	<gameObject>1037960887</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>1419417018</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (7)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>2034926692</Component0/>
+	<Component1>797002610</Component1/>
+GameObject/>
+Transform<
+	<GUID>2034926692</GUID/>
+	<Type>Transform</Type/>
+	<Position>-40.27,0,17.26</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>935392931</Parent/>
+	<gameObject>1419417018</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>797002610</GUID/>
+	<Type>Generic</Type/>
+	<Next>816402407</Next/>
+	<gameObject>1419417018</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>1379583069</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (8)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1223586902</Component0/>
+	<Component1>816402407</Component1/>
+GameObject/>
+Transform<
+	<GUID>1223586902</GUID/>
+	<Type>Transform</Type/>
+	<Position>-39.69,0,23.85</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>935392931</Parent/>
+	<gameObject>1379583069</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>816402407</GUID/>
+	<Type>Generic</Type/>
+	<Next>2035946237</Next/>
+	<gameObject>1379583069</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>98025850</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (9)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>774562834</Component0/>
+	<Component1>2035946237</Component1/>
+GameObject/>
+Transform<
+	<GUID>774562834</GUID/>
+	<Type>Transform</Type/>
+	<Position>-39.48,0,40.88</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>935392931</Parent/>
+	<gameObject>98025850</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>2035946237</GUID/>
+	<Type>Generic</Type/>
+	<Next>2069439073</Next/>
+	<gameObject>98025850</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>88659736</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (10)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>2017431773</Component0/>
+	<Component1>2069439073</Component1/>
+GameObject/>
+Transform<
+	<GUID>2017431773</GUID/>
+	<Type>Transform</Type/>
+	<Position>-25.06,0,63.6</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>935392931</Parent/>
+	<gameObject>88659736</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>2069439073</GUID/>
+	<Type>Generic</Type/>
+	<Next>481633992</Next/>
+	<gameObject>88659736</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>1733649558</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (11)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1695773843</Component0/>
+	<Component1>481633992</Component1/>
+GameObject/>
+Transform<
+	<GUID>1695773843</GUID/>
+	<Type>Transform</Type/>
+	<Position>-21.71,0,70.81</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>935392931</Parent/>
+	<gameObject>1733649558</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>481633992</GUID/>
+	<Type>Generic</Type/>
+	<Next>1154901674</Next/>
+	<gameObject>1733649558</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>1863599869</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (12)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>2066123515</Component0/>
+	<Component1>1154901674</Component1/>
+GameObject/>
+Transform<
+	<GUID>2066123515</GUID/>
+	<Type>Transform</Type/>
+	<Position>-16.63,0,77.37</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>935392931</Parent/>
+	<gameObject>1863599869</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1154901674</GUID/>
+	<Type>Generic</Type/>
+	<Next>861822484</Next/>
+	<gameObject>1863599869</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>1552052674</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (13)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1412681760</Component0/>
+	<Component1>861822484</Component1/>
+GameObject/>
+Transform<
+	<GUID>1412681760</GUID/>
+	<Type>Transform</Type/>
+	<Position>-6.72,0,80.33</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>935392931</Parent/>
+	<gameObject>1552052674</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>861822484</GUID/>
+	<Type>Generic</Type/>
+	<Next>1538099882</Next/>
+	<gameObject>1552052674</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>1395421108</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (14)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>2008081151</Component0/>
+	<Component1>1538099882</Component1/>
+GameObject/>
+Transform<
+	<GUID>2008081151</GUID/>
+	<Type>Transform</Type/>
+	<Position>-2.67,0,77.05</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>935392931</Parent/>
+	<gameObject>1395421108</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1538099882</GUID/>
+	<Type>Generic</Type/>
+	<Next>0</Next/>
+	<gameObject>1395421108</gameObject/>
+Waypoint/>
+Transform<
+	<GUID>1192211745</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,0,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>15</ChildCount/>
+	<Child0>1553049248</Child0/>
+	<Child1>1424326911</Child1/>
+	<Child2>628018491</Child2/>
+	<Child3>1206693868</Child3/>
+	<Child4>350723614</Child4/>
+	<Child5>1828778883</Child5/>
+	<Child6>2013081834</Child6/>
+	<Child7>1278966004</Child7/>
+	<Child8>1763485125</Child8/>
+	<Child9>753246431</Child9/>
+	<Child10>1126081025</Child10/>
+	<Child11>1740411277</Child11/>
+	<Child12>1973469574</Child12/>
+	<Child13>215301644</Child13/>
+	<Child14>1946642784</Child14/>
+	<Parent>515973633</Parent/>
+	<gameObject>1047561890</gameObject/>
+Transform/>
+GameObject<
+	<GUID>1047561890</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Blue Waypoints Right</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1192211745</Component0/>
+GameObject/>
+GameObject<
+	<GUID>437168276</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1553049248</Component0/>
+	<Component1>1136103206</Component1/>
+GameObject/>
+Transform<
+	<GUID>1553049248</GUID/>
+	<Type>Transform</Type/>
+	<Position>-14.52,0,-73.19</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1192211745</Parent/>
+	<gameObject>437168276</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1136103206</GUID/>
+	<Type>Generic</Type/>
+	<Next>1392624670</Next/>
+	<gameObject>437168276</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>733126179</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (1)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1424326911</Component0/>
+	<Component1>1392624670</Component1/>
+GameObject/>
+Transform<
+	<GUID>1424326911</GUID/>
+	<Type>Transform</Type/>
+	<Position>-18.96,0,-64.08</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1192211745</Parent/>
+	<gameObject>733126179</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1392624670</GUID/>
+	<Type>Generic</Type/>
+	<Next>439662219</Next/>
+	<gameObject>733126179</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>74224804</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (2)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>628018491</Component0/>
+	<Component1>439662219</Component1/>
+GameObject/>
+Transform<
+	<GUID>628018491</GUID/>
+	<Type>Transform</Type/>
+	<Position>-27.16,0,-52.78</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1192211745</Parent/>
+	<gameObject>74224804</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>439662219</GUID/>
+	<Type>Generic</Type/>
+	<Next>1637285551</Next/>
+	<gameObject>74224804</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>1663980543</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (3)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1206693868</Component0/>
+	<Component1>1637285551</Component1/>
+GameObject/>
+Transform<
+	<GUID>1206693868</GUID/>
+	<Type>Transform</Type/>
+	<Position>-33.95,0,-37.76</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1192211745</Parent/>
+	<gameObject>1663980543</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1637285551</GUID/>
+	<Type>Generic</Type/>
+	<Next>2017627872</Next/>
+	<gameObject>1663980543</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>736405897</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (4)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>350723614</Component0/>
+	<Component1>2017627872</Component1/>
+GameObject/>
+Transform<
+	<GUID>350723614</GUID/>
+	<Type>Transform</Type/>
+	<Position>-34.84,0,-26.45</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1192211745</Parent/>
+	<gameObject>736405897</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>2017627872</GUID/>
+	<Type>Generic</Type/>
+	<Next>752851108</Next/>
+	<gameObject>736405897</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>792688403</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (5)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1828778883</Component0/>
+	<Component1>752851108</Component1/>
+GameObject/>
+Transform<
+	<GUID>1828778883</GUID/>
+	<Type>Transform</Type/>
+	<Position>-34.64,0,-18.36</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1192211745</Parent/>
+	<gameObject>792688403</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>752851108</GUID/>
+	<Type>Generic</Type/>
+	<Next>1969043127</Next/>
+	<gameObject>792688403</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>674789728</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (6)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>2013081834</Component0/>
+	<Component1>1969043127</Component1/>
+GameObject/>
+Transform<
+	<GUID>2013081834</GUID/>
+	<Type>Transform</Type/>
+	<Position>-39.59,0,-3.05</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1192211745</Parent/>
+	<gameObject>674789728</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1969043127</GUID/>
+	<Type>Generic</Type/>
+	<Next>391880615</Next/>
+	<gameObject>674789728</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>172421825</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (7)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1278966004</Component0/>
+	<Component1>391880615</Component1/>
+GameObject/>
+Transform<
+	<GUID>1278966004</GUID/>
+	<Type>Transform</Type/>
+	<Position>-35.26,0,17.26</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1192211745</Parent/>
+	<gameObject>172421825</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>391880615</GUID/>
+	<Type>Generic</Type/>
+	<Next>1647514638</Next/>
+	<gameObject>172421825</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>227834075</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (8)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1763485125</Component0/>
+	<Component1>1647514638</Component1/>
+GameObject/>
+Transform<
+	<GUID>1763485125</GUID/>
+	<Type>Transform</Type/>
+	<Position>-34.87,0,23.85</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1192211745</Parent/>
+	<gameObject>227834075</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1647514638</GUID/>
+	<Type>Generic</Type/>
+	<Next>1458831907</Next/>
+	<gameObject>227834075</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>1064715003</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (9)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>753246431</Component0/>
+	<Component1>1458831907</Component1/>
+GameObject/>
+Transform<
+	<GUID>753246431</GUID/>
+	<Type>Transform</Type/>
+	<Position>-33.74,0,40.88</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1192211745</Parent/>
+	<gameObject>1064715003</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1458831907</GUID/>
+	<Type>Generic</Type/>
+	<Next>1383541008</Next/>
+	<gameObject>1064715003</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>549672664</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (10)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1126081025</Component0/>
+	<Component1>1383541008</Component1/>
+GameObject/>
+Transform<
+	<GUID>1126081025</GUID/>
+	<Type>Transform</Type/>
+	<Position>-21.43,0,62.22</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1192211745</Parent/>
+	<gameObject>549672664</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1383541008</GUID/>
+	<Type>Generic</Type/>
+	<Next>407637765</Next/>
+	<gameObject>549672664</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>77130159</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (11)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1740411277</Component0/>
+	<Component1>407637765</Component1/>
+GameObject/>
+Transform<
+	<GUID>1740411277</GUID/>
+	<Type>Transform</Type/>
+	<Position>-16.63,0,70.81</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1192211745</Parent/>
+	<gameObject>77130159</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>407637765</GUID/>
+	<Type>Generic</Type/>
+	<Next>335720564</Next/>
+	<gameObject>77130159</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>1273666619</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (12)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1973469574</Component0/>
+	<Component1>335720564</Component1/>
+GameObject/>
+Transform<
+	<GUID>1973469574</GUID/>
+	<Type>Transform</Type/>
+	<Position>-11.18,0,77.37</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1192211745</Parent/>
+	<gameObject>1273666619</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>335720564</GUID/>
+	<Type>Generic</Type/>
+	<Next>1758429206</Next/>
+	<gameObject>1273666619</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>1422510519</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (13)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>215301644</Component0/>
+	<Component1>1758429206</Component1/>
+GameObject/>
+Transform<
+	<GUID>215301644</GUID/>
+	<Type>Transform</Type/>
+	<Position>-5.19,0,78.51</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1192211745</Parent/>
+	<gameObject>1422510519</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1758429206</GUID/>
+	<Type>Generic</Type/>
+	<Next>891320275</Next/>
+	<gameObject>1422510519</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>1778742237</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (14)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1946642784</Component0/>
+	<Component1>891320275</Component1/>
+GameObject/>
+Transform<
+	<GUID>1946642784</GUID/>
+	<Type>Transform</Type/>
+	<Position>0.6,0,77.78</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1192211745</Parent/>
+	<gameObject>1778742237</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>891320275</GUID/>
+	<Type>Generic</Type/>
+	<Next>0</Next/>
+	<gameObject>1778742237</gameObject/>
+Waypoint/>
+Transform<
+	<GUID>126934106</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,0,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>15</ChildCount/>
+	<Child0>2083773832</Child0/>
+	<Child1>1444808221</Child1/>
+	<Child2>616730795</Child2/>
+	<Child3>487809603</Child3/>
+	<Child4>822002810</Child4/>
+	<Child5>1726468191</Child5/>
+	<Child6>475228721</Child6/>
+	<Child7>1133073345</Child7/>
+	<Child8>686817544</Child8/>
+	<Child9>1004134473</Child9/>
+	<Child10>33269143</Child10/>
+	<Child11>124286866</Child11/>
+	<Child12>2010163293</Child12/>
+	<Child13>2061434842</Child13/>
+	<Child14>1222868049</Child14/>
+	<Parent>515973633</Parent/>
+	<gameObject>1389285389</gameObject/>
+Transform/>
+GameObject<
+	<GUID>1389285389</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Blue Waypoints Left (1)</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>126934106</Component0/>
+GameObject/>
+GameObject<
+	<GUID>445997776</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>2083773832</Component0/>
+	<Component1>969490646</Component1/>
+GameObject/>
+Transform<
+	<GUID>2083773832</GUID/>
+	<Type>Transform</Type/>
+	<Position>14.69,0,-73.41</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>126934106</Parent/>
+	<gameObject>445997776</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>969490646</GUID/>
+	<Type>Generic</Type/>
+	<Next>801220744</Next/>
+	<gameObject>445997776</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>892260141</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (1)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1444808221</Component0/>
+	<Component1>801220744</Component1/>
+GameObject/>
+Transform<
+	<GUID>1444808221</GUID/>
+	<Type>Transform</Type/>
+	<Position>19.83,0,-64.02</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>126934106</Parent/>
+	<gameObject>892260141</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>801220744</GUID/>
+	<Type>Generic</Type/>
+	<Next>938518532</Next/>
+	<gameObject>892260141</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>1143126654</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (2)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>616730795</Component0/>
+	<Component1>938518532</Component1/>
+GameObject/>
+Transform<
+	<GUID>616730795</GUID/>
+	<Type>Transform</Type/>
+	<Position>29.2,0,-52.64</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>126934106</Parent/>
+	<gameObject>1143126654</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>938518532</GUID/>
+	<Type>Generic</Type/>
+	<Next>503766846</Next/>
+	<gameObject>1143126654</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>402524305</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (3)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>487809603</Component0/>
+	<Component1>503766846</Component1/>
+GameObject/>
+Transform<
+	<GUID>487809603</GUID/>
+	<Type>Transform</Type/>
+	<Position>32.41,0,-37.76</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>126934106</Parent/>
+	<gameObject>402524305</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>503766846</GUID/>
+	<Type>Generic</Type/>
+	<Next>1928137008</Next/>
+	<gameObject>402524305</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>302918522</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (4)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>822002810</Component0/>
+	<Component1>1928137008</Component1/>
+GameObject/>
+Transform<
+	<GUID>822002810</GUID/>
+	<Type>Transform</Type/>
+	<Position>34.05,0,-26.45</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>126934106</Parent/>
+	<gameObject>302918522</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1928137008</GUID/>
+	<Type>Generic</Type/>
+	<Next>1004188215</Next/>
+	<gameObject>302918522</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>1617859661</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (5)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1726468191</Component0/>
+	<Component1>1004188215</Component1/>
+GameObject/>
+Transform<
+	<GUID>1726468191</GUID/>
+	<Type>Transform</Type/>
+	<Position>35.11,0,-18.36</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>126934106</Parent/>
+	<gameObject>1617859661</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1004188215</GUID/>
+	<Type>Generic</Type/>
+	<Next>2011672468</Next/>
+	<gameObject>1617859661</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>708503678</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (6)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>475228721</Component0/>
+	<Component1>2011672468</Component1/>
+GameObject/>
+Transform<
+	<GUID>475228721</GUID/>
+	<Type>Transform</Type/>
+	<Position>39.96,0,-3.05</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>126934106</Parent/>
+	<gameObject>708503678</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>2011672468</GUID/>
+	<Type>Generic</Type/>
+	<Next>87402945</Next/>
+	<gameObject>708503678</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>1862010769</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (7)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1133073345</Component0/>
+	<Component1>87402945</Component1/>
+GameObject/>
+Transform<
+	<GUID>1133073345</GUID/>
+	<Type>Transform</Type/>
+	<Position>34.42,0,17.26</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>126934106</Parent/>
+	<gameObject>1862010769</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>87402945</GUID/>
+	<Type>Generic</Type/>
+	<Next>756502947</Next/>
+	<gameObject>1862010769</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>370500371</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (8)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>686817544</Component0/>
+	<Component1>756502947</Component1/>
+GameObject/>
+Transform<
+	<GUID>686817544</GUID/>
+	<Type>Transform</Type/>
+	<Position>34.36,0,23.85</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>126934106</Parent/>
+	<gameObject>370500371</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>756502947</GUID/>
+	<Type>Generic</Type/>
+	<Next>1891033471</Next/>
+	<gameObject>370500371</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>1923029076</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (9)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1004134473</Component0/>
+	<Component1>1891033471</Component1/>
+GameObject/>
+Transform<
+	<GUID>1004134473</GUID/>
+	<Type>Transform</Type/>
+	<Position>33.16,0,40.88</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>126934106</Parent/>
+	<gameObject>1923029076</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1891033471</GUID/>
+	<Type>Generic</Type/>
+	<Next>1709408409</Next/>
+	<gameObject>1923029076</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>1317592913</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (10)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>33269143</Component0/>
+	<Component1>1709408409</Component1/>
+GameObject/>
+Transform<
+	<GUID>33269143</GUID/>
+	<Type>Transform</Type/>
+	<Position>20.92,0,61.34</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>126934106</Parent/>
+	<gameObject>1317592913</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1709408409</GUID/>
+	<Type>Generic</Type/>
+	<Next>2036922100</Next/>
+	<gameObject>1317592913</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>486307245</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (11)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>124286866</Component0/>
+	<Component1>2036922100</Component1/>
+GameObject/>
+Transform<
+	<GUID>124286866</GUID/>
+	<Type>Transform</Type/>
+	<Position>14.97,0,70.81</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>126934106</Parent/>
+	<gameObject>486307245</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>2036922100</GUID/>
+	<Type>Generic</Type/>
+	<Next>1557215050</Next/>
+	<gameObject>486307245</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>1712873453</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (12)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>2010163293</Component0/>
+	<Component1>1557215050</Component1/>
+GameObject/>
+Transform<
+	<GUID>2010163293</GUID/>
+	<Type>Transform</Type/>
+	<Position>11.68,0,77.37</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>126934106</Parent/>
+	<gameObject>1712873453</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1557215050</GUID/>
+	<Type>Generic</Type/>
+	<Next>314673352</Next/>
+	<gameObject>1712873453</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>293812304</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (13)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>2061434842</Component0/>
+	<Component1>314673352</Component1/>
+GameObject/>
+Transform<
+	<GUID>2061434842</GUID/>
+	<Type>Transform</Type/>
+	<Position>7.14,0,80.33</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>126934106</Parent/>
+	<gameObject>293812304</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>314673352</GUID/>
+	<Type>Generic</Type/>
+	<Next>1051426590</Next/>
+	<gameObject>293812304</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>544724947</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (14)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1222868049</Component0/>
+	<Component1>1051426590</Component1/>
+GameObject/>
+Transform<
+	<GUID>1222868049</GUID/>
+	<Type>Transform</Type/>
+	<Position>1.87,0,78.42</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>126934106</Parent/>
+	<gameObject>544724947</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1051426590</GUID/>
+	<Type>Generic</Type/>
+	<Next>0</Next/>
+	<gameObject>544724947</gameObject/>
+Waypoint/>
+Transform<
+	<GUID>1915930727</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,0,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>15</ChildCount/>
+	<Child0>1322775334</Child0/>
+	<Child1>1925424299</Child1/>
+	<Child2>1369048963</Child2/>
+	<Child3>1644075538</Child3/>
+	<Child4>746187260</Child4/>
+	<Child5>1866379112</Child5/>
+	<Child6>1867072165</Child6/>
+	<Child7>495858105</Child7/>
+	<Child8>225171408</Child8/>
+	<Child9>1697960288</Child9/>
+	<Child10>162236213</Child10/>
+	<Child11>525424501</Child11/>
+	<Child12>1822029582</Child12/>
+	<Child13>1669405043</Child13/>
+	<Child14>361140166</Child14/>
+	<Parent>515973633</Parent/>
+	<gameObject>425262617</gameObject/>
+Transform/>
+GameObject<
+	<GUID>425262617</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Blue Waypoints Right (1)</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1915930727</Component0/>
+GameObject/>
+GameObject<
+	<GUID>400174455</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1322775334</Component0/>
+	<Component1>206266246</Component1/>
+GameObject/>
+Transform<
+	<GUID>1322775334</GUID/>
+	<Type>Transform</Type/>
+	<Position>22,0,-73.19</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1915930727</Parent/>
+	<gameObject>400174455</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>206266246</GUID/>
+	<Type>Generic</Type/>
+	<Next>344116466</Next/>
+	<gameObject>400174455</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>1713179378</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (1)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1925424299</Component0/>
+	<Component1>344116466</Component1/>
+GameObject/>
+Transform<
+	<GUID>1925424299</GUID/>
+	<Type>Transform</Type/>
+	<Position>26.5,0,-64.08</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1915930727</Parent/>
+	<gameObject>1713179378</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>344116466</GUID/>
+	<Type>Generic</Type/>
+	<Next>970321131</Next/>
+	<gameObject>1713179378</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>193632285</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (2)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1369048963</Component0/>
+	<Component1>970321131</Component1/>
+GameObject/>
+Transform<
+	<GUID>1369048963</GUID/>
+	<Type>Transform</Type/>
+	<Position>34,0,-52.64</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1915930727</Parent/>
+	<gameObject>193632285</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>970321131</GUID/>
+	<Type>Generic</Type/>
+	<Next>208367312</Next/>
+	<gameObject>193632285</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>1938185999</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (3)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1644075538</Component0/>
+	<Component1>208367312</Component1/>
+GameObject/>
+Transform<
+	<GUID>1644075538</GUID/>
+	<Type>Transform</Type/>
+	<Position>39.9,0,-37.76</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1915930727</Parent/>
+	<gameObject>1938185999</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>208367312</GUID/>
+	<Type>Generic</Type/>
+	<Next>1269406362</Next/>
+	<gameObject>1938185999</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>796164257</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (4)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>746187260</Component0/>
+	<Component1>1269406362</Component1/>
+GameObject/>
+Transform<
+	<GUID>746187260</GUID/>
+	<Type>Transform</Type/>
+	<Position>39.4,0,-26.45</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1915930727</Parent/>
+	<gameObject>796164257</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1269406362</GUID/>
+	<Type>Generic</Type/>
+	<Next>1183258143</Next/>
+	<gameObject>796164257</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>926350192</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (5)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1866379112</Component0/>
+	<Component1>1183258143</Component1/>
+GameObject/>
+Transform<
+	<GUID>1866379112</GUID/>
+	<Type>Transform</Type/>
+	<Position>40.1,0,-18.36</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1915930727</Parent/>
+	<gameObject>926350192</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1183258143</GUID/>
+	<Type>Generic</Type/>
+	<Next>1404815505</Next/>
+	<gameObject>926350192</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>1450296355</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (6)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1867072165</Component0/>
+	<Component1>1404815505</Component1/>
+GameObject/>
+Transform<
+	<GUID>1867072165</GUID/>
+	<Type>Transform</Type/>
+	<Position>45.6,0,-3.05</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1915930727</Parent/>
+	<gameObject>1450296355</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1404815505</GUID/>
+	<Type>Generic</Type/>
+	<Next>1340555159</Next/>
+	<gameObject>1450296355</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>372595890</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (7)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>495858105</Component0/>
+	<Component1>1340555159</Component1/>
+GameObject/>
+Transform<
+	<GUID>495858105</GUID/>
+	<Type>Transform</Type/>
+	<Position>40.7,0,17.26</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1915930727</Parent/>
+	<gameObject>372595890</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1340555159</GUID/>
+	<Type>Generic</Type/>
+	<Next>1186333544</Next/>
+	<gameObject>372595890</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>1341803766</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (8)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>225171408</Component0/>
+	<Component1>1186333544</Component1/>
+GameObject/>
+Transform<
+	<GUID>225171408</GUID/>
+	<Type>Transform</Type/>
+	<Position>40,0,23.85</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1915930727</Parent/>
+	<gameObject>1341803766</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1186333544</GUID/>
+	<Type>Generic</Type/>
+	<Next>1127715118</Next/>
+	<gameObject>1341803766</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>726041270</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (9)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1697960288</Component0/>
+	<Component1>1127715118</Component1/>
+GameObject/>
+Transform<
+	<GUID>1697960288</GUID/>
+	<Type>Transform</Type/>
+	<Position>40.8,0,40.88</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1915930727</Parent/>
+	<gameObject>726041270</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1127715118</GUID/>
+	<Type>Generic</Type/>
+	<Next>294049763</Next/>
+	<gameObject>726041270</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>1422776058</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (10)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>162236213</Component0/>
+	<Component1>294049763</Component1/>
+GameObject/>
+Transform<
+	<GUID>162236213</GUID/>
+	<Type>Transform</Type/>
+	<Position>25.8,0,62.22</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1915930727</Parent/>
+	<gameObject>1422776058</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>294049763</GUID/>
+	<Type>Generic</Type/>
+	<Next>98948179</Next/>
+	<gameObject>1422776058</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>136810743</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (11)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>525424501</Component0/>
+	<Component1>98948179</Component1/>
+GameObject/>
+Transform<
+	<GUID>525424501</GUID/>
+	<Type>Transform</Type/>
+	<Position>21.2,0,70.81</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1915930727</Parent/>
+	<gameObject>136810743</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>98948179</GUID/>
+	<Type>Generic</Type/>
+	<Next>606898874</Next/>
+	<gameObject>136810743</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>301579798</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (12)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1822029582</Component0/>
+	<Component1>606898874</Component1/>
+GameObject/>
+Transform<
+	<GUID>1822029582</GUID/>
+	<Type>Transform</Type/>
+	<Position>17,0,77.37</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1915930727</Parent/>
+	<gameObject>301579798</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>606898874</GUID/>
+	<Type>Generic</Type/>
+	<Next>345893173</Next/>
+	<gameObject>301579798</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>722101768</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (13)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1669405043</Component0/>
+	<Component1>345893173</Component1/>
+GameObject/>
+Transform<
+	<GUID>1669405043</GUID/>
+	<Type>Transform</Type/>
+	<Position>7.2,0,78.51</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1915930727</Parent/>
+	<gameObject>722101768</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>345893173</GUID/>
+	<Type>Generic</Type/>
+	<Next>1486577312</Next/>
+	<gameObject>722101768</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>821825954</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (14)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>361140166</Component0/>
+	<Component1>1486577312</Component1/>
+GameObject/>
+Transform<
+	<GUID>361140166</GUID/>
+	<Type>Transform</Type/>
+	<Position>0.9,0,77.78</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1915930727</Parent/>
+	<gameObject>821825954</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1486577312</GUID/>
+	<Type>Generic</Type/>
+	<Next>0</Next/>
+	<gameObject>821825954</gameObject/>
+Waypoint/>
+Transform<
+	<GUID>314425601</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,0,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>15</ChildCount/>
+	<Child0>1866313395</Child0/>
+	<Child1>1933423348</Child1/>
+	<Child2>1006641496</Child2/>
+	<Child3>1375666496</Child3/>
+	<Child4>151131215</Child4/>
+	<Child5>2003766220</Child5/>
+	<Child6>594128457</Child6/>
+	<Child7>1224851659</Child7/>
+	<Child8>1578865279</Child8/>
+	<Child9>1639813341</Child9/>
+	<Child10>662835731</Child10/>
+	<Child11>1024410024</Child11/>
+	<Child12>1960892934</Child12/>
+	<Child13>564203089</Child13/>
+	<Child14>1717614511</Child14/>
+	<Parent>515973633</Parent/>
+	<gameObject>763616499</gameObject/>
+Transform/>
+GameObject<
+	<GUID>763616499</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Red Waypoints Left</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>314425601</Component0/>
+GameObject/>
+GameObject<
+	<GUID>1630343544</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1866313395</Component0/>
+	<Component1>649752127</Component1/>
+GameObject/>
+Transform<
+	<GUID>1866313395</GUID/>
+	<Type>Transform</Type/>
+	<Position>-21.41,0,72.18</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>314425601</Parent/>
+	<gameObject>1630343544</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>649752127</GUID/>
+	<Type>Generic</Type/>
+	<Next>1458898497</Next/>
+	<gameObject>1630343544</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>1023624966</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (1)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1933423348</Component0/>
+	<Component1>1458898497</Component1/>
+GameObject/>
+Transform<
+	<GUID>1933423348</GUID/>
+	<Type>Transform</Type/>
+	<Position>-26.49998,0,64.08001</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>314425601</Parent/>
+	<gameObject>1023624966</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1458898497</GUID/>
+	<Type>Generic</Type/>
+	<Next>858887986</Next/>
+	<gameObject>1023624966</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>298200016</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (2)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1006641496</Component0/>
+	<Component1>858887986</Component1/>
+GameObject/>
+Transform<
+	<GUID>1006641496</GUID/>
+	<Type>Transform</Type/>
+	<Position>-33.99998,0,52.64001</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>314425601</Parent/>
+	<gameObject>298200016</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>858887986</GUID/>
+	<Type>Generic</Type/>
+	<Next>536862715</Next/>
+	<gameObject>298200016</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>2114101592</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (3)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1375666496</Component0/>
+	<Component1>536862715</Component1/>
+GameObject/>
+Transform<
+	<GUID>1375666496</GUID/>
+	<Type>Transform</Type/>
+	<Position>-40.43,0,39.71</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>314425601</Parent/>
+	<gameObject>2114101592</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>536862715</GUID/>
+	<Type>Generic</Type/>
+	<Next>1095115553</Next/>
+	<gameObject>2114101592</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>816984984</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (4)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>151131215</Component0/>
+	<Component1>1095115553</Component1/>
+GameObject/>
+Transform<
+	<GUID>151131215</GUID/>
+	<Type>Transform</Type/>
+	<Position>-39.39999,0,26.45001</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>314425601</Parent/>
+	<gameObject>816984984</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1095115553</GUID/>
+	<Type>Generic</Type/>
+	<Next>467469830</Next/>
+	<gameObject>816984984</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>1066986387</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (5)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>2003766220</Component0/>
+	<Component1>467469830</Component1/>
+GameObject/>
+Transform<
+	<GUID>2003766220</GUID/>
+	<Type>Transform</Type/>
+	<Position>-39.12,0,17.81</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>314425601</Parent/>
+	<gameObject>1066986387</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>467469830</GUID/>
+	<Type>Generic</Type/>
+	<Next>1090718053</Next/>
+	<gameObject>1066986387</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>1441683691</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (6)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>594128457</Component0/>
+	<Component1>1090718053</Component1/>
+GameObject/>
+Transform<
+	<GUID>594128457</GUID/>
+	<Type>Transform</Type/>
+	<Position>-45.6,0,3.050015</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>314425601</Parent/>
+	<gameObject>1441683691</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1090718053</GUID/>
+	<Type>Generic</Type/>
+	<Next>1717624858</Next/>
+	<gameObject>1441683691</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>520052214</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (7)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1224851659</Component0/>
+	<Component1>1717624858</Component1/>
+GameObject/>
+Transform<
+	<GUID>1224851659</GUID/>
+	<Type>Transform</Type/>
+	<Position>-41.58,0,-15.43</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>314425601</Parent/>
+	<gameObject>520052214</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1717624858</GUID/>
+	<Type>Generic</Type/>
+	<Next>1659640152</Next/>
+	<gameObject>520052214</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>968842460</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (8)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1578865279</Component0/>
+	<Component1>1659640152</Component1/>
+GameObject/>
+Transform<
+	<GUID>1578865279</GUID/>
+	<Type>Transform</Type/>
+	<Position>-40,0,-23.84999</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>314425601</Parent/>
+	<gameObject>968842460</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1659640152</GUID/>
+	<Type>Generic</Type/>
+	<Next>1699388285</Next/>
+	<gameObject>968842460</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>2147432221</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (9)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1639813341</Component0/>
+	<Component1>1699388285</Component1/>
+GameObject/>
+Transform<
+	<GUID>1639813341</GUID/>
+	<Type>Transform</Type/>
+	<Position>-37.81,0,-40.54</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>314425601</Parent/>
+	<gameObject>2147432221</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1699388285</GUID/>
+	<Type>Generic</Type/>
+	<Next>283771520</Next/>
+	<gameObject>2147432221</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>707848370</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (10)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>662835731</Component0/>
+	<Component1>283771520</Component1/>
+GameObject/>
+Transform<
+	<GUID>662835731</GUID/>
+	<Type>Transform</Type/>
+	<Position>-25.80002,0,-62.21999</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>314425601</Parent/>
+	<gameObject>707848370</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>283771520</GUID/>
+	<Type>Generic</Type/>
+	<Next>1013058657</Next/>
+	<gameObject>707848370</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>1039427037</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (11)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1024410024</Component0/>
+	<Component1>1013058657</Component1/>
+GameObject/>
+Transform<
+	<GUID>1024410024</GUID/>
+	<Type>Transform</Type/>
+	<Position>-21.20002,0,-70.80999</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>314425601</Parent/>
+	<gameObject>1039427037</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1013058657</GUID/>
+	<Type>Generic</Type/>
+	<Next>451576695</Next/>
+	<gameObject>1039427037</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>318732207</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (12)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1960892934</Component0/>
+	<Component1>451576695</Component1/>
+GameObject/>
+Transform<
+	<GUID>1960892934</GUID/>
+	<Type>Transform</Type/>
+	<Position>-17.00002,0,-77.37</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>314425601</Parent/>
+	<gameObject>318732207</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>451576695</GUID/>
+	<Type>Generic</Type/>
+	<Next>1983195406</Next/>
+	<gameObject>318732207</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>864115636</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (13)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>564203089</Component0/>
+	<Component1>1983195406</Component1/>
+GameObject/>
+Transform<
+	<GUID>564203089</GUID/>
+	<Type>Transform</Type/>
+	<Position>-7.200026,0,-78.51</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>314425601</Parent/>
+	<gameObject>864115636</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1983195406</GUID/>
+	<Type>Generic</Type/>
+	<Next>1768728952</Next/>
+	<gameObject>864115636</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>1513948450</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (14)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1717614511</Component0/>
+	<Component1>1768728952</Component1/>
+GameObject/>
+Transform<
+	<GUID>1717614511</GUID/>
+	<Type>Transform</Type/>
+	<Position>-0.9000253,0,-77.78</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>314425601</Parent/>
+	<gameObject>1513948450</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1768728952</GUID/>
+	<Type>Generic</Type/>
+	<Next>0</Next/>
+	<gameObject>1513948450</gameObject/>
+Waypoint/>
+Transform<
+	<GUID>928452455</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,0,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>15</ChildCount/>
+	<Child0>291581892</Child0/>
+	<Child1>989000738</Child1/>
+	<Child2>1635215939</Child2/>
+	<Child3>305494145</Child3/>
+	<Child4>757836518</Child4/>
+	<Child5>1140503054</Child5/>
+	<Child6>360634828</Child6/>
+	<Child7>636862712</Child7/>
+	<Child8>5570139</Child8/>
+	<Child9>743783071</Child9/>
+	<Child10>538095395</Child10/>
+	<Child11>150495871</Child11/>
+	<Child12>1911645104</Child12/>
+	<Child13>318096443</Child13/>
+	<Child14>1630620426</Child14/>
+	<Parent>515973633</Parent/>
+	<gameObject>1977512929</gameObject/>
+Transform/>
+GameObject<
+	<GUID>1977512929</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Red Waypoints Right</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>928452455</Component0/>
+GameObject/>
+GameObject<
+	<GUID>1326942459</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>291581892</Component0/>
+	<Component1>241536161</Component1/>
+GameObject/>
+Transform<
+	<GUID>291581892</GUID/>
+	<Type>Transform</Type/>
+	<Position>-14.68998,0,73.41001</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>928452455</Parent/>
+	<gameObject>1326942459</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>241536161</GUID/>
+	<Type>Generic</Type/>
+	<Next>271481240</Next/>
+	<gameObject>1326942459</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>686871157</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (1)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>989000738</Component0/>
+	<Component1>271481240</Component1/>
+GameObject/>
+Transform<
+	<GUID>989000738</GUID/>
+	<Type>Transform</Type/>
+	<Position>-18.34998,0,64.08001</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>928452455</Parent/>
+	<gameObject>686871157</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>271481240</GUID/>
+	<Type>Generic</Type/>
+	<Next>1450937839</Next/>
+	<gameObject>686871157</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>268052455</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (2)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1635215939</Component0/>
+	<Component1>1450937839</Component1/>
+GameObject/>
+Transform<
+	<GUID>1635215939</GUID/>
+	<Type>Transform</Type/>
+	<Position>-28.95,0,52.64001</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>928452455</Parent/>
+	<gameObject>268052455</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1450937839</GUID/>
+	<Type>Generic</Type/>
+	<Next>932497819</Next/>
+	<gameObject>268052455</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>203529730</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (3)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>305494145</Component0/>
+	<Component1>932497819</Component1/>
+GameObject/>
+Transform<
+	<GUID>305494145</GUID/>
+	<Type>Transform</Type/>
+	<Position>-36.52,0,41.62</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>928452455</Parent/>
+	<gameObject>203529730</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>932497819</GUID/>
+	<Type>Generic</Type/>
+	<Next>1538393906</Next/>
+	<gameObject>203529730</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>896075841</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (4)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>757836518</Component0/>
+	<Component1>1538393906</Component1/>
+GameObject/>
+Transform<
+	<GUID>757836518</GUID/>
+	<Type>Transform</Type/>
+	<Position>-32.2,0,32.57</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>928452455</Parent/>
+	<gameObject>896075841</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1538393906</GUID/>
+	<Type>Generic</Type/>
+	<Next>1023423909</Next/>
+	<gameObject>896075841</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>513272065</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (5)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1140503054</Component0/>
+	<Component1>1023423909</Component1/>
+GameObject/>
+Transform<
+	<GUID>1140503054</GUID/>
+	<Type>Transform</Type/>
+	<Position>-36.08,0,24</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>928452455</Parent/>
+	<gameObject>513272065</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1023423909</GUID/>
+	<Type>Generic</Type/>
+	<Next>731081416</Next/>
+	<gameObject>513272065</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>1161982143</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (6)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>360634828</Component0/>
+	<Component1>731081416</Component1/>
+GameObject/>
+Transform<
+	<GUID>360634828</GUID/>
+	<Type>Transform</Type/>
+	<Position>-42.51,0,1.18</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>928452455</Parent/>
+	<gameObject>1161982143</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>731081416</GUID/>
+	<Type>Generic</Type/>
+	<Next>1791405107</Next/>
+	<gameObject>1161982143</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>2007683157</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (7)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>636862712</Component0/>
+	<Component1>1791405107</Component1/>
+GameObject/>
+Transform<
+	<GUID>636862712</GUID/>
+	<Type>Transform</Type/>
+	<Position>-38.86,0,-9.25</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>928452455</Parent/>
+	<gameObject>2007683157</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1791405107</GUID/>
+	<Type>Generic</Type/>
+	<Next>1209965821</Next/>
+	<gameObject>2007683157</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>1685866730</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (8)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>5570139</Component0/>
+	<Component1>1209965821</Component1/>
+GameObject/>
+Transform<
+	<GUID>5570139</GUID/>
+	<Type>Transform</Type/>
+	<Position>-31.62,0,-15.62</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>928452455</Parent/>
+	<gameObject>1685866730</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1209965821</GUID/>
+	<Type>Generic</Type/>
+	<Next>1273130635</Next/>
+	<gameObject>1685866730</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>1048151935</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (9)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>743783071</Component0/>
+	<Component1>1273130635</Component1/>
+GameObject/>
+Transform<
+	<GUID>743783071</GUID/>
+	<Type>Transform</Type/>
+	<Position>-36.07,0,-25.67</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>928452455</Parent/>
+	<gameObject>1048151935</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1273130635</GUID/>
+	<Type>Generic</Type/>
+	<Next>554172685</Next/>
+	<gameObject>1048151935</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>1213994575</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (10)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>538095395</Component0/>
+	<Component1>554172685</Component1/>
+GameObject/>
+Transform<
+	<GUID>538095395</GUID/>
+	<Type>Transform</Type/>
+	<Position>-24.9,0,-56.6</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>928452455</Parent/>
+	<gameObject>1213994575</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>554172685</GUID/>
+	<Type>Generic</Type/>
+	<Next>1731800694</Next/>
+	<gameObject>1213994575</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>591156966</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (11)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>150495871</Component0/>
+	<Component1>1731800694</Component1/>
+GameObject/>
+Transform<
+	<GUID>150495871</GUID/>
+	<Type>Transform</Type/>
+	<Position>-14.1,0,-70.3</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>928452455</Parent/>
+	<gameObject>591156966</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1731800694</GUID/>
+	<Type>Generic</Type/>
+	<Next>1130782320</Next/>
+	<gameObject>591156966</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>219793048</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (12)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1911645104</Component0/>
+	<Component1>1130782320</Component1/>
+GameObject/>
+Transform<
+	<GUID>1911645104</GUID/>
+	<Type>Transform</Type/>
+	<Position>-11.68003,0,-77.37</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>928452455</Parent/>
+	<gameObject>219793048</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1130782320</GUID/>
+	<Type>Generic</Type/>
+	<Next>791091113</Next/>
+	<gameObject>219793048</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>1520945809</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (13)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>318096443</Component0/>
+	<Component1>791091113</Component1/>
+GameObject/>
+Transform<
+	<GUID>318096443</GUID/>
+	<Type>Transform</Type/>
+	<Position>-7.140026,0,-80.33</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>928452455</Parent/>
+	<gameObject>1520945809</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>791091113</GUID/>
+	<Type>Generic</Type/>
+	<Next>1507426711</Next/>
+	<gameObject>1520945809</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>281731202</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (14)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1630620426</Component0/>
+	<Component1>1507426711</Component1/>
+GameObject/>
+Transform<
+	<GUID>1630620426</GUID/>
+	<Type>Transform</Type/>
+	<Position>-1.870026,0,-78.42</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>928452455</Parent/>
+	<gameObject>281731202</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1507426711</GUID/>
+	<Type>Generic</Type/>
+	<Next>0</Next/>
+	<gameObject>281731202</gameObject/>
+Waypoint/>
+Transform<
+	<GUID>675531016</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,0,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>15</ChildCount/>
+	<Child0>598081903</Child0/>
+	<Child1>1609030226</Child1/>
+	<Child2>1093209453</Child2/>
+	<Child3>458228156</Child3/>
+	<Child4>1544452593</Child4/>
+	<Child5>2109678636</Child5/>
+	<Child6>714668334</Child6/>
+	<Child7>892816751</Child7/>
+	<Child8>1855815880</Child8/>
+	<Child9>601957143</Child9/>
+	<Child10>1294104392</Child10/>
+	<Child11>1669165081</Child11/>
+	<Child12>692278256</Child12/>
+	<Child13>178875986</Child13/>
+	<Child14>1964251009</Child14/>
+	<Parent>515973633</Parent/>
+	<gameObject>1903806020</gameObject/>
+Transform/>
+GameObject<
+	<GUID>1903806020</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Red Waypoints Left (1)</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>675531016</Component0/>
+GameObject/>
+GameObject<
+	<GUID>118324187</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>598081903</Component0/>
+	<Component1>1345461405</Component1/>
+GameObject/>
+Transform<
+	<GUID>598081903</GUID/>
+	<Type>Transform</Type/>
+	<Position>14.52002,0,73.18999</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>675531016</Parent/>
+	<gameObject>118324187</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1345461405</GUID/>
+	<Type>Generic</Type/>
+	<Next>550925550</Next/>
+	<gameObject>118324187</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>1071614834</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (1)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1609030226</Component0/>
+	<Component1>550925550</Component1/>
+GameObject/>
+Transform<
+	<GUID>1609030226</GUID/>
+	<Type>Transform</Type/>
+	<Position>18.96002,0,64.07999</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>675531016</Parent/>
+	<gameObject>1071614834</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>550925550</GUID/>
+	<Type>Generic</Type/>
+	<Next>634333412</Next/>
+	<gameObject>1071614834</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>1596073499</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (2)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1093209453</Component0/>
+	<Component1>634333412</Component1/>
+GameObject/>
+Transform<
+	<GUID>1093209453</GUID/>
+	<Type>Transform</Type/>
+	<Position>27.88,0,53.04</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>675531016</Parent/>
+	<gameObject>1596073499</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>634333412</GUID/>
+	<Type>Generic</Type/>
+	<Next>973902290</Next/>
+	<gameObject>1596073499</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>686087012</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (3)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>458228156</Component0/>
+	<Component1>973902290</Component1/>
+GameObject/>
+Transform<
+	<GUID>458228156</GUID/>
+	<Type>Transform</Type/>
+	<Position>33.95001,0,37.75999</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>675531016</Parent/>
+	<gameObject>686087012</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>973902290</GUID/>
+	<Type>Generic</Type/>
+	<Next>430228374</Next/>
+	<gameObject>686087012</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>524738221</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (4)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1544452593</Component0/>
+	<Component1>430228374</Component1/>
+GameObject/>
+Transform<
+	<GUID>1544452593</GUID/>
+	<Type>Transform</Type/>
+	<Position>34.84001,0,26.44999</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>675531016</Parent/>
+	<gameObject>524738221</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>430228374</GUID/>
+	<Type>Generic</Type/>
+	<Next>1298066144</Next/>
+	<gameObject>524738221</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>144956330</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (5)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>2109678636</Component0/>
+	<Component1>1298066144</Component1/>
+GameObject/>
+Transform<
+	<GUID>2109678636</GUID/>
+	<Type>Transform</Type/>
+	<Position>34.64001,0,18.35999</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>675531016</Parent/>
+	<gameObject>144956330</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1298066144</GUID/>
+	<Type>Generic</Type/>
+	<Next>1255628714</Next/>
+	<gameObject>144956330</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>1879286192</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (6)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>714668334</Component0/>
+	<Component1>1255628714</Component1/>
+GameObject/>
+Transform<
+	<GUID>714668334</GUID/>
+	<Type>Transform</Type/>
+	<Position>39.59,0,3.049987</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>675531016</Parent/>
+	<gameObject>1879286192</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1255628714</GUID/>
+	<Type>Generic</Type/>
+	<Next>2141161324</Next/>
+	<gameObject>1879286192</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>1702675221</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (7)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>892816751</Component0/>
+	<Component1>2141161324</Component1/>
+GameObject/>
+Transform<
+	<GUID>892816751</GUID/>
+	<Type>Transform</Type/>
+	<Position>35.25999,0,-17.26001</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>675531016</Parent/>
+	<gameObject>1702675221</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>2141161324</GUID/>
+	<Type>Generic</Type/>
+	<Next>1738924997</Next/>
+	<gameObject>1702675221</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>629846861</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (8)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1855815880</Component0/>
+	<Component1>1738924997</Component1/>
+GameObject/>
+Transform<
+	<GUID>1855815880</GUID/>
+	<Type>Transform</Type/>
+	<Position>34.86999,0,-23.85001</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>675531016</Parent/>
+	<gameObject>629846861</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1738924997</GUID/>
+	<Type>Generic</Type/>
+	<Next>1614524821</Next/>
+	<gameObject>629846861</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>1019009781</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (9)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>601957143</Component0/>
+	<Component1>1614524821</Component1/>
+GameObject/>
+Transform<
+	<GUID>601957143</GUID/>
+	<Type>Transform</Type/>
+	<Position>33.73999,0,-40.88001</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>675531016</Parent/>
+	<gameObject>1019009781</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1614524821</GUID/>
+	<Type>Generic</Type/>
+	<Next>1494517490</Next/>
+	<gameObject>1019009781</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>1456489779</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (10)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1294104392</Component0/>
+	<Component1>1494517490</Component1/>
+GameObject/>
+Transform<
+	<GUID>1294104392</GUID/>
+	<Type>Transform</Type/>
+	<Position>21.42998,0,-62.22001</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>675531016</Parent/>
+	<gameObject>1456489779</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1494517490</GUID/>
+	<Type>Generic</Type/>
+	<Next>1679024555</Next/>
+	<gameObject>1456489779</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>222486005</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (11)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1669165081</Component0/>
+	<Component1>1679024555</Component1/>
+GameObject/>
+Transform<
+	<GUID>1669165081</GUID/>
+	<Type>Transform</Type/>
+	<Position>16.62998,0,-70.81001</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>675531016</Parent/>
+	<gameObject>222486005</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1679024555</GUID/>
+	<Type>Generic</Type/>
+	<Next>92915677</Next/>
+	<gameObject>222486005</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>1303171891</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (12)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>692278256</Component0/>
+	<Component1>92915677</Component1/>
+GameObject/>
+Transform<
+	<GUID>692278256</GUID/>
+	<Type>Transform</Type/>
+	<Position>11.17998,0,-77.37</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>675531016</Parent/>
+	<gameObject>1303171891</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>92915677</GUID/>
+	<Type>Generic</Type/>
+	<Next>1657019695</Next/>
+	<gameObject>1303171891</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>452835118</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (13)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>178875986</Component0/>
+	<Component1>1657019695</Component1/>
+GameObject/>
+Transform<
+	<GUID>178875986</GUID/>
+	<Type>Transform</Type/>
+	<Position>5.189974,0,-78.51</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>675531016</Parent/>
+	<gameObject>452835118</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1657019695</GUID/>
+	<Type>Generic</Type/>
+	<Next>1841887172</Next/>
+	<gameObject>452835118</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>262475007</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (14)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1964251009</Component0/>
+	<Component1>1841887172</Component1/>
+GameObject/>
+Transform<
+	<GUID>1964251009</GUID/>
+	<Type>Transform</Type/>
+	<Position>-0.6000254,0,-77.78</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>675531016</Parent/>
+	<gameObject>262475007</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1841887172</GUID/>
+	<Type>Generic</Type/>
+	<Next>0</Next/>
+	<gameObject>262475007</gameObject/>
+Waypoint/>
+Transform<
+	<GUID>1687184422</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,0,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>15</ChildCount/>
+	<Child0>1300096650</Child0/>
+	<Child1>26218264</Child1/>
+	<Child2>2035165462</Child2/>
+	<Child3>643493660</Child3/>
+	<Child4>461542585</Child4/>
+	<Child5>1012479090</Child5/>
+	<Child6>1890308145</Child6/>
+	<Child7>402803523</Child7/>
+	<Child8>538666024</Child8/>
+	<Child9>511624504</Child9/>
+	<Child10>1389679708</Child10/>
+	<Child11>1666179601</Child11/>
+	<Child12>437370513</Child12/>
+	<Child13>385533177</Child13/>
+	<Child14>1897364927</Child14/>
+	<Parent>515973633</Parent/>
+	<gameObject>1694496631</gameObject/>
+Transform/>
+GameObject<
+	<GUID>1694496631</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Red Waypoints Right (1)</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1687184422</Component0/>
+GameObject/>
+GameObject<
+	<GUID>1210770043</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1300096650</Component0/>
+	<Component1>1371248355</Component1/>
+GameObject/>
+Transform<
+	<GUID>1300096650</GUID/>
+	<Type>Transform</Type/>
+	<Position>20.93003,0,73.41</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1687184422</Parent/>
+	<gameObject>1210770043</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1371248355</GUID/>
+	<Type>Generic</Type/>
+	<Next>637355380</Next/>
+	<gameObject>1210770043</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>848458339</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (1)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>26218264</Component0/>
+	<Component1>637355380</Component1/>
+GameObject/>
+Transform<
+	<GUID>26218264</GUID/>
+	<Type>Transform</Type/>
+	<Position>26.73002,0,64.07999</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1687184422</Parent/>
+	<gameObject>848458339</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>637355380</GUID/>
+	<Type>Generic</Type/>
+	<Next>1765354940</Next/>
+	<gameObject>848458339</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>448092812</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (2)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>2035165462</Component0/>
+	<Component1>1765354940</Component1/>
+GameObject/>
+Transform<
+	<GUID>2035165462</GUID/>
+	<Type>Transform</Type/>
+	<Position>33.18002,0,52.63999</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1687184422</Parent/>
+	<gameObject>448092812</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1765354940</GUID/>
+	<Type>Generic</Type/>
+	<Next>22253860</Next/>
+	<gameObject>448092812</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>334613719</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (3)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>643493660</Component0/>
+	<Component1>22253860</Component1/>
+GameObject/>
+Transform<
+	<GUID>643493660</GUID/>
+	<Type>Transform</Type/>
+	<Position>38.38001,0,37.75999</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1687184422</Parent/>
+	<gameObject>334613719</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>22253860</GUID/>
+	<Type>Generic</Type/>
+	<Next>132064383</Next/>
+	<gameObject>334613719</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>552123408</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (4)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>461542585</Component0/>
+	<Component1>132064383</Component1/>
+GameObject/>
+Transform<
+	<GUID>461542585</GUID/>
+	<Type>Transform</Type/>
+	<Position>39.20001,0,26.44999</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1687184422</Parent/>
+	<gameObject>552123408</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>132064383</GUID/>
+	<Type>Generic</Type/>
+	<Next>1238342004</Next/>
+	<gameObject>552123408</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>342600138</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (5)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1012479090</Component0/>
+	<Component1>1238342004</Component1/>
+GameObject/>
+Transform<
+	<GUID>1012479090</GUID/>
+	<Type>Transform</Type/>
+	<Position>39.58001,0,18.35999</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1687184422</Parent/>
+	<gameObject>342600138</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1238342004</GUID/>
+	<Type>Generic</Type/>
+	<Next>681227719</Next/>
+	<gameObject>342600138</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>966258465</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (6)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1890308145</Component0/>
+	<Component1>681227719</Component1/>
+GameObject/>
+Transform<
+	<GUID>1890308145</GUID/>
+	<Type>Transform</Type/>
+	<Position>45.04,0,3.049985</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1687184422</Parent/>
+	<gameObject>966258465</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>681227719</GUID/>
+	<Type>Generic</Type/>
+	<Next>309123948</Next/>
+	<gameObject>966258465</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>520896299</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (7)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>402803523</Component0/>
+	<Component1>309123948</Component1/>
+GameObject/>
+Transform<
+	<GUID>402803523</GUID/>
+	<Type>Transform</Type/>
+	<Position>40.27,0,-17.26001</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1687184422</Parent/>
+	<gameObject>520896299</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>309123948</GUID/>
+	<Type>Generic</Type/>
+	<Next>1606611305</Next/>
+	<gameObject>520896299</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>1531303009</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (8)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>538666024</Component0/>
+	<Component1>1606611305</Component1/>
+GameObject/>
+Transform<
+	<GUID>538666024</GUID/>
+	<Type>Transform</Type/>
+	<Position>39.68999,0,-23.85001</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1687184422</Parent/>
+	<gameObject>1531303009</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1606611305</GUID/>
+	<Type>Generic</Type/>
+	<Next>1369899618</Next/>
+	<gameObject>1531303009</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>676025232</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (9)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>511624504</Component0/>
+	<Component1>1369899618</Component1/>
+GameObject/>
+Transform<
+	<GUID>511624504</GUID/>
+	<Type>Transform</Type/>
+	<Position>39.47999,0,-40.88001</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1687184422</Parent/>
+	<gameObject>676025232</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1369899618</GUID/>
+	<Type>Generic</Type/>
+	<Next>1021317515</Next/>
+	<gameObject>676025232</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>2086808664</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (10)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1389679708</Component0/>
+	<Component1>1021317515</Component1/>
+GameObject/>
+Transform<
+	<GUID>1389679708</GUID/>
+	<Type>Transform</Type/>
+	<Position>25.05998,0,-63.60001</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1687184422</Parent/>
+	<gameObject>2086808664</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1021317515</GUID/>
+	<Type>Generic</Type/>
+	<Next>1009329555</Next/>
+	<gameObject>2086808664</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>763116057</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (11)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1666179601</Component0/>
+	<Component1>1009329555</Component1/>
+GameObject/>
+Transform<
+	<GUID>1666179601</GUID/>
+	<Type>Transform</Type/>
+	<Position>21.70998,0,-70.81001</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1687184422</Parent/>
+	<gameObject>763116057</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1009329555</GUID/>
+	<Type>Generic</Type/>
+	<Next>22253271</Next/>
+	<gameObject>763116057</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>1154884684</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (12)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>437370513</Component0/>
+	<Component1>22253271</Component1/>
+GameObject/>
+Transform<
+	<GUID>437370513</GUID/>
+	<Type>Transform</Type/>
+	<Position>16.62997,0,-77.37001</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1687184422</Parent/>
+	<gameObject>1154884684</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>22253271</GUID/>
+	<Type>Generic</Type/>
+	<Next>1215024996</Next/>
+	<gameObject>1154884684</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>1272396316</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (13)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>385533177</Component0/>
+	<Component1>1215024996</Component1/>
+GameObject/>
+Transform<
+	<GUID>385533177</GUID/>
+	<Type>Transform</Type/>
+	<Position>6.719974,0,-80.33</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1687184422</Parent/>
+	<gameObject>1272396316</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>1215024996</GUID/>
+	<Type>Generic</Type/>
+	<Next>2039443618</Next/>
+	<gameObject>1272396316</gameObject/>
+Waypoint/>
+GameObject<
+	<GUID>1781142781</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Waypoint (14)</Name/>
+	<PrefabName>Waypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1897364927</Component0/>
+	<Component1>2039443618</Component1/>
+GameObject/>
+Transform<
+	<GUID>1897364927</GUID/>
+	<Type>Transform</Type/>
+	<Position>1.3,0,-79.31</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1687184422</Parent/>
+	<gameObject>1781142781</gameObject/>
+Transform/>
+Waypoint<
+	<GUID>2039443618</GUID/>
+	<Type>Generic</Type/>
+	<Next>0</Next/>
+	<gameObject>1781142781</gameObject/>
+Waypoint/>
+<end>

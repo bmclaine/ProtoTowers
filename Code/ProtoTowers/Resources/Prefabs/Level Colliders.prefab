@@ -1,0 +1,1282 @@
+GameObject
+Allocation Amount<1>
+GameObject<
+	<GUID>846173080</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Level Colliders</Name/>
+	<PrefabName>Level Colliders</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1771757421</Component0/>
+GameObject/>
+Transform<
+	<GUID>1771757421</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,0,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>42</ChildCount/>
+	<Child0>1449681397</Child0/>
+	<Child1>1723616865</Child1/>
+	<Child2>1185760611</Child2/>
+	<Child3>777269132</Child3/>
+	<Child4>1975587686</Child4/>
+	<Child5>1380786030</Child5/>
+	<Child6>938664394</Child6/>
+	<Child7>1065961661</Child7/>
+	<Child8>862162254</Child8/>
+	<Child9>1100053400</Child9/>
+	<Child10>705573929</Child10/>
+	<Child11>944221092</Child11/>
+	<Child12>366705000</Child12/>
+	<Child13>1708308559</Child13/>
+	<Child14>1364628235</Child14/>
+	<Child15>1615853160</Child15/>
+	<Child16>1080732937</Child16/>
+	<Child17>1956748628</Child17/>
+	<Child18>1210162638</Child18/>
+	<Child19>587805844</Child19/>
+	<Child20>436587575</Child20/>
+	<Child21>1487306794</Child21/>
+	<Child22>1755273247</Child22/>
+	<Child23>794032669</Child23/>
+	<Child24>2017788032</Child24/>
+	<Child25>46470414</Child25/>
+	<Child26>1517196721</Child26/>
+	<Child27>1479353825</Child27/>
+	<Child28>712139197</Child28/>
+	<Child29>2004712251</Child29/>
+	<Child30>1983408329</Child30/>
+	<Child31>696831959</Child31/>
+	<Child32>1482302784</Child32/>
+	<Child33>1367348941</Child33/>
+	<Child34>826088660</Child34/>
+	<Child35>1061991490</Child35/>
+	<Child36>1400551725</Child36/>
+	<Child37>1833984604</Child37/>
+	<Child38>877710762</Child38/>
+	<Child39>1939807097</Child39/>
+	<Child40>525947641</Child40/>
+	<Child41>272928585</Child41/>
+	<gameObject>846173080</gameObject/>
+Transform/>
+GameObject<
+	<GUID>1176502554</GUID/>
+	<Type>GameObject</Type/>
+	<Name>BoxCollider</Name/>
+	<PrefabName>BoxCollider</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>5</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>1449681397</Component0/>
+	<Component1>1136805256</Component1/>
+GameObject/>
+Transform<
+	<GUID>1449681397</GUID/>
+	<Type>Transform</Type/>
+	<Position>-50.5,0,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1771757421</Parent/>
+	<gameObject>1176502554</gameObject/>
+Transform/>
+BoxCollider<
+	<GUID>1136805256</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,6,0</Center/>
+	<Size>3,12,60</Size/>
+	<IsTrigger>0</IsTrigger/>
+	<gameObject>1176502554</gameObject/>
+BoxCollider/>
+GameObject<
+	<GUID>72559690</GUID/>
+	<Type>GameObject</Type/>
+	<Name>BoxCollider (1)</Name/>
+	<PrefabName>BoxCollider</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>5</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>1723616865</Component0/>
+	<Component1>603502814</Component1/>
+GameObject/>
+Transform<
+	<GUID>1723616865</GUID/>
+	<Type>Transform</Type/>
+	<Position>-34.23,0,62.23</Position/>
+	<Rotation>0,45,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1771757421</Parent/>
+	<gameObject>72559690</gameObject/>
+Transform/>
+BoxCollider<
+	<GUID>603502814</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,6,0</Center/>
+	<Size>3,12,25</Size/>
+	<IsTrigger>0</IsTrigger/>
+	<gameObject>72559690</gameObject/>
+BoxCollider/>
+GameObject<
+	<GUID>2021820262</GUID/>
+	<Type>GameObject</Type/>
+	<Name>BoxCollider (2)</Name/>
+	<PrefabName>BoxCollider</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>5</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>1185760611</Component0/>
+	<Component1>1403476437</Component1/>
+GameObject/>
+Transform<
+	<GUID>1185760611</GUID/>
+	<Type>Transform</Type/>
+	<Position>-44.21,0,46.79</Position/>
+	<Rotation>0,30,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1771757421</Parent/>
+	<gameObject>2021820262</gameObject/>
+Transform/>
+BoxCollider<
+	<GUID>1403476437</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,6,0</Center/>
+	<Size>3,12,40</Size/>
+	<IsTrigger>0</IsTrigger/>
+	<gameObject>2021820262</gameObject/>
+BoxCollider/>
+GameObject<
+	<GUID>959821720</GUID/>
+	<Type>GameObject</Type/>
+	<Name>BoxCollider (3)</Name/>
+	<PrefabName>BoxCollider</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>5</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>777269132</Component0/>
+	<Component1>458113831</Component1/>
+GameObject/>
+Transform<
+	<GUID>777269132</GUID/>
+	<Type>Transform</Type/>
+	<Position>-49.82,0,34.6</Position/>
+	<Rotation>0,9.000002,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1771757421</Parent/>
+	<gameObject>959821720</gameObject/>
+Transform/>
+BoxCollider<
+	<GUID>458113831</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,6,0</Center/>
+	<Size>3,12,10</Size/>
+	<IsTrigger>0</IsTrigger/>
+	<gameObject>959821720</gameObject/>
+BoxCollider/>
+GameObject<
+	<GUID>2139565110</GUID/>
+	<Type>GameObject</Type/>
+	<Name>BoxCollider (4)</Name/>
+	<PrefabName>BoxCollider</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>5</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>1975587686</Component0/>
+	<Component1>1951729884</Component1/>
+GameObject/>
+Transform<
+	<GUID>1975587686</GUID/>
+	<Type>Transform</Type/>
+	<Position>-27.69,0,74.02</Position/>
+	<Rotation>0,335,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1771757421</Parent/>
+	<gameObject>2139565110</gameObject/>
+Transform/>
+BoxCollider<
+	<GUID>1951729884</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,6,0</Center/>
+	<Size>3,12,10</Size/>
+	<IsTrigger>0</IsTrigger/>
+	<gameObject>2139565110</gameObject/>
+BoxCollider/>
+GameObject<
+	<GUID>672766429</GUID/>
+	<Type>GameObject</Type/>
+	<Name>BoxCollider (5)</Name/>
+	<PrefabName>BoxCollider</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>5</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>1380786030</Component0/>
+	<Component1>1377422211</Component1/>
+GameObject/>
+Transform<
+	<GUID>1380786030</GUID/>
+	<Type>Transform</Type/>
+	<Position>-22.12,0,83.54</Position/>
+	<Rotation>0,60.00001,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1771757421</Parent/>
+	<gameObject>672766429</gameObject/>
+Transform/>
+BoxCollider<
+	<GUID>1377422211</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,6,0</Center/>
+	<Size>3,12,20</Size/>
+	<IsTrigger>0</IsTrigger/>
+	<gameObject>672766429</gameObject/>
+BoxCollider/>
+GameObject<
+	<GUID>1992443497</GUID/>
+	<Type>GameObject</Type/>
+	<Name>BoxCollider (6)</Name/>
+	<PrefabName>BoxCollider</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>5</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>938664394</Component0/>
+	<Component1>1145829277</Component1/>
+GameObject/>
+Transform<
+	<GUID>938664394</GUID/>
+	<Type>Transform</Type/>
+	<Position>-4.26,0,88.54</Position/>
+	<Rotation>0,90.00001,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1771757421</Parent/>
+	<gameObject>1992443497</gameObject/>
+Transform/>
+BoxCollider<
+	<GUID>1145829277</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,6,0</Center/>
+	<Size>3,12,20</Size/>
+	<IsTrigger>0</IsTrigger/>
+	<gameObject>1992443497</gameObject/>
+BoxCollider/>
+GameObject<
+	<GUID>914098399</GUID/>
+	<Type>GameObject</Type/>
+	<Name>BoxCollider (7)</Name/>
+	<PrefabName>BoxCollider</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>5</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>1065961661</Component0/>
+	<Component1>208113439</Component1/>
+GameObject/>
+Transform<
+	<GUID>1065961661</GUID/>
+	<Type>Transform</Type/>
+	<Position>13.06,0,87.47</Position/>
+	<Rotation>0,99.00002,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1771757421</Parent/>
+	<gameObject>914098399</gameObject/>
+Transform/>
+BoxCollider<
+	<GUID>208113439</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,6,0</Center/>
+	<Size>3,12,20</Size/>
+	<IsTrigger>0</IsTrigger/>
+	<gameObject>914098399</gameObject/>
+BoxCollider/>
+GameObject<
+	<GUID>404894765</GUID/>
+	<Type>GameObject</Type/>
+	<Name>BoxCollider (8)</Name/>
+	<PrefabName>BoxCollider</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>5</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>862162254</Component0/>
+	<Component1>1123064399</Component1/>
+GameObject/>
+Transform<
+	<GUID>862162254</GUID/>
+	<Type>Transform</Type/>
+	<Position>24.21,0,83.28</Position/>
+	<Rotation>0,130,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1771757421</Parent/>
+	<gameObject>404894765</gameObject/>
+Transform/>
+BoxCollider<
+	<GUID>1123064399</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,6,0</Center/>
+	<Size>3,12,10</Size/>
+	<IsTrigger>0</IsTrigger/>
+	<gameObject>404894765</gameObject/>
+BoxCollider/>
+GameObject<
+	<GUID>1185302847</GUID/>
+	<Type>GameObject</Type/>
+	<Name>BoxCollider (9)</Name/>
+	<PrefabName>BoxCollider</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>5</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>1100053400</Component0/>
+	<Component1>1435225748</Component1/>
+GameObject/>
+Transform<
+	<GUID>1100053400</GUID/>
+	<Type>Transform</Type/>
+	<Position>28.6,0,73.99</Position/>
+	<Rotation>0,175,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1771757421</Parent/>
+	<gameObject>1185302847</gameObject/>
+Transform/>
+BoxCollider<
+	<GUID>1435225748</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,6,0</Center/>
+	<Size>3,12,10</Size/>
+	<IsTrigger>0</IsTrigger/>
+	<gameObject>1185302847</gameObject/>
+BoxCollider/>
+GameObject<
+	<GUID>1617747433</GUID/>
+	<Type>GameObject</Type/>
+	<Name>BoxCollider (10)</Name/>
+	<PrefabName>BoxCollider</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>5</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>705573929</Component0/>
+	<Component1>1864446028</Component1/>
+GameObject/>
+Transform<
+	<GUID>705573929</GUID/>
+	<Type>Transform</Type/>
+	<Position>33.6,0,61.45</Position/>
+	<Rotation>0,150,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1771757421</Parent/>
+	<gameObject>1617747433</gameObject/>
+Transform/>
+BoxCollider<
+	<GUID>1864446028</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,6,0</Center/>
+	<Size>3,12,20</Size/>
+	<IsTrigger>0</IsTrigger/>
+	<gameObject>1617747433</gameObject/>
+BoxCollider/>
+GameObject<
+	<GUID>2097065335</GUID/>
+	<Type>GameObject</Type/>
+	<Name>BoxCollider (11)</Name/>
+	<PrefabName>BoxCollider</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>5</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>944221092</Component0/>
+	<Component1>1792084252</Component1/>
+GameObject/>
+Transform<
+	<GUID>944221092</GUID/>
+	<Type>Transform</Type/>
+	<Position>44.58,0,46.43</Position/>
+	<Rotation>0,150,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1771757421</Parent/>
+	<gameObject>2097065335</gameObject/>
+Transform/>
+BoxCollider<
+	<GUID>1792084252</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,6,0</Center/>
+	<Size>3,12,20</Size/>
+	<IsTrigger>0</IsTrigger/>
+	<gameObject>2097065335</gameObject/>
+BoxCollider/>
+GameObject<
+	<GUID>1546386019</GUID/>
+	<Type>GameObject</Type/>
+	<Name>BoxCollider (12)</Name/>
+	<PrefabName>BoxCollider</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>5</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>366705000</Component0/>
+	<Component1>664495019</Component1/>
+GameObject/>
+Transform<
+	<GUID>366705000</GUID/>
+	<Type>Transform</Type/>
+	<Position>49.15,0,32.8</Position/>
+	<Rotation>0,345,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1771757421</Parent/>
+	<gameObject>1546386019</gameObject/>
+Transform/>
+BoxCollider<
+	<GUID>664495019</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,6,0</Center/>
+	<Size>3,12,15</Size/>
+	<IsTrigger>0</IsTrigger/>
+	<gameObject>1546386019</gameObject/>
+BoxCollider/>
+GameObject<
+	<GUID>1974781918</GUID/>
+	<Type>GameObject</Type/>
+	<Name>BoxCollider (13)</Name/>
+	<PrefabName>BoxCollider</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>5</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>1708308559</Component0/>
+	<Component1>1166493436</Component1/>
+GameObject/>
+Transform<
+	<GUID>1708308559</GUID/>
+	<Type>Transform</Type/>
+	<Position>51.66,0,1.33</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1771757421</Parent/>
+	<gameObject>1974781918</gameObject/>
+Transform/>
+BoxCollider<
+	<GUID>1166493436</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,6,0</Center/>
+	<Size>3,12,50</Size/>
+	<IsTrigger>0</IsTrigger/>
+	<gameObject>1974781918</gameObject/>
+BoxCollider/>
+GameObject<
+	<GUID>602945113</GUID/>
+	<Type>GameObject</Type/>
+	<Name>BoxCollider (14)</Name/>
+	<PrefabName>BoxCollider</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>5</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>1364628235</Component0/>
+	<Component1>84434142</Component1/>
+GameObject/>
+Transform<
+	<GUID>1364628235</GUID/>
+	<Type>Transform</Type/>
+	<Position>49.24,0,-32.52</Position/>
+	<Rotation>0,15,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1771757421</Parent/>
+	<gameObject>602945113</gameObject/>
+Transform/>
+BoxCollider<
+	<GUID>84434142</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,6,0</Center/>
+	<Size>3,12,20</Size/>
+	<IsTrigger>0</IsTrigger/>
+	<gameObject>602945113</gameObject/>
+BoxCollider/>
+GameObject<
+	<GUID>1631788386</GUID/>
+	<Type>GameObject</Type/>
+	<Name>BoxCollider (15)</Name/>
+	<PrefabName>BoxCollider</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>5</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>1615853160</Component0/>
+	<Component1>247633434</Component1/>
+GameObject/>
+Transform<
+	<GUID>1615853160</GUID/>
+	<Type>Transform</Type/>
+	<Position>40.36,0,-52.56</Position/>
+	<Rotation>0,30,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1771757421</Parent/>
+	<gameObject>1631788386</gameObject/>
+Transform/>
+BoxCollider<
+	<GUID>247633434</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,6,0</Center/>
+	<Size>3,12,25</Size/>
+	<IsTrigger>0</IsTrigger/>
+	<gameObject>1631788386</gameObject/>
+BoxCollider/>
+GameObject<
+	<GUID>372233609</GUID/>
+	<Type>GameObject</Type/>
+	<Name>BoxCollider (16)</Name/>
+	<PrefabName>BoxCollider</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>5</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>1080732937</Component0/>
+	<Component1>1636348935</Component1/>
+GameObject/>
+Transform<
+	<GUID>1080732937</GUID/>
+	<Type>Transform</Type/>
+	<Position>32.56,0,-63.71</Position/>
+	<Rotation>0,60.00001,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1771757421</Parent/>
+	<gameObject>372233609</gameObject/>
+Transform/>
+BoxCollider<
+	<GUID>1636348935</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,6,0</Center/>
+	<Size>3,12,5</Size/>
+	<IsTrigger>0</IsTrigger/>
+	<gameObject>372233609</gameObject/>
+BoxCollider/>
+GameObject<
+	<GUID>1847300006</GUID/>
+	<Type>GameObject</Type/>
+	<Name>BoxCollider (17)</Name/>
+	<PrefabName>BoxCollider</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>5</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>1956748628</Component0/>
+	<Component1>704791721</Component1/>
+GameObject/>
+Transform<
+	<GUID>1956748628</GUID/>
+	<Type>Transform</Type/>
+	<Position>29.37,0,-70.79</Position/>
+	<Rotation>0,15,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1771757421</Parent/>
+	<gameObject>1847300006</gameObject/>
+Transform/>
+BoxCollider<
+	<GUID>704791721</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,6,0</Center/>
+	<Size>3,12,15</Size/>
+	<IsTrigger>0</IsTrigger/>
+	<gameObject>1847300006</gameObject/>
+BoxCollider/>
+GameObject<
+	<GUID>2071134950</GUID/>
+	<Type>GameObject</Type/>
+	<Name>BoxCollider (18)</Name/>
+	<PrefabName>BoxCollider</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>5</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>1210162638</Component0/>
+	<Component1>633485637</Component1/>
+GameObject/>
+Transform<
+	<GUID>1210162638</GUID/>
+	<Type>Transform</Type/>
+	<Position>21.4,0,-81.1</Position/>
+	<Rotation>0,240,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1771757421</Parent/>
+	<gameObject>2071134950</gameObject/>
+Transform/>
+BoxCollider<
+	<GUID>633485637</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,6,0</Center/>
+	<Size>3,12,15</Size/>
+	<IsTrigger>0</IsTrigger/>
+	<gameObject>2071134950</gameObject/>
+BoxCollider/>
+GameObject<
+	<GUID>2117730335</GUID/>
+	<Type>GameObject</Type/>
+	<Name>BoxCollider (19)</Name/>
+	<PrefabName>BoxCollider</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>5</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>587805844</Component0/>
+	<Component1>1978060211</Component1/>
+GameObject/>
+Transform<
+	<GUID>587805844</GUID/>
+	<Type>Transform</Type/>
+	<Position>10.9,0,-85.8</Position/>
+	<Rotation>0,255,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1771757421</Parent/>
+	<gameObject>2117730335</gameObject/>
+Transform/>
+BoxCollider<
+	<GUID>1978060211</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,6,0</Center/>
+	<Size>3,12,15</Size/>
+	<IsTrigger>0</IsTrigger/>
+	<gameObject>2117730335</gameObject/>
+BoxCollider/>
+GameObject<
+	<GUID>1910322275</GUID/>
+	<Type>GameObject</Type/>
+	<Name>BoxCollider (20)</Name/>
+	<PrefabName>BoxCollider</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>5</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>436587575</Component0/>
+	<Component1>543124066</Component1/>
+GameObject/>
+Transform<
+	<GUID>436587575</GUID/>
+	<Type>Transform</Type/>
+	<Position>-10.1,0,-84.8</Position/>
+	<Rotation>0,280,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1771757421</Parent/>
+	<gameObject>1910322275</gameObject/>
+Transform/>
+BoxCollider<
+	<GUID>543124066</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,6,0</Center/>
+	<Size>3,12,30</Size/>
+	<IsTrigger>0</IsTrigger/>
+	<gameObject>1910322275</gameObject/>
+BoxCollider/>
+GameObject<
+	<GUID>2080465156</GUID/>
+	<Type>GameObject</Type/>
+	<Name>BoxCollider (21)</Name/>
+	<PrefabName>BoxCollider</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>5</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>1487306794</Component0/>
+	<Component1>1213786369</Component1/>
+GameObject/>
+Transform<
+	<GUID>1487306794</GUID/>
+	<Type>Transform</Type/>
+	<Position>-27.1,0,-77.4</Position/>
+	<Rotation>0,340,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1771757421</Parent/>
+	<gameObject>2080465156</gameObject/>
+Transform/>
+BoxCollider<
+	<GUID>1213786369</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,6,0</Center/>
+	<Size>3,12,15</Size/>
+	<IsTrigger>0</IsTrigger/>
+	<gameObject>2080465156</gameObject/>
+BoxCollider/>
+GameObject<
+	<GUID>1802694003</GUID/>
+	<Type>GameObject</Type/>
+	<Name>BoxCollider (22)</Name/>
+	<PrefabName>BoxCollider</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>5</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>1755273247</Component0/>
+	<Component1>1539232614</Component1/>
+GameObject/>
+Transform<
+	<GUID>1755273247</GUID/>
+	<Type>Transform</Type/>
+	<Position>-37.8,0,-53.5</Position/>
+	<Rotation>0,330,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1771757421</Parent/>
+	<gameObject>1802694003</gameObject/>
+Transform/>
+BoxCollider<
+	<GUID>1539232614</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,6,0</Center/>
+	<Size>3,12,40</Size/>
+	<IsTrigger>0</IsTrigger/>
+	<gameObject>1802694003</gameObject/>
+BoxCollider/>
+GameObject<
+	<GUID>1221706956</GUID/>
+	<Type>GameObject</Type/>
+	<Name>BoxCollider (23)</Name/>
+	<PrefabName>BoxCollider</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>5</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>794032669</Component0/>
+	<Component1>633581040</Component1/>
+GameObject/>
+Transform<
+	<GUID>794032669</GUID/>
+	<Type>Transform</Type/>
+	<Position>-49.6,0,-32.1</Position/>
+	<Rotation>0,335,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1771757421</Parent/>
+	<gameObject>1221706956</gameObject/>
+Transform/>
+BoxCollider<
+	<GUID>633581040</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,6,0</Center/>
+	<Size>3,12,10</Size/>
+	<IsTrigger>0</IsTrigger/>
+	<gameObject>1221706956</gameObject/>
+BoxCollider/>
+GameObject<
+	<GUID>2073023526</GUID/>
+	<Type>GameObject</Type/>
+	<Name>BoxCollider (24)</Name/>
+	<PrefabName>BoxCollider</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>5</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>2017788032</Component0/>
+	<Component1>1406708464</Component1/>
+GameObject/>
+Transform<
+	<GUID>2017788032</GUID/>
+	<Type>Transform</Type/>
+	<Position>2.3,0,-17</Position/>
+	<Rotation>0,90.00001,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1771757421</Parent/>
+	<gameObject>2073023526</gameObject/>
+Transform/>
+BoxCollider<
+	<GUID>1406708464</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,1,0</Center/>
+	<Size>3,2,53</Size/>
+	<IsTrigger>0</IsTrigger/>
+	<gameObject>2073023526</gameObject/>
+BoxCollider/>
+GameObject<
+	<GUID>2015004753</GUID/>
+	<Type>GameObject</Type/>
+	<Name>BoxCollider (25)</Name/>
+	<PrefabName>BoxCollider</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>5</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>46470414</Component0/>
+	<Component1>1873585067</Component1/>
+GameObject/>
+Transform<
+	<GUID>46470414</GUID/>
+	<Type>Transform</Type/>
+	<Position>30.4,0,-10.74</Position/>
+	<Rotation>0,25,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1771757421</Parent/>
+	<gameObject>2015004753</gameObject/>
+Transform/>
+BoxCollider<
+	<GUID>1873585067</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,1,0</Center/>
+	<Size>3,2,15</Size/>
+	<IsTrigger>0</IsTrigger/>
+	<gameObject>2015004753</gameObject/>
+BoxCollider/>
+GameObject<
+	<GUID>1497754312</GUID/>
+	<Type>GameObject</Type/>
+	<Name>BoxCollider (26)</Name/>
+	<PrefabName>BoxCollider</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>5</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>1517196721</Component0/>
+	<Component1>385876508</Component1/>
+GameObject/>
+Transform<
+	<GUID>1517196721</GUID/>
+	<Type>Transform</Type/>
+	<Position>30.11,0,1.33</Position/>
+	<Rotation>0,330,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1771757421</Parent/>
+	<gameObject>1497754312</gameObject/>
+Transform/>
+BoxCollider<
+	<GUID>385876508</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,1,0</Center/>
+	<Size>3,2,15</Size/>
+	<IsTrigger>0</IsTrigger/>
+	<gameObject>1497754312</gameObject/>
+BoxCollider/>
+GameObject<
+	<GUID>1948205522</GUID/>
+	<Type>GameObject</Type/>
+	<Name>BoxCollider (27)</Name/>
+	<PrefabName>BoxCollider</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>5</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>1479353825</Component0/>
+	<Component1>1297418747</Component1/>
+GameObject/>
+Transform<
+	<GUID>1479353825</GUID/>
+	<Type>Transform</Type/>
+	<Position>21.21,0,12.24</Position/>
+	<Rotation>0,310,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1771757421</Parent/>
+	<gameObject>1948205522</gameObject/>
+Transform/>
+BoxCollider<
+	<GUID>1297418747</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,1,0</Center/>
+	<Size>3,2,15</Size/>
+	<IsTrigger>0</IsTrigger/>
+	<gameObject>1948205522</gameObject/>
+BoxCollider/>
+GameObject<
+	<GUID>2123891921</GUID/>
+	<Type>GameObject</Type/>
+	<Name>BoxCollider (28)</Name/>
+	<PrefabName>BoxCollider</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>5</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>712139197</Component0/>
+	<Component1>375330338</Component1/>
+GameObject/>
+Transform<
+	<GUID>712139197</GUID/>
+	<Type>Transform</Type/>
+	<Position>8.66,0,18</Position/>
+	<Rotation>0,280,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1771757421</Parent/>
+	<gameObject>2123891921</gameObject/>
+Transform/>
+BoxCollider<
+	<GUID>375330338</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,1,0</Center/>
+	<Size>3,2,15</Size/>
+	<IsTrigger>0</IsTrigger/>
+	<gameObject>2123891921</gameObject/>
+BoxCollider/>
+GameObject<
+	<GUID>893163815</GUID/>
+	<Type>GameObject</Type/>
+	<Name>BoxCollider (29)</Name/>
+	<PrefabName>BoxCollider</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>5</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>2004712251</Component0/>
+	<Component1>1055594807</Component1/>
+GameObject/>
+Transform<
+	<GUID>2004712251</GUID/>
+	<Type>Transform</Type/>
+	<Position>-2.89,0,18</Position/>
+	<Rotation>0,255,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1771757421</Parent/>
+	<gameObject>893163815</gameObject/>
+Transform/>
+BoxCollider<
+	<GUID>1055594807</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,1,0</Center/>
+	<Size>3,2,10</Size/>
+	<IsTrigger>0</IsTrigger/>
+	<gameObject>893163815</gameObject/>
+BoxCollider/>
+GameObject<
+	<GUID>1538006441</GUID/>
+	<Type>GameObject</Type/>
+	<Name>BoxCollider (30)</Name/>
+	<PrefabName>BoxCollider</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>5</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>1983408329</Component0/>
+	<Component1>261977785</Component1/>
+GameObject/>
+Transform<
+	<GUID>1983408329</GUID/>
+	<Type>Transform</Type/>
+	<Position>-14.92,0,16.22</Position/>
+	<Rotation>0,268,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1771757421</Parent/>
+	<gameObject>1538006441</gameObject/>
+Transform/>
+BoxCollider<
+	<GUID>261977785</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,1,0</Center/>
+	<Size>3,2,14</Size/>
+	<IsTrigger>0</IsTrigger/>
+	<gameObject>1538006441</gameObject/>
+BoxCollider/>
+GameObject<
+	<GUID>1719424692</GUID/>
+	<Type>GameObject</Type/>
+	<Name>BoxCollider (31)</Name/>
+	<PrefabName>BoxCollider</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>5</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>696831959</Component0/>
+	<Component1>259406626</Component1/>
+GameObject/>
+Transform<
+	<GUID>696831959</GUID/>
+	<Type>Transform</Type/>
+	<Position>-27.44,0,11.7</Position/>
+	<Rotation>0,235,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1771757421</Parent/>
+	<gameObject>1719424692</gameObject/>
+Transform/>
+BoxCollider<
+	<GUID>259406626</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,1,0</Center/>
+	<Size>3,2,15</Size/>
+	<IsTrigger>0</IsTrigger/>
+	<gameObject>1719424692</gameObject/>
+BoxCollider/>
+GameObject<
+	<GUID>1447980981</GUID/>
+	<Type>GameObject</Type/>
+	<Name>BoxCollider (32)</Name/>
+	<PrefabName>BoxCollider</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>5</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>1482302784</Component0/>
+	<Component1>1831256921</Component1/>
+GameObject/>
+Transform<
+	<GUID>1482302784</GUID/>
+	<Type>Transform</Type/>
+	<Position>-33.34,0,3.26</Position/>
+	<Rotation>0,190,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1771757421</Parent/>
+	<gameObject>1447980981</gameObject/>
+Transform/>
+BoxCollider<
+	<GUID>1831256921</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,1,0</Center/>
+	<Size>3,2,10</Size/>
+	<IsTrigger>0</IsTrigger/>
+	<gameObject>1447980981</gameObject/>
+BoxCollider/>
+GameObject<
+	<GUID>2002906519</GUID/>
+	<Type>GameObject</Type/>
+	<Name>BoxCollider (33)</Name/>
+	<PrefabName>BoxCollider</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>5</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>1367348941</Component0/>
+	<Component1>1859192202</Component1/>
+GameObject/>
+Transform<
+	<GUID>1367348941</GUID/>
+	<Type>Transform</Type/>
+	<Position>-28.61,0,-9.11</Position/>
+	<Rotation>0,145,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1771757421</Parent/>
+	<gameObject>2002906519</gameObject/>
+Transform/>
+BoxCollider<
+	<GUID>1859192202</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,1,0</Center/>
+	<Size>3,2,21</Size/>
+	<IsTrigger>0</IsTrigger/>
+	<gameObject>2002906519</gameObject/>
+BoxCollider/>
+GameObject<
+	<GUID>2071571879</GUID/>
+	<Type>GameObject</Type/>
+	<Name>BoxCollider (34)</Name/>
+	<PrefabName>BoxCollider</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>5</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>826088660</Component0/>
+	<Component1>1200524988</Component1/>
+GameObject/>
+Transform<
+	<GUID>826088660</GUID/>
+	<Type>Transform</Type/>
+	<Position>1.1,0,-34.3</Position/>
+	<Rotation>0,270,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1771757421</Parent/>
+	<gameObject>2071571879</gameObject/>
+Transform/>
+BoxCollider<
+	<GUID>1200524988</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,1,0</Center/>
+	<Size>3,2,53.25</Size/>
+	<IsTrigger>0</IsTrigger/>
+	<gameObject>2071571879</gameObject/>
+BoxCollider/>
+GameObject<
+	<GUID>106018621</GUID/>
+	<Type>GameObject</Type/>
+	<Name>BoxCollider (35)</Name/>
+	<PrefabName>BoxCollider</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>5</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>1061991490</Component0/>
+	<Component1>586340488</Component1/>
+GameObject/>
+Transform<
+	<GUID>1061991490</GUID/>
+	<Type>Transform</Type/>
+	<Position>1.6,0,-53.3</Position/>
+	<Rotation>0,270,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1771757421</Parent/>
+	<gameObject>106018621</gameObject/>
+Transform/>
+BoxCollider<
+	<GUID>586340488</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,1,0</Center/>
+	<Size>3,2,46.5</Size/>
+	<IsTrigger>0</IsTrigger/>
+	<gameObject>106018621</gameObject/>
+BoxCollider/>
+GameObject<
+	<GUID>1053344461</GUID/>
+	<Type>GameObject</Type/>
+	<Name>BoxCollider (36)</Name/>
+	<PrefabName>BoxCollider</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>5</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>1400551725</Component0/>
+	<Component1>1498534555</Component1/>
+GameObject/>
+Transform<
+	<GUID>1400551725</GUID/>
+	<Type>Transform</Type/>
+	<Position>24.95,0,-44.11</Position/>
+	<Rotation>0,7.000001,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1771757421</Parent/>
+	<gameObject>1053344461</gameObject/>
+Transform/>
+BoxCollider<
+	<GUID>1498534555</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,1,0</Center/>
+	<Size>3,2,21</Size/>
+	<IsTrigger>0</IsTrigger/>
+	<gameObject>1053344461</gameObject/>
+BoxCollider/>
+GameObject<
+	<GUID>914156213</GUID/>
+	<Type>GameObject</Type/>
+	<Name>BoxCollider (37)</Name/>
+	<PrefabName>BoxCollider</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>5</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>1833984604</Component0/>
+	<Component1>441944729</Component1/>
+GameObject/>
+Transform<
+	<GUID>1833984604</GUID/>
+	<Type>Transform</Type/>
+	<Position>-22.31,0,-44.32</Position/>
+	<Rotation>0,170,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1771757421</Parent/>
+	<gameObject>914156213</gameObject/>
+Transform/>
+BoxCollider<
+	<GUID>441944729</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,1,0</Center/>
+	<Size>3,2,21</Size/>
+	<IsTrigger>0</IsTrigger/>
+	<gameObject>914156213</gameObject/>
+BoxCollider/>
+GameObject<
+	<GUID>172119285</GUID/>
+	<Type>GameObject</Type/>
+	<Name>BoxCollider (38)</Name/>
+	<PrefabName>BoxCollider</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>5</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>877710762</Component0/>
+	<Component1>572691457</Component1/>
+GameObject/>
+Transform<
+	<GUID>877710762</GUID/>
+	<Type>Transform</Type/>
+	<Position>-24.64,0,43.39</Position/>
+	<Rotation>0,190,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1771757421</Parent/>
+	<gameObject>172119285</gameObject/>
+Transform/>
+BoxCollider<
+	<GUID>572691457</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,1,0</Center/>
+	<Size>3,2,21</Size/>
+	<IsTrigger>0</IsTrigger/>
+	<gameObject>172119285</gameObject/>
+BoxCollider/>
+GameObject<
+	<GUID>657516651</GUID/>
+	<Type>GameObject</Type/>
+	<Name>BoxCollider (39)</Name/>
+	<PrefabName>BoxCollider</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>5</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>1939807097</Component0/>
+	<Component1>1290935862</Component1/>
+GameObject/>
+Transform<
+	<GUID>1939807097</GUID/>
+	<Type>Transform</Type/>
+	<Position>22.81,0,43.64</Position/>
+	<Rotation>0,348,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1771757421</Parent/>
+	<gameObject>657516651</gameObject/>
+Transform/>
+BoxCollider<
+	<GUID>1290935862</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,1,0</Center/>
+	<Size>3,2,21</Size/>
+	<IsTrigger>0</IsTrigger/>
+	<gameObject>657516651</gameObject/>
+BoxCollider/>
+GameObject<
+	<GUID>1783983951</GUID/>
+	<Type>GameObject</Type/>
+	<Name>BoxCollider (40)</Name/>
+	<PrefabName>BoxCollider</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>5</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>525947641</Component0/>
+	<Component1>250569466</Component1/>
+GameObject/>
+Transform<
+	<GUID>525947641</GUID/>
+	<Type>Transform</Type/>
+	<Position>-1.16,0,53.07</Position/>
+	<Rotation>0,270,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1771757421</Parent/>
+	<gameObject>1783983951</gameObject/>
+Transform/>
+BoxCollider<
+	<GUID>250569466</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,1,0</Center/>
+	<Size>3,2,46</Size/>
+	<IsTrigger>0</IsTrigger/>
+	<gameObject>1783983951</gameObject/>
+BoxCollider/>
+GameObject<
+	<GUID>102723242</GUID/>
+	<Type>GameObject</Type/>
+	<Name>BoxCollider (41)</Name/>
+	<PrefabName>BoxCollider</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>5</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>272928585</Component0/>
+	<Component1>1452468044</Component1/>
+GameObject/>
+Transform<
+	<GUID>272928585</GUID/>
+	<Type>Transform</Type/>
+	<Position>-0.66,0,34.57</Position/>
+	<Rotation>0,90.00001,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1771757421</Parent/>
+	<gameObject>102723242</gameObject/>
+Transform/>
+BoxCollider<
+	<GUID>1452468044</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,1,0</Center/>
+	<Size>3,2,53</Size/>
+	<IsTrigger>0</IsTrigger/>
+	<gameObject>102723242</gameObject/>
+BoxCollider/>
+<end>

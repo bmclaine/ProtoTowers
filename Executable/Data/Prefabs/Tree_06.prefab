@@ -1,0 +1,86 @@
+GameObject
+Allocation Amount<1>
+Transform<
+	<GUID>189880641</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,0,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>2</ChildCount/>
+	<Child0>425868807</Child0/>
+	<Child1>690497560</Child1/>
+	<gameObject>1232223768</gameObject/>
+Transform/>
+GameObject<
+	<GUID>1232223768</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Tree_06</Name/>
+	<PrefabName>Tree_06</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>5</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>189880641</Component0/>
+GameObject/>
+Transform<
+	<GUID>425868807</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,0,0</Position/>
+	<Rotation>9.334667E-06,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>189880641</Parent/>
+	<gameObject>1318875178</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>400103913</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>leaves_06</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>Tree_Leaves</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>1318875178</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>1318875178</GUID/>
+	<Type>GameObject</Type/>
+	<Name>leaves_06</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>425868807</Component0/>
+	<Component1>400103913</Component1/>
+GameObject/>
+Transform<
+	<GUID>690497560</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,0,0</Position/>
+	<Rotation>9.334667E-06,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>189880641</Parent/>
+	<gameObject>1550898454</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>1765117802</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>trunk_06</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>Tree_Trunk</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>1550898454</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>1550898454</GUID/>
+	<Type>GameObject</Type/>
+	<Name>trunk_06</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>690497560</Component0/>
+	<Component1>1765117802</Component1/>
+GameObject/>
+<end>

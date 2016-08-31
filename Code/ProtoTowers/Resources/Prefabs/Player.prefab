@@ -1,0 +1,422 @@
+GameObject
+Allocation Amount<1>
+GameObject<
+	<GUID>1096100631</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Player</Name/>
+	<PrefabName>Player</PrefabName/>
+	<Tag>Player</Tag/>
+	<Layer>1</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1732367718</Component0/>
+	<Component1>1737426943</Component1/>
+	<Component2>2113918764</Component2/>
+	<Component3>1144761560</Component3/>
+	<Component4>1184762193</Component4/>
+	<Component5>405529436</Component5/>
+	<Component6>1188712138</Component6/>
+	<Component7>779181463</Component7/>
+	<Component8>290209546</Component8/>
+	<Component9>1074767375</Component9/>
+GameObject/>
+Transform<
+	<GUID>1732367718</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,0,40</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>4</ChildCount/>
+	<Child0>357651955</Child0/>
+	<Child1>1861267022</Child1/>
+	<Child2>781678207</Child2/>
+	<Child3>1937306955</Child3/>
+	<gameObject>1096100631</gameObject/>
+Transform/>
+Player<
+	<GUID>1737426943</GUID/>
+	<Type>Generic</Type/>
+	<MaxHealth>100</MaxHealth/>
+	<Health>100</Health/>
+	<Team>1</Team/>
+	<gameObject>1096100631</gameObject/>
+	<BaseWeapon>1363229762</BaseWeapon/>
+	<Team>1</Team/>
+	<PlayerController>1184762193</PlayerController/>
+	<SpawnLocation>0</SpawnLocation/>
+	<StartingResources>0</StartingResources/>
+Player/>
+CapsuleCollider<
+	<GUID>2113918764</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,1,0</Center/>
+	<Radius>0.5</Radius/>
+	<Height>1</Height/>
+	<IsTrigger>0</IsTrigger/>
+	<gameObject>1096100631</gameObject/>
+CapsuleCollider/>
+Rigidbody<
+	<GUID>1144761560</GUID/>
+	<Type>Generic</Type/>
+	<UseGravity>0</UseGravity/>
+	<Sleep>0</Sleep/>
+	<Velocity>0,0,0</Velocity/>
+	<Mass>1</Mass/>
+	<gameObject>1096100631</gameObject/>
+Rigidbody/>
+PlayerController<
+	<GUID>1184762193</GUID/>
+	<Type>Generic</Type/>
+	<ThirdPersonCamera>310253597</ThirdPersonCamera/>
+	<Animator>1559403374</Animator/>
+	<Player>1737426943</Player/>
+	<MovementSpeed>7.3</MovementSpeed/>
+	<gameObject>1096100631</gameObject/>
+PlayerController/>
+AudioListener<
+	<GUID>405529436</GUID/>
+	<Type>Generic</Type/>
+	<gameObject>1096100631</gameObject/>
+AudioListener/>
+StunGrenadeAbility<
+	<GUID>1188712138</GUID/>
+	<Type>Generic</Type/>
+	<CastTime>0</CastTime/>
+	<CoolDownTimer>0</CoolDownTimer/>
+	<PlayerController>1184762193</PlayerController/>
+	<gameObject>1096100631</gameObject/>
+	<Radius>0</Radius/>
+	<StunTime>0</StunTime/>
+StunGrenadeAbility/>
+ShieldAbility<
+	<GUID>779181463</GUID/>
+	<Type>Generic</Type/>
+	<CastTime>0</CastTime/>
+	<CoolDownTimer>0</CoolDownTimer/>
+	<PlayerController>1184762193</PlayerController/>
+	<gameObject>1096100631</gameObject/>
+	<ShieldTime>0</ShieldTime/>
+	<ExpandTime>0</ExpandTime/>
+ShieldAbility/>
+WeaponBuffAbility<
+	<GUID>290209546</GUID/>
+	<Type>Generic</Type/>
+	<CastTime>0</CastTime/>
+	<CoolDownTimer>0</CoolDownTimer/>
+	<PlayerController>1184762193</PlayerController/>
+	<gameObject>1096100631</gameObject/>
+	<Duration>0</Duration/>
+	<ShotSpeedIncrease>0</ShotSpeedIncrease/>
+WeaponBuffAbility/>
+MinionBuffAbility<
+	<GUID>1074767375</GUID/>
+	<Type>Generic</Type/>
+	<CastTime>0</CastTime/>
+	<CoolDownTimer>0</CoolDownTimer/>
+	<PlayerController>1184762193</PlayerController/>
+	<gameObject>1096100631</gameObject/>
+	<Duration>0</Duration/>
+	<Radius>0</Radius/>
+MinionBuffAbility/>
+GameObject<
+	<GUID>1448459792</GUID/>
+	<Type>GameObject</Type/>
+	<Name>PlayerBody(Mesh)</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>357651955</Component0/>
+	<Component1>1559403374</Component1/>
+	<Component2>1246095658</Component2/>
+GameObject/>
+Transform<
+	<GUID>357651955</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,0,0</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>0.2,0.2,0.2</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1732367718</Parent/>
+	<gameObject>1448459792</gameObject/>
+Transform/>
+Animator<
+	<GUID>1559403374</GUID/>
+	<Type>Generic</Type/>
+	<Controller>Sprocket</Controller/>
+	<gameObject>1448459792</gameObject/>
+Animator/>
+SkinnedMeshRenderer<
+	<GUID>1246095658</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Sprocket_Body</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1</Color/>
+	<Material0>SprocketBodyMat</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>1448459792</gameObject/>
+SkinnedMeshRenderer/>
+GameObject<
+	<GUID>1928858685</GUID/>
+	<Type>GameObject</Type/>
+	<Name>PlayerHead(Mesh)</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1861267022</Component0/>
+	<Component1>141345618</Component1/>
+	<Component2>1458636541</Component2/>
+GameObject/>
+Transform<
+	<GUID>1861267022</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,1.5,0</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1732367718</Parent/>
+	<gameObject>1928858685</gameObject/>
+Transform/>
+PlayerHead<
+	<GUID>141345618</GUID/>
+	<Type>Generic</Type/>
+	<Active>1</Active/>
+	<gameObject>1928858685</gameObject/>
+PlayerHead/>
+MeshRenderer<
+	<GUID>1458636541</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Sprocket_Head</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>SprocketHeadMat</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>1928858685</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>489943779</GUID/>
+	<Type>GameObject</Type/>
+	<Name>PlayerRifle(Mesh)</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>781678207</Component0/>
+	<Component1>1896705218</Component1/>
+	<Component2>1363229762</Component2/>
+GameObject/>
+Transform<
+	<GUID>781678207</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,0,0</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>3</ChildCount/>
+	<Child0>1123413244</Child0/>
+	<Child1>1493686538</Child1/>
+	<Child2>1736989184</Child2/>
+	<Parent>1732367718</Parent/>
+	<gameObject>489943779</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>1896705218</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Sprocket_Rifle</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>SprocketRifleMat</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>489943779</gameObject/>
+MeshRenderer/>
+PlasmaBlaster<
+	<GUID>1363229762</GUID/>
+	<Type>Generic</Type/>
+	<RotationTransform>1937306955</RotationTransform/>
+	<gameObject>489943779</gameObject/>
+	<FireLocationCount>3</FireLocationCount/>
+	<FireLocation0>1123413244</FireLocation0/>
+	<FireLocation1>1493686538</FireLocation1/>
+	<FireLocation2>1736989184</FireLocation2/>
+PlasmaBlaster/>
+GameObject<
+	<GUID>488500119</GUID/>
+	<Type>GameObject</Type/>
+	<Name>FireLocation0</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1123413244</Component0/>
+GameObject/>
+Transform<
+	<GUID>1123413244</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,0,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>781678207</Parent/>
+	<gameObject>488500119</gameObject/>
+Transform/>
+GameObject<
+	<GUID>316443520</GUID/>
+	<Type>GameObject</Type/>
+	<Name>FireLocation1</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1493686538</Component0/>
+GameObject/>
+Transform<
+	<GUID>1493686538</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,0,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>781678207</Parent/>
+	<gameObject>316443520</gameObject/>
+Transform/>
+GameObject<
+	<GUID>1949505516</GUID/>
+	<Type>GameObject</Type/>
+	<Name>FireLocation2</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1736989184</Component0/>
+GameObject/>
+Transform<
+	<GUID>1736989184</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,0,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>781678207</Parent/>
+	<gameObject>1949505516</gameObject/>
+Transform/>
+GameObject<
+	<GUID>250811450</GUID/>
+	<Type>GameObject</Type/>
+	<Name>SpringArm</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>7</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1937306955</Component0/>
+	<Component1>882680331</Component1/>
+	<Component2>2070749544</Component2/>
+	<Component3>1572270035</Component3/>
+	<Component4>310253597</Component4/>
+GameObject/>
+Transform<
+	<GUID>1937306955</GUID/>
+	<Type>Transform</Type/>
+	<Position>1,2.5,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>1</ChildCount/>
+	<Child0>2035112585</Child0/>
+	<Parent>1732367718</Parent/>
+	<gameObject>250811450</gameObject/>
+Transform/>
+SpringArm<
+	<GUID>882680331</GUID/>
+	<Type>Generic</Type/>
+	<MaxDistance>2.5</MaxDistance/>
+	<gameObject>250811450</gameObject/>
+SpringArm/>
+BoxCollider<
+	<GUID>2070749544</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,0,-2.5</Center/>
+	<Size>0.5,0.5,0.5</Size/>
+	<IsTrigger>0</IsTrigger/>
+	<gameObject>250811450</gameObject/>
+BoxCollider/>
+BoxCollider<
+	<GUID>1572270035</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,0,-2.5</Center/>
+	<Size>0.65,0.65,0.65</Size/>
+	<IsTrigger>1</IsTrigger/>
+	<gameObject>250811450</gameObject/>
+BoxCollider/>
+ThirdPersonCamera<
+	<GUID>310253597</GUID/>
+	<Type>Generic</Type/>
+	<TargetObject>1096100631</TargetObject/>
+	<MinVertRotation>0</MinVertRotation/>
+	<MaxVertRotation>0</MaxVertRotation/>
+	<MaxDistance>-1</MaxDistance/>
+	<gameObject>250811450</gameObject/>
+ThirdPersonCamera/>
+GameObject<
+	<GUID>815688146</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Camera</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>2035112585</Component0/>
+	<Component1>1649472420</Component1/>
+GameObject/>
+Transform<
+	<GUID>2035112585</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,0,-2.5</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>1</ChildCount/>
+	<Child0>1835189067</Child0/>
+	<Parent>1937306955</Parent/>
+	<gameObject>815688146</gameObject/>
+Transform/>
+Camera<
+	<GUID>1649472420</GUID/>
+	<Type>Generic</Type/>
+	<AspectRatio>0</AspectRatio/>
+	<ZNear>0.3</ZNear/>
+	<ZFar>1000</ZFar/>
+	<FOV>60</FOV/>
+	<DistanceToPlayer>0</DistanceToPlayer/>
+	<ClearType>1</ClearType/>
+	<ClearColor>0,0,0,0</ClearColor/>
+	<SkyBoxImage>NightSky.dds</SkyBoxImage/>
+	<IsMain>1</IsMain/>
+	<gameObject>815688146</gameObject/>
+Camera/>
+GameObject<
+	<GUID>380543574</GUID/>
+	<Type>GameObject</Type/>
+	<Name>CutSceneWayPoint</Name/>
+	<PrefabName>CutSceneWaypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1835189067</Component0/>
+	<Component1>1143603510</Component1/>
+GameObject/>
+Transform<
+	<GUID>1835189067</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,0,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>2035112585</Parent/>
+	<gameObject>380543574</gameObject/>
+Transform/>
+CutSceneWaypoint<
+	<GUID>1143603510</GUID/>
+	<Type>Generic</Type/>
+	<Next>0</Next/>
+	<Tangent>0</Tangent/>
+	<Time>1</Time/>
+	<gameObject>380543574</gameObject/>
+CutSceneWaypoint/>
+<end>

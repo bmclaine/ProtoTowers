@@ -1,0 +1,12 @@
+[Audio]
+fMasterVolume=0.120000
+fMusicVolume=1.000000
+fSFXVolume=1.000000
+
+[Graphics]
+fWidth=1024
+fHeight=768
+uWindowMode=0
+bVsyncEnabled=0
+uAnisotropic=1
+fBrightness=1.000000

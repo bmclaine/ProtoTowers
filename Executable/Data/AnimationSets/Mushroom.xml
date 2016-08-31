@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<AnimationSet>
+  <AnimSetData AnimCount="5">Mushroom</AnimSetData>
+  <AnimData Time00="0.250000" Time01="0.250000" Time02="0.250000" Time03="0.250000" Time04="0.250000" Looping="1">Mushroom_Idle</AnimData>
+  <AnimData Time10="0.250000" Time11="0.250000" Time12="0.250000" Time13="0.250000" Time14="0.250000" Looping="1">Mushroom_Run</AnimData>
+  <AnimData Time20="0.250000" Time21="0.250000" Time22="0.250000" Time23="0.250000" Time24="0.250000" Looping="0">Mushroom_Attack</AnimData>
+  <AnimData Time30="0.250000" Time31="0.250000" Time32="0.250000" Time33="0.250000" Time34="0.250000" Looping="0">Mushroom_Damage</AnimData>
+  <AnimData Time40="0.250000" Time41="0.250000" Time42="0.250000" Time43="0.250000" Time44="0.250000" Looping="0">Mushroom_Death</AnimData>
+</AnimationSet>                                                                                                         
+                                                                                                                    

@@ -1,0 +1,382 @@
+GameObject
+Allocation Amount<1>
+GameObject<
+	<GUID>902738886</GUID/>
+	<Type>GameObject</Type/>
+	<Name>BlueMinionSpawner</Name/>
+	<PrefabName>BlueMinionSpawner</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>1</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>1171370413</Component0/>
+	<Component1>4303625</Component1/>
+	<Component2>732933629</Component2/>
+	<Component3>1177439534</Component3/>
+GameObject/>
+Transform<
+	<GUID>1171370413</GUID/>
+	<Type>Transform</Type/>
+	<Position>-3.5,0,7</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>6</ChildCount/>
+	<Child0>1222859413</Child0/>
+	<Child1>1010617467</Child1/>
+	<Child2>169320478</Child2/>
+	<Child3>2097341413</Child3/>
+	<Child4>1836732249</Child4/>
+	<Child5>557724603</Child5/>
+	<gameObject>902738886</gameObject/>
+Transform/>
+MinionSpawner<
+	<GUID>4303625</GUID/>
+	<Type>Generic</Type/>
+	<MaxHealth>500</MaxHealth/>
+	<Health>500</Health/>
+	<Team>1</Team/>
+	<gameObject>902738886</gameObject/>
+	<TowerType>1</TowerType/>
+	<UpgradeLevel>0</UpgradeLevel/>
+	<StartingYRot>0</StartingYRot/>
+	<Renderer>732933629</Renderer/>
+	<BossSpawn>0</BossSpawn/>
+	<SpawnPointCount>2</SpawnPointCount/>
+	<SpawnPoint0>588699993</SpawnPoint0/>
+	<SpawnPoint1>2015848630</SpawnPoint1/>
+	<WaveCount>1</WaveCount/>
+	<MinionTypeCount0>4</MinionTypeCount0/>
+	<0WaveMinion0>1</0WaveMinion0/>
+	<0WaveMinion1>1</0WaveMinion1/>
+	<0WaveMinion2>1</0WaveMinion2/>
+	<0WaveMinion3>1</0WaveMinion3/>
+	<ShieldDisableParticle>0</ShieldDisableParticle/>
+	<Shield>916241804</Shield/>
+	<Vulnerable>True</Vulnerable/>
+	<MainSpawner>True</MainSpawner/>
+	<SpawnDelay>1</SpawnDelay/>
+	<WaveDelay>15</WaveDelay/>
+	<BossFrequency>2</BossFrequency/>
+	<Channel>10</Channel/>
+	<SpawnMinions>False</SpawnMinions/>
+MinionSpawner/>
+MeshRenderer<
+	<GUID>732933629</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Jar</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>0.8676471,0.9288033,1,1</Color/>
+	<Material0>Stone_Elements</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>902738886</gameObject/>
+MeshRenderer/>
+BoxCollider<
+	<GUID>1177439534</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,1.5,0</Center/>
+	<Size>1,3,1</Size/>
+	<IsTrigger>0</IsTrigger/>
+	<gameObject>902738886</gameObject/>
+BoxCollider/>
+GameObject<
+	<GUID>276093884</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Minion SpawnPoint</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>1222859413</Component0/>
+	<Component1>588699993</Component1/>
+	<Component2>1064101830</Component2/>
+GameObject/>
+Transform<
+	<GUID>1222859413</GUID/>
+	<Type>Transform</Type/>
+	<Position>-1.5,0,-1</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>1</ChildCount/>
+	<Child0>1236487129</Child0/>
+	<Parent>1171370413</Parent/>
+	<gameObject>276093884</gameObject/>
+Transform/>
+Minion SpawnPoint<
+	<GUID>588699993</GUID/>
+	<Type>Generic</Type/>
+	<Waypoint>0</Waypoint/>
+	<gameObject>276093884</gameObject/>
+Minion SpawnPoint/>
+MeshRenderer<
+	<GUID>1064101830</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Floor_Segment</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>FloorSegment</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>276093884</gameObject/>
+MeshRenderer/>
+Transform<
+	<GUID>1236487129</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,0,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1222859413</Parent/>
+	<gameObject>531533736</gameObject/>
+Transform/>
+ParticleSystem<
+	<GUID>1960688246</GUID/>
+	<Type>Generic</Type/>
+	<WorldPosition>0,0,0</WorldPosition/>
+	<Duration>0.8</Duration/>
+	<AliveTime>0</AliveTime/>
+	<LifeTime>0.7</LifeTime/>
+	<StartSpeed>0</StartSpeed/>
+	<GravityScale>-1</GravityScale/>
+	<StartColor>0.634,1,1,1</StartColor/>
+	<EndColor>1,1,1,1</EndColor/>
+	<StartSize>0.15</StartSize/>
+	<EndSize>0.15</EndSize/>
+	<MaxParticles>150</MaxParticles/>
+	<Emission>0</Emission/>
+	<ShapeDimensions>0.8,0.8,0.8</ShapeDimensions/>
+	<Flags>8</Flags/>
+	<EShape>2</EShape/>
+	<EStyle>1</EStyle/>
+	<EmissionRate>150</EmissionRate/>
+	<Accumulator>0</Accumulator/>
+	<Paused>0</Paused/>
+	<Looping>1</Looping/>
+	<Texture>0</Texture/>
+	<gameObject>531533736</gameObject/>
+ParticleSystem/>
+GameObject<
+	<GUID>531533736</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Drop Particles</Name/>
+	<PrefabName>Recall Particles</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1236487129</Component0/>
+	<Component1>1960688246</Component1/>
+GameObject/>
+GameObject<
+	<GUID>882293436</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Minion SpawnPoint</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>1010617467</Component0/>
+	<Component1>2015848630</Component1/>
+	<Component2>1167858788</Component2/>
+GameObject/>
+Transform<
+	<GUID>1010617467</GUID/>
+	<Type>Transform</Type/>
+	<Position>1.5,0,-1</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>1</ChildCount/>
+	<Child0>1365537904</Child0/>
+	<Parent>1171370413</Parent/>
+	<gameObject>882293436</gameObject/>
+Transform/>
+Minion SpawnPoint<
+	<GUID>2015848630</GUID/>
+	<Type>Generic</Type/>
+	<Waypoint>0</Waypoint/>
+	<gameObject>882293436</gameObject/>
+Minion SpawnPoint/>
+MeshRenderer<
+	<GUID>1167858788</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Floor_Segment</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>FloorSegment</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>882293436</gameObject/>
+MeshRenderer/>
+Transform<
+	<GUID>1365537904</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,0,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1010617467</Parent/>
+	<gameObject>1575380196</gameObject/>
+Transform/>
+ParticleSystem<
+	<GUID>1658429735</GUID/>
+	<Type>Generic</Type/>
+	<WorldPosition>0,0,0</WorldPosition/>
+	<Duration>0.8</Duration/>
+	<AliveTime>0</AliveTime/>
+	<LifeTime>0.7</LifeTime/>
+	<StartSpeed>0</StartSpeed/>
+	<GravityScale>-1</GravityScale/>
+	<StartColor>0.634,1,1,1</StartColor/>
+	<EndColor>1,1,1,1</EndColor/>
+	<StartSize>0.15</StartSize/>
+	<EndSize>0.15</EndSize/>
+	<MaxParticles>150</MaxParticles/>
+	<Emission>0</Emission/>
+	<ShapeDimensions>0.8,0.8,0.8</ShapeDimensions/>
+	<Flags>8</Flags/>
+	<EShape>2</EShape/>
+	<EStyle>1</EStyle/>
+	<EmissionRate>150</EmissionRate/>
+	<Accumulator>0</Accumulator/>
+	<Paused>0</Paused/>
+	<Looping>1</Looping/>
+	<Texture>0</Texture/>
+	<gameObject>1575380196</gameObject/>
+ParticleSystem/>
+GameObject<
+	<GUID>1575380196</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Drop Particles</Name/>
+	<PrefabName>Recall Particles</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1365537904</Component0/>
+	<Component1>1658429735</Component1/>
+GameObject/>
+GameObject<
+	<GUID>38351262</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Health Bar</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>169320478</Component0/>
+	<Component1>1494389441</Component1/>
+GameObject/>
+Transform<
+	<GUID>169320478</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,2.5,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1171370413</Parent/>
+	<gameObject>38351262</gameObject/>
+Transform/>
+SpriteRenderer<
+	<GUID>1494389441</GUID/>
+	<Type>Generic</Type/>
+	<Dimensions>0.9,0.15</Dimensions/>
+	<Pad>0,0</Pad/>
+	<Color>1,1,1</Color/>
+	<Color2>1,1,1</Color2/>
+	<Layer>0</Layer/>
+	<Fill>0</Fill/>
+	<Texture1>Tower_HP_Bar.dds</Texture1/>
+	<Tiling1>1,1</Tiling1/>
+	<Texture2>Tower_HP_Bar.dds</Texture2/>
+	<Tiling2>1,1</Tiling2/>
+	<Billboarded>1</Billboarded/>
+	<Effect>2</Effect/>
+	<MaterialCount>0</MaterialCount/>
+	<gameObject>38351262</gameObject/>
+SpriteRenderer/>
+GameObject<
+	<GUID>999460034</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Rune</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>2097341413</Component0/>
+	<Component1>448734180</Component1/>
+GameObject/>
+Transform<
+	<GUID>2097341413</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,0.28,-0.463</Position/>
+	<Rotation>89.98022,0,0</Rotation/>
+	<Scale>0.03,0.1,0.03</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1171370413</Parent/>
+	<gameObject>999460034</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>448734180</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Plane</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>BlueRune</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>999460034</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>887816693</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Crystal</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1836732249</Component0/>
+	<Component1>1771475410</Component1/>
+GameObject/>
+Transform<
+	<GUID>1836732249</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,1.213,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1171370413</Parent/>
+	<gameObject>887816693</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>1771475410</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Crystal</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>BlueCrystal</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>887816693</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>91242734</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Light</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>557724603</Component0/>
+	<Component1>1145050042</Component1/>
+GameObject/>
+Transform<
+	<GUID>557724603</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,1.653,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1171370413</Parent/>
+	<gameObject>91242734</gameObject/>
+Transform/>
+Light<
+	<GUID>1145050042</GUID/>
+	<Type>Generic</Type/>
+	<Color>0.2058824,0.6056797,1</Color/>
+	<Intensity>0.7</Intensity/>
+	<Radius>4</Radius/>
+	<gameObject>91242734</gameObject/>
+Light/>
+<end>

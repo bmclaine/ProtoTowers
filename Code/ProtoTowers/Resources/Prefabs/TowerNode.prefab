@@ -1,0 +1,113 @@
+GameObject
+Allocation Amount<1>
+GameObject<
+	<GUID>1052382194</GUID/>
+	<Type>GameObject</Type/>
+	<Name>TowerNode</Name/>
+	<PrefabName>TowerNode</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1716344254</Component0/>
+	<Component1>149163659</Component1/>
+	<Component2>2006097826</Component2/>
+GameObject/>
+Transform<
+	<GUID>1716344254</GUID/>
+	<Type>Transform</Type/>
+	<Position>72.35,0,35.82</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>2</ChildCount/>
+	<Child0>1222921968</Child0/>
+	<Child1>483572533</Child1/>
+	<gameObject>1052382194</gameObject/>
+Transform/>
+BoxCollider<
+	<GUID>149163659</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,0.75,0</Center/>
+	<Size>1.7,1.5,1.7</Size/>
+	<IsTrigger>1</IsTrigger/>
+	<gameObject>1052382194</gameObject/>
+BoxCollider/>
+TowerNode<
+	<GUID>2006097826</GUID/>
+	<Type>Generic</Type/>
+	<Team>2</Team/>
+	<StartingTower>0</StartingTower/>
+	<IsAvailable>1</IsAvailable/>
+	<BuildPrompt>859102169</BuildPrompt/>
+	<gameObject>1052382194</gameObject/>
+TowerNode/>
+GameObject<
+	<GUID>2047347688</GUID/>
+	<Type>GameObject</Type/>
+	<Name>TowerNode Mesh</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1222921968</Component0/>
+	<Component1>1353877092</Component1/>
+GameObject/>
+Transform<
+	<GUID>1222921968</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,0,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1716344254</Parent/>
+	<gameObject>2047347688</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>1353877092</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Tower_Node</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>TowerNode</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>2047347688</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>1629507454</GUID/>
+	<Type>GameObject</Type/>
+	<Name>TN Build Prompt</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>483572533</Component0/>
+	<Component1>859102169</Component1/>
+GameObject/>
+Transform<
+	<GUID>483572533</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,2.5,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1716344254</Parent/>
+	<gameObject>1629507454</gameObject/>
+Transform/>
+SpriteRenderer<
+	<GUID>859102169</GUID/>
+	<Type>Generic</Type/>
+	<Dimensions>1.2,0.3</Dimensions/>
+	<Pad>0,0</Pad/>
+	<Color>1,1,1</Color/>
+	<Color2>1,1,1</Color2/>
+	<Layer>0</Layer/>
+	<Fill>0</Fill/>
+	<Texture1></Texture1/>
+	<Tiling1>1,1</Tiling1/>
+	<Texture2></Texture2/>
+	<Tiling2>1,1</Tiling2/>
+	<Billboarded>1</Billboarded/>
+	<Effect>5</Effect/>
+	<MaterialCount>0</MaterialCount/>
+	<gameObject>1629507454</gameObject/>
+SpriteRenderer/>
+<end>

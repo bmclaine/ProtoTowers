@@ -1,0 +1,70 @@
+GameObject
+Allocation Amount<1>
+GameObject<
+	<GUID>511862476</GUID/>
+	<Type>GameObject</Type/>
+	<Name>FreezeBlastWave</Name/>
+	<PrefabName>FreezeBlastWave</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1556946339</Component0/>
+	<Component1>1832862289</Component1/>
+	<Component2>2118320070</Component2/>
+GameObject/>
+Transform<
+	<GUID>1556946339</GUID/>
+	<Type>Transform</Type/>
+	<Position>-17.12462,-29.17207,-10.04556</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>1</ChildCount/>
+	<Child0>2039936716</Child0/>
+	<gameObject>511862476</gameObject/>
+Transform/>
+FreezeBlastWave<
+	<GUID>1832862289</GUID/>
+	<Type>Generic</Type/>
+	<gameObject>511862476</gameObject/>
+	<Damage>10</Damage/>
+FreezeBlastWave/>
+SphereCollider<
+	<GUID>2118320070</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,0,0</Center/>
+	<Radius>8</Radius/>
+	<IsTrigger>1</IsTrigger/>
+	<gameObject>511862476</gameObject/>
+SphereCollider/>
+GameObject<
+	<GUID>1069098172</GUID/>
+	<Type>GameObject</Type/>
+	<Name>BlastWave (Mesh)</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>2039936716</Component0/>
+	<Component1>152886330</Component1/>
+GameObject/>
+Transform<
+	<GUID>2039936716</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,0,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1556946339</Parent/>
+	<gameObject>1069098172</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>152886330</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Band</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>0,0.7931032,1,1</Color/>
+	<Material0>MinionBuffWave</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>1069098172</gameObject/>
+MeshRenderer/>
+<end>

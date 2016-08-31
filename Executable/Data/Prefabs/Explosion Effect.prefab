@@ -1,0 +1,193 @@
+GameObject
+Allocation Amount<1>
+GameObject<
+	<GUID>1655088122</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Explosion Effect</Name/>
+	<PrefabName>Explosion Effect</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>259567374</Component0/>
+	<Component1>788493728</Component1/>
+GameObject/>
+Transform<
+	<GUID>259567374</GUID/>
+	<Type>Transform</Type/>
+	<Position>6.360273,2.017652,-12.79863</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>3</ChildCount/>
+	<Child0>20959956</Child0/>
+	<Child1>1987707840</Child1/>
+	<Child2>720147889</Child2/>
+	<gameObject>1655088122</gameObject/>
+Transform/>
+ParticleSystem<
+	<GUID>788493728</GUID/>
+	<Type>Generic</Type/>
+	<WorldPosition>0,0,0</WorldPosition/>
+	<Duration>0.1</Duration/>
+	<AliveTime>0</AliveTime/>
+	<LifeTime>2.25</LifeTime/>
+	<StartSpeed>0</StartSpeed/>
+	<GravityScale>0</GravityScale/>
+	<StartColor>0.8901961,0.5019608,0.03921569,1</StartColor/>
+	<EndColor>0.7843137,0.2352941,0.2352941,0.5</EndColor/>
+	<StartSize>0.6</StartSize/>
+	<EndSize>3</EndSize/>
+	<MaxParticles>1</MaxParticles/>
+	<Emission>1</Emission/>
+	<ShapeDimensions>0.5,1,1</ShapeDimensions/>
+	<Flags>2</Flags/>
+	<EShape>2</EShape/>
+	<EStyle>0</EStyle/>
+	<EmissionRate>1</EmissionRate/>
+	<Accumulator>0</Accumulator/>
+	<Paused>0</Paused/>
+	<Looping>0</Looping/>
+	<Texture>0</Texture/>
+	<gameObject>1655088122</gameObject/>
+ParticleSystem/>
+GameObject<
+	<GUID>1577276495</GUID/>
+	<Type>GameObject</Type/>
+	<Name>MainExplosion</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>20959956</Component0/>
+	<Component1>646109479</Component1/>
+GameObject/>
+Transform<
+	<GUID>20959956</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,0,0</Position/>
+	<Rotation>70.00002,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>259567374</Parent/>
+	<gameObject>1577276495</gameObject/>
+Transform/>
+ParticleSystem<
+	<GUID>646109479</GUID/>
+	<Type>Generic</Type/>
+	<WorldPosition>0,0,0</WorldPosition/>
+	<Duration>1</Duration/>
+	<AliveTime>0</AliveTime/>
+	<LifeTime>3</LifeTime/>
+	<StartSpeed>0</StartSpeed/>
+	<GravityScale>0</GravityScale/>
+	<StartColor>1,0.7921569,0.3254902,1</StartColor/>
+	<EndColor>0.8627451,0.2941177,0.1372549,0.1</EndColor/>
+	<StartSize>0.6</StartSize/>
+	<EndSize>1.333</EndSize/>
+	<MaxParticles>40</MaxParticles/>
+	<Emission>10</Emission/>
+	<ShapeDimensions>0.1,1,1</ShapeDimensions/>
+	<Flags>1</Flags/>
+	<EShape>2</EShape/>
+	<EStyle>1</EStyle/>
+	<EmissionRate>10</EmissionRate/>
+	<Accumulator>0</Accumulator/>
+	<Paused>0</Paused/>
+	<Looping>0</Looping/>
+	<Texture>1</Texture/>
+	<gameObject>1577276495</gameObject/>
+ParticleSystem/>
+GameObject<
+	<GUID>818625872</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Rays_1</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1987707840</Component0/>
+	<Component1>452202559</Component1/>
+GameObject/>
+Transform<
+	<GUID>1987707840</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,0,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>259567374</Parent/>
+	<gameObject>818625872</gameObject/>
+Transform/>
+ParticleSystem<
+	<GUID>452202559</GUID/>
+	<Type>Generic</Type/>
+	<WorldPosition>0,0,0</WorldPosition/>
+	<Duration>0.1</Duration/>
+	<AliveTime>0</AliveTime/>
+	<LifeTime>3</LifeTime/>
+	<StartSpeed>0</StartSpeed/>
+	<GravityScale>0</GravityScale/>
+	<StartColor>1,1,1,1</StartColor/>
+	<EndColor>1,0.7019608,0.4156863,0.1019608</EndColor/>
+	<StartSize>0.6</StartSize/>
+	<EndSize>4.5</EndSize/>
+	<MaxParticles>1</MaxParticles/>
+	<Emission>1</Emission/>
+	<ShapeDimensions>0.5,1,1</ShapeDimensions/>
+	<Flags>1</Flags/>
+	<EShape>2</EShape/>
+	<EStyle>0</EStyle/>
+	<EmissionRate>1</EmissionRate/>
+	<Accumulator>0</Accumulator/>
+	<Paused>0</Paused/>
+	<Looping>0</Looping/>
+	<Texture>3</Texture/>
+	<gameObject>818625872</gameObject/>
+ParticleSystem/>
+GameObject<
+	<GUID>964522286</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Sparkles</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>720147889</Component0/>
+	<Component1>759860123</Component1/>
+GameObject/>
+Transform<
+	<GUID>720147889</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,0,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>259567374</Parent/>
+	<gameObject>964522286</gameObject/>
+Transform/>
+ParticleSystem<
+	<GUID>759860123</GUID/>
+	<Type>Generic</Type/>
+	<WorldPosition>0,0,0</WorldPosition/>
+	<Duration>1.5</Duration/>
+	<AliveTime>0</AliveTime/>
+	<LifeTime>2</LifeTime/>
+	<StartSpeed>0.9</StartSpeed/>
+	<GravityScale>0</GravityScale/>
+	<StartColor>1,1,1,1</StartColor/>
+	<EndColor>0.5058824,0,0,0.1019608</EndColor/>
+	<StartSize>0.15</StartSize/>
+	<EndSize>0.15</EndSize/>
+	<MaxParticles>200</MaxParticles/>
+	<Emission>30</Emission/>
+	<ShapeDimensions>0.3,1,1</ShapeDimensions/>
+	<Flags>8</Flags/>
+	<EShape>0</EShape/>
+	<EStyle>1</EStyle/>
+	<EmissionRate>30</EmissionRate/>
+	<Accumulator>0</Accumulator/>
+	<Paused>0</Paused/>
+	<Looping>0</Looping/>
+	<Texture>0</Texture/>
+	<gameObject>964522286</gameObject/>
+ParticleSystem/>
+<end>

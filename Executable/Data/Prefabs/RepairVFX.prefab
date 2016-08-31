@@ -1,0 +1,49 @@
+GameObject
+Allocation Amount<1>
+GameObject<
+	<GUID>1754539714</GUID/>
+	<Type>GameObject</Type/>
+	<Name>RepairVFX</Name/>
+	<PrefabName>RepairVFX</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1292448028</Component0/>
+	<Component1>1472203185</Component1/>
+GameObject/>
+Transform<
+	<GUID>1292448028</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,0,-25.51</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<gameObject>1754539714</gameObject/>
+Transform/>
+ParticleSystem<
+	<GUID>1472203185</GUID/>
+	<Type>Generic</Type/>
+	<WorldPosition>0,0,0</WorldPosition/>
+	<Duration>1</Duration/>
+	<AliveTime>0</AliveTime/>
+	<LifeTime>1.5</LifeTime/>
+	<StartSpeed>1.5</StartSpeed/>
+	<GravityScale>0</GravityScale/>
+	<StartColor>1,0.5586207,0,1</StartColor/>
+	<EndColor>0.7279412,0.4172228,0.02676252,1</EndColor/>
+	<StartSize>0.15</StartSize/>
+	<EndSize>0.6</EndSize/>
+	<MaxParticles>100</MaxParticles/>
+	<Emission>3</Emission/>
+	<ShapeDimensions>1,1,1</ShapeDimensions/>
+	<Flags>8</Flags/>
+	<EShape>3</EShape/>
+	<EStyle>1</EStyle/>
+	<EmissionRate>3</EmissionRate/>
+	<Accumulator>0</Accumulator/>
+	<Paused>0</Paused/>
+	<Looping>1</Looping/>
+	<Texture>5</Texture/>
+	<gameObject>1754539714</gameObject/>
+ParticleSystem/>
+<end>

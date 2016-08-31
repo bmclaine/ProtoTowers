@@ -1,0 +1,262 @@
+GameObject
+Allocation Amount<1>
+GameObject<
+	<GUID>1356310380</GUID/>
+	<Type>GameObject</Type/>
+	<Name>BossCSWaypoints</Name/>
+	<PrefabName>BossCSWaypoints</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>168102977</Component0/>
+GameObject/>
+Transform<
+	<GUID>168102977</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,0,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>8</ChildCount/>
+	<Child0>1399361177</Child0/>
+	<Child1>1381381733</Child1/>
+	<Child2>998956756</Child2/>
+	<Child3>1624529771</Child3/>
+	<Child4>278854493</Child4/>
+	<Child5>1180538310</Child5/>
+	<Child6>495945188</Child6/>
+	<Child7>790244043</Child7/>
+	<gameObject>1356310380</gameObject/>
+Transform/>
+GameObject<
+	<GUID>1363700012</GUID/>
+	<Type>GameObject</Type/>
+	<Name>CutSceneWayPoint</Name/>
+	<PrefabName>CutSceneWaypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1399361177</Component0/>
+	<Component1>614202638</Component1/>
+GameObject/>
+Transform<
+	<GUID>1399361177</GUID/>
+	<Type>Transform</Type/>
+	<Position>-10,15,-30</Position/>
+	<Rotation>25,15,2.355088E-07</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>168102977</Parent/>
+	<gameObject>1363700012</gameObject/>
+Transform/>
+CutSceneWaypoint<
+	<GUID>614202638</GUID/>
+	<Type>Generic</Type/>
+	<Next>2016111532</Next/>
+	<Tangent>0</Tangent/>
+	<Time>0</Time/>
+	<gameObject>1363700012</gameObject/>
+CutSceneWaypoint/>
+GameObject<
+	<GUID>948997799</GUID/>
+	<Type>GameObject</Type/>
+	<Name>CutSceneWayPoint (1)</Name/>
+	<PrefabName>CutSceneWaypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1381381733</Component0/>
+	<Component1>2016111532</Component1/>
+GameObject/>
+Transform<
+	<GUID>1381381733</GUID/>
+	<Type>Transform</Type/>
+	<Position>-5,10,-20</Position/>
+	<Rotation>15,15,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>168102977</Parent/>
+	<gameObject>948997799</gameObject/>
+Transform/>
+CutSceneWaypoint<
+	<GUID>2016111532</GUID/>
+	<Type>Generic</Type/>
+	<Next>2016111532</Next/>
+	<Tangent>0</Tangent/>
+	<Time>0.75</Time/>
+	<gameObject>948997799</gameObject/>
+CutSceneWaypoint/>
+GameObject<
+	<GUID>278053330</GUID/>
+	<Type>GameObject</Type/>
+	<Name>CutSceneWayPoint (2)</Name/>
+	<PrefabName>CutSceneWaypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>998956756</Component0/>
+	<Component1>1630424131</Component1/>
+GameObject/>
+Transform<
+	<GUID>998956756</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,5,-9.5</Position/>
+	<Rotation>5.000001,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>168102977</Parent/>
+	<gameObject>278053330</gameObject/>
+Transform/>
+CutSceneWaypoint<
+	<GUID>1630424131</GUID/>
+	<Type>Generic</Type/>
+	<Next>406511330</Next/>
+	<Tangent>0</Tangent/>
+	<Time>0.75</Time/>
+	<gameObject>278053330</gameObject/>
+CutSceneWaypoint/>
+GameObject<
+	<GUID>96150484</GUID/>
+	<Type>GameObject</Type/>
+	<Name>CutSceneWayPoint (3)</Name/>
+	<PrefabName>CutSceneWaypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1624529771</Component0/>
+	<Component1>406511330</Component1/>
+GameObject/>
+Transform<
+	<GUID>1624529771</GUID/>
+	<Type>Transform</Type/>
+	<Position>1,5,-9</Position/>
+	<Rotation>5.000001,355,360</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>168102977</Parent/>
+	<gameObject>96150484</gameObject/>
+Transform/>
+CutSceneWaypoint<
+	<GUID>406511330</GUID/>
+	<Type>Generic</Type/>
+	<Next>943913567</Next/>
+	<Tangent>0</Tangent/>
+	<Time>1</Time/>
+	<gameObject>96150484</gameObject/>
+CutSceneWaypoint/>
+GameObject<
+	<GUID>1385453858</GUID/>
+	<Type>GameObject</Type/>
+	<Name>CutSceneWayPoint (4)</Name/>
+	<PrefabName>CutSceneWaypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>278854493</Component0/>
+	<Component1>943913567</Component1/>
+GameObject/>
+Transform<
+	<GUID>278854493</GUID/>
+	<Type>Transform</Type/>
+	<Position>2,5,-8.75</Position/>
+	<Rotation>5.000001,350,2.678234E-08</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>168102977</Parent/>
+	<gameObject>1385453858</gameObject/>
+Transform/>
+CutSceneWaypoint<
+	<GUID>943913567</GUID/>
+	<Type>Generic</Type/>
+	<Next>2012018511</Next/>
+	<Tangent>0</Tangent/>
+	<Time>1</Time/>
+	<gameObject>1385453858</gameObject/>
+CutSceneWaypoint/>
+GameObject<
+	<GUID>713252398</GUID/>
+	<Type>GameObject</Type/>
+	<Name>CutSceneWayPoint (5)</Name/>
+	<PrefabName>CutSceneWaypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1180538310</Component0/>
+	<Component1>2012018511</Component1/>
+GameObject/>
+Transform<
+	<GUID>1180538310</GUID/>
+	<Type>Transform</Type/>
+	<Position>3,5,-8.5</Position/>
+	<Rotation>5.000001,340,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>168102977</Parent/>
+	<gameObject>713252398</gameObject/>
+Transform/>
+CutSceneWaypoint<
+	<GUID>2012018511</GUID/>
+	<Type>Generic</Type/>
+	<Next>2100775438</Next/>
+	<Tangent>0</Tangent/>
+	<Time>1</Time/>
+	<gameObject>713252398</gameObject/>
+CutSceneWaypoint/>
+GameObject<
+	<GUID>1343353032</GUID/>
+	<Type>GameObject</Type/>
+	<Name>CutSceneWayPoint (6)</Name/>
+	<PrefabName>CutSceneWaypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>495945188</Component0/>
+	<Component1>2100775438</Component1/>
+GameObject/>
+Transform<
+	<GUID>495945188</GUID/>
+	<Type>Transform</Type/>
+	<Position>4,5,-8.25</Position/>
+	<Rotation>5.000001,332,360</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>168102977</Parent/>
+	<gameObject>1343353032</gameObject/>
+Transform/>
+CutSceneWaypoint<
+	<GUID>2100775438</GUID/>
+	<Type>Generic</Type/>
+	<Next>1091966502</Next/>
+	<Tangent>0</Tangent/>
+	<Time>1</Time/>
+	<gameObject>1343353032</gameObject/>
+CutSceneWaypoint/>
+GameObject<
+	<GUID>242724187</GUID/>
+	<Type>GameObject</Type/>
+	<Name>CutSceneWayPoint (7)</Name/>
+	<PrefabName>CutSceneWaypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>790244043</Component0/>
+	<Component1>1091966502</Component1/>
+GameObject/>
+Transform<
+	<GUID>790244043</GUID/>
+	<Type>Transform</Type/>
+	<Position>5,5,-7.75</Position/>
+	<Rotation>5.000001,326,1.071294E-07</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>168102977</Parent/>
+	<gameObject>242724187</gameObject/>
+Transform/>
+CutSceneWaypoint<
+	<GUID>1091966502</GUID/>
+	<Type>Generic</Type/>
+	<Next>0</Next/>
+	<Tangent>0</Tangent/>
+	<Time>1</Time/>
+	<gameObject>242724187</gameObject/>
+CutSceneWaypoint/>
+<end>

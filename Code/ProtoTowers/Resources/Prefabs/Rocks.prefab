@@ -1,0 +1,1571 @@
+GameObject
+Allocation Amount<1>
+Transform<
+	<GUID>799140634</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,0,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>50</ChildCount/>
+	<Child0>699320483</Child0/>
+	<Child1>1524655002</Child1/>
+	<Child2>3543393</Child2/>
+	<Child3>968811853</Child3/>
+	<Child4>370884421</Child4/>
+	<Child5>1633150664</Child5/>
+	<Child6>631585480</Child6/>
+	<Child7>277019980</Child7/>
+	<Child8>623911307</Child8/>
+	<Child9>644994085</Child9/>
+	<Child10>1063893033</Child10/>
+	<Child11>933259929</Child11/>
+	<Child12>1182852912</Child12/>
+	<Child13>234495494</Child13/>
+	<Child14>2102387663</Child14/>
+	<Child15>519043614</Child15/>
+	<Child16>2049729066</Child16/>
+	<Child17>2031170557</Child17/>
+	<Child18>374383859</Child18/>
+	<Child19>452597144</Child19/>
+	<Child20>1649468918</Child20/>
+	<Child21>1795894923</Child21/>
+	<Child22>235992688</Child22/>
+	<Child23>594322977</Child23/>
+	<Child24>1000705339</Child24/>
+	<Child25>284881062</Child25/>
+	<Child26>1550715870</Child26/>
+	<Child27>2008148253</Child27/>
+	<Child28>470153557</Child28/>
+	<Child29>1132217606</Child29/>
+	<Child30>568143845</Child30/>
+	<Child31>426497664</Child31/>
+	<Child32>1016827997</Child32/>
+	<Child33>1749065585</Child33/>
+	<Child34>1705049556</Child34/>
+	<Child35>895093278</Child35/>
+	<Child36>2009856322</Child36/>
+	<Child37>1796273201</Child37/>
+	<Child38>106560184</Child38/>
+	<Child39>1353725526</Child39/>
+	<Child40>893553886</Child40/>
+	<Child41>603657380</Child41/>
+	<Child42>1839205921</Child42/>
+	<Child43>27483293</Child43/>
+	<Child44>891062282</Child44/>
+	<Child45>1801235640</Child45/>
+	<Child46>1667378175</Child46/>
+	<Child47>955217922</Child47/>
+	<Child48>1144077452</Child48/>
+	<Child49>582593820</Child49/>
+	<gameObject>1734641425</gameObject/>
+Transform/>
+GameObject<
+	<GUID>1734641425</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Rocks</Name/>
+	<PrefabName>Rocks</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<Component0>799140634</Component0/>
+GameObject/>
+Transform<
+	<GUID>699320483</GUID/>
+	<Type>Transform</Type/>
+	<Position>0.2,-1.57,-90.1</Position/>
+	<Rotation>360,351.9395,360</Rotation/>
+	<Scale>6,4,5</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>799140634</Parent/>
+	<gameObject>396795791</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>956016851</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Rock_08</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>Rocks</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>396795791</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>396795791</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Rock_08</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<Component0>699320483</Component0/>
+	<Component1>956016851</Component1/>
+GameObject/>
+Transform<
+	<GUID>1524655002</GUID/>
+	<Type>Transform</Type/>
+	<Position>-8.95,0,-89.4</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>6,4,5</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>799140634</Parent/>
+	<gameObject>546122081</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>853180835</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Rock_09</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>Rocks</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>546122081</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>546122081</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Rock_09</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<Component0>1524655002</Component0/>
+	<Component1>853180835</Component1/>
+GameObject/>
+Transform<
+	<GUID>3543393</GUID/>
+	<Type>Transform</Type/>
+	<Position>-19.34,0,-86.9</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>6,4,5</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>799140634</Parent/>
+	<gameObject>347557977</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>1811644386</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Rock_10</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>Rocks</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>347557977</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>347557977</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Rock_10</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<Component0>3543393</Component0/>
+	<Component1>1811644386</Component1/>
+GameObject/>
+Transform<
+	<GUID>968811853</GUID/>
+	<Type>Transform</Type/>
+	<Position>-28.1,0,-85.1</Position/>
+	<Rotation>360,11.93189,1.412133E-06</Rotation/>
+	<Scale>6,4,5</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>799140634</Parent/>
+	<gameObject>705383339</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>1985835808</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Rock_13</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>Rocks</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>705383339</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>705383339</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Rock_13</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<Component0>968811853</Component0/>
+	<Component1>1985835808</Component1/>
+GameObject/>
+Transform<
+	<GUID>370884421</GUID/>
+	<Type>Transform</Type/>
+	<Position>-32.4,0,-74.6</Position/>
+	<Rotation>360,93.6282,6.816497E-06</Rotation/>
+	<Scale>6,4,5</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>799140634</Parent/>
+	<gameObject>541028871</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>1551938025</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Rock_09</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>Rocks</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>541028871</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>541028871</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Rock_09 (1)</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<Component0>370884421</Component0/>
+	<Component1>1551938025</Component1/>
+GameObject/>
+Transform<
+	<GUID>1633150664</GUID/>
+	<Type>Transform</Type/>
+	<Position>-32.3,-1.57,-68.3</Position/>
+	<Rotation>360,34.94308,3.912075E-06</Rotation/>
+	<Scale>6,4,5</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>799140634</Parent/>
+	<gameObject>1787383353</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>1351648973</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Rock_08</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>Rocks</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>1787383353</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>1787383353</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Rock_08 (1)</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<Component0>1633150664</Component0/>
+	<Component1>1351648973</Component1/>
+GameObject/>
+Transform<
+	<GUID>631585480</GUID/>
+	<Type>Transform</Type/>
+	<Position>-38.6,0,-60.3</Position/>
+	<Rotation>360,233.443,360</Rotation/>
+	<Scale>6,4,5</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>799140634</Parent/>
+	<gameObject>1369001612</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>691488946</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Rock_09</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>Rocks</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>1369001612</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>1369001612</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Rock_09 (2)</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<Component0>631585480</Component0/>
+	<Component1>691488946</Component1/>
+GameObject/>
+Transform<
+	<GUID>277019980</GUID/>
+	<Type>Transform</Type/>
+	<Position>-44.8,0,-52</Position/>
+	<Rotation>360,236.6085,360</Rotation/>
+	<Scale>6,4,5</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>799140634</Parent/>
+	<gameObject>660115633</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>237083913</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Rock_13</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>Rocks</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>660115633</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>660115633</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Rock_13 (1)</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<Component0>277019980</Component0/>
+	<Component1>237083913</Component1/>
+GameObject/>
+Transform<
+	<GUID>623911307</GUID/>
+	<Type>Transform</Type/>
+	<Position>-54.9,-0.75,-7.2</Position/>
+	<Rotation>0,90.00001,0</Rotation/>
+	<Scale>6,4,5</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>799140634</Parent/>
+	<gameObject>1534931058</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>1178964852</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Rock_13</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>Rocks</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>1534931058</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>1534931058</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Rock_13 (2)</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<Component0>623911307</Component0/>
+	<Component1>1178964852</Component1/>
+GameObject/>
+Transform<
+	<GUID>644994085</GUID/>
+	<Type>Transform</Type/>
+	<Position>-53.9,-1.57,2.6</Position/>
+	<Rotation>360,59.04399,4.543292E-06</Rotation/>
+	<Scale>6,4,5</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>799140634</Parent/>
+	<gameObject>1209827535</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>724571399</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Rock_08</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>Rocks</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>1209827535</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>1209827535</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Rock_08 (2)</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<Component0>644994085</Component0/>
+	<Component1>724571399</Component1/>
+GameObject/>
+Transform<
+	<GUID>1063893033</GUID/>
+	<Type>Transform</Type/>
+	<Position>-53.9,0,12.2</Position/>
+	<Rotation>0,258.0815,0</Rotation/>
+	<Scale>6,4,5</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>799140634</Parent/>
+	<gameObject>1746066048</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>1105572946</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Rock_09</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>Rocks</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>1746066048</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>1746066048</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Rock_09 (3)</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<Component0>1063893033</Component0/>
+	<Component1>1105572946</Component1/>
+GameObject/>
+Transform<
+	<GUID>933259929</GUID/>
+	<Type>Transform</Type/>
+	<Position>-54.5,0,21.6</Position/>
+	<Rotation>0,275.7696,0</Rotation/>
+	<Scale>6,4,5</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>799140634</Parent/>
+	<gameObject>1374036349</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>1451069409</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Rock_10</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>Rocks</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>1374036349</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>1374036349</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Rock_10 (1)</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<Component0>933259929</Component0/>
+	<Component1>1451069409</Component1/>
+GameObject/>
+Transform<
+	<GUID>1182852912</GUID/>
+	<Type>Transform</Type/>
+	<Position>-54.7,-0.75,31.2</Position/>
+	<Rotation>360,267.4757,360</Rotation/>
+	<Scale>6,4,5</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>799140634</Parent/>
+	<gameObject>470255620</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>612678820</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Rock_13</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>Rocks</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>470255620</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>470255620</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Rock_13 (3)</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<Component0>1182852912</Component0/>
+	<Component1>612678820</Component1/>
+GameObject/>
+Transform<
+	<GUID>234495494</GUID/>
+	<Type>Transform</Type/>
+	<Position>-52.1,0,40.2</Position/>
+	<Rotation>2.661373E-06,280.552,360</Rotation/>
+	<Scale>6,4,5</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>799140634</Parent/>
+	<gameObject>1929244398</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>2054414048</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Rock_09</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>Rocks</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>1929244398</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>1929244398</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Rock_09 (4)</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<Component0>234495494</Component0/>
+	<Component1>2054414048</Component1/>
+GameObject/>
+Transform<
+	<GUID>2102387663</GUID/>
+	<Type>Transform</Type/>
+	<Position>-42.4,-0.75,55.2</Position/>
+	<Rotation>360,309.1018,360</Rotation/>
+	<Scale>6,4,5</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>799140634</Parent/>
+	<gameObject>612373449</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>1996049011</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Rock_13</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>Rocks</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>612373449</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>612373449</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Rock_13 (4)</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<Component0>2102387663</Component0/>
+	<Component1>1996049011</Component1/>
+GameObject/>
+Transform<
+	<GUID>519043614</GUID/>
+	<Type>Transform</Type/>
+	<Position>-36.8,-1.57,64.1</Position/>
+	<Rotation>360,100.5933,5.399758E-06</Rotation/>
+	<Scale>6,4,5</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>799140634</Parent/>
+	<gameObject>1352574673</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>1336741033</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Rock_08</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>Rocks</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>1352574673</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>1352574673</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Rock_08 (3)</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<Component0>519043614</Component0/>
+	<Component1>1336741033</Component1/>
+GameObject/>
+Transform<
+	<GUID>2049729066</GUID/>
+	<Type>Transform</Type/>
+	<Position>-31.7,-1.57,68.8</Position/>
+	<Rotation>2.553697E-06,279.4674,3.861154E-06</Rotation/>
+	<Scale>6,4,5</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>799140634</Parent/>
+	<gameObject>1259067785</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>1956780044</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Rock_08</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>Rocks</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>1259067785</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>1259067785</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Rock_08 (4)</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<Component0>2049729066</Component0/>
+	<Component1>1956780044</Component1/>
+GameObject/>
+Transform<
+	<GUID>2031170557</GUID/>
+	<Type>Transform</Type/>
+	<Position>-32.7,0,76.3</Position/>
+	<Rotation>360,239.6436,7.285628E-07</Rotation/>
+	<Scale>6,4,5</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>799140634</Parent/>
+	<gameObject>39300793</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>1198662758</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Rock_09</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>Rocks</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>39300793</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>39300793</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Rock_09 (5)</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<Component0>2031170557</Component0/>
+	<Component1>1198662758</Component1/>
+GameObject/>
+Transform<
+	<GUID>374383859</GUID/>
+	<Type>Transform</Type/>
+	<Position>-48,0,46.7</Position/>
+	<Rotation>3.545562E-06,308.2891,1.434614E-06</Rotation/>
+	<Scale>6,4,5</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>799140634</Parent/>
+	<gameObject>76762406</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>1225141961</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Rock_10</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>Rocks</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>76762406</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>76762406</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Rock_10 (2)</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<Component0>374383859</Component0/>
+	<Component1>1225141961</Component1/>
+GameObject/>
+Transform<
+	<GUID>452597144</GUID/>
+	<Type>Transform</Type/>
+	<Position>-27,-0.75,86.1</Position/>
+	<Rotation>360,141.0141,360</Rotation/>
+	<Scale>6,4,5</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>799140634</Parent/>
+	<gameObject>1094058193</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>321202454</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Rock_13</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>Rocks</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>1094058193</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>1094058193</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Rock_13 (5)</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<Component0>452597144</Component0/>
+	<Component1>321202454</Component1/>
+GameObject/>
+Transform<
+	<GUID>1649468918</GUID/>
+	<Type>Transform</Type/>
+	<Position>-17.8,0,90.2</Position/>
+	<Rotation>360,130.3017,360</Rotation/>
+	<Scale>6,4,5</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>799140634</Parent/>
+	<gameObject>1965383010</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>1593163782</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Rock_09</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>Rocks</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>1965383010</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>1965383010</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Rock_09 (6)</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<Component0>1649468918</Component0/>
+	<Component1>1593163782</Component1/>
+GameObject/>
+Transform<
+	<GUID>1795894923</GUID/>
+	<Type>Transform</Type/>
+	<Position>-8.6,-1.57,91.8</Position/>
+	<Rotation>360,146.8679,2.419164E-06</Rotation/>
+	<Scale>6,4,5</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>799140634</Parent/>
+	<gameObject>723058286</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>1848406784</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Rock_08</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>Rocks</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>723058286</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>723058286</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Rock_08 (5)</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<Component0>1795894923</Component0/>
+	<Component1>1848406784</Component1/>
+GameObject/>
+Transform<
+	<GUID>235992688</GUID/>
+	<Type>Transform</Type/>
+	<Position>2.7,-0.75,92.9</Position/>
+	<Rotation>360,169.4351,360</Rotation/>
+	<Scale>6,4,5</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>799140634</Parent/>
+	<gameObject>407543327</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>1456119984</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Rock_13</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>Rocks</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>407543327</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>407543327</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Rock_13 (6)</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<Component0>235992688</Component0/>
+	<Component1>1456119984</Component1/>
+GameObject/>
+Transform<
+	<GUID>594322977</GUID/>
+	<Type>Transform</Type/>
+	<Position>33.2,-0.75,-72.4</Position/>
+	<Rotation>360,255.3829,360</Rotation/>
+	<Scale>6,4,5</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>799140634</Parent/>
+	<gameObject>1535824248</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>2021954497</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Rock_13</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>Rocks</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>1535824248</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>1535824248</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Rock_13 (8)</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<Component0>594322977</Component0/>
+	<Component1>2021954497</Component1/>
+GameObject/>
+Transform<
+	<GUID>1000705339</GUID/>
+	<Type>Transform</Type/>
+	<Position>40.4,-1.57,-58.5</Position/>
+	<Rotation>1.762892E-06,272.7917,3.776229E-06</Rotation/>
+	<Scale>6,4,5</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>799140634</Parent/>
+	<gameObject>1328269408</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>1782363691</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Rock_08</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>Rocks</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>1328269408</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>1328269408</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Rock_08 (6)</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<Component0>1000705339</Component0/>
+	<Component1>1782363691</Component1/>
+GameObject/>
+Transform<
+	<GUID>284881062</GUID/>
+	<Type>Transform</Type/>
+	<Position>44.9,-1.505882,-49.2</Position/>
+	<Rotation>356.3955,82.87502,353.0754</Rotation/>
+	<Scale>6,4,5</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>799140634</Parent/>
+	<gameObject>1807931518</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>676506904</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Rock_08</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>Rocks</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>1807931518</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>1807931518</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Rock_08 (7)</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<Component0>284881062</Component0/>
+	<Component1>676506904</Component1/>
+GameObject/>
+Transform<
+	<GUID>1550715870</GUID/>
+	<Type>Transform</Type/>
+	<Position>34.2,0,-66.6</Position/>
+	<Rotation>360,111.1479,1.752366E-07</Rotation/>
+	<Scale>6,4,5</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>799140634</Parent/>
+	<gameObject>604501112</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>364003254</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Rock_09</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>Rocks</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>604501112</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>604501112</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Rock_09 (7)</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<Component0>1550715870</Component0/>
+	<Component1>364003254</Component1/>
+GameObject/>
+Transform<
+	<GUID>2008148253</GUID/>
+	<Type>Transform</Type/>
+	<Position>50.6,0,-41.4</Position/>
+	<Rotation>360,106.2077,3.63775E-07</Rotation/>
+	<Scale>6,4,5</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>799140634</Parent/>
+	<gameObject>1514254572</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>913930313</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Rock_09</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>Rocks</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>1514254572</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>1514254572</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Rock_09 (8)</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<Component0>2008148253</Component0/>
+	<Component1>913930313</Component1/>
+GameObject/>
+Transform<
+	<GUID>470153557</GUID/>
+	<Type>Transform</Type/>
+	<Position>55.4,-0.75,-31.7</Position/>
+	<Rotation>360,104.6792,360</Rotation/>
+	<Scale>6,4,5</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>799140634</Parent/>
+	<gameObject>1924748987</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>842806624</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Rock_13</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>Rocks</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>1924748987</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>1924748987</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Rock_13 (9)</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<Component0>470153557</Component0/>
+	<Component1>842806624</Component1/>
+GameObject/>
+Transform<
+	<GUID>1132217606</GUID/>
+	<Type>Transform</Type/>
+	<Position>55.1,0,-21.2</Position/>
+	<Rotation>360,97.72432,9.698041E-07</Rotation/>
+	<Scale>6,4,5</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>799140634</Parent/>
+	<gameObject>1639433126</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>327057446</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Rock_09</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>Rocks</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>1639433126</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>1639433126</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Rock_09 (9)</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<Component0>1132217606</Component0/>
+	<Component1>327057446</Component1/>
+GameObject/>
+Transform<
+	<GUID>568143845</GUID/>
+	<Type>Transform</Type/>
+	<Position>54.5,-1.505882,-12.4</Position/>
+	<Rotation>356.3955,250.6313,353.0754</Rotation/>
+	<Scale>6,4,5</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>799140634</Parent/>
+	<gameObject>1233267552</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>1244900995</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Rock_08</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>Rocks</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>1233267552</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>1233267552</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Rock_08 (8)</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<Component0>568143845</Component0/>
+	<Component1>1244900995</Component1/>
+GameObject/>
+Transform<
+	<GUID>426497664</GUID/>
+	<Type>Transform</Type/>
+	<Position>55.7,-0.75,1.2</Position/>
+	<Rotation>360,257.6003,360</Rotation/>
+	<Scale>6,4,5</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>799140634</Parent/>
+	<gameObject>155405700</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>1509214026</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Rock_13</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>Rocks</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>155405700</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>155405700</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Rock_13 (10)</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<Component0>426497664</Component0/>
+	<Component1>1509214026</Component1/>
+GameObject/>
+Transform<
+	<GUID>1016827997</GUID/>
+	<Type>Transform</Type/>
+	<Position>54.8,0,11.9</Position/>
+	<Rotation>360,81.54626,9.57568E-07</Rotation/>
+	<Scale>6,4,5</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>799140634</Parent/>
+	<gameObject>994606387</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>195324660</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Rock_09</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>Rocks</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>994606387</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>994606387</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Rock_09 (11)</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<Component0>1016827997</Component0/>
+	<Component1>195324660</Component1/>
+GameObject/>
+Transform<
+	<GUID>1749065585</GUID/>
+	<Type>Transform</Type/>
+	<Position>54.1,-1.505882,21.5</Position/>
+	<Rotation>356.3955,72.02322,353.0754</Rotation/>
+	<Scale>6,4,5</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>799140634</Parent/>
+	<gameObject>1733920380</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>1304257613</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Rock_08</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>Rocks</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>1733920380</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>1733920380</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Rock_08 (9)</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<Component0>1749065585</Component0/>
+	<Component1>1304257613</Component1/>
+GameObject/>
+Transform<
+	<GUID>1705049556</GUID/>
+	<Type>Transform</Type/>
+	<Position>53.9,0,30.4</Position/>
+	<Rotation>360,252.0518,360</Rotation/>
+	<Scale>6,4,5</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>799140634</Parent/>
+	<gameObject>1493463592</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>534933312</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Rock_09</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>Rocks</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>1493463592</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>1493463592</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Rock_09 (12)</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<Component0>1705049556</Component0/>
+	<Component1>534933312</Component1/>
+GameObject/>
+Transform<
+	<GUID>895093278</GUID/>
+	<Type>Transform</Type/>
+	<Position>51.5,-0.75,41.6</Position/>
+	<Rotation>360,241.4041,360</Rotation/>
+	<Scale>6,4,5</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>799140634</Parent/>
+	<gameObject>943193327</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>192949506</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Rock_13</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>Rocks</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>943193327</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>943193327</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Rock_13 (11)</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<Component0>895093278</Component0/>
+	<Component1>192949506</Component1/>
+GameObject/>
+Transform<
+	<GUID>2009856322</GUID/>
+	<Type>Transform</Type/>
+	<Position>45.2,-1.51,50.2</Position/>
+	<Rotation>356.3955,227.2679,353.0754</Rotation/>
+	<Scale>6,4,5</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>799140634</Parent/>
+	<gameObject>1550700589</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>959720813</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Rock_08</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>Rocks</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>1550700589</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>1550700589</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Rock_08 (10)</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<Component0>2009856322</Component0/>
+	<Component1>959720813</Component1/>
+GameObject/>
+Transform<
+	<GUID>1796273201</GUID/>
+	<Type>Transform</Type/>
+	<Position>40.9,-0.75,61</Position/>
+	<Rotation>360,58.76413,360</Rotation/>
+	<Scale>6,4,5</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>799140634</Parent/>
+	<gameObject>1005008316</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>1791284791</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Rock_13</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>Rocks</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>1005008316</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>1005008316</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Rock_13 (12)</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<Component0>1796273201</Component0/>
+	<Component1>1791284791</Component1/>
+GameObject/>
+Transform<
+	<GUID>106560184</GUID/>
+	<Type>Transform</Type/>
+	<Position>33.4,0,69.1</Position/>
+	<Rotation>2.784408E-06,44.63569,360</Rotation/>
+	<Scale>6,4,5</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>799140634</Parent/>
+	<gameObject>1823633792</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>1346066146</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Rock_09</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>Rocks</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>1823633792</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>1823633792</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Rock_09 (13)</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<Component0>106560184</Component0/>
+	<Component1>1346066146</Component1/>
+GameObject/>
+Transform<
+	<GUID>1353725526</GUID/>
+	<Type>Transform</Type/>
+	<Position>32.4,0,75</Position/>
+	<Rotation>360,287.1251,360</Rotation/>
+	<Scale>6,4,5</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>799140634</Parent/>
+	<gameObject>799163103</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>1217878033</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Rock_09</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>Rocks</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>799163103</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>799163103</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Rock_09 (14)</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<Component0>1353725526</Component0/>
+	<Component1>1217878033</Component1/>
+GameObject/>
+Transform<
+	<GUID>893553886</GUID/>
+	<Type>Transform</Type/>
+	<Position>32.9,-0.75,84.2</Position/>
+	<Rotation>360,26.57895,360</Rotation/>
+	<Scale>6,4,5</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>799140634</Parent/>
+	<gameObject>698164262</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>1532169250</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Rock_13</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>Rocks</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>698164262</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>698164262</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Rock_13 (13)</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<Component0>893553886</Component0/>
+	<Component1>1532169250</Component1/>
+GameObject/>
+Transform<
+	<GUID>603657380</GUID/>
+	<Type>Transform</Type/>
+	<Position>25.1,-1.51,87.3</Position/>
+	<Rotation>356.3955,180.7829,353.0754</Rotation/>
+	<Scale>6,4,5</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>799140634</Parent/>
+	<gameObject>1201847117</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>1459165124</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Rock_08</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>Rocks</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>1201847117</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>1201847117</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Rock_08 (11)</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<Component0>603657380</Component0/>
+	<Component1>1459165124</Component1/>
+GameObject/>
+Transform<
+	<GUID>1839205921</GUID/>
+	<Type>Transform</Type/>
+	<Position>13.4,-1.51,91.5</Position/>
+	<Rotation>356.3955,347.7098,353.0754</Rotation/>
+	<Scale>6,4,5</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>799140634</Parent/>
+	<gameObject>1642783991</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>554981878</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Rock_08</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>Rocks</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>1642783991</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>1642783991</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Rock_08 (12)</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<Component0>1839205921</Component0/>
+	<Component1>554981878</Component1/>
+GameObject/>
+Transform<
+	<GUID>27483293</GUID/>
+	<Type>Transform</Type/>
+	<Position>9.6,0,-90.4</Position/>
+	<Rotation>360,338.4835,360</Rotation/>
+	<Scale>6,4,5</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>799140634</Parent/>
+	<gameObject>1652182599</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>1000390176</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Rock_09</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>Rocks</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>1652182599</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>1652182599</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Rock_09 (10)</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<Component0>27483293</Component0/>
+	<Component1>1000390176</Component1/>
+GameObject/>
+Transform<
+	<GUID>891062282</GUID/>
+	<Type>Transform</Type/>
+	<Position>26.2,-1.57,-81</Position/>
+	<Rotation>360,117.8572,6.038673E-06</Rotation/>
+	<Scale>6,4,5</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>799140634</Parent/>
+	<gameObject>993528682</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>1148440453</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Rock_08</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>Rocks</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>993528682</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>993528682</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Rock_08 (13)</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<Component0>891062282</Component0/>
+	<Component1>1148440453</Component1/>
+GameObject/>
+Transform<
+	<GUID>1801235640</GUID/>
+	<Type>Transform</Type/>
+	<Position>20.2,-0.75,-88.9</Position/>
+	<Rotation>360,155.6591,360</Rotation/>
+	<Scale>6,4,5</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>799140634</Parent/>
+	<gameObject>1656570523</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>892244575</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Rock_13</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>Rocks</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>1656570523</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>1656570523</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Rock_13 (14)</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<Component0>1801235640</Component0/>
+	<Component1>892244575</Component1/>
+GameObject/>
+Transform<
+	<GUID>1667378175</GUID/>
+	<Type>Transform</Type/>
+	<Position>-54.1,-1.57,-18.2</Position/>
+	<Rotation>360,59.04399,4.543292E-06</Rotation/>
+	<Scale>6,4,5</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>799140634</Parent/>
+	<gameObject>2022873259</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>1574232586</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Rock_08</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>Rocks</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>2022873259</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>2022873259</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Rock_08 (14)</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<Component0>1667378175</Component0/>
+	<Component1>1574232586</Component1/>
+GameObject/>
+Transform<
+	<GUID>955217922</GUID/>
+	<Type>Transform</Type/>
+	<Position>-50.8,0,-37.6</Position/>
+	<Rotation>360,247.2021,360</Rotation/>
+	<Scale>6,4,5</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>799140634</Parent/>
+	<gameObject>1229550174</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>543681696</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Rock_09</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>Rocks</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>1229550174</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>1229550174</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Rock_09 (15)</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<Component0>955217922</Component0/>
+	<Component1>543681696</Component1/>
+GameObject/>
+Transform<
+	<GUID>1144077452</GUID/>
+	<Type>Transform</Type/>
+	<Position>-54.2,0,-27.9</Position/>
+	<Rotation>360,76.55044,6.64287E-06</Rotation/>
+	<Scale>6,4,5</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>799140634</Parent/>
+	<gameObject>1462598480</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>753995373</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Rock_13</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>Rocks</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>1462598480</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>1462598480</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Rock_13 (7)</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<Component0>1144077452</Component0/>
+	<Component1>753995373</Component1/>
+GameObject/>
+Transform<
+	<GUID>582593820</GUID/>
+	<Type>Transform</Type/>
+	<Position>-47.6,0,-44.6</Position/>
+	<Rotation>360,233.443,360</Rotation/>
+	<Scale>6,4,5</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>799140634</Parent/>
+	<gameObject>25206180</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>1903121556</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Rock_09</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>Rocks</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>25206180</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>25206180</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Rock_09 (16)</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<Component0>582593820</Component0/>
+	<Component1>1903121556</Component1/>
+GameObject/>
+<end>

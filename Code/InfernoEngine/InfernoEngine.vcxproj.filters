@@ -1,0 +1,1472 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Inferno Engine">
+      <UniqueIdentifier>{4c068fdd-295d-4c73-9fbd-81d42d766e88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inferno Engine\Core">
+      <UniqueIdentifier>{4e046a2a-44b5-4605-9868-132ce50d1aa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inferno Engine\Core\Public">
+      <UniqueIdentifier>{7dde9be5-a19f-4419-a237-994464915891}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inferno Engine\Core\Private">
+      <UniqueIdentifier>{ab8061fd-34d6-48d0-88c6-58906712b39b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inferno Engine\Utilities">
+      <UniqueIdentifier>{926f7f00-1aaf-4333-8a1e-38ba23e403a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inferno Engine\Utilities\Private">
+      <UniqueIdentifier>{0f5c9471-9593-4753-858f-a946e54f8753}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inferno Engine\Utilities\Public">
+      <UniqueIdentifier>{402e4538-e036-41c4-8a2f-aaccc925032d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inferno Engine\Core\Private\Font">
+      <UniqueIdentifier>{a0d86e89-7d50-40a7-acff-a9bbb79c1fe0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inferno Engine\Core\Public\Font">
+      <UniqueIdentifier>{7b1c6c2a-8396-421e-a8c1-05dbf0dac66d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inferno Engine\Core\Private\Components">
+      <UniqueIdentifier>{4e15cff3-0660-4dcb-b7d7-4e655e674702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inferno Engine\Core\Public\Components">
+      <UniqueIdentifier>{c644288c-4c3b-4b0f-8e5a-5e43fc07f42c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inferno Engine\Core\Public\ThreadPool">
+      <UniqueIdentifier>{b2aa9f9e-3b70-48d0-ad9a-a62ab4916bc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inferno Engine\Core\Private\ThreadPool">
+      <UniqueIdentifier>{12fa9e3b-041d-4903-afb5-677d6a7c2d7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inferno Engine\Core\Private\Shaders">
+      <UniqueIdentifier>{bc4deb0e-7cd3-47f2-b9b9-33fe625918b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inferno Engine\Core\Private\Shaders\Pixel">
+      <UniqueIdentifier>{65452abf-41c2-4b82-a9d8-5659948665ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inferno Engine\Core\Private\Shaders\Vertex">
+      <UniqueIdentifier>{167d07e6-5a9c-4227-afac-d271daa02e36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inferno Engine\Core\Private\Shaders\Hull">
+      <UniqueIdentifier>{3a671685-a9a9-4ed3-8c7a-c3a38443333d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inferno Engine\Core\Private\Shaders\Domain">
+      <UniqueIdentifier>{046cb987-f028-4b8b-ae81-8bf45b8bc725}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inferno Engine\Core\Private\Shaders\Geometry">
+      <UniqueIdentifier>{aa54299b-80bb-480b-9e22-cd1b6d9c3691}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inferno Engine\Core\Public\Assets">
+      <UniqueIdentifier>{0faf76c3-5d60-4358-9236-f9fdee6fbb44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inferno Engine\Core\Private\Rendering">
+      <UniqueIdentifier>{978622bc-4d0e-4a52-8f0b-274d34496398}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inferno Engine\Core\Public\Rendering">
+      <UniqueIdentifier>{309c7e2c-2833-4c66-b643-2c25db851f7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inferno Engine\Core\Public\UIComponents">
+      <UniqueIdentifier>{b86db35d-80c6-471b-a93d-a8c56817b31e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inferno Engine\Core\Private\UIComponents">
+      <UniqueIdentifier>{520ae2ea-daa0-4a01-b98b-6cac18694046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inferno Engine\Core\Public\Physics">
+      <UniqueIdentifier>{a6394f59-ca8a-44c6-aa12-8223d6f6fe74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inferno Engine\Core\Private\Physics">
+      <UniqueIdentifier>{4a377bf9-f69a-46e2-bcf7-d11a486a5e3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inferno Engine\Interface">
+      <UniqueIdentifier>{a8a9f656-2055-4bf3-a3fb-21b081fdcf2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inferno Engine\Interface\Public">
+      <UniqueIdentifier>{eb24ceda-4887-43da-ac77-f24f60ef7565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inferno Engine\Interface\Private">
+      <UniqueIdentifier>{e59c3c15-2692-464b-8f7a-9b4a47d23180}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inferno Engine\Core\Private\AI">
+      <UniqueIdentifier>{067f0960-1e21-4e60-85e3-1d0cb9a30b83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inferno Engine\Core\Public\AI">
+      <UniqueIdentifier>{840c1f22-ae4c-4705-b344-af6b1c34f1fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inferno Engine\Core\Private\Rendering\Programmable">
+      <UniqueIdentifier>{76048a9f-1ffd-4b47-9b7f-ac628ece039c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inferno Engine\Core\Public\Rendering\Common">
+      <UniqueIdentifier>{23b62274-f160-45d2-8c7f-346ad123a119}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inferno Engine\Core\Public\Rendering\Programmable">
+      <UniqueIdentifier>{699e20fc-995d-41cd-835d-c37a2b3476e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inferno Engine\Core\Private\Rendering\Fixed Stages">
+      <UniqueIdentifier>{35a48c71-e11f-46f7-b6ef-f4c88c0ea376}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inferno Engine\Core\Public\Rendering\Fixed Stages">
+      <UniqueIdentifier>{847cc41d-df7e-4612-9bc4-ab98905cd8ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inferno Engine\Core\Public\Rendering\Shaders">
+      <UniqueIdentifier>{95a2be18-920e-45b9-a7fa-3fd2e170da84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inferno Engine\Core\Private\Rendering\Shaders">
+      <UniqueIdentifier>{b03f0f89-6ecf-4f63-b951-445f9cdbd3d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inferno Engine\Core\Private\Rendering\Buffers">
+      <UniqueIdentifier>{b57e9031-c418-41ae-a4be-9be8ce1951f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inferno Engine\Core\Public\Rendering\Buffers">
+      <UniqueIdentifier>{77bac9eb-68e5-4c30-a10b-5992752d938f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inferno Engine\Core\Private\Rendering\States">
+      <UniqueIdentifier>{6bc0bc83-bd6c-48a9-a65b-f0bbd62ab0b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inferno Engine\Core\Public\Rendering\States">
+      <UniqueIdentifier>{476e4045-d1fe-4e83-88b5-a2c8659e1107}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inferno Engine\Core\Private\Shaders\Compute">
+      <UniqueIdentifier>{ad950d07-23b9-4183-8c2e-9e4a3b18fa2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inferno Engine\Core\Private\AI\BehaviorTrees">
+      <UniqueIdentifier>{e96d2dfb-61f7-4e14-a8c0-1e9d0fedef73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inferno Engine\Core\Private\AI\BehaviorTrees\Action">
+      <UniqueIdentifier>{95536767-bdf9-4ef6-acf3-be81012bc0cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inferno Engine\Core\Private\AI\BehaviorTrees\Composite">
+      <UniqueIdentifier>{5e225390-df78-4576-9b95-788a767a90ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inferno Engine\Core\Private\AI\BehaviorTrees\Condition">
+      <UniqueIdentifier>{1bbdf7ea-9c05-4edd-a028-fa8605c530ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inferno Engine\Core\Private\AI\BehaviorTrees\Decorator">
+      <UniqueIdentifier>{24823efe-9352-48aa-b64a-f7973537fc03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inferno Engine\Core\Public\AI\BehaviorTrees">
+      <UniqueIdentifier>{26303568-40f4-499c-afb4-3fbe2be7811f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inferno Engine\Core\Public\AI\BehaviorTrees\Action">
+      <UniqueIdentifier>{2c743db6-bbe6-4529-85f6-33dfcd1c9e09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inferno Engine\Core\Public\AI\BehaviorTrees\Composite">
+      <UniqueIdentifier>{39cba204-820e-4c69-93bd-41577c9d5dbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inferno Engine\Core\Public\AI\BehaviorTrees\Condition">
+      <UniqueIdentifier>{d28da605-eb9d-4436-9db5-83fa8b1064e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inferno Engine\Core\Public\AI\BehaviorTrees\Decorator">
+      <UniqueIdentifier>{22d19c20-0f8d-4617-af3e-8a6b76fb412e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inferno Engine\Core\Public\AI\BehaviorTrees\Animate">
+      <UniqueIdentifier>{f2cc3bc8-9abd-4524-b32b-24656eaf3199}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inferno Engine\Core\Private\AI\BehaviorTrees\Animate">
+      <UniqueIdentifier>{05adc002-232f-4325-ae75-acfb55a988b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inferno Engine\Core\Private\Win32Window">
+      <UniqueIdentifier>{be8be404-c633-42ca-9215-563a46680f30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inferno Engine\Core\Public\Win32Window">
+      <UniqueIdentifier>{7ea78c23-819a-4400-a943-9c642b4f5a5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inferno Engine\Core\Public\ThreadPool\WorkerTypes">
+      <UniqueIdentifier>{317eed56-815c-47b6-be55-04276ac3e3a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inferno Engine\Core\Private\ThreadPool\WorkerTypes">
+      <UniqueIdentifier>{dad418a2-3218-44a3-aac7-9abdac233ea0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inferno Engine\Core\Private\Assets">
+      <UniqueIdentifier>{196a1cfb-6052-45c0-891f-ae2728364280}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Inc\Core\Private\Components\AIComponent.cpp">
+      <Filter>Inferno Engine\Core\Private\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Components\IComponent.cpp">
+      <Filter>Inferno Engine\Core\Private\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Components\NavAgent.cpp">
+      <Filter>Inferno Engine\Core\Private\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Components\Transform.cpp">
+      <Filter>Inferno Engine\Core\Private\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Font\Font.cpp">
+      <Filter>Inferno Engine\Core\Private\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Font\FontManager.cpp">
+      <Filter>Inferno Engine\Core\Private\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\ThreadPool\ThreadPool.cpp">
+      <Filter>Inferno Engine\Core\Private\ThreadPool</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\AudioManager.cpp">
+      <Filter>Inferno Engine\Core\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\GameObject.cpp">
+      <Filter>Inferno Engine\Core\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\GraphicsManager.cpp">
+      <Filter>Inferno Engine\Core\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\InfernoEngine.cpp">
+      <Filter>Inferno Engine\Core\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\InputManager.cpp">
+      <Filter>Inferno Engine\Core\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Object.cpp">
+      <Filter>Inferno Engine\Core\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Utilities\Private\FBXLoader.cpp">
+      <Filter>Inferno Engine\Utilities\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Utilities\Private\MathLib.cpp">
+      <Filter>Inferno Engine\Utilities\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Utilities\Private\WICTextureLoader.cpp">
+      <Filter>Inferno Engine\Utilities\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Utilities\Private\AssertHelper.cpp">
+      <Filter>Inferno Engine\Utilities\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Components\Renderer.cpp">
+      <Filter>Inferno Engine\Core\Private\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Components\SpriteRenderer.cpp">
+      <Filter>Inferno Engine\Core\Private\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Components\MeshRenderer.cpp">
+      <Filter>Inferno Engine\Core\Private\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Components\SkinnedMeshRenderer.cpp">
+      <Filter>Inferno Engine\Core\Private\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Assets\Mesh.cpp">
+      <Filter>Inferno Engine\Core\Private\Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\UIManager.cpp">
+      <Filter>Inferno Engine\Core\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\UIElement.cpp">
+      <Filter>Inferno Engine\Core\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\UIComponents\RectTransform.cpp">
+      <Filter>Inferno Engine\Core\Private\UIComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\UIComponents\UIComponent.cpp">
+      <Filter>Inferno Engine\Core\Private\UIComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\UIComponents\UIEventSystem.cpp">
+      <Filter>Inferno Engine\Core\Private\UIComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\UIComponents\UISelectable.cpp">
+      <Filter>Inferno Engine\Core\Private\UIComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\AssetManager.cpp">
+      <Filter>Inferno Engine\Core\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Assets\Texture.cpp">
+      <Filter>Inferno Engine\Core\Private\Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Physics\Rigidbody.cpp">
+      <Filter>Inferno Engine\Core\Private\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Utilities\Private\FileSystem.cpp">
+      <Filter>Inferno Engine\Utilities\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Physics\BoxCollider.cpp">
+      <Filter>Inferno Engine\Core\Private\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Physics\Collider.cpp">
+      <Filter>Inferno Engine\Core\Private\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Physics\SphereCollider.cpp">
+      <Filter>Inferno Engine\Core\Private\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Physics\Physics.cpp">
+      <Filter>Inferno Engine\Core\Private\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Physics\CollisionLibrary.cpp">
+      <Filter>Inferno Engine\Core\Private\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Assets\Animation.cpp">
+      <Filter>Inferno Engine\Core\Private\Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\ThreadPool\PathfindingThread.cpp">
+      <Filter>Inferno Engine\Core\Private\ThreadPool</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Assets\AnimationController.cpp">
+      <Filter>Inferno Engine\Core\Private\Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Assets\Material.cpp">
+      <Filter>Inferno Engine\Core\Private\Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\SceneManager.cpp">
+      <Filter>Inferno Engine\Core\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\ObjectManager.cpp">
+      <Filter>Inferno Engine\Core\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Utilities\Private\ObjectRegistry.cpp">
+      <Filter>Inferno Engine\Utilities\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Components\Animator.cpp">
+      <Filter>Inferno Engine\Core\Private\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Components\Camera.cpp">
+      <Filter>Inferno Engine\Core\Private\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Physics\CapsuleCollider.cpp">
+      <Filter>Inferno Engine\Core\Private\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\UIComponents\UICanvas.cpp">
+      <Filter>Inferno Engine\Core\Private\UIComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\UIComponents\UIText.cpp">
+      <Filter>Inferno Engine\Core\Private\UIComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\UIComponents\UIButton.cpp">
+      <Filter>Inferno Engine\Core\Private\UIComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\UIComponents\UIRenderer.cpp">
+      <Filter>Inferno Engine\Core\Private\UIComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\UIComponents\UIImage.cpp">
+      <Filter>Inferno Engine\Core\Private\UIComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Interface\Private\Engine.cpp">
+      <Filter>Inferno Engine\Interface\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Interface\Private\ModuleInterface.cpp">
+      <Filter>Inferno Engine\Interface\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Utilities\Private\GlobalIncludes.cpp">
+      <Filter>Inferno Engine\Utilities\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Rendering\Programmable\DX11Stage.cpp">
+      <Filter>Inferno Engine\Core\Private\Rendering\Programmable</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Rendering\Programmable\DX11ShaderStageState.cpp">
+      <Filter>Inferno Engine\Core\Private\Rendering\Programmable</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\AI\AIModule.cpp">
+      <Filter>Inferno Engine\Core\Private\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\AI\Triangle.cpp">
+      <Filter>Inferno Engine\Core\Private\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Rendering\Effect.cpp">
+      <Filter>Inferno Engine\Core\Private\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\AI\NavMesh.cpp">
+      <Filter>Inferno Engine\Core\Private\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\AI\NavNode.cpp">
+      <Filter>Inferno Engine\Core\Private\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Rendering\PipelineManager.cpp">
+      <Filter>Inferno Engine\Core\Private\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Utilities\Private\InputDelegateRegistry.cpp">
+      <Filter>Inferno Engine\Utilities\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Utilities\Private\tinystr.cpp">
+      <Filter>Inferno Engine\Utilities\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Utilities\Private\tinyxml.cpp">
+      <Filter>Inferno Engine\Utilities\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Utilities\Private\tinyxmlerror.cpp">
+      <Filter>Inferno Engine\Utilities\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Utilities\Private\tinyxmlparser.cpp">
+      <Filter>Inferno Engine\Utilities\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Assets\Bone.cpp">
+      <Filter>Inferno Engine\Core\Private\Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Assets\Vertex.cpp">
+      <Filter>Inferno Engine\Core\Private\Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Rendering\Fixed Stages\DX11InputAssemblerStageState.cpp">
+      <Filter>Inferno Engine\Core\Private\Rendering\Fixed Stages</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Rendering\Fixed Stages\DX11OutputMergerStage.cpp">
+      <Filter>Inferno Engine\Core\Private\Rendering\Fixed Stages</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Rendering\Fixed Stages\DX11OutputMergerStageState.cpp">
+      <Filter>Inferno Engine\Core\Private\Rendering\Fixed Stages</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Rendering\Fixed Stages\DX11RasterizerStateStage.cpp">
+      <Filter>Inferno Engine\Core\Private\Rendering\Fixed Stages</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Rendering\Fixed Stages\DX11RasterizerStateStageState.cpp">
+      <Filter>Inferno Engine\Core\Private\Rendering\Fixed Stages</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Rendering\Programmable\DX11VertexShaderStage.cpp">
+      <Filter>Inferno Engine\Core\Private\Rendering\Programmable</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Rendering\Fixed Stages\DX11InputAssmblerStage.cpp">
+      <Filter>Inferno Engine\Core\Private\Rendering\Fixed Stages</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Rendering\Programmable\DX11PixelShaderStage.cpp">
+      <Filter>Inferno Engine\Core\Private\Rendering\Programmable</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Rendering\Programmable\DX11GeometryShaderStage.cpp">
+      <Filter>Inferno Engine\Core\Private\Rendering\Programmable</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Rendering\RenderingResources.cpp">
+      <Filter>Inferno Engine\Core\Private\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Rendering\Buffers\DX11ConstantBuffer.cpp">
+      <Filter>Inferno Engine\Core\Private\Rendering\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Rendering\Shaders\DX11GeometryShader.cpp">
+      <Filter>Inferno Engine\Core\Private\Rendering\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Rendering\Shaders\DX11PixelShader.cpp">
+      <Filter>Inferno Engine\Core\Private\Rendering\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Rendering\Shaders\DX11Shader.cpp">
+      <Filter>Inferno Engine\Core\Private\Rendering\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Rendering\Shaders\DX11VertexShader.cpp">
+      <Filter>Inferno Engine\Core\Private\Rendering\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Rendering\Shaders\ShaderReflection.cpp">
+      <Filter>Inferno Engine\Core\Private\Rendering\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Rendering\Buffers\DX11Buffer.cpp">
+      <Filter>Inferno Engine\Core\Private\Rendering\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Rendering\Buffers\DX11IndexBuffer.cpp">
+      <Filter>Inferno Engine\Core\Private\Rendering\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Rendering\Buffers\DX11VertexBuffer.cpp">
+      <Filter>Inferno Engine\Core\Private\Rendering\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\InfernoTime.cpp">
+      <Filter>Inferno Engine\Core\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\EventSystem.cpp">
+      <Filter>Inferno Engine\Core\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Utilities\Private\InfernoTimer.cpp">
+      <Filter>Inferno Engine\Utilities\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\UIController.cpp">
+      <Filter>Inferno Engine\Core\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\CameraManager.cpp">
+      <Filter>Inferno Engine\Core\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Rendering\States\DX11ShaderResourceView.cpp">
+      <Filter>Inferno Engine\Core\Private\Rendering\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Rendering\States\DX11BlendState.cpp">
+      <Filter>Inferno Engine\Core\Private\Rendering\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Rendering\States\DX11DepthStencilView.cpp">
+      <Filter>Inferno Engine\Core\Private\Rendering\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Rendering\States\DX11InputLayout.cpp">
+      <Filter>Inferno Engine\Core\Private\Rendering\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Rendering\States\DX11RenderTargetView.cpp">
+      <Filter>Inferno Engine\Core\Private\Rendering\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Rendering\States\DX11SampleState.cpp">
+      <Filter>Inferno Engine\Core\Private\Rendering\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Components\Controller.cpp">
+      <Filter>Inferno Engine\Core\Private\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Physics\PhysicsComponent.cpp">
+      <Filter>Inferno Engine\Core\Private\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Gizmos.cpp">
+      <Filter>Inferno Engine\Core\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Rendering\States\DX11RasterizerState.cpp">
+      <Filter>Inferno Engine\Core\Private\Rendering\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Utilities\Private\DDSTextureLoader.cpp">
+      <Filter>Inferno Engine\Utilities\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Rendering\States\DX11DepthStencilState.cpp">
+      <Filter>Inferno Engine\Core\Private\Rendering\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Rendering\Shaders\DX11ComputeShader.cpp">
+      <Filter>Inferno Engine\Core\Private\Rendering\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Rendering\Buffers\DX11StructuredBuffer.cpp">
+      <Filter>Inferno Engine\Core\Private\Rendering\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Rendering\States\DX11UnorderedAccessView.cpp">
+      <Filter>Inferno Engine\Core\Private\Rendering\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Rendering\Programmable\DX11ComputeShaderStage.cpp">
+      <Filter>Inferno Engine\Core\Private\Rendering\Programmable</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\LightManager.cpp">
+      <Filter>Inferno Engine\Core\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Components\Light.cpp">
+      <Filter>Inferno Engine\Core\Private\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Interface\Private\ComponentInterface.cpp">
+      <Filter>Inferno Engine\Interface\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Assets\AnimationSet.cpp">
+      <Filter>Inferno Engine\Core\Private\Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Utilities\Private\PrefabLoader.cpp">
+      <Filter>Inferno Engine\Utilities\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Components\ParticleSystem.cpp">
+      <Filter>Inferno Engine\Core\Private\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\ParticleManager.cpp">
+      <Filter>Inferno Engine\Core\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\AnimInterpolator.cpp">
+      <Filter>Inferno Engine\Core\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Utilities\Private\MaterialLoader.cpp">
+      <Filter>Inferno Engine\Utilities\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Physics\QuadTree.cpp">
+      <Filter>Inferno Engine\Core\Private\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Rendering\DXEvent.cpp">
+      <Filter>Inferno Engine\Core\Private\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Components\AudioListener.cpp">
+      <Filter>Inferno Engine\Core\Private\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\UIComponents\UIDropdown.cpp">
+      <Filter>Inferno Engine\Core\Private\UIComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\BaseBehavior.cpp">
+      <Filter>Inferno Engine\Core\Private\AI\BehaviorTrees</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Action\ActionBehavior.cpp">
+      <Filter>Inferno Engine\Core\Private\AI\BehaviorTrees\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Composite\CompositeBehavior.cpp">
+      <Filter>Inferno Engine\Core\Private\AI\BehaviorTrees\Composite</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Composite\SequenceBehavior.cpp">
+      <Filter>Inferno Engine\Core\Private\AI\BehaviorTrees\Composite</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Decorator\DecoratorBehavior.cpp">
+      <Filter>Inferno Engine\Core\Private\AI\BehaviorTrees\Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\UIComponents\UICheckbox.cpp">
+      <Filter>Inferno Engine\Core\Private\UIComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\UIComponents\UISlider.cpp">
+      <Filter>Inferno Engine\Core\Private\UIComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Decorator\TimerBehavior.cpp">
+      <Filter>Inferno Engine\Core\Private\AI\BehaviorTrees\Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Decorator\RepeatBehavior.cpp">
+      <Filter>Inferno Engine\Core\Private\AI\BehaviorTrees\Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Decorator\InvertBehavior.cpp">
+      <Filter>Inferno Engine\Core\Private\AI\BehaviorTrees\Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Composite\ParallelBehavior.cpp">
+      <Filter>Inferno Engine\Core\Private\AI\BehaviorTrees\Composite</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Animate\RunAnimationBehavior.cpp">
+      <Filter>Inferno Engine\Core\Private\AI\BehaviorTrees\Animate</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Action\MoveToBehavior.cpp">
+      <Filter>Inferno Engine\Core\Private\AI\BehaviorTrees\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Decorator\WaitBehavior.cpp">
+      <Filter>Inferno Engine\Core\Private\AI\BehaviorTrees\Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Animate\AnimateBehavior.cpp">
+      <Filter>Inferno Engine\Core\Private\AI\BehaviorTrees\Animate</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Composite\SelectorBehavior.cpp">
+      <Filter>Inferno Engine\Core\Private\AI\BehaviorTrees\Composite</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Components\Waypoint.cpp">
+      <Filter>Inferno Engine\Core\Private\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Win32Window\Win32Window.cpp">
+      <Filter>Inferno Engine\Core\Private\Win32Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Action\MoveToWaypointBehavior.cpp">
+      <Filter>Inferno Engine\Core\Private\AI\BehaviorTrees\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Action\RequestPathBehavior.cpp">
+      <Filter>Inferno Engine\Core\Private\AI\BehaviorTrees\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Components\BehaviorTree.cpp">
+      <Filter>Inferno Engine\Core\Private\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Action\MoveToTargetBehavior.cpp">
+      <Filter>Inferno Engine\Core\Private\AI\BehaviorTrees\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Condition\ConditionBehavior.cpp">
+      <Filter>Inferno Engine\Core\Private\AI\BehaviorTrees\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Condition\InRangeBehavior.cpp">
+      <Filter>Inferno Engine\Core\Private\AI\BehaviorTrees\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Animate\AttackAnimationBehavior.cpp">
+      <Filter>Inferno Engine\Core\Private\AI\BehaviorTrees\Animate</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Action\DealDamageBehavior.cpp">
+      <Filter>Inferno Engine\Core\Private\AI\BehaviorTrees\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Action\SetDestinationBehavior.cpp">
+      <Filter>Inferno Engine\Core\Private\AI\BehaviorTrees\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Action\FindClosestTargetBehavior.cpp">
+      <Filter>Inferno Engine\Core\Private\AI\BehaviorTrees\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Animate\IdleAnimationBehavior.cpp">
+      <Filter>Inferno Engine\Core\Private\AI\BehaviorTrees\Animate</Filter>
+    </ClCompile>
+    <ClCompile Include="inc\Core\Private\ThreadPool\WorkerThreadPool.cpp">
+      <Filter>Inferno Engine\Core\Private\ThreadPool</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\ThreadPool\PathfindingThread.cpp">
+      <Filter>Inferno Engine\Core\Private\ThreadPool</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\Rendering\RenderTree.cpp">
+      <Filter>Inferno Engine\Core\Private\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\ThreadPool\WorkerTypes\WorkerThreadFuctionPointers.cpp">
+      <Filter>Inferno Engine\Core\Private\ThreadPool\WorkerTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Animate\JumpAnimationBehavior.cpp">
+      <Filter>Inferno Engine\Core\Private\AI\BehaviorTrees\Animate</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Condition\IsOvercrowdedBehavior.cpp">
+      <Filter>Inferno Engine\Core\Private\AI\BehaviorTrees\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Animate\CastSpellAnimationBehavior.cpp">
+      <Filter>Inferno Engine\Core\Private\AI\BehaviorTrees\Animate</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\ThreadPool\WorkerTypes\WorkerThreadConfigSave.cpp">
+      <Filter>Inferno Engine\Core\Private\ThreadPool\WorkerTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Action\DealDamageToNearbyEnemiesBehavior.cpp">
+      <Filter>Inferno Engine\Core\Private\AI\BehaviorTrees\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Action\SpawnBossShockwaveBehavior.cpp">
+      <Filter>Inferno Engine\Core\Private\AI\BehaviorTrees\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Condition\IsStunnedBehavior.cpp">
+      <Filter>Inferno Engine\Core\Private\AI\BehaviorTrees\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Public\Components\CutSceneWaypoint.cpp">
+      <Filter>Inferno Engine\Core\Private\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Condition\IsStationaryBehavior.cpp">
+      <Filter>Inferno Engine\Core\Private\AI\BehaviorTrees\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Decorator\DoOnceBehavior.cpp">
+      <Filter>Inferno Engine\Core\Private\AI\BehaviorTrees\Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Condition\IsBossStuckBehavior.cpp">
+      <Filter>Inferno Engine\Core\Private\AI\BehaviorTrees\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Condition\ORBehavior.cpp">
+      <Filter>Inferno Engine\Core\Private\AI\BehaviorTrees\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Animate\SpecialAnimationBehavior.cpp">
+      <Filter>Inferno Engine\Core\Private\AI\BehaviorTrees\Animate</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Action\TurnToTarget.cpp">
+      <Filter>Inferno Engine\Core\Private\AI\BehaviorTrees\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Decorator\RepeatForTime.cpp">
+      <Filter>Inferno Engine\Core\Private\AI\BehaviorTrees\Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Action\ChargeAtTargetBehavior.cpp">
+      <Filter>Inferno Engine\Core\Private\AI\BehaviorTrees\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Condition\HasTargetBehavior.cpp">
+      <Filter>Inferno Engine\Core\Private\AI\BehaviorTrees\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Condition\HasTravelledDistanceBehavior.cpp">
+      <Filter>Inferno Engine\Core\Private\AI\BehaviorTrees\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Decorator\FailureToRunningBehavior.cpp">
+      <Filter>Inferno Engine\Core\Private\AI\BehaviorTrees\Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Action\ReturnStatusBehavior.cpp">
+      <Filter>Inferno Engine\Core\Private\AI\BehaviorTrees\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Action\LookAtBehavior.cpp">
+      <Filter>Inferno Engine\Core\Private\AI\BehaviorTrees\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc\Core\Private\AI\BehaviorTrees\Condition\IsLookingAt.cpp">
+      <Filter>Inferno Engine\Core\Private\AI\BehaviorTrees\Condition</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Inc\Core\Private\Shaders\UnlitPixelShader.hlsl">
+      <Filter>Inferno Engine\Core\Private\Shaders\Pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\QuadVertexShader.hlsl">
+      <Filter>Inferno Engine\Core\Private\Shaders\Vertex</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\ParticleVertexShader.hlsl">
+      <Filter>Inferno Engine\Core\Private\Shaders\Vertex</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\StaticMeshVertexShader.hlsl">
+      <Filter>Inferno Engine\Core\Private\Shaders\Vertex</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\SkinnedMeshVertexShader.hlsl">
+      <Filter>Inferno Engine\Core\Private\Shaders\Vertex</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\UIVertexShader.hlsl">
+      <Filter>Inferno Engine\Core\Private\Shaders\Vertex</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\UIPixelShader.hlsl">
+      <Filter>Inferno Engine\Core\Private\Shaders\Pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\UIGeometryShader.hlsl">
+      <Filter>Inferno Engine\Core\Private\Shaders\Geometry</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\Shaders\UIFillPixelShader.hlsl">
+      <Filter>Inferno Engine\Core\Private\Shaders\Pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Physics\LineVertexShader.hlsl">
+      <Filter>Inferno Engine\Core\Private\Shaders\Vertex</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\ColorOnlyPixelShader.hlsl">
+      <Filter>Inferno Engine\Core\Private\Shaders\Pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\SkyboxVertexShader.hlsl">
+      <Filter>Inferno Engine\Core\Private\Shaders\Vertex</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\SkyboxPixelShader.hlsl">
+      <Filter>Inferno Engine\Core\Private\Shaders\Pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\LightComputeShader.hlsl">
+      <Filter>Inferno Engine\Core\Private\Shaders\Compute</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\StreamOutputSkinnedGeometryShader.hlsl">
+      <Filter>Inferno Engine\Core\Private\Shaders\Geometry</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\AlphaTestPixelShader.hlsl">
+      <Filter>Inferno Engine\Core\Private\Shaders\Pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\LightingPixelShader.hlsl">
+      <Filter>Inferno Engine\Core\Private\Shaders\Pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\UIFillRightPixelShader.hlsl">
+      <Filter>Inferno Engine\Core\Private\Shaders\Pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\ConeParticleEmitterComputeShader.hlsl">
+      <Filter>Inferno Engine\Core\Private\Shaders\Compute</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\InitDeadParticlesComputeShader.hlsl">
+      <Filter>Inferno Engine\Core\Private\Shaders\Compute</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\ParticleSimulationComputeShader.hlsl">
+      <Filter>Inferno Engine\Core\Private\Shaders\Compute</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\ParticlePixelShader.hlsl">
+      <Filter>Inferno Engine\Core\Private\Shaders\Pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\ConeOutterParticleEmitterComputeShader.hlsl">
+      <Filter>Inferno Engine\Core\Private\Shaders\Compute</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\SphereParticleEmitterComputeShader.hlsl">
+      <Filter>Inferno Engine\Core\Private\Shaders\Compute</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\SphereEdgeParticleEmitterComputeShader.hlsl">
+      <Filter>Inferno Engine\Core\Private\Shaders\Compute</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\HemisphereParticleEmitterComputeShader.hlsl">
+      <Filter>Inferno Engine\Core\Private\Shaders\Compute</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\HemisphereEdgeParticleEmitterComputeShader.hlsl">
+      <Filter>Inferno Engine\Core\Private\Shaders\Compute</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\CircleParticleEmitterComputeShader.hlsl">
+      <Filter>Inferno Engine\Core\Private\Shaders\Compute</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\CircleEdgeParticleEmitterComputeShader.hlsl">
+      <Filter>Inferno Engine\Core\Private\Shaders\Compute</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\OutlineFontComputeShader.hlsl">
+      <Filter>Inferno Engine\Core\Private\Shaders\Compute</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\UIDualImageFillPixelShader.hlsl">
+      <Filter>Inferno Engine\Core\Private\Shaders\Pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\CoarseCullingComputeShader.hlsl">
+      <Filter>Inferno Engine\Core\Private\Shaders\Compute</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\ParticleCullingComputeShader.hlsl">
+      <Filter>Inferno Engine\Core\Private\Shaders\Compute</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\ParticleTileRenderingComputeShader.hlsl">
+      <Filter>Inferno Engine\Core\Private\Shaders\Compute</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\ScreenQuadGeometryShader.hlsl">
+      <Filter>Inferno Engine\Core\Private\Shaders\Geometry</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\TiledParticlePixelShader.hlsl">
+      <Filter>Inferno Engine\Core\Private\Shaders\Pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\UIOcclusionPixelShader.hlsl">
+      <Filter>Inferno Engine\Core\Private\Shaders\Pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\UIRadialFillPixelShader.hlsl">
+      <Filter>Inferno Engine\Core\Private\Shaders\Pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\UIRadialFillClockwisePixelShader.hlsl">
+      <Filter>Inferno Engine\Core\Private\Shaders\Pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\DestroyAllParticlesComputeShader.hlsl">
+      <Filter>Inferno Engine\Core\Private\Shaders\Compute</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\ParticleGeometryShader.hlsl">
+      <Filter>Inferno Engine\Core\Private\Shaders\Geometry</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\AlphaPrepassVertexShader.hlsl">
+      <Filter>Inferno Engine\Core\Private\Shaders\Vertex</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\UIFillTopPixelShader.hlsl">
+      <Filter>Inferno Engine\Core\Private\Shaders\Pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\QuadBillboardedGeometryShader.hlsl">
+      <Filter>Inferno Engine\Core\Private\Shaders\Geometry</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\Core\Private\Shaders\QuadGeometryShader.hlsl">
+      <Filter>Inferno Engine\Core\Private\Shaders\Geometry</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Inc\Core\Public\Components\AIComponent.h">
+      <Filter>Inferno Engine\Core\Public\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Components\IComponent.h">
+      <Filter>Inferno Engine\Core\Public\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Components\NavAgent.h">
+      <Filter>Inferno Engine\Core\Public\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Components\Transform.h">
+      <Filter>Inferno Engine\Core\Public\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Font\Font.h">
+      <Filter>Inferno Engine\Core\Public\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Font\FontManager.h">
+      <Filter>Inferno Engine\Core\Public\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\ThreadPool\ThreadPool.h">
+      <Filter>Inferno Engine\Core\Public\ThreadPool</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\AudioManager.h">
+      <Filter>Inferno Engine\Core\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\GameObject.h">
+      <Filter>Inferno Engine\Core\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\GraphicsManager.h">
+      <Filter>Inferno Engine\Core\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\InfernoEngine.h">
+      <Filter>Inferno Engine\Core\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\InputManager.h">
+      <Filter>Inferno Engine\Core\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Object.h">
+      <Filter>Inferno Engine\Core\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Utilities\Public\Buttons.h">
+      <Filter>Inferno Engine\Utilities\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Utilities\Public\FBXLoader.h">
+      <Filter>Inferno Engine\Utilities\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Utilities\Public\Flags.h">
+      <Filter>Inferno Engine\Utilities\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Utilities\Public\Keys.h">
+      <Filter>Inferno Engine\Utilities\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Utilities\Public\MathLib.h">
+      <Filter>Inferno Engine\Utilities\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Utilities\Public\WICTextureLoader.h">
+      <Filter>Inferno Engine\Utilities\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Utilities\Public\AssertHelper.h">
+      <Filter>Inferno Engine\Utilities\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Components\Renderer.h">
+      <Filter>Inferno Engine\Core\Public\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Components\SpriteRenderer.h">
+      <Filter>Inferno Engine\Core\Public\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Components\MeshRenderer.h">
+      <Filter>Inferno Engine\Core\Public\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Components\SkinnedMeshRenderer.h">
+      <Filter>Inferno Engine\Core\Public\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Assets\Mesh.h">
+      <Filter>Inferno Engine\Core\Public\Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\UIManager.h">
+      <Filter>Inferno Engine\Core\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\ThreadPool\PathfindingThread.h">
+      <Filter>Inferno Engine\Core\Public\ThreadPool</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\UIElement.h">
+      <Filter>Inferno Engine\Core\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\UIComponents\RectTransform.h">
+      <Filter>Inferno Engine\Core\Public\UIComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\UIComponents\UIComponent.h">
+      <Filter>Inferno Engine\Core\Public\UIComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\UIComponents\UIEventSystem.h">
+      <Filter>Inferno Engine\Core\Public\UIComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\UIComponents\UISelectable.h">
+      <Filter>Inferno Engine\Core\Public\UIComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\AssetManager.h">
+      <Filter>Inferno Engine\Core\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Utilities\Public\GlobalIncludes.h">
+      <Filter>Inferno Engine\Utilities\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Assets\Texture.h">
+      <Filter>Inferno Engine\Core\Public\Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Physics\Rigidbody.h">
+      <Filter>Inferno Engine\Core\Public\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Utilities\Public\FileSystem.h">
+      <Filter>Inferno Engine\Utilities\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Physics\BoxCollider.h">
+      <Filter>Inferno Engine\Core\Public\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Physics\Collider.h">
+      <Filter>Inferno Engine\Core\Public\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Physics\CollisionLibrary.h">
+      <Filter>Inferno Engine\Core\Public\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Physics\Physics.h">
+      <Filter>Inferno Engine\Core\Public\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Physics\SphereCollider.h">
+      <Filter>Inferno Engine\Core\Public\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Assets\Animation.h">
+      <Filter>Inferno Engine\Core\Public\Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Assets\AnimationController.h">
+      <Filter>Inferno Engine\Core\Public\Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Assets\Material.h">
+      <Filter>Inferno Engine\Core\Public\Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\SceneManager.h">
+      <Filter>Inferno Engine\Core\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\ObjectManager.h">
+      <Filter>Inferno Engine\Core\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Utilities\Public\ObjectRegistry.h">
+      <Filter>Inferno Engine\Utilities\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Utilities\Public\UIEvents.h">
+      <Filter>Inferno Engine\Utilities\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Components\Animator.h">
+      <Filter>Inferno Engine\Core\Public\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Components\Camera.h">
+      <Filter>Inferno Engine\Core\Public\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Physics\CapsuleCollider.h">
+      <Filter>Inferno Engine\Core\Public\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\UIComponents\UICanvas.h">
+      <Filter>Inferno Engine\Core\Public\UIComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\UIComponents\UIButton.h">
+      <Filter>Inferno Engine\Core\Public\UIComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\UIComponents\UIRenderer.h">
+      <Filter>Inferno Engine\Core\Public\UIComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\UIComponents\UIImage.h">
+      <Filter>Inferno Engine\Core\Public\UIComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\UIComponents\UIText.h">
+      <Filter>Inferno Engine\Core\Public\UIComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Utilities\Public\Registry.h">
+      <Filter>Inferno Engine\Utilities\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Interface\Public\Engine.h">
+      <Filter>Inferno Engine\Interface\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Interface\Public\ModuleInterface.h">
+      <Filter>Inferno Engine\Interface\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\AllocationPool.h">
+      <Filter>Inferno Engine\Core\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Physics\Collision.h">
+      <Filter>Inferno Engine\Core\Public\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Utilities\Public\tinyxml.h">
+      <Filter>Inferno Engine\Utilities\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\AI\Triangle.h">
+      <Filter>Inferno Engine\Core\Public\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\AI\NavNode.h">
+      <Filter>Inferno Engine\Core\Public\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Utilities\Public\List.h">
+      <Filter>Inferno Engine\Utilities\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Rendering\Effect.h">
+      <Filter>Inferno Engine\Core\Public\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Utilities\Public\tinyxml.h">
+      <Filter>Inferno Engine\Utilities\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\AI\Triangle.h">
+      <Filter>Inferno Engine\Core\Public\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\AI\NavNode.h">
+      <Filter>Inferno Engine\Core\Public\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Utilities\Public\List.h">
+      <Filter>Inferno Engine\Utilities\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Rendering\Effect.h">
+      <Filter>Inferno Engine\Core\Public\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\AI\NavMesh.h">
+      <Filter>Inferno Engine\Core\Public\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\AI\AIModule.h">
+      <Filter>Inferno Engine\Core\Public\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Rendering\Programmable\DX11Stage.h">
+      <Filter>Inferno Engine\Core\Public\Rendering\Programmable</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Rendering\Programmable\DX11ShaderStageState.h">
+      <Filter>Inferno Engine\Core\Public\Rendering\Programmable</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Rendering\Common\StateMonitor.h">
+      <Filter>Inferno Engine\Core\Public\Rendering\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Rendering\Common\StateMonitorArray.h">
+      <Filter>Inferno Engine\Core\Public\Rendering\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Rendering\PipelineManager.h">
+      <Filter>Inferno Engine\Core\Public\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Utilities\Public\InputEvents.h">
+      <Filter>Inferno Engine\Utilities\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Utilities\Public\InputDelegateRegistry.h">
+      <Filter>Inferno Engine\Utilities\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Utilities\Public\tinystr.h">
+      <Filter>Inferno Engine\Utilities\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Assets\Vertex.h">
+      <Filter>Inferno Engine\Core\Public\Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Assets\Bone.h">
+      <Filter>Inferno Engine\Core\Public\Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Rendering\Fixed Stages\DX11InputAssemblerStage.h">
+      <Filter>Inferno Engine\Core\Public\Rendering\Fixed Stages</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Rendering\Fixed Stages\DX11InputAssemblerStageState.h">
+      <Filter>Inferno Engine\Core\Public\Rendering\Fixed Stages</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Rendering\Fixed Stages\DX11OutputMergerStage.h">
+      <Filter>Inferno Engine\Core\Public\Rendering\Fixed Stages</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Rendering\Fixed Stages\DX11OutputMergerStageState.h">
+      <Filter>Inferno Engine\Core\Public\Rendering\Fixed Stages</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Rendering\Fixed Stages\DX11RasterizerStateStageState.h">
+      <Filter>Inferno Engine\Core\Public\Rendering\Fixed Stages</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Rendering\Fixed Stages\DX11RasterizerStateStage.h">
+      <Filter>Inferno Engine\Core\Public\Rendering\Fixed Stages</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Rendering\Programmable\DX11VertexShaderStage.h">
+      <Filter>Inferno Engine\Core\Public\Rendering\Programmable</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Rendering\Programmable\DX11PixelShaderStage.h">
+      <Filter>Inferno Engine\Core\Public\Rendering\Programmable</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Rendering\Programmable\DX11GeometryShaderStage.h">
+      <Filter>Inferno Engine\Core\Public\Rendering\Programmable</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Rendering\RenderingResources.h">
+      <Filter>Inferno Engine\Core\Public\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Rendering\Shaders\DX11GeometryShader.h">
+      <Filter>Inferno Engine\Core\Public\Rendering\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Rendering\Shaders\DX11PixelShader.h">
+      <Filter>Inferno Engine\Core\Public\Rendering\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Rendering\Shaders\DX11Shader.h">
+      <Filter>Inferno Engine\Core\Public\Rendering\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Rendering\Shaders\DX11VertexShader.h">
+      <Filter>Inferno Engine\Core\Public\Rendering\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Rendering\Shaders\ShaderReflection.h">
+      <Filter>Inferno Engine\Core\Public\Rendering\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Rendering\Buffers\DX11ConstantBuffer.h">
+      <Filter>Inferno Engine\Core\Public\Rendering\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Rendering\Buffers\DX11Buffer.h">
+      <Filter>Inferno Engine\Core\Public\Rendering\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Rendering\Buffers\DX11IndexBuffer.h">
+      <Filter>Inferno Engine\Core\Public\Rendering\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Rendering\Buffers\DX11VertexBuffer.h">
+      <Filter>Inferno Engine\Core\Public\Rendering\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Utilities\Public\ShaderInfo.h">
+      <Filter>Inferno Engine\Utilities\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Time.h">
+      <Filter>Inferno Engine\Core\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\InfernoTime.h">
+      <Filter>Inferno Engine\Core\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\EventSystem.h">
+      <Filter>Inferno Engine\Core\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Utilities\Public\Color.h">
+      <Filter>Inferno Engine\Utilities\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\AI\NavMesh.h">
+      <Filter>Inferno Engine\Core\Public\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\UIController.h">
+      <Filter>Inferno Engine\Core\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Utilities\Public\InfernoTimer.h">
+      <Filter>Inferno Engine\Utilities\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\CameraManager.h">
+      <Filter>Inferno Engine\Core\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Rendering\States\DX11BlendState.h">
+      <Filter>Inferno Engine\Core\Public\Rendering\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Rendering\States\DX11DepthStencilView.h">
+      <Filter>Inferno Engine\Core\Public\Rendering\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Rendering\States\DX11InputLayout.h">
+      <Filter>Inferno Engine\Core\Public\Rendering\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Rendering\States\DX11RenderTargetView.h">
+      <Filter>Inferno Engine\Core\Public\Rendering\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Rendering\States\DX11SampleState.h">
+      <Filter>Inferno Engine\Core\Public\Rendering\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Rendering\States\DX11ShaderResourceView.h">
+      <Filter>Inferno Engine\Core\Public\Rendering\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Components\Controller.h">
+      <Filter>Inferno Engine\Core\Public\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Physics\PhysicsComponent.h">
+      <Filter>Inferno Engine\Core\Public\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Gizmos.h">
+      <Filter>Inferno Engine\Core\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Rendering\States\DX11RasterizerState.h">
+      <Filter>Inferno Engine\Core\Public\Rendering\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Utilities\Public\DDSTextureLoader.h">
+      <Filter>Inferno Engine\Utilities\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Rendering\States\DX11DepthStencilState.h">
+      <Filter>Inferno Engine\Core\Public\Rendering\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Rendering\Shaders\DX11ComputeShader.h">
+      <Filter>Inferno Engine\Core\Public\Rendering\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Rendering\Buffers\DX11StructuredBuffer.h">
+      <Filter>Inferno Engine\Core\Public\Rendering\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Rendering\States\DX11UnorderedAccessView.h">
+      <Filter>Inferno Engine\Core\Public\Rendering\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Rendering\Programmable\DX11ComputeShaderStage.h">
+      <Filter>Inferno Engine\Core\Public\Rendering\Programmable</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\LightManager.h">
+      <Filter>Inferno Engine\Core\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Utilities\Public\Property.h">
+      <Filter>Inferno Engine\Utilities\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\LightManager.h">
+      <Filter>Inferno Engine\Core\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Utilities\Public\ObjectData.h">
+      <Filter>Inferno Engine\Utilities\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Components\Light.h">
+      <Filter>Inferno Engine\Core\Public\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Interface\Public\ComponentInterface.h">
+      <Filter>Inferno Engine\Interface\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Assets\AnimationSet.h">
+      <Filter>Inferno Engine\Core\Public\Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Utilities\Public\PrefabLoader.h">
+      <Filter>Inferno Engine\Utilities\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Components\ParticleSystem.h">
+      <Filter>Inferno Engine\Core\Public\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\ParticleManager.h">
+      <Filter>Inferno Engine\Core\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\AnimInterpolator.h">
+      <Filter>Inferno Engine\Core\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Utilities\Public\Scene.h">
+      <Filter>Inferno Engine\Utilities\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Utilities\Public\MaterialLoader.h">
+      <Filter>Inferno Engine\Utilities\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Physics\QuadTree.h">
+      <Filter>Inferno Engine\Core\Public\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Rendering\DXEvent.h">
+      <Filter>Inferno Engine\Core\Public\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Components\AudioListener.h">
+      <Filter>Inferno Engine\Core\Public\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\UIComponents\UIDropdown.h">
+      <Filter>Inferno Engine\Core\Public\UIComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\BaseBehavior.h">
+      <Filter>Inferno Engine\Core\Public\AI\BehaviorTrees</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\BehaviorTypes.h">
+      <Filter>Inferno Engine\Core\Public\AI\BehaviorTrees</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\StatusTypes.h">
+      <Filter>Inferno Engine\Core\Public\AI\BehaviorTrees</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Action\ActionBehavior.h">
+      <Filter>Inferno Engine\Core\Public\AI\BehaviorTrees\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Composite\CompositeBehavior.h">
+      <Filter>Inferno Engine\Core\Public\AI\BehaviorTrees\Composite</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Composite\SequenceBehavior.h">
+      <Filter>Inferno Engine\Core\Public\AI\BehaviorTrees\Composite</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Decorator\DecoratorBehavior.h">
+      <Filter>Inferno Engine\Core\Public\AI\BehaviorTrees\Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\UIComponents\UICheckbox.h">
+      <Filter>Inferno Engine\Core\Public\UIComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\UIComponents\UISlider.h">
+      <Filter>Inferno Engine\Core\Public\UIComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Decorator\TimerBehavior.h">
+      <Filter>Inferno Engine\Core\Public\AI\BehaviorTrees\Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Decorator\RepeatBehavior.h">
+      <Filter>Inferno Engine\Core\Public\AI\BehaviorTrees\Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Decorator\InvertBehavior.h">
+      <Filter>Inferno Engine\Core\Public\AI\BehaviorTrees\Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Composite\ParallelBehavior.h">
+      <Filter>Inferno Engine\Core\Public\AI\BehaviorTrees\Composite</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Animate\RunAnimationBehavior.h">
+      <Filter>Inferno Engine\Core\Public\AI\BehaviorTrees\Animate</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Action\MoveToBehavior.h">
+      <Filter>Inferno Engine\Core\Public\AI\BehaviorTrees\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Decorator\WaitBehavior.h">
+      <Filter>Inferno Engine\Core\Public\AI\BehaviorTrees\Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Animate\AnimateBehavior.h">
+      <Filter>Inferno Engine\Core\Public\AI\BehaviorTrees\Animate</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Composite\SelectorBehavior.h">
+      <Filter>Inferno Engine\Core\Public\AI\BehaviorTrees\Composite</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Components\Waypoint.h">
+      <Filter>Inferno Engine\Core\Public\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Win32Window\IWndProc.h">
+      <Filter>Inferno Engine\Core\Public\Win32Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Win32Window\Win32Window.h">
+      <Filter>Inferno Engine\Core\Public\Win32Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Action\MoveToWaypointBehavior.h">
+      <Filter>Inferno Engine\Core\Public\AI\BehaviorTrees\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Action\RequestPathBehavior.h">
+      <Filter>Inferno Engine\Core\Public\AI\BehaviorTrees\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Components\BehaviorTree.h">
+      <Filter>Inferno Engine\Core\Public\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Action\MoveToTargetBehavior.h">
+      <Filter>Inferno Engine\Core\Public\AI\BehaviorTrees\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Condition\ConditionBehavior.h">
+      <Filter>Inferno Engine\Core\Public\AI\BehaviorTrees\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Condition\InRangeBehavior.h">
+      <Filter>Inferno Engine\Core\Public\AI\BehaviorTrees\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Animate\AttackAnimationBehavior.h">
+      <Filter>Inferno Engine\Core\Public\AI\BehaviorTrees\Animate</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Action\DealDamageBehavior.h">
+      <Filter>Inferno Engine\Core\Public\AI\BehaviorTrees\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Action\SetDestinationBehavior.h">
+      <Filter>Inferno Engine\Core\Public\AI\BehaviorTrees\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Action\FindClosestTargetBehavior.h">
+      <Filter>Inferno Engine\Core\Public\AI\BehaviorTrees\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Animate\IdleAnimationBehavior.h">
+      <Filter>Inferno Engine\Core\Public\AI\BehaviorTrees\Animate</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Core\Public\ThreadPool\WorkerThreadPool.h">
+      <Filter>Inferno Engine\Core\Public\ThreadPool</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\ThreadPool\WorkerTypes\WorkerThread.h">
+      <Filter>Inferno Engine\Core\Public\ThreadPool\WorkerTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Rendering\RenderTree.h">
+      <Filter>Inferno Engine\Core\Public\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\ThreadPool\WorkerTypes\WorkerThreadFuctionPointers.h">
+      <Filter>Inferno Engine\Core\Public\ThreadPool\WorkerTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Animate\JumpAnimationBehavior.h">
+      <Filter>Inferno Engine\Core\Public\AI\BehaviorTrees\Animate</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Condition\IsOvercrowdedBehavior.h">
+      <Filter>Inferno Engine\Core\Public\AI\BehaviorTrees\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Animate\CastSpellAnimationBehavior.h">
+      <Filter>Inferno Engine\Core\Public\AI\BehaviorTrees\Animate</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\ThreadPool\WorkerTypes\WorkerThreadConfigSave.h">
+      <Filter>Inferno Engine\Core\Public\ThreadPool\WorkerTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Action\DealDamageToNearbyEnemiesBehavior.h">
+      <Filter>Inferno Engine\Core\Public\AI\BehaviorTrees\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Action\SpawnBossShockwaveBehavior.h">
+      <Filter>Inferno Engine\Core\Public\AI\BehaviorTrees\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Condition\IsStunnedBehavior.h">
+      <Filter>Inferno Engine\Core\Public\AI\BehaviorTrees\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Components\CutSceneWaypoint.h">
+      <Filter>Inferno Engine\Core\Public\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\Components\EntityTargetingWeights.h">
+      <Filter>Inferno Engine\Core\Public\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Condition\IsStationaryBehavior.h">
+      <Filter>Inferno Engine\Core\Public\AI\BehaviorTrees\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Decorator\DoOnceBehavior.h">
+      <Filter>Inferno Engine\Core\Public\AI\BehaviorTrees\Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Condition\IsBossStuckBehavior.h">
+      <Filter>Inferno Engine\Core\Public\AI\BehaviorTrees\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Condition\ORBehavior.h">
+      <Filter>Inferno Engine\Core\Public\AI\BehaviorTrees\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Animate\SpecialAnimationBehavior.h">
+      <Filter>Inferno Engine\Core\Public\AI\BehaviorTrees\Animate</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Action\TurnToTarget.h">
+      <Filter>Inferno Engine\Core\Public\AI\BehaviorTrees\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Decorator\RepeatForTime.h">
+      <Filter>Inferno Engine\Core\Public\AI\BehaviorTrees\Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Action\ChargeAtTargetBehavior.h">
+      <Filter>Inferno Engine\Core\Public\AI\BehaviorTrees\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Condition\HasTargetBehavior.h">
+      <Filter>Inferno Engine\Core\Public\AI\BehaviorTrees\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Condition\HasTravelledDistanceBehavior.h">
+      <Filter>Inferno Engine\Core\Public\AI\BehaviorTrees\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Decorator\FailureToRunningBehavior.h">
+      <Filter>Inferno Engine\Core\Public\AI\BehaviorTrees\Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Action\ReturnStatusBehavior.h">
+      <Filter>Inferno Engine\Core\Public\AI\BehaviorTrees\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Action\LookAtBehavior.h">
+      <Filter>Inferno Engine\Core\Public\AI\BehaviorTrees\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Core\Public\AI\BehaviorTrees\Condition\IsLookingAt.h">
+      <Filter>Inferno Engine\Core\Public\AI\BehaviorTrees\Condition</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

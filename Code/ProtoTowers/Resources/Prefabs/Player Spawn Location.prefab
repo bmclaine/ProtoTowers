@@ -1,0 +1,22 @@
+GameObject
+Allocation Amount<1>
+GameObject<
+	<GUID>694148023</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Player Spawn Location</Name/>
+	<PrefabName>Player Spawn Location</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>175980672</Component0/>
+GameObject/>
+Transform<
+	<GUID>175980672</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,0,-30.7</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<gameObject>694148023</gameObject/>
+Transform/>
+<end>

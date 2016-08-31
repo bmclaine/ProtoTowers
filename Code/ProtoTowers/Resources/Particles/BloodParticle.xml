@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<particles_root>
+    <particle_info numParticles="30" lifeTime="1.0" spawnRate="0.02"  red1="255" green1="0"  blue1="50" alpha1="255" red2="255" green2="0" blue2="150" alpha2="255" startSize="1.0" endSize="0.5" StartRotation="0" EndRotation2="0" energy="20.0" particleFileName="resources/Particles/PT_Blood.png"></particle_info>
+</particles_root>

@@ -1,0 +1,51 @@
+GameObject
+Allocation Amount<1>
+GameObject<
+	<GUID>514029714</GUID/>
+	<Type>GameObject</Type/>
+	<Name>HealthPickup</Name/>
+	<PrefabName>HealthPickup</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>1481686112</Component0/>
+	<Component1>1393944301</Component1/>
+	<Component2>1045370288</Component2/>
+	<Component3>1938754256</Component3/>
+GameObject/>
+Transform<
+	<GUID>1481686112</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,0.5,-26</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<gameObject>514029714</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>1393944301</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>HealthPickup</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>HealthPickup</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>514029714</gameObject/>
+MeshRenderer/>
+SphereCollider<
+	<GUID>1045370288</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,0,0</Center/>
+	<Radius>1</Radius/>
+	<IsTrigger>1</IsTrigger/>
+	<gameObject>514029714</gameObject/>
+SphereCollider/>
+HealthPickup<
+	<GUID>1938754256</GUID/>
+	<Type>Generic</Type/>
+	<HealPercent>0.35</HealPercent/>
+	<SpawnTimer>30</SpawnTimer/>
+	<Active>0</Active/>
+	<gameObject>514029714</gameObject/>
+HealthPickup/>
+<end>

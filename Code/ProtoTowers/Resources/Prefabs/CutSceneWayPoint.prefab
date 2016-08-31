@@ -1,0 +1,31 @@
+GameObject
+Allocation Amount<1>
+GameObject<
+	<GUID>589629382</GUID/>
+	<Type>GameObject</Type/>
+	<Name>CutSceneWayPoint</Name/>
+	<PrefabName>CutSceneWaypoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1383617594</Component0/>
+	<Component1>565060859</Component1/>
+GameObject/>
+Transform<
+	<GUID>1383617594</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,0,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<gameObject>589629382</gameObject/>
+Transform/>
+CutSceneWaypoint<
+	<GUID>565060859</GUID/>
+	<Type>Generic</Type/>
+	<Next>0</Next/>
+	<Tangent>0</Tangent/>
+	<Time>0</Time/>
+	<gameObject>589629382</gameObject/>
+CutSceneWaypoint/>
+<end>

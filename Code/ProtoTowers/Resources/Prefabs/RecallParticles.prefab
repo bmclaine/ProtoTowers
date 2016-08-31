@@ -1,0 +1,172 @@
+GameObject
+Allocation Amount<1>
+Transform<
+	<GUID>53852680</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,1.67,-77.28</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>3</ChildCount/>
+	<Child0>1290855869</Child0/>
+	<Child1>261884248</Child1/>
+	<Child2>1001573862</Child2/>
+	<gameObject>1247488763</gameObject/>
+Transform/>
+PlayerRecall<
+	<GUID>0</GUID/>
+	<Type>Generic</Type/>
+	<gameObject>1247488763</gameObject/>
+PlayerRecall/>
+GameObject<
+	<GUID>1247488763</GUID/>
+	<Type>GameObject</Type/>
+	<Name>RecallParticles</Name/>
+	<PrefabName>Recall Particles</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>53852680</Component0/>
+	<Component1>0</Component1/>
+GameObject/>
+Transform<
+	<GUID>1290855869</GUID/>
+	<Type>Transform</Type/>
+	<Position>1,-0.301,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>53852680</Parent/>
+	<gameObject>19624144</gameObject/>
+Transform/>
+ParticleSystem<
+	<GUID>1425043512</GUID/>
+	<Type>Generic</Type/>
+	<WorldPosition>0,0,0</WorldPosition/>
+	<Duration>3</Duration/>
+	<AliveTime>0</AliveTime/>
+	<LifeTime>0.15</LifeTime/>
+	<StartSpeed>0</StartSpeed/>
+	<GravityScale>0</GravityScale/>
+	<StartColor>0.634,1,1,1</StartColor/>
+	<EndColor>1,1,1,1</EndColor/>
+	<StartSize>0.25</StartSize/>
+	<EndSize>0</EndSize/>
+	<MaxParticles>100</MaxParticles/>
+	<Emission>0</Emission/>
+	<ShapeDimensions>0.1,1,1</ShapeDimensions/>
+	<Flags>8</Flags/>
+	<EShape>3</EShape/>
+	<EStyle>0</EStyle/>
+	<EmissionRate>60</EmissionRate/>
+	<Accumulator>0</Accumulator/>
+	<Paused>0</Paused/>
+	<Looping>1</Looping/>
+	<Texture>0</Texture/>
+	<gameObject>19624144</gameObject/>
+ParticleSystem/>
+GameObject<
+	<GUID>19624144</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Spinning Particles</Name/>
+	<PrefabName>Recall Particles</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1290855869</Component0/>
+	<Component1>1425043512</Component1/>
+GameObject/>
+Transform<
+	<GUID>261884248</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,-1.62,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>53852680</Parent/>
+	<gameObject>1068643086</gameObject/>
+Transform/>
+ParticleSystem<
+	<GUID>1604339429</GUID/>
+	<Type>Generic</Type/>
+	<WorldPosition>0,0,0</WorldPosition/>
+	<Duration>0.8</Duration/>
+	<AliveTime>0</AliveTime/>
+	<LifeTime>0.7</LifeTime/>
+	<StartSpeed>0</StartSpeed/>
+	<GravityScale>-1</GravityScale/>
+	<StartColor>0.634,1,1,1</StartColor/>
+	<EndColor>1,1,1,1</EndColor/>
+	<StartSize>0.15</StartSize/>
+	<EndSize>0.15</EndSize/>
+	<MaxParticles>150</MaxParticles/>
+	<Emission>0</Emission/>
+	<ShapeDimensions>0.8,0.8,0.8</ShapeDimensions/>
+	<Flags>8</Flags/>
+	<EShape>2</EShape/>
+	<EStyle>1</EStyle/>
+	<EmissionRate>150</EmissionRate/>
+	<Accumulator>0</Accumulator/>
+	<Paused>0</Paused/>
+	<Looping>1</Looping/>
+	<Texture>0</Texture/>
+	<gameObject>1068643086</gameObject/>
+ParticleSystem/>
+GameObject<
+	<GUID>1068643086</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Drop Particles</Name/>
+	<PrefabName>Recall Particles</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>261884248</Component0/>
+	<Component1>1604339429</Component1/>
+GameObject/>
+Transform<
+	<GUID>1001573862</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,-1.526,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>53852680</Parent/>
+	<gameObject>1305838807</gameObject/>
+Transform/>
+ParticleSystem<
+	<GUID>2094391589</GUID/>
+	<Type>Generic</Type/>
+	<WorldPosition>0,0,0</WorldPosition/>
+	<Duration>0.8</Duration/>
+	<AliveTime>0</AliveTime/>
+	<LifeTime>0.7</LifeTime/>
+	<StartSpeed>0</StartSpeed/>
+	<GravityScale>0</GravityScale/>
+	<StartColor>0.634,1,1,1</StartColor/>
+	<EndColor>0.634,1,1,1</EndColor/>
+	<StartSize>0.15</StartSize/>
+	<EndSize>0.15</EndSize/>
+	<MaxParticles>150</MaxParticles/>
+	<Emission>0</Emission/>
+	<ShapeDimensions>0.8,0.8,0.8</ShapeDimensions/>
+	<Flags>8</Flags/>
+	<EShape>2</EShape/>
+	<EStyle>1</EStyle/>
+	<EmissionRate>150</EmissionRate/>
+	<Accumulator>0</Accumulator/>
+	<Paused>0</Paused/>
+	<Looping>1</Looping/>
+	<Texture>0</Texture/>
+	<gameObject>1305838807</gameObject/>
+ParticleSystem/>
+GameObject<
+	<GUID>1305838807</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Ground Particles</Name/>
+	<PrefabName>Recall Particles</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1001573862</Component0/>
+	<Component1>2094391589</Component1/>
+GameObject/>
+<end>

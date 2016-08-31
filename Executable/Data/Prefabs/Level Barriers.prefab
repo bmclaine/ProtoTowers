@@ -1,0 +1,806 @@
+GameObject
+Allocation Amount<1>
+Transform<
+	<GUID>939624189</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,0,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>8</ChildCount/>
+	<Child0>557574996</Child0/>
+	<Child1>690798075</Child1/>
+	<Child2>647264973</Child2/>
+	<Child3>1348890849</Child3/>
+	<Child4>493202895</Child4/>
+	<Child5>1086569605</Child5/>
+	<Child6>2015915838</Child6/>
+	<Child7>1498766076</Child7/>
+	<gameObject>69084734</gameObject/>
+Transform/>
+GameObject<
+	<GUID>69084734</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Level Barriers</Name/>
+	<PrefabName>Level Barriers</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>939624189</Component0/>
+GameObject/>
+GameObject<
+	<GUID>604351163</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Barrier Btm Left</Name/>
+	<PrefabName>Barrier</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>6</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>557574996</Component0/>
+	<Component1>1425375541</Component1/>
+	<Component2>1885530015</Component2/>
+	<Component3>83100791</Component3/>
+GameObject/>
+Transform<
+	<GUID>557574996</GUID/>
+	<Type>Transform</Type/>
+	<Position>-42,0,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>14,10,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>939624189</Parent/>
+	<gameObject>604351163</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>1425375541</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Cube</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,0.4901961,0,1</Color/>
+	<Material0>Projectile_Plasma_Bullet</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>604351163</gameObject/>
+MeshRenderer/>
+BoxCollider<
+	<GUID>1885530015</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,0,0</Center/>
+	<Size>1,1,1</Size/>
+	<IsTrigger>0</IsTrigger/>
+	<gameObject>604351163</gameObject/>
+BoxCollider/>
+Barrier<
+	<GUID>83100791</GUID/>
+	<Type>Generic</Type/>
+	<Channel>0</Channel/>
+	<gameObject>604351163</gameObject/>
+Barrier/>
+GameObject<
+	<GUID>1891543324</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Barrier Button Btm Left</Name/>
+	<PrefabName>Barrier Button</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>690798075</Component0/>
+	<Component1>1514958713</Component1/>
+	<Component2>1542838060</Component2/>
+	<Component3>779782697</Component3/>
+	<Component4>1724239317</Component4/>
+GameObject/>
+Transform<
+	<GUID>690798075</GUID/>
+	<Type>Transform</Type/>
+	<Position>-36,0,-3</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,2,1</Scale/>
+	<ChildCount>2</ChildCount/>
+	<Child0>1776600109</Child0/>
+	<Child1>36943668</Child1/>
+	<Parent>939624189</Parent/>
+	<gameObject>1891543324</gameObject/>
+Transform/>
+BarrierButton<
+	<GUID>1514958713</GUID/>
+	<Type>Generic</Type/>
+	<Channel>0</Channel/>
+	<SpawnsMinionWave>False</SpawnsMinionWave/>
+	<Level>0</Level/>
+	<ParticleEffect>171923325</ParticleEffect/>
+	<gameObject>1891543324</gameObject/>
+BarrierButton/>
+MeshRenderer<
+	<GUID>1542838060</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Cube</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,0.837931,0.3088235,1</Color/>
+	<Material0>DefaultMaterial</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>1891543324</gameObject/>
+MeshRenderer/>
+SphereCollider<
+	<GUID>779782697</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,0,0</Center/>
+	<Radius>1.5</Radius/>
+	<IsTrigger>1</IsTrigger/>
+	<gameObject>1891543324</gameObject/>
+SphereCollider/>
+BoxCollider<
+	<GUID>1724239317</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,0,0</Center/>
+	<Size>1,1,1</Size/>
+	<IsTrigger>0</IsTrigger/>
+	<gameObject>1891543324</gameObject/>
+BoxCollider/>
+Transform<
+	<GUID>1776600109</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,0.5,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,0.5,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>690798075</Parent/>
+	<gameObject>171923325</gameObject/>
+Transform/>
+GameObject<
+	<GUID>171923325</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Barrier Button Particles</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>1776600109</Component0/>
+	<Component1>111032667</Component1/>
+GameObject/>
+ParticleSystem<
+	<GUID>111032667</GUID/>
+	<Type>Generic</Type/>
+	<WorldPosition>0,0,0</WorldPosition/>
+	<Duration>3</Duration/>
+	<AliveTime>0</AliveTime/>
+	<LifeTime>0.75</LifeTime/>
+	<StartSpeed>4</StartSpeed/>
+	<GravityScale>1</GravityScale/>
+	<StartColor>0,0,1,1</StartColor/>
+	<EndColor>0,0,1,1</EndColor/>
+	<StartSize>0.5</StartSize/>
+	<EndSize>0</EndSize/>
+	<MaxParticles>100</MaxParticles/>
+	<Emission>0</Emission/>
+	<ShapeDimensions>0.1,1,1</ShapeDimensions/>
+	<Flags>8</Flags/>
+	<EShape>2</EShape/>
+	<EStyle>0</EStyle/>
+	<EmissionRate>50</EmissionRate/>
+	<Accumulator>0</Accumulator/>
+	<Paused>0</Paused/>
+	<Looping>1</Looping/>
+	<Texture>0</Texture/>
+	<gameObject>171923325</gameObject/>
+ParticleSystem/>
+GameObject<
+	<GUID>1510658058</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Barrier Button Prompt</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>36943668</Component0/>
+	<Component1>517116819</Component1/>
+GameObject/>
+Transform<
+	<GUID>36943668</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,1,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>690798075</Parent/>
+	<gameObject>1510658058</gameObject/>
+Transform/>
+SpriteRenderer<
+	<GUID>517116819</GUID/>
+	<Type>Generic</Type/>
+	<Dimensions>0.4,0.4</Dimensions/>
+	<Pad>0,0</Pad/>
+	<Color>1,1,1</Color/>
+	<Color2>1,1,1</Color2/>
+	<Layer>0</Layer/>
+	<Fill>0</Fill/>
+	<Texture1></Texture1/>
+	<Tiling1>1,1</Tiling1/>
+	<Texture2></Texture2/>
+	<Tiling2>1,1</Tiling2/>
+	<Billboarded>1</Billboarded/>
+	<Effect>5</Effect/>
+	<MaterialCount>0</MaterialCount/>
+	<gameObject>1510658058</gameObject/>
+SpriteRenderer/>
+GameObject<
+	<GUID>1921811701</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Barrier Btm Right</Name/>
+	<PrefabName>Barrier</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>6</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>647264973</Component0/>
+	<Component1>216362201</Component1/>
+	<Component2>1870051566</Component2/>
+	<Component3>1214819765</Component3/>
+GameObject/>
+Transform<
+	<GUID>647264973</GUID/>
+	<Type>Transform</Type/>
+	<Position>42,0,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>17,10,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>939624189</Parent/>
+	<gameObject>1921811701</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>216362201</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Cube</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,0.4901961,0,1</Color/>
+	<Material0>Projectile_Plasma_Bullet</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>1921811701</gameObject/>
+MeshRenderer/>
+BoxCollider<
+	<GUID>1870051566</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,0,0</Center/>
+	<Size>1,1,1</Size/>
+	<IsTrigger>0</IsTrigger/>
+	<gameObject>1921811701</gameObject/>
+BoxCollider/>
+Barrier<
+	<GUID>1214819765</GUID/>
+	<Type>Generic</Type/>
+	<Channel>1</Channel/>
+	<gameObject>1921811701</gameObject/>
+Barrier/>
+GameObject<
+	<GUID>124581936</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Barrier Button Btm Right</Name/>
+	<PrefabName>Barrier Button</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>1348890849</Component0/>
+	<Component1>1666793452</Component1/>
+	<Component2>194603409</Component2/>
+	<Component3>1939285066</Component3/>
+	<Component4>1660718512</Component4/>
+GameObject/>
+Transform<
+	<GUID>1348890849</GUID/>
+	<Type>Transform</Type/>
+	<Position>37,0,-3</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,2,1</Scale/>
+	<ChildCount>2</ChildCount/>
+	<Child0>134362037</Child0/>
+	<Child1>1001209202</Child1/>
+	<Parent>939624189</Parent/>
+	<gameObject>124581936</gameObject/>
+Transform/>
+BarrierButton<
+	<GUID>1666793452</GUID/>
+	<Type>Generic</Type/>
+	<Channel>1</Channel/>
+	<SpawnsMinionWave>False</SpawnsMinionWave/>
+	<Level>0</Level/>
+	<ParticleEffect>341036536</ParticleEffect/>
+	<gameObject>124581936</gameObject/>
+BarrierButton/>
+MeshRenderer<
+	<GUID>194603409</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Cube</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,0.837931,0.3088235,1</Color/>
+	<Material0>DefaultMaterial</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>124581936</gameObject/>
+MeshRenderer/>
+SphereCollider<
+	<GUID>1939285066</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,0,0</Center/>
+	<Radius>1.5</Radius/>
+	<IsTrigger>1</IsTrigger/>
+	<gameObject>124581936</gameObject/>
+SphereCollider/>
+BoxCollider<
+	<GUID>1660718512</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,0,0</Center/>
+	<Size>1,1,1</Size/>
+	<IsTrigger>0</IsTrigger/>
+	<gameObject>124581936</gameObject/>
+BoxCollider/>
+Transform<
+	<GUID>134362037</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,0.5,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,0.5,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1348890849</Parent/>
+	<gameObject>341036536</gameObject/>
+Transform/>
+GameObject<
+	<GUID>341036536</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Barrier Button Particles</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>134362037</Component0/>
+	<Component1>1931915591</Component1/>
+GameObject/>
+ParticleSystem<
+	<GUID>1931915591</GUID/>
+	<Type>Generic</Type/>
+	<WorldPosition>0,0,0</WorldPosition/>
+	<Duration>3</Duration/>
+	<AliveTime>0</AliveTime/>
+	<LifeTime>0.75</LifeTime/>
+	<StartSpeed>4</StartSpeed/>
+	<GravityScale>1</GravityScale/>
+	<StartColor>0,0,1,1</StartColor/>
+	<EndColor>0,0,1,1</EndColor/>
+	<StartSize>0.5</StartSize/>
+	<EndSize>0</EndSize/>
+	<MaxParticles>100</MaxParticles/>
+	<Emission>0</Emission/>
+	<ShapeDimensions>0.1,1,1</ShapeDimensions/>
+	<Flags>8</Flags/>
+	<EShape>2</EShape/>
+	<EStyle>0</EStyle/>
+	<EmissionRate>50</EmissionRate/>
+	<Accumulator>0</Accumulator/>
+	<Paused>0</Paused/>
+	<Looping>1</Looping/>
+	<Texture>0</Texture/>
+	<gameObject>341036536</gameObject/>
+ParticleSystem/>
+GameObject<
+	<GUID>179510034</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Barrier Button Prompt</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>1001209202</Component0/>
+	<Component1>929160883</Component1/>
+GameObject/>
+Transform<
+	<GUID>1001209202</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,1,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1348890849</Parent/>
+	<gameObject>179510034</gameObject/>
+Transform/>
+SpriteRenderer<
+	<GUID>929160883</GUID/>
+	<Type>Generic</Type/>
+	<Dimensions>0.4,0.4</Dimensions/>
+	<Pad>0,0</Pad/>
+	<Color>1,1,1</Color/>
+	<Color2>1,1,1</Color2/>
+	<Layer>0</Layer/>
+	<Fill>0</Fill/>
+	<Texture1></Texture1/>
+	<Tiling1>1,1</Tiling1/>
+	<Texture2></Texture2/>
+	<Tiling2>1,1</Tiling2/>
+	<Billboarded>1</Billboarded/>
+	<Effect>5</Effect/>
+	<MaterialCount>0</MaterialCount/>
+	<gameObject>179510034</gameObject/>
+SpriteRenderer/>
+GameObject<
+	<GUID>1289738991</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Barrier Top Left</Name/>
+	<PrefabName>Barrier</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>6</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>493202895</Component0/>
+	<Component1>1278710660</Component1/>
+	<Component2>1540005945</Component2/>
+	<Component3>1170125948</Component3/>
+GameObject/>
+Transform<
+	<GUID>493202895</GUID/>
+	<Type>Transform</Type/>
+	<Position>-36,0,44</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>19,10,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>939624189</Parent/>
+	<gameObject>1289738991</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>1278710660</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Cube</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,0.4901961,0,1</Color/>
+	<Material0>Projectile_Plasma_Bullet</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>1289738991</gameObject/>
+MeshRenderer/>
+BoxCollider<
+	<GUID>1540005945</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,0,0</Center/>
+	<Size>1,1,1</Size/>
+	<IsTrigger>0</IsTrigger/>
+	<gameObject>1289738991</gameObject/>
+BoxCollider/>
+Barrier<
+	<GUID>1170125948</GUID/>
+	<Type>Generic</Type/>
+	<Channel>2</Channel/>
+	<gameObject>1289738991</gameObject/>
+Barrier/>
+GameObject<
+	<GUID>1222476215</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Barrier Button Top Left</Name/>
+	<PrefabName>Barrier Button</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>1086569605</Component0/>
+	<Component1>170156943</Component1/>
+	<Component2>845814671</Component2/>
+	<Component3>1851759009</Component3/>
+	<Component4>56427766</Component4/>
+GameObject/>
+Transform<
+	<GUID>1086569605</GUID/>
+	<Type>Transform</Type/>
+	<Position>-30,0,40</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,2,1</Scale/>
+	<ChildCount>2</ChildCount/>
+	<Child0>1261519419</Child0/>
+	<Child1>1839035263</Child1/>
+	<Parent>939624189</Parent/>
+	<gameObject>1222476215</gameObject/>
+Transform/>
+BarrierButton<
+	<GUID>170156943</GUID/>
+	<Type>Generic</Type/>
+	<Channel>2</Channel/>
+	<SpawnsMinionWave>False</SpawnsMinionWave/>
+	<Level>0</Level/>
+	<ParticleEffect>1208697767</ParticleEffect/>
+	<gameObject>1222476215</gameObject/>
+BarrierButton/>
+MeshRenderer<
+	<GUID>845814671</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Cube</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,0.837931,0.3088235,1</Color/>
+	<Material0>DefaultMaterial</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>1222476215</gameObject/>
+MeshRenderer/>
+SphereCollider<
+	<GUID>1851759009</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,0,0</Center/>
+	<Radius>1.5</Radius/>
+	<IsTrigger>1</IsTrigger/>
+	<gameObject>1222476215</gameObject/>
+SphereCollider/>
+BoxCollider<
+	<GUID>56427766</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,0,0</Center/>
+	<Size>1,1,1</Size/>
+	<IsTrigger>0</IsTrigger/>
+	<gameObject>1222476215</gameObject/>
+BoxCollider/>
+Transform<
+	<GUID>1261519419</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,0.5,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,0.5,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1086569605</Parent/>
+	<gameObject>1208697767</gameObject/>
+Transform/>
+GameObject<
+	<GUID>1208697767</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Barrier Button Particles</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>1261519419</Component0/>
+	<Component1>989155125</Component1/>
+GameObject/>
+ParticleSystem<
+	<GUID>989155125</GUID/>
+	<Type>Generic</Type/>
+	<WorldPosition>0,0,0</WorldPosition/>
+	<Duration>3</Duration/>
+	<AliveTime>0</AliveTime/>
+	<LifeTime>0.75</LifeTime/>
+	<StartSpeed>4</StartSpeed/>
+	<GravityScale>1</GravityScale/>
+	<StartColor>0,0,1,1</StartColor/>
+	<EndColor>0,0,1,1</EndColor/>
+	<StartSize>0.5</StartSize/>
+	<EndSize>0</EndSize/>
+	<MaxParticles>100</MaxParticles/>
+	<Emission>0</Emission/>
+	<ShapeDimensions>0.1,1,1</ShapeDimensions/>
+	<Flags>8</Flags/>
+	<EShape>2</EShape/>
+	<EStyle>0</EStyle/>
+	<EmissionRate>50</EmissionRate/>
+	<Accumulator>0</Accumulator/>
+	<Paused>0</Paused/>
+	<Looping>1</Looping/>
+	<Texture>0</Texture/>
+	<gameObject>1208697767</gameObject/>
+ParticleSystem/>
+GameObject<
+	<GUID>1261530170</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Barrier Button Prompt</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>1839035263</Component0/>
+	<Component1>2020401760</Component1/>
+GameObject/>
+Transform<
+	<GUID>1839035263</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,1,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1086569605</Parent/>
+	<gameObject>1261530170</gameObject/>
+Transform/>
+SpriteRenderer<
+	<GUID>2020401760</GUID/>
+	<Type>Generic</Type/>
+	<Dimensions>0.4,0.4</Dimensions/>
+	<Pad>0,0</Pad/>
+	<Color>1,1,1</Color/>
+	<Color2>1,1,1</Color2/>
+	<Layer>0</Layer/>
+	<Fill>0</Fill/>
+	<Texture1></Texture1/>
+	<Tiling1>1,1</Tiling1/>
+	<Texture2></Texture2/>
+	<Tiling2>1,1</Tiling2/>
+	<Billboarded>1</Billboarded/>
+	<Effect>5</Effect/>
+	<MaterialCount>0</MaterialCount/>
+	<gameObject>1261530170</gameObject/>
+SpriteRenderer/>
+GameObject<
+	<GUID>346236879</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Barrier Top Right</Name/>
+	<PrefabName>Barrier</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>6</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>2015915838</Component0/>
+	<Component1>407137343</Component1/>
+	<Component2>1003139191</Component2/>
+	<Component3>2093727383</Component3/>
+GameObject/>
+Transform<
+	<GUID>2015915838</GUID/>
+	<Type>Transform</Type/>
+	<Position>35,0,44</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>21,10,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>939624189</Parent/>
+	<gameObject>346236879</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>407137343</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Cube</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,0.4901961,0,1</Color/>
+	<Material0>Projectile_Plasma_Bullet</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>346236879</gameObject/>
+MeshRenderer/>
+BoxCollider<
+	<GUID>1003139191</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,0,0</Center/>
+	<Size>1,1,1</Size/>
+	<IsTrigger>0</IsTrigger/>
+	<gameObject>346236879</gameObject/>
+BoxCollider/>
+Barrier<
+	<GUID>2093727383</GUID/>
+	<Type>Generic</Type/>
+	<Channel>3</Channel/>
+	<gameObject>346236879</gameObject/>
+Barrier/>
+GameObject<
+	<GUID>739900252</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Barrier Button Top Right</Name/>
+	<PrefabName>Barrier Button</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>1498766076</Component0/>
+	<Component1>1353557511</Component1/>
+	<Component2>2093884397</Component2/>
+	<Component3>1953337338</Component3/>
+	<Component4>753332592</Component4/>
+GameObject/>
+Transform<
+	<GUID>1498766076</GUID/>
+	<Type>Transform</Type/>
+	<Position>29,0,40</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,2,1</Scale/>
+	<ChildCount>2</ChildCount/>
+	<Child0>1173109266</Child0/>
+	<Child1>1601007579</Child1/>
+	<Parent>939624189</Parent/>
+	<gameObject>739900252</gameObject/>
+Transform/>
+BarrierButton<
+	<GUID>1353557511</GUID/>
+	<Type>Generic</Type/>
+	<Channel>3</Channel/>
+	<SpawnsMinionWave>False</SpawnsMinionWave/>
+	<Level>0</Level/>
+	<ParticleEffect>987253630</ParticleEffect/>
+	<gameObject>739900252</gameObject/>
+BarrierButton/>
+MeshRenderer<
+	<GUID>2093884397</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Cube</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,0.837931,0.3088235,1</Color/>
+	<Material0>DefaultMaterial</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>739900252</gameObject/>
+MeshRenderer/>
+SphereCollider<
+	<GUID>1953337338</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,0,0</Center/>
+	<Radius>1.5</Radius/>
+	<IsTrigger>1</IsTrigger/>
+	<gameObject>739900252</gameObject/>
+SphereCollider/>
+BoxCollider<
+	<GUID>753332592</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,0,0</Center/>
+	<Size>1,1,1</Size/>
+	<IsTrigger>0</IsTrigger/>
+	<gameObject>739900252</gameObject/>
+BoxCollider/>
+Transform<
+	<GUID>1173109266</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,0.5,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,0.5,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1498766076</Parent/>
+	<gameObject>987253630</gameObject/>
+Transform/>
+GameObject<
+	<GUID>987253630</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Barrier Button Particles</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>1173109266</Component0/>
+	<Component1>1592604408</Component1/>
+GameObject/>
+ParticleSystem<
+	<GUID>1592604408</GUID/>
+	<Type>Generic</Type/>
+	<WorldPosition>0,0,0</WorldPosition/>
+	<Duration>3</Duration/>
+	<AliveTime>0</AliveTime/>
+	<LifeTime>0.75</LifeTime/>
+	<StartSpeed>4</StartSpeed/>
+	<GravityScale>1</GravityScale/>
+	<StartColor>0,0,1,1</StartColor/>
+	<EndColor>0,0,1,1</EndColor/>
+	<StartSize>0.5</StartSize/>
+	<EndSize>0</EndSize/>
+	<MaxParticles>100</MaxParticles/>
+	<Emission>0</Emission/>
+	<ShapeDimensions>0.1,1,1</ShapeDimensions/>
+	<Flags>8</Flags/>
+	<EShape>2</EShape/>
+	<EStyle>0</EStyle/>
+	<EmissionRate>50</EmissionRate/>
+	<Accumulator>0</Accumulator/>
+	<Paused>0</Paused/>
+	<Looping>1</Looping/>
+	<Texture>0</Texture/>
+	<gameObject>987253630</gameObject/>
+ParticleSystem/>
+GameObject<
+	<GUID>1426080195</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Barrier Button Prompt</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>1</IsStatic/>
+	<Component0>1601007579</Component0/>
+	<Component1>2041294125</Component1/>
+GameObject/>
+Transform<
+	<GUID>1601007579</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,1,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1498766076</Parent/>
+	<gameObject>1426080195</gameObject/>
+Transform/>
+SpriteRenderer<
+	<GUID>2041294125</GUID/>
+	<Type>Generic</Type/>
+	<Dimensions>0.4,0.4</Dimensions/>
+	<Pad>0,0</Pad/>
+	<Color>1,1,1</Color/>
+	<Color2>1,1,1</Color2/>
+	<Layer>0</Layer/>
+	<Fill>0</Fill/>
+	<Texture1></Texture1/>
+	<Tiling1>1,1</Tiling1/>
+	<Texture2></Texture2/>
+	<Tiling2>1,1</Tiling2/>
+	<Billboarded>1</Billboarded/>
+	<Effect>5</Effect/>
+	<MaterialCount>0</MaterialCount/>
+	<gameObject>1426080195</gameObject/>
+SpriteRenderer/>
+<end>

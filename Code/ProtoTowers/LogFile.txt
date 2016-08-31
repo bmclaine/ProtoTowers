@@ -1,0 +1,104 @@
+Initializing Engine...
+
+Initializing Thread pool...
+Success!
+
+Starting Worker Thread Pool...
+Success!
+
+Initializing Graphics Manger...
+
+Initializing DirectX...
+Failed to load shader QuadVertexShader!
+
+Failed to load shader ParticleVertexShader!
+
+Failed to load shader StaticMeshVertexShader!
+
+Failed to load shader SkinnedMeshVertexShader!
+
+Failed to load shader UIVertexShader!
+
+Failed to load shader LineVertexShader!
+
+Failed to load shader AlphaPrepassVertexShader!
+
+Failed to load shader SkyboxVertexShader!
+
+Failed to load shader UIGeometryShader!
+
+Failed to load shader ParticleGeometryShader!
+
+Failed to load shader StreamOutputSkinnedGeometryShader!
+
+Failed to load shader QuadGeometryShader!
+
+Failed to load shader QuadBillboardedGeometryShader!
+
+Failed to load shader ScreenQuadGeometryShader!
+
+Failed to load shader UnlitPixelShader!
+
+Failed to load shader AlphaTestPixelShader!
+
+Failed to load shader UIPixelShader!
+
+Failed to load shader UIFillPixelShader!
+
+Failed to load shader UIFillRightPixelShader!
+
+Failed to load shader UIFillTopPixelShader!
+
+Failed to load shader ColorOnlyPixelShader!
+
+Failed to load shader SkyboxPixelShader!
+
+Failed to load shader LightingPixelShader!
+
+Failed to load shader ParticlePixelShader!
+
+Failed to load shader UIDualImageFillPixelShader!
+
+Failed to load shader TiledParticlePixelShader!
+
+Failed to load shader UIOcclusionPixelShader!
+
+Failed to load shader UIRadialFillPixelShader!
+
+Failed to load shader UIRadialFillClockwisePixelShader!
+
+Failed to load shader LightComputeShader!
+
+Failed to load shader InitDeadParticlesComputeShader!
+
+Failed to load shader ParticleSimulationComputeShader!
+
+Failed to load shader CoarseCullingComputeShader!
+
+Failed to load shader ParticleCullingComputeShader!
+
+Failed to load shader ParticleTileRenderingComputeShader!
+
+Failed to load shader SphereParticleEmitterComputeShader!
+
+Failed to load shader SphereEdgeParticleEmitterComputeShader!
+
+Failed to load shader HemisphereParticleEmitterComputeShader!
+
+Failed to load shader HemisphereEdgeParticleEmitterComputeShader!
+
+Failed to load shader CircleParticleEmitterComputeShader!
+
+Failed to load shader CircleEdgeParticleEmitterComputeShader!
+
+Failed to load shader ConeParticleEmitterComputeShader!
+
+Failed to load shader ConeOutterParticleEmitterComputeShader!
+
+Failed to load shader OutlineFontComputeShader!
+
+Failed to load shader DestroyAllParticlesComputeShader!
+
+Reflection data file does not exist!
+
+

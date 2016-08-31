@@ -1,0 +1,106 @@
+GameObject<
+	<GUID>1956875205</GUID/>
+	<Type>GameObject</Type/>
+	<Name>AudioListener</Name/>
+	<PrefabName>AudioListener</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<Component0>1822001617</Component0/>
+	<Component1>385581371</Component1/>
+GameObject/>
+Transform<
+	<GUID>1822001617</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,0,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<gameObject>1956875205</gameObject/>
+Transform/>
+AudioListener<
+	<GUID>385581371</GUID/>
+	<Type>Generic</Type/>
+	<gameObject>1956875205</gameObject/>
+AudioListener/>
+GameObject<
+	<GUID>224962247</GUID/>
+	<Type>GameObject</Type/>
+	<Name>DelayedCredits</Name/>
+	<PrefabName>DelayedCredits</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<Component0>2134972507</Component0/>
+	<Component1>1780656785</Component1/>
+GameObject/>
+Transform<
+	<GUID>2134972507</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,0,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<gameObject>224962247</gameObject/>
+Transform/>
+DelayedCredits<
+	<GUID>1780656785</GUID/>
+	<Type>Generic</Type/>
+	<gameObject>224962247</gameObject/>
+DelayedCredits/>
+GameObject<
+	<GUID>113023084</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Main Camera</Name/>
+	<PrefabName>Main Camera</PrefabName/>
+	<Tag>MainCamera</Tag/>
+	<Layer>0</Layer/>
+	<Component0>940109831</Component0/>
+	<Component1>1591400195</Component1/>
+GameObject/>
+Transform<
+	<GUID>940109831</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,117.68,0</Position/>
+	<Rotation>89.98022,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<gameObject>113023084</gameObject/>
+Transform/>
+Camera<
+	<GUID>1591400195</GUID/>
+	<Type>Generic</Type/>
+	<AspectRatio>0</AspectRatio/>
+	<ZNear>0.3</ZNear/>
+	<ZFar>1000</ZFar/>
+	<FOV>60</FOV/>
+	<DistanceToPlayer>0</DistanceToPlayer/>
+	<ClearType>1</ClearType/>
+	<ClearColor>0,0,0,0</ClearColor/>
+	<SkyBoxImage>SpaceCubeMap.dds</SkyBoxImage/>
+	<IsMain>1</IsMain/>
+	<gameObject>113023084</gameObject/>
+Camera/>
+GameObject<
+	<GUID>1397645187</GUID/>
+	<Type>GameObject</Type/>
+	<Name>WinHUDPrefab</Name/>
+	<PrefabName>WinHUDPrefab</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<Component0>1745707751</Component0/>
+	<Component1>1401842749</Component1/>
+GameObject/>
+Transform<
+	<GUID>1745707751</GUID/>
+	<Type>Transform</Type/>
+	<Position>-63.41667,1.141667,-0.1689568</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<gameObject>1397645187</gameObject/>
+Transform/>
+WinHUDPrefab<
+	<GUID>1401842749</GUID/>
+	<Type>Generic</Type/>
+	<gameObject>1397645187</gameObject/>
+WinHUDPrefab/>
+<end>

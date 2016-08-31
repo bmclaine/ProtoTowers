@@ -1,0 +1,274 @@
+GameObject
+Allocation Amount<1>
+GameObject<
+	<GUID>142133838</GUID/>
+	<Type>GameObject</Type/>
+	<Name>MortarTower_1</Name/>
+	<PrefabName>MortarTower_1</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>2</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1192334340</Component0/>
+	<Component1>1114134857</Component1/>
+	<Component2>125690147</Component2/>
+	<Component3>1344218671</Component3/>
+GameObject/>
+Transform<
+	<GUID>1192334340</GUID/>
+	<Type>Transform</Type/>
+	<Position>-12,0,-4</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1.2,1.2,1.2</Scale/>
+	<ChildCount>4</ChildCount/>
+	<Child0>1044350418</Child0/>
+	<Child1>579433250</Child1/>
+	<Child2>2007662356</Child2/>
+	<Child3>504814339</Child3/>
+	<gameObject>142133838</gameObject/>
+Transform/>
+SphereCollider<
+	<GUID>1114134857</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,0,0</Center/>
+	<Radius>10</Radius/>
+	<IsTrigger>1</IsTrigger/>
+	<gameObject>142133838</gameObject/>
+SphereCollider/>
+MortarTower<
+	<GUID>125690147</GUID/>
+	<Type>Generic</Type/>
+	<MaxHealth>450</MaxHealth/>
+	<Health>450</Health/>
+	<Team>2</Team/>
+	<gameObject>142133838</gameObject/>
+	<TowerType>5</TowerType/>
+	<UpgradeLevel>1</UpgradeLevel/>
+	<StartingYRot>0</StartingYRot/>
+	<Renderer>456427648</Renderer/>
+	<GunTransform>1044350418</GunTransform/>
+	<ProjectileSpawn>1000508217</ProjectileSpawn/>
+	<FireRate>0.7</FireRate/>
+	<Range>16</Range/>
+	<TurnRate>200</TurnRate/>
+	<Damage>30</Damage/>
+	<ProjectileID>MortarProjectile</ProjectileID/>
+	<MinRange>4</MinRange/>
+MortarTower/>
+BoxCollider<
+	<GUID>1344218671</GUID/>
+	<Type>Generic</Type/>
+	<Center>0,0.75,0</Center/>
+	<Size>0.9,1.5,0.9</Size/>
+	<IsTrigger>0</IsTrigger/>
+	<gameObject>142133838</gameObject/>
+BoxCollider/>
+GameObject<
+	<GUID>850449472</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Mortar Barrel</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1044350418</Component0/>
+	<Component1>456427648</Component1/>
+GameObject/>
+Transform<
+	<GUID>1044350418</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,0,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>2</ChildCount/>
+	<Child0>1000508217</Child0/>
+	<Child1>1357246249</Child1/>
+	<Parent>1192334340</Parent/>
+	<gameObject>850449472</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>456427648</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Tow_Mortar_Base_2</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>MortarTowerMat</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>850449472</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>1805379459</GUID/>
+	<Type>GameObject</Type/>
+	<Name>ProjectileSpawn</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1000508217</Component0/>
+GameObject/>
+Transform<
+	<GUID>1000508217</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,0.75,1</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>0.2,0.2,0.2</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1044350418</Parent/>
+	<gameObject>1805379459</gameObject/>
+Transform/>
+GameObject<
+	<GUID>1957780491</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Mortar Barrel (Mesh)</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1357246249</Component0/>
+	<Component1>1757840163</Component1/>
+GameObject/>
+Transform<
+	<GUID>1357246249</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,0,0</Position/>
+	<Rotation>0,180,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1044350418</Parent/>
+	<gameObject>1957780491</gameObject/>
+Transform/>
+MeshRenderer<
+	<GUID>1757840163</GUID/>
+	<Type>Generic</Type/>
+	<Mesh>Tow_Mortar_Turret_2</Mesh/>
+	<MaterialCount>1</MaterialCount/>
+	<Color>1,1,1,1</Color/>
+	<Material0>MortarTowerMat</Material0/>
+	<TilingCount>0</TilingCount/>
+	<gameObject>1957780491</gameObject/>
+MeshRenderer/>
+GameObject<
+	<GUID>690803527</GUID/>
+	<Type>GameObject</Type/>
+	<Name>AT Damage Particle System</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>579433250</Component0/>
+	<Component1>60773635</Component1/>
+GameObject/>
+Transform<
+	<GUID>579433250</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,0,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1192334340</Parent/>
+	<gameObject>690803527</gameObject/>
+Transform/>
+ParticleSystem<
+	<GUID>60773635</GUID/>
+	<Type>Generic</Type/>
+	<WorldPosition>0,0,0</WorldPosition/>
+	<Duration>2</Duration/>
+	<AliveTime>0</AliveTime/>
+	<LifeTime>1</LifeTime/>
+	<StartSpeed>4</StartSpeed/>
+	<GravityScale>0</GravityScale/>
+	<StartColor>0,0,0,1</StartColor/>
+	<EndColor>0.466,0.466,0.466,1</EndColor/>
+	<StartSize>0.2</StartSize/>
+	<EndSize>0.8</EndSize/>
+	<MaxParticles>100</MaxParticles/>
+	<Emission>0</Emission/>
+	<ShapeDimensions>0.1,1,1</ShapeDimensions/>
+	<Flags>8</Flags/>
+	<EShape>3</EShape/>
+	<EStyle>0</EStyle/>
+	<EmissionRate>0</EmissionRate/>
+	<Accumulator>0</Accumulator/>
+	<Paused>0</Paused/>
+	<Looping>1</Looping/>
+	<Texture>1</Texture/>
+	<gameObject>690803527</gameObject/>
+ParticleSystem/>
+GameObject<
+	<GUID>968556779</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Health Bar</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>2007662356</Component0/>
+	<Component1>737064963</Component1/>
+GameObject/>
+Transform<
+	<GUID>2007662356</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,1.5,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1192334340</Parent/>
+	<gameObject>968556779</gameObject/>
+Transform/>
+SpriteRenderer<
+	<GUID>737064963</GUID/>
+	<Type>Generic</Type/>
+	<Dimensions>1.8,0.25</Dimensions/>
+	<Pad>0,0</Pad/>
+	<Color>1,1,1</Color/>
+	<Color2>1,1,1</Color2/>
+	<Layer>0</Layer/>
+	<Fill>0</Fill/>
+	<Texture1>Tower_HP_Bar.dds</Texture1/>
+	<Tiling1>1,1</Tiling1/>
+	<Texture2>Tower_HP_Bar.dds</Texture2/>
+	<Tiling2>1,1</Tiling2/>
+	<Billboarded>1</Billboarded/>
+	<Effect>2</Effect/>
+	<MaterialCount>0</MaterialCount/>
+	<gameObject>968556779</gameObject/>
+SpriteRenderer/>
+GameObject<
+	<GUID>720604516</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Indicator_Icon</Name/>
+	<PrefabName></PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>504814339</Component0/>
+	<Component1>1677884401</Component1/>
+GameObject/>
+Transform<
+	<GUID>504814339</GUID/>
+	<Type>Transform</Type/>
+	<Position>0,2.25,0</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1.071429,1.071429,1.071429</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>1192334340</Parent/>
+	<gameObject>720604516</gameObject/>
+Transform/>
+SpriteRenderer<
+	<GUID>1677884401</GUID/>
+	<Type>Generic</Type/>
+	<Dimensions>0.8,0.4</Dimensions/>
+	<Pad>0,0</Pad/>
+	<Color>1,0,0</Color/>
+	<Color2>1,1,1</Color2/>
+	<Layer>0</Layer/>
+	<Fill>0</Fill/>
+	<Texture1>Tower_Indicator.dds</Texture1/>
+	<Tiling1>1,1</Tiling1/>
+	<Texture2></Texture2/>
+	<Tiling2>1,1</Tiling2/>
+	<Billboarded>1</Billboarded/>
+	<Effect>5</Effect/>
+	<MaterialCount>0</MaterialCount/>
+	<gameObject>720604516</gameObject/>
+SpriteRenderer/>
+<end>

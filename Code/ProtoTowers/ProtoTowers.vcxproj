@@ -1,0 +1,644 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Time>$([System.DateTime]::Now.ToString("MM-dd-yyyy_HH-mm-ss"))</Time>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release (With DEBUG)|Win32">
+      <Configuration>Release (With DEBUG)</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release (With DEBUG)|x64">
+      <Configuration>Release (With DEBUG)</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping|Win32">
+      <Configuration>Shipping</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping|x64">
+      <Configuration>Shipping</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A0A18C60-A6F5-45FF-9691-2B634117EC2A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>ProtoTowers</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>$(SolutionDir)InfernoEngine\Lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>$(SolutionDir)InfernoEngine\Lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <LibraryPath>$(SolutionDir)InfernoEngine\Lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <LibraryPath>$(SolutionDir)InfernoEngine\Lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <LibraryPath>$(SolutionDir)InfernoEngine\Lib;$(LibraryPath)</LibraryPath>
+    <PostBuildEventUseInBuild>true</PostBuildEventUseInBuild>
+    <IncludePath>$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <LibraryPath>$(SolutionDir)InfernoEngine\Lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <LibraryPath>$(SolutionDir)InfernoEngine\Lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <LibraryPath>$(SolutionDir)InfernoEngine\Lib;$(LibraryPath)</LibraryPath>
+    <PostBuildEventUseInBuild>true</PostBuildEventUseInBuild>
+    <IncludePath>$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WIN32_WINNT=0x0601;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)InfernoEngine\Inc\Core\Public;$(SolutionDir)InfernoEngine\Inc\Utilities\Public;$(SolutionDir)InfernoEngine\Inc\Interface\Public;$(SolutionDir)ProtoTowers;$(IncludePath);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>InfernoEngine.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WIN32_WINNT=0x0601;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)InfernoEngine\Inc\Core\Public;$(SolutionDir)InfernoEngine\Inc\Utilities\Public;$(SolutionDir)InfernoEngine\Inc\Interface\Public;$(SolutionDir)ProtoTowers;$(IncludePath);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>InfernoEngine.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WIN32_WINNT=0x0601;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)InfernoEngine\Inc\Core\Public;$(SolutionDir)InfernoEngine\Inc\Utilities\Public;$(SolutionDir)InfernoEngine\Inc\Interface\Public;$(SolutionDir)ProtoTowers;$(IncludePath);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>InfernoEngine.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WIN32_WINNT=0x0601;DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)InfernoEngine\Inc\Core\Public;$(SolutionDir)InfernoEngine\Inc\Utilities\Public;$(SolutionDir)InfernoEngine\Inc\Interface\Public;$(SolutionDir)ProtoTowers;$(IncludePath);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>InfernoEngine.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WIN32_WINNT=0x0601;NDEBUG;_WINDOWS;SHIPPING;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)InfernoEngine\Inc\Core\Public;$(SolutionDir)InfernoEngine\Inc\Utilities\Public;$(SolutionDir)InfernoEngine\Inc\Interface\Public;$(SolutionDir)ProtoTowers;$(IncludePath);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>InfernoEngine.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>if not exist "$(SolutionDir)Builds" mkdir "$(SolutionDir)Builds"
+mkdir "$(SolutionDir)Builds\$(Time)"
+mkdir "$(SolutionDir)Builds\$(Time)\Data\AnimationControllers"
+mkdir "$(SolutionDir)Builds\$(Time)\Data\Animations"
+mkdir "$(SolutionDir)Builds\$(Time)\Data\AnimationSets"
+mkdir "$(SolutionDir)Builds\$(Time)\Data\Audio"
+mkdir "$(SolutionDir)Builds\$(Time)\Data\Materials"
+mkdir "$(SolutionDir)Builds\$(Time)\Data\Meshes"
+mkdir "$(SolutionDir)Builds\$(Time)\Data\Prefabs"
+mkdir "$(SolutionDir)Builds\$(Time)\Data\Scenes"
+mkdir "$(SolutionDir)Builds\$(Time)\Data\Shaders"
+mkdir "$(SolutionDir)Builds\$(Time)\Data\Textures"
+xcopy /Q /Y "$(SolutionDir)ProtoTowers\Resources\AnimationControllers" "$(SolutionDir)Builds\$(Time)\Data\AnimationControllers"
+xcopy /Q /Y "$(SolutionDir)ProtoTowers\Resources\Animations\*.bin" "$(SolutionDir)Builds\$(Time)\Data\Animations"
+xcopy /Q /Y "$(SolutionDir)ProtoTowers\Resources\AnimationSets" "$(SolutionDir)Builds\$(Time)\Data\AnimationSets"
+xcopy /Q /Y "$(SolutionDir)InfernoEngine\Inc\Core\Public\WWiseResources\SoundBanks" "$(SolutionDir)Builds\$(Time)\Data\Audio"
+xcopy /Q /Y "$(SolutionDir)ProtoTowers\Resources\Materials\*.matList" "$(SolutionDir)Builds\$(Time)\Data\Materials"
+xcopy /Q /Y "$(SolutionDir)ProtoTowers\Resources\Meshes\*.bin" "$(SolutionDir)Builds\$(Time)\Data\Meshes"
+xcopy /Q /Y "$(SolutionDir)ProtoTowers\Resources\Prefabs\*.prefab" "$(SolutionDir)Builds\$(Time)\Data\Prefabs"
+xcopy /Q /Y "$(SolutionDir)ProtoTowers\Resources\Scenes\*.scene" "$(SolutionDir)Builds\$(Time)\Data\Scenes"
+xcopy /Q /Y "$(SolutionDir)InfernoEngine\Inc\Core\Private\Shaders\Compiled" "$(SolutionDir)Builds\$(Time)\Data\Shaders"
+xcopy /Q /Y "$(SolutionDir)ProtoTowers\Resources\Textures\*.dds" "$(SolutionDir)Builds\$(Time)\Data\Textures"
+xcopy /Q /Y "$(TargetDir)*.exe" "$(SolutionDir)Builds\$(Time)"
+xcopy /Q /Y "$(TargetDir)*.dll" "$(SolutionDir)Builds\$(Time)"
+xcopy /Q /Y "$(SolutionDir)ProtoTowers\defaultconfig.txt" "$(SolutionDir)Builds\$(Time)"
+
+if not exist "$(SolutionDir)DumpResources" mkdir "$(SolutionDir)DumpResources"
+mkdir "$(SolutionDir)DumpResources\$(Time)"
+xcopy /Q /Y "$(TargetDir)*.obj" "$(SolutionDir)DumpResources\$(Time)"
+xcopy /Q /Y "$(TargetDir)*.pdb" "$(SolutionDir)DumpResources\$(Time)"
+xcopy /Q /Y "$(TargetDir)*.exe" "$(SolutionDir)DumpResources\$(Time)"
+xcopy /Q /Y "$(SolutionDir)ProtoTowers\x64\Shipping\*.obj" "$(SolutionDir)DumpResources\$(Time)"
+xcopy /Q /Y "$(SolutionDir)ProtoTowers\x64\Shipping\*.pdb" "$(SolutionDir)DumpResources\$(Time)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WIN32_WINNT=0x0601;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)InfernoEngine\Inc\Core\Public;$(SolutionDir)InfernoEngine\Inc\Utilities\Public;$(SolutionDir)InfernoEngine\Inc\Interface\Public;$(SolutionDir)ProtoTowers;$(IncludePath);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>InfernoEngine.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WIN32_WINNT=0x0601;DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)InfernoEngine\Inc\Core\Public;$(SolutionDir)InfernoEngine\Inc\Utilities\Public;$(SolutionDir)InfernoEngine\Inc\Interface\Public;$(SolutionDir)ProtoTowers;$(IncludePath);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>InfernoEngine.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WIN32_WINNT=0x0601;NDEBUG;_WINDOWS;SHIPPING;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)InfernoEngine\Inc\Core\Public;$(SolutionDir)InfernoEngine\Inc\Utilities\Public;$(SolutionDir)InfernoEngine\Inc\Interface\Public;$(SolutionDir)ProtoTowers;$(IncludePath);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>InfernoEngine.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>if not exist "$(SolutionDir)Builds" mkdir "$(SolutionDir)Builds"
+mkdir "$(SolutionDir)Builds\$(Time)"
+mkdir "$(SolutionDir)Builds\$(Time)\Data\AnimationControllers"
+mkdir "$(SolutionDir)Builds\$(Time)\Data\Animations"
+mkdir "$(SolutionDir)Builds\$(Time)\Data\AnimationSets"
+mkdir "$(SolutionDir)Builds\$(Time)\Data\Audio"
+mkdir "$(SolutionDir)Builds\$(Time)\Data\Materials"
+mkdir "$(SolutionDir)Builds\$(Time)\Data\Meshes"
+mkdir "$(SolutionDir)Builds\$(Time)\Data\Prefabs"
+mkdir "$(SolutionDir)Builds\$(Time)\Data\Scenes"
+mkdir "$(SolutionDir)Builds\$(Time)\Data\Shaders"
+mkdir "$(SolutionDir)Builds\$(Time)\Data\Textures"
+xcopy /Q /Y "$(SolutionDir)ProtoTowers\Resources\AnimationControllers" "$(SolutionDir)Builds\$(Time)\Data\AnimationControllers"
+xcopy /Q /Y "$(SolutionDir)ProtoTowers\Resources\Animations\*.bin" "$(SolutionDir)Builds\$(Time)\Data\Animations"
+xcopy /Q /Y "$(SolutionDir)ProtoTowers\Resources\AnimationSets" "$(SolutionDir)Builds\$(Time)\Data\AnimationSets"
+xcopy /Q /Y "$(SolutionDir)InfernoEngine\Inc\Core\Public\WWiseResources\SoundBanks" "$(SolutionDir)Builds\$(Time)\Data\Audio"
+xcopy /Q /Y "$(SolutionDir)ProtoTowers\Resources\Materials\*.matList" "$(SolutionDir)Builds\$(Time)\Data\Materials"
+xcopy /Q /Y "$(SolutionDir)ProtoTowers\Resources\Meshes\*.bin" "$(SolutionDir)Builds\$(Time)\Data\Meshes"
+xcopy /Q /Y "$(SolutionDir)ProtoTowers\Resources\Prefabs\*.prefab" "$(SolutionDir)Builds\$(Time)\Data\Prefabs"
+xcopy /Q /Y "$(SolutionDir)ProtoTowers\Resources\Scenes\*.scene" "$(SolutionDir)Builds\$(Time)\Data\Scenes"
+xcopy /Q /Y "$(SolutionDir)InfernoEngine\Inc\Core\Private\Shaders\Compiled" "$(SolutionDir)Builds\$(Time)\Data\Shaders"
+xcopy /Q /Y "$(SolutionDir)ProtoTowers\Resources\Textures\*.dds" "$(SolutionDir)Builds\$(Time)\Data\Textures"
+xcopy /Q /Y "$(TargetDir)*.exe" "$(SolutionDir)Builds\$(Time)"
+xcopy /Q /Y "$(TargetDir)*.dll" "$(SolutionDir)Builds\$(Time)"
+xcopy /Q /Y "$(SolutionDir)ProtoTowers\defaultconfig.txt" "$(SolutionDir)Builds\$(Time)"
+
+if not exist "$(SolutionDir)DumpResources" mkdir "$(SolutionDir)DumpResources"
+mkdir "$(SolutionDir)DumpResources\$(Time)"
+xcopy /Q /Y "$(TargetDir)*.obj" "$(SolutionDir)DumpResources\$(Time)"
+xcopy /Q /Y "$(TargetDir)*.pdb" "$(SolutionDir)DumpResources\$(Time)"
+xcopy /Q /Y "$(TargetDir)*.exe" "$(SolutionDir)DumpResources\$(Time)"
+xcopy /Q /Y "$(SolutionDir)ProtoTowers\x64\Shipping\*.obj" "$(SolutionDir)DumpResources\$(Time)"
+xcopy /Q /Y "$(SolutionDir)ProtoTowers\x64\Shipping\*.pdb" "$(SolutionDir)DumpResources\$(Time)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Components\3rdPersonCamera.h" />
+    <ClInclude Include="Components\Ability.h" />
+    <ClInclude Include="Components\AbilityFlyIn.h" />
+    <ClInclude Include="Components\AbilityFlyInPrefab.h" />
+    <ClInclude Include="Components\AbilityPanelScript.h" />
+    <ClInclude Include="Components\AfterCutscenePrompt.h" />
+    <ClInclude Include="Components\AIEntity.h" />
+    <ClInclude Include="Components\AlertMessage.h" />
+    <ClInclude Include="Components\AlertMessagePrefab.h" />
+    <ClInclude Include="Components\AOEDamage.h" />
+    <ClInclude Include="Components\BackgroundMusic.h" />
+    <ClInclude Include="Components\Barrier.h" />
+    <ClInclude Include="Components\BarrierButton.h" />
+    <ClInclude Include="Components\BaseProjectile.h" />
+    <ClInclude Include="Components\BaseTower.h" />
+    <ClInclude Include="Components\BaseTurret.h" />
+    <ClInclude Include="Components\BaseWeapon.h" />
+    <ClInclude Include="Components\BossEvent.h" />
+    <ClInclude Include="Components\BossInfo.h" />
+    <ClInclude Include="Components\BossMinion.h" />
+    <ClInclude Include="Components\BossMinionMace.h" />
+    <ClInclude Include="Components\BossShockwave.h" />
+    <ClInclude Include="Components\BuffMinionSpawner.h" />
+    <ClInclude Include="Components\ControllerDisconnectPrefab.h" />
+    <ClInclude Include="Components\ControllerDisconnectScript.h" />
+    <ClInclude Include="Components\ControlPoint.h" />
+    <ClInclude Include="Components\ControlPointProgressBar.h" />
+    <ClInclude Include="Components\ControlPointProgressBarPrefab.h" />
+    <ClInclude Include="Components\CreditsMenuPrefab.h" />
+    <ClInclude Include="Components\CreditsMenuScript.h" />
+    <ClInclude Include="Components\Crosshair.h" />
+    <ClInclude Include="Components\CutScene.h" />
+    <ClInclude Include="Components\DebugProjectile.h" />
+    <ClInclude Include="Components\DelayCredits.h" />
+    <ClInclude Include="Components\EndGame.h" />
+    <ClInclude Include="Components\Entity.h" />
+    <ClInclude Include="Components\FadeAway.h" />
+    <ClInclude Include="Components\FadeAwayEffectPrefab.h" />
+    <ClInclude Include="Components\FirstMinion.h" />
+    <ClInclude Include="Components\FirstTurret.h" />
+    <ClInclude Include="Components\FirstTurretUpgrade.h" />
+    <ClInclude Include="Components\FreezeBlastWave.h" />
+    <ClInclude Include="Components\FreezeEffect.h" />
+    <ClInclude Include="Components\FreezeTower.h" />
+    <ClInclude Include="Components\FrostHUDEffect.h" />
+    <ClInclude Include="Components\FrostHUDEffectPrefab.h" />
+    <ClInclude Include="Components\HealthPickup.h" />
+    <ClInclude Include="Components\HelpScreen.h" />
+    <ClInclude Include="Components\HelpScreenPrefab.h" />
+    <ClInclude Include="Components\LoseHUDPrefab.h" />
+    <ClInclude Include="Components\MainBase.h" />
+    <ClInclude Include="Components\MainMenuPrefab.h" />
+    <ClInclude Include="Components\MainMenuScript.h" />
+    <ClInclude Include="Components\MiniMap.h" />
+    <ClInclude Include="Components\MiniMinion.h" />
+    <ClInclude Include="Components\MinionBuffAbility.h" />
+    <ClInclude Include="Components\MinionBuffEffect.h" />
+    <ClInclude Include="Components\MinionBuffWave.h" />
+    <ClInclude Include="Components\MinionSpawner.h" />
+    <ClInclude Include="Components\MinionSpawnerShield.h" />
+    <ClInclude Include="Components\MinionSpawnPoint.h" />
+    <ClInclude Include="Components\MinionWaveSpawn.h" />
+    <ClInclude Include="Components\MortarClusterProjectile.h" />
+    <ClInclude Include="Components\MortarProjectile.h" />
+    <ClInclude Include="Components\MortarTower.h" />
+    <ClInclude Include="Components\OptionsMenuPrefab.h" />
+    <ClInclude Include="Components\OptionsMenuScript.h" />
+    <ClInclude Include="Components\PauseMenu.h" />
+    <ClInclude Include="Components\PauseMenuPrefab.h" />
+    <ClInclude Include="Components\PlasmaBlaster.h" />
+    <ClInclude Include="Components\Player.h" />
+    <ClInclude Include="Components\PlayerHead.h" />
+    <ClInclude Include="Components\PlayerHUD.h" />
+    <ClInclude Include="Components\PlayerRecall.h" />
+    <ClInclude Include="Components\PlayerShieldScript.h" />
+    <ClInclude Include="Components\PoisonAOEProjectile.h" />
+    <ClInclude Include="Components\PoisonEffect.h" />
+    <ClInclude Include="Components\PoisonSprayArea.h" />
+    <ClInclude Include="Components\PoisonSprayProjectile.h" />
+    <ClInclude Include="Components\PoisonTurret.h" />
+    <ClInclude Include="Components\PopupAlert.h" />
+    <ClInclude Include="Components\RaiseBarrier.h" />
+    <ClInclude Include="Components\RangedMinion.h" />
+    <ClInclude Include="Components\Resource.h" />
+    <ClInclude Include="Components\ResourceCounter.h" />
+    <ClInclude Include="Components\ResourceCrate.h" />
+    <ClInclude Include="Components\ResourceCrateSpawner.h" />
+    <ClInclude Include="Components\ShieldAbility.h" />
+    <ClInclude Include="Components\SkipTutorial.h" />
+    <ClInclude Include="Components\SpringArm.h" />
+    <ClInclude Include="Components\StatusEffect.h" />
+    <ClInclude Include="Components\StunEffect.h" />
+    <ClInclude Include="Components\StunGernadeAbility.h" />
+    <ClInclude Include="Components\TankMinion.h" />
+    <ClInclude Include="Components\ToolTipManager.h" />
+    <ClInclude Include="Components\ToolTipPrefab.h" />
+    <ClInclude Include="Components\TowerBuildMenu.h" />
+    <ClInclude Include="Components\TowerBuildMenuPrefab.h" />
+    <ClInclude Include="Components\TowerDescription.h" />
+    <ClInclude Include="Components\TowerInfo.h" />
+    <ClInclude Include="Components\TowerNode.h" />
+    <ClInclude Include="Components\TowerOptionsPrefab.h" />
+    <ClInclude Include="Components\TowerOptionsScript.h" />
+    <ClInclude Include="Components\TowerUpgradeEffect.h" />
+    <ClInclude Include="Components\TurretProjectile.h" />
+    <ClInclude Include="Components\TutorialPrompt.h" />
+    <ClInclude Include="Components\WeaponBuffAbility.h" />
+    <ClInclude Include="Components\WeaponBuffScript.h" />
+    <ClInclude Include="Components\WinHUDPrefab.h" />
+    <ClInclude Include="Core\FreeCameraController.h" />
+    <ClInclude Include="Core\iDamagable.h" />
+    <ClInclude Include="Core\iInput.h" />
+    <ClInclude Include="Core\iInteractable.h" />
+    <ClInclude Include="Core\PlayerController.h" />
+    <ClInclude Include="Core\SplashScreen.h" />
+    <ClInclude Include="Core\WWise_IDs.h" />
+    <ClInclude Include="InfernoUI.h" />
+    <ClInclude Include="LookAtPlayer.h" />
+    <ClInclude Include="ProtoTowers.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Components\3rdPersonCamera.cpp" />
+    <ClCompile Include="Components\Ability.cpp" />
+    <ClCompile Include="Components\AbilityFlyIn.cpp" />
+    <ClCompile Include="Components\AbilityFlyInPrefab.cpp" />
+    <ClCompile Include="Components\AbilityPanelScript.cpp" />
+    <ClCompile Include="Components\AfterCutscenePrompt.cpp" />
+    <ClCompile Include="Components\AIEntity.cpp" />
+    <ClCompile Include="Components\AlertMessage.cpp" />
+    <ClCompile Include="Components\AlertMessagePrefab.cpp" />
+    <ClCompile Include="Components\AOEDamage.cpp" />
+    <ClCompile Include="Components\BackgroundMusic.cpp" />
+    <ClCompile Include="Components\Barrier.cpp" />
+    <ClCompile Include="Components\BarrierButton.cpp" />
+    <ClCompile Include="Components\BaseProjectile.cpp" />
+    <ClCompile Include="Components\BaseTower.cpp" />
+    <ClCompile Include="Components\BaseTurret.cpp" />
+    <ClCompile Include="Components\BaseWeapon.cpp" />
+    <ClCompile Include="Components\BossEvent.cpp" />
+    <ClCompile Include="Components\BossInfo.cpp" />
+    <ClCompile Include="Components\BossMinion.cpp" />
+    <ClCompile Include="Components\BossMinionMace.cpp" />
+    <ClCompile Include="Components\BossShockwave.cpp" />
+    <ClCompile Include="Components\BuffMinionSpawner.cpp" />
+    <ClCompile Include="Components\ControllerDisconnectPrefab.cpp" />
+    <ClCompile Include="Components\ControllerDisconnectScript.cpp" />
+    <ClCompile Include="Components\ControlPoint.cpp" />
+    <ClCompile Include="Components\ControlPointProgressBar.cpp" />
+    <ClCompile Include="Components\ControlPointProgressBarPrefab.cpp" />
+    <ClCompile Include="Components\CreditsMenuPrefab.cpp" />
+    <ClCompile Include="Components\CreditsMenuScript.cpp" />
+    <ClCompile Include="Components\Crosshair.cpp" />
+    <ClCompile Include="Components\CutScene.cpp" />
+    <ClCompile Include="Components\DebugProjectile.cpp" />
+    <ClCompile Include="Components\DelayCredits.cpp" />
+    <ClCompile Include="Components\EndGame.cpp" />
+    <ClCompile Include="Components\Entity.cpp" />
+    <ClCompile Include="Components\FadeAway.cpp" />
+    <ClCompile Include="Components\FadeAwayEffectPrefab.cpp" />
+    <ClCompile Include="Components\FirstMinion.cpp" />
+    <ClCompile Include="Components\FirstTurret.cpp" />
+    <ClCompile Include="Components\FirstTurretUpgrade.cpp" />
+    <ClCompile Include="Components\FreezeBlastWave.cpp" />
+    <ClCompile Include="Components\FreezeEffect.cpp" />
+    <ClCompile Include="Components\FreezeTower.cpp" />
+    <ClCompile Include="Components\FrostHUDEffect.cpp" />
+    <ClCompile Include="Components\FrostHUDEffectPrefab.cpp" />
+    <ClCompile Include="Components\HealthPickup.cpp" />
+    <ClCompile Include="Components\HelpScreen.cpp" />
+    <ClCompile Include="Components\HelpScreenPrefab.cpp" />
+    <ClCompile Include="Components\LoseHUDPrefab.cpp" />
+    <ClCompile Include="Components\MainBase.cpp" />
+    <ClCompile Include="Components\MainMenuPrefab.cpp" />
+    <ClCompile Include="Components\MainMenuScript.cpp" />
+    <ClCompile Include="Components\MiniMap.cpp" />
+    <ClCompile Include="Components\MiniMinion.cpp" />
+    <ClCompile Include="Components\MinionBuffAbility.cpp" />
+    <ClCompile Include="Components\MinionBuffEffect.cpp" />
+    <ClCompile Include="Components\MinionBuffWave.cpp" />
+    <ClCompile Include="Components\MinionSpawner.cpp" />
+    <ClCompile Include="Components\MinionSpawnerShield.cpp" />
+    <ClCompile Include="Components\MinionSpawnPoint.cpp" />
+    <ClCompile Include="Components\MinionWaveSpawn.cpp" />
+    <ClCompile Include="Components\MortarClusterProjectile.cpp" />
+    <ClCompile Include="Components\MortarProjectile.cpp" />
+    <ClCompile Include="Components\MortarTower.cpp" />
+    <ClCompile Include="Components\OptionsMenuPrefab.cpp" />
+    <ClCompile Include="Components\OptionsMenuScript.cpp" />
+    <ClCompile Include="Components\PauseMenu.cpp" />
+    <ClCompile Include="Components\PauseMenuPrefab.cpp" />
+    <ClCompile Include="Components\PlasmaBlaster.cpp" />
+    <ClCompile Include="Components\Player.cpp" />
+    <ClCompile Include="Components\PlayerHead.cpp" />
+    <ClCompile Include="Components\PlayerHUD.cpp" />
+    <ClCompile Include="Components\PlayerRecall.cpp" />
+    <ClCompile Include="Components\PlayerShieldScript.cpp" />
+    <ClCompile Include="Components\PoisonAOEProjectile.cpp" />
+    <ClCompile Include="Components\PoisonEffect.cpp" />
+    <ClCompile Include="Components\PoisonSprayArea.cpp" />
+    <ClCompile Include="Components\PoisonSprayProjectile.cpp" />
+    <ClCompile Include="Components\PoisonTurret.cpp" />
+    <ClCompile Include="Components\PopupAlert.cpp" />
+    <ClCompile Include="Components\RaiseBarrier.cpp" />
+    <ClCompile Include="Components\RangedMinion.cpp" />
+    <ClCompile Include="Components\Resource.cpp" />
+    <ClCompile Include="Components\ResourceCounter.cpp" />
+    <ClCompile Include="Components\ResourceCrate.cpp" />
+    <ClCompile Include="Components\ResourceCrateSpawner.cpp" />
+    <ClCompile Include="Components\ShieldAbility.cpp" />
+    <ClCompile Include="Components\SkipTutorial.cpp" />
+    <ClCompile Include="Components\SpringArm.cpp" />
+    <ClCompile Include="Components\StatusEffect.cpp" />
+    <ClCompile Include="Components\StunEffect.cpp" />
+    <ClCompile Include="Components\StunGernadeAbility.cpp" />
+    <ClCompile Include="Components\TankMinion.cpp" />
+    <ClCompile Include="Components\ToolTipManager.cpp" />
+    <ClCompile Include="Components\ToolTipPrefab.cpp" />
+    <ClCompile Include="Components\TowerBuildMenu.cpp" />
+    <ClCompile Include="Components\TowerBuildMenuPrefab.cpp" />
+    <ClCompile Include="Components\TowerDescription.cpp" />
+    <ClCompile Include="Components\TowerInfo.cpp" />
+    <ClCompile Include="Components\TowerNode.cpp" />
+    <ClCompile Include="Components\TowerOptionsPrefab.cpp" />
+    <ClCompile Include="Components\TowerOptionsScript.cpp" />
+    <ClCompile Include="Components\TowerUpgradeEffect.cpp" />
+    <ClCompile Include="Components\TurretProjectile.cpp" />
+    <ClCompile Include="Components\TutorialPrompt.cpp" />
+    <ClCompile Include="Components\WeaponBuffAbility.cpp" />
+    <ClCompile Include="Components\WeaponBuffScript.cpp" />
+    <ClCompile Include="Components\WinHUDPrefab.cpp" />
+    <ClCompile Include="Core\FreeCameraController.cpp" />
+    <ClCompile Include="Core\PlayerController.cpp" />
+    <ClCompile Include="Core\SplashScreen.cpp" />
+    <ClCompile Include="LookAtPlayer.cpp" />
+    <ClCompile Include="ProtoTowers.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release (With DEBUG)|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\InfernoEngine\InfernoEngine.vcxproj">
+      <Project>{9435e1c6-398d-4fb1-9409-0cd2d17d74ba}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\Icons\ProtoTowers.ico" />
+    <Image Include="Resources\Icons\small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources\ProtoTowers.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

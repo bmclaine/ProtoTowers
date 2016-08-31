@@ -1,0 +1,205 @@
+GameObject
+Allocation Amount<1>
+Transform<
+	<GUID>775762517</GUID/>
+	<Type>Transform</Type/>
+	<Position>-28,0,20.41</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>6</ChildCount/>
+	<Child0>1118017136</Child0/>
+	<Child1>1277415400</Child1/>
+	<Child2>377112723</Child2/>
+	<Child3>262770179</Child3/>
+	<Child4>2047489429</Child4/>
+	<Child5>1650837617</Child5/>
+	<gameObject>451004615</gameObject/>
+Transform/>
+GameObject<
+	<GUID>451004615</GUID/>
+	<Type>GameObject</Type/>
+	<Name>MinionWaveSpawn</Name/>
+	<PrefabName>MinionWaveSpawn</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>775762517</Component0/>
+	<Component1>1931547989</Component1/>
+GameObject/>
+MinionWaveSpawn<
+	<GUID>1931547989</GUID/>
+	<Type>Generic</Type/>
+	<Channel>-2</Channel/>
+	<SpawnPointCount>6</SpawnPointCount/>
+	<SpawnPoint0>694770956</SpawnPoint0/>
+	<SpawnPoint1>207204476</SpawnPoint1/>
+	<SpawnPoint2>1984184305</SpawnPoint2/>
+	<SpawnPoint3>42263325</SpawnPoint3/>
+	<SpawnPoint4>1391197821</SpawnPoint4/>
+	<SpawnPoint5>1886923238</SpawnPoint5/>
+	<MinionTypeCount>0</MinionTypeCount/>
+	<gameObject>451004615</gameObject/>
+MinionWaveSpawn/>
+GameObject<
+	<GUID>473042935</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Minion SpawnPoint</Name/>
+	<PrefabName>Minion SpawnPoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1118017136</Component0/>
+	<Component1>694770956</Component1/>
+GameObject/>
+Transform<
+	<GUID>1118017136</GUID/>
+	<Type>Transform</Type/>
+	<Position>-8.32,0,1</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>775762517</Parent/>
+	<gameObject>473042935</gameObject/>
+Transform/>
+Minion SpawnPoint<
+	<GUID>694770956</GUID/>
+	<Type>Generic</Type/>
+	<Waypoint>0</Waypoint/>
+	<gameObject>473042935</gameObject/>
+Minion SpawnPoint/>
+GameObject<
+	<GUID>986999550</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Minion SpawnPoint</Name/>
+	<PrefabName>Minion SpawnPoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1277415400</Component0/>
+	<Component1>207204476</Component1/>
+GameObject/>
+Transform<
+	<GUID>1277415400</GUID/>
+	<Type>Transform</Type/>
+	<Position>-6.55,0,0.6</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>775762517</Parent/>
+	<gameObject>986999550</gameObject/>
+Transform/>
+Minion SpawnPoint<
+	<GUID>207204476</GUID/>
+	<Type>Generic</Type/>
+	<Waypoint>0</Waypoint/>
+	<gameObject>986999550</gameObject/>
+Minion SpawnPoint/>
+GameObject<
+	<GUID>506392958</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Minion SpawnPoint</Name/>
+	<PrefabName>Minion SpawnPoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>377112723</Component0/>
+	<Component1>1984184305</Component1/>
+GameObject/>
+Transform<
+	<GUID>377112723</GUID/>
+	<Type>Transform</Type/>
+	<Position>-8.4,0,2.62</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>775762517</Parent/>
+	<gameObject>506392958</gameObject/>
+Transform/>
+Minion SpawnPoint<
+	<GUID>1984184305</GUID/>
+	<Type>Generic</Type/>
+	<Waypoint>0</Waypoint/>
+	<gameObject>506392958</gameObject/>
+Minion SpawnPoint/>
+GameObject<
+	<GUID>1337574057</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Minion SpawnPoint</Name/>
+	<PrefabName>Minion SpawnPoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>262770179</Component0/>
+	<Component1>42263325</Component1/>
+GameObject/>
+Transform<
+	<GUID>262770179</GUID/>
+	<Type>Transform</Type/>
+	<Position>6.44,0,3.84</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>775762517</Parent/>
+	<gameObject>1337574057</gameObject/>
+Transform/>
+Minion SpawnPoint<
+	<GUID>42263325</GUID/>
+	<Type>Generic</Type/>
+	<Waypoint>0</Waypoint/>
+	<gameObject>1337574057</gameObject/>
+Minion SpawnPoint/>
+GameObject<
+	<GUID>1470605116</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Minion SpawnPoint</Name/>
+	<PrefabName>Minion SpawnPoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>2047489429</Component0/>
+	<Component1>1391197821</Component1/>
+GameObject/>
+Transform<
+	<GUID>2047489429</GUID/>
+	<Type>Transform</Type/>
+	<Position>8.48,-0.73,2.92</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>775762517</Parent/>
+	<gameObject>1470605116</gameObject/>
+Transform/>
+Minion SpawnPoint<
+	<GUID>1391197821</GUID/>
+	<Type>Generic</Type/>
+	<Waypoint>0</Waypoint/>
+	<gameObject>1470605116</gameObject/>
+Minion SpawnPoint/>
+GameObject<
+	<GUID>487425661</GUID/>
+	<Type>GameObject</Type/>
+	<Name>Minion SpawnPoint</Name/>
+	<PrefabName>Minion SpawnPoint</PrefabName/>
+	<Tag>Untagged</Tag/>
+	<Layer>0</Layer/>
+	<IsStatic>0</IsStatic/>
+	<Component0>1650837617</Component0/>
+	<Component1>1886923238</Component1/>
+GameObject/>
+Transform<
+	<GUID>1650837617</GUID/>
+	<Type>Transform</Type/>
+	<Position>8.32,0,1.26</Position/>
+	<Rotation>0,0,0</Rotation/>
+	<Scale>1,1,1</Scale/>
+	<ChildCount>0</ChildCount/>
+	<Parent>775762517</Parent/>
+	<gameObject>487425661</gameObject/>
+Transform/>
+Minion SpawnPoint<
+	<GUID>1886923238</GUID/>
+	<Type>Generic</Type/>
+	<Waypoint>0</Waypoint/>
+	<gameObject>487425661</gameObject/>
+Minion SpawnPoint/>
+<end>
